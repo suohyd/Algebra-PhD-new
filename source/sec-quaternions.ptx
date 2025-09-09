@@ -8,6 +8,9 @@
         </p>
     </introduction>
     <definition xml:id="def-quaternion-algebra">
+        <title>Quaternion algebra</title>
+        
+        
         <statement>
             <p>
                 Let <m>a,b\in\dot{F}</m>. The <em>quaternion algebra</em> <m>(a,b)_F</m> or <m>\left(\tfrac{a,b}{F}\right)</m> is the four-dimensional <m>F</m>-vector space with basis <m>\{1,i,j,k\}</m> and multiplication defined by the following relations and with <m>1</m> as unity of <m>(a,b)_F</m>.
@@ -40,6 +43,9 @@
         </statement>
     </note>
     <definition xml:id="def-simple-algebra">
+        <title>Simple algebra</title>
+        
+        
         <statement>
             <p>
                 Let <m>A</m> be an <m>F</m>-algebra of finite dimension as an <m>F</m>-vector space. We say that <m>A</m> is a <em>simple algebra</em> if the only two-sided ideals of <m>A</m> are <m>0</m> and <m>A</m>.
@@ -131,7 +137,7 @@
     </lemma>
     <proof>
         <p>
-            
+            By <xref ref="lem-orthogonal-complement-of-reals-in-division-algebra"/>, <m>\dim_F V\geq 2</m>. Suppose that <m>u,v\in V</m> are linearly independent over <m>F</m>. Consider the element <m>w=v-\tfrac{vu+uv}{2u^2}u</m>.
         </p>
     </proof>
 </section>

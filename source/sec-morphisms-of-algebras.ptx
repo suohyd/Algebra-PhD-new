@@ -28,6 +28,25 @@
         </p>
     </statement>
   </example>
+  <definition xml:id="def-ideal-of-algebra">
+    <title>Ideal of an <m>R</m>-algebra</title>
+    <statement>
+        <p>
+            Let <m>R</m> be a commutative ring with unity. Let <m>A</m> be an <m>R</m>-algebra. A subset <m>I\subseteq A</m> is called a (two-sided) <em>ideal of the <m>R</m>-algebra <m>A</m></em> if <m>I</m> is an ideal of the ring <m>A</m> and an <m>R</m>-submodule of the <m>R</m>-module <m>A</m>.
+        </p>
+    </statement>
+  </definition>
+  <note xml:id="note-ideal-of-algebra">
+    <statement>
+        <p>
+            Keep notations of <xref ref="def-ideal-of-algebra"/>. Suppose that <m>I</m> is a two-sided ideal of the ring <m>A</m>. It is also <m>R</m>-submodule of <m>A</m>. Indeed, for <m>x\in I</m> and <m>r\in R</m> we have the following.
+            <me>
+                x\cdot r=x(r\cdot 1_A)\in A
+            </me>
+            
+        </p>
+    </statement>
+  </note>
   <exercise xml:id="exe-quotient-algebra">
     <title>Quotient algebra</title>
     <statement>
@@ -47,7 +66,7 @@
         </p>
         <figure xml:id="fig-factorization-criterion">
             <caption>Factorization criterion</caption>
-            <image width="40%">
+            <image width="50%">
                 <shortdescription>Factorization criterion diagram</shortdescription>
                 <latex-image>
                     \begin{tikzcd}
