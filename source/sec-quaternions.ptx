@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-sec-quaternions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Quaternion algebra</title>
+    <introduction>
+        <p>
+            Throughout this section we assume that <m>F</m> is a field with <m>{\rm ch}(F)\neq 2</m>. The set of nonzero elements of <m>F</m> is denoted by <m>\dot{F}</m>.
+        </p>
+    </introduction>
+    <definition xml:id="def-quaternion-algebra">
+        <statement>
+            <p>
+                Let <m>a,b\in\dot{F}</m>. The <em>quaternion algebra</em> <m>(a,b)_F</m> or <m>\left(\tfrac{a,b}{F}\right)</m> is the four-dimensional <m>F</m>-vector space with basis <m>\{1,i,j,k\}</m> and multiplication defined by the following relations and with <m>1</m> as unity of <m>(a,b)_F</m>.
+                <men xml:id="eq-defining-relations-in-quaternion-algebra">    
+                    i^2 = a\cdot 1, \quad j^2 = b\cdot 1, \quad ij = k = -ji.
+                </men>
+                We assume the associativity of multiplication and extend the multiplication to all elements of <m>(a,b)_F</m> by distributivity and linearity.
+            </p>
+            <p>
+                We get the following relations.
+                <men xml:id="eq-relations-in-quaternion-algebra">
+                    k^2 = -ab\cdot 1, \quad jk = -kj = -bi, \quad ki = -ik = -aj.
+                </men>
+            </p>
+        </statement>
+    </definition>
+    <note>
+        <statement>
+            <p>
+                Keep notations of <xref ref="def-quaternion-algebra"/>. The map <m>F\to (a,b)_F</m> defined by <m>r\mapsto r\cdot 1</m> is an injective ring homomorphism. Thus, we can identify <m>F</m> as a subalgebra of <m>(a,b)_F</m>.
+            </p>
+        </statement>
+    </note>
+    <note xml:id="note-hamiltonian-quaternion-algebra">
+        <title>Hamiltonian quaternion algebra</title>
+        <statement>
+            <p>
+                The algebra <m>(-1,-1)_\R</m> is <em>Hamiltonion</em> quaternion algebra over the field of real numbers <m>\R</m>. It is usually denoted by <m>\mathbb{H}</m>.
+            </p>
+        </statement>
+    </note>
+    <definition xml:id="def-simple-algebra">
+        <statement>
+            <p>
+                Let <m>A</m> be an <m>F</m>-algebra of finite dimension as an <m>F</m>-vector space. We say that <m>A</m> is a <em>simple algebra</em> if the only two-sided ideals of <m>A</m> are <m>0</m> and <m>A</m>.
+            </p>
+        </statement>
+    </definition>
+    <proposition xml:id="prop-quaternion-algebra-is-simple">
+        <statement>
+            <p>
+                Let <m>A=(a,b)_F</m> be a quaternion algebra over <m>F</m>. Then, <m>A</m> is a simple algebra with center <m>F</m>.
+            </p>
+        </statement>
+    </proposition>
+    <proof>
+        <p>
+            Let <m>I</m> be a nonzero two-sided ideal of <m>A</m>. We show that <m>I=A</m>. Let <m>x\in I</m> be a nonzero element. Then, we can write <m>x=x_01+x_1i+x_2j+x_3k</m> for some <m>x_0,x_1,x_2,x_3\in F</m>. For <m>x,y\in A</m> we write <m>[x,y]=xy-yx</m>. Then, we have the following relations.
+            <md>
+                <mrow>[i,x] \amp=2ax_3j+2x_2k\in I </mrow>
+                <mrow>[j,x] \amp=-2bx_3i-2x_1k\in I</mrow>
+                <mrow>[k,x] \amp=2bx_2i-2ax_1j\in I </mrow>
+            </md>
+            Now <m>[j,[i,x]]=-4bx_2i</m>, <m>[k,[j,x]]=4abx_3j</m>, and <m>[i,[k,x]]=-4ax_1k</m>. So, if one of <m>x_1,x_2,x_3</m> is nonzero then, <m>I</m> will contain a unit, and thus, <m>I=A</m>. If <m>x_1=x_2=x_3=0</m>, then <m>x=x_01\in I</m> for some nonzero <m>x_0\in F</m>. Thus, <m>1=x_0^{-1}x\in I</m>, and hence, <m>I=A</m>.
+        </p>
+        <p>
+            If <m>x\in Z(A)</m> then we must have <m>[i,x]=[j,x]=[k,x]=0</m>. This implies that <m>x=x_0\cdot 1</m>. Thus, <m>Z(A)=F</m>.
+        </p>
+    </proof>
+    <definition xml:id="def-finite-dimensional-division-algebra">
+        <title>Finite-dimension division algebra</title>
+        
+        
+        <statement>
+            <p>
+                An <m>F</m>-algebra <m>D</m> is said to be <em>finite-dimensional division algebra</em> if <m>D</m> is finite dimensional as an <m>F</m>-vector space, and every nonzero element of <m>D</m> is invertible.
+            </p>
+        </statement>
+    </definition>
+    <p>
+        Now we classify finite-dimensional division algebras over <m>\R</m>. We begin with the following lemma.
+    </p>
+    <lemma xml:id="lem-element-satisfies-quadratic-equation-over-reals">
+        <statement>
+            <p>
+                Let <m>D</m> be a finite-dimensional division algebra over <m>\R</m>. Then, for every element <m>x\in D</m> there exists <m>a\in\R</m> such that <m>x^2+ax\in\R</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            Let <m>D</m> be an <m>n</m>-dimensional division algebra over <m>\R</m>. Then, the set <m>\{1,x,x^2,\ldots,x^n\}</m> is linearly dependent over <m>\R</m>. Thus, there exists <m>a_0,a_1,\ldots,a_n\in\R</m>, not all zero, such that <m>f(x)=a_0+a_1x+\cdots+a_nx^n=0</m>. Since <m>D</m> is a division algebra, we must have <m>a_n\neq 0</m>, and hence by dividing by <m>a_n^{-1}</m>, we may assume that the polynomial is monic. Over <m>\R</m>, the polynomial <m>f(t)</m> will splits into linear and quadratic factors. Say
+            <me>
+                f(t)=(t-\alpha_1)\cdots(t-\alpha_r)(t^2+b_1t+c_1)\cdots(t^2+b_st+c_s).
+            </me>
+            Thus,
+            <me>
+                0=f(x)=(x-\alpha_1)\cdots(x-\alpha_r)(x^2+b_1x+c_1)\cdots(x^2+b_sx+c_s).
+            </me>
+            Since <m>D</m> is a division algebra, one of the factors is zero. This proves the lemma.
+        </p>
+    </proof>
+    <lemma xml:id="lem-orthogonal-complement-of-reals-in-division-algebra">
+        <statement>
+            <p>
+                Let <m>D</m> be a finite-dimensional division algebra over <m>\R</m>. Let <m>V=\{x\in D\mid x^2\in\R,\,x^2\leq 0\}</m>. Then, <m>V</m> is an <m>\R</m>-vector subspace of <m>D</m>, and <m>D=\R\oplus V</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            Note that if <m>d\in D\setminus V</m> and <m>d^2\in\R</m> then, <m>d^2&gt;0</m> and hence there exists <m>r\in\R</m> such that <m>d^2=r^2</m>. Thus, <m>0=(d-r)(d+r)\in D</m>, i.e., <m>d=\pm r\in\R</m>. Now assume that <m>u,v\in V</m>. We show that <m>u+v\in V</m>. We further assume that <m>u,v</m> are <m>\R</m>-linearly independent. We claim that <m>\{1,u,v\}</m> are <m>\R</m>-linearly independent. If there are <m>r,s,t\in\R</m> with <m>ur+vs+t=0</m> then, <m>0=(ur+vs+t)^2</m>. This gives <m>stv\in\R</m>. This implies that either <m>s=0</m> or <m>t=0</m>. One may check that this gives <m>r=s=t=0</m>. We have thus shown that <m>\{1,u,v\}</m> are linearly independent. By <xref ref="lem-element-satisfies-quadratic-equation-over-reals"/>, there exists <m>a,b\in\R</m> such that
+            <me>
+                (u+v)^2 + a(u+v)\in\R\quad\text{and}\quad (u-v)^2 + b(u-v)\in\R.
+            </me>
+            While <m>(u+v)^2+(u-v)^2=2u^2+2v^2\in\R</m>. This gives <m>a(u+v)+b(u-v)\in\R</m>. Since <m>\{1,u,v\}</m> are <m>\R</m>-linearly independent, we must have <m>a=b=0</m>. Thus, <m>(u+v)\in V</m>.
+        </p>
+        <p>
+            We leave it to the reader to check that <m>V</m> is closed under scalar multiplication. This shows that <m>V</m> is an <m>\R</m>-vector subspace of <m>D</m>. Further, check that <m>\R\cap V=0</m>.
+        </p>
+        <p>
+            For <m>d\in D\setminus\R</m> there exists <m>a\in\R</m> such that <m>d^2+ad\in\R</m>. Note that <m>d+a/2\in V</m> and hence, <m>d=-a/2+(d+a/2)\in\R+V</m>. This shows that <m>D=\R\oplus V</m>.
+        </p>
+    </proof>
+    <lemma xml:id="lem-existence-of-i-j-k-in-division-algebra">
+        <statement>
+            <p>
+                Let <m>D</m> be a finite-dimensional division algebra over <m>\R</m>. If the dimension of <m>D</m> is <m>\geq 3</m>, then there exist <m>i,j,k\in V</m> such that <m>i^2=j^2=k^2=-1</m>, <m>ij=k=-ji</m>, and <m>\{1,i,j,k\}</m> are linearly independent over <m>\R</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            
+        </p>
+    </proof>
+</section>

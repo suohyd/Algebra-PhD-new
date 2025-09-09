@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: tacoma                         *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Quaternion algebra</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Algebra">
+<meta property="book:author" content="Abhay Soman">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.10';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.fea5c754ab3e056b.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.b37c97cbe7a5455b.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="Algebra-PhD.html"><span class="title">Algebra</span> <span class="subtitle">A course for Ph. D. students</span></a></h1>
+<p class="byline">Abhay Soman</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-bimodule.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-associative-algebras.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\End}[2]{\operatorname{End}_{#1}\left(#2\right)} \newcommand{\Aut}[2]{\operatorname{Aut}_{#1}\left(#2\right)} \newcommand{\Hom}[3]{\operatorname{Hom}_{#1}\left(#2,#3\right)} \newcommand{\unit}{1\!\!1}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-associative-algebras.html" class="internal"><span class="codenumber">1</span> <span class="title">Associative Algebras</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-algebra.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Algebra over a commutative ring</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-examples-algebras.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Some examples of algebras</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-group-algebra.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Group algebra</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-morphisms-of-algebras.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Morphisms of algebras</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-bimodule.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Bimodules</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-sec-quaternions.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Quaternion algebra</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-sec-quaternions"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Quaternion algebra</span>
+</h2>
+<section class="introduction" id="sec-sec-quaternions-2"><div class="para" id="sec-sec-quaternions-2-1">Throughout this section we assume that <span class="process-math">\(F\)</span> is a field with <span class="process-math">\({\rm ch}(F)\neq 2\text{.}\)</span> The set of nonzero elements of <span class="process-math">\(F\)</span> is denoted by <span class="process-math">\(\dot{F}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-sec-quaternions-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><article class="definition definition-like" id="def-quaternion-algebra"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.6.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para logical" id="def-quaternion-algebra-1-1">
+<div class="para">Let <span class="process-math">\(a,b\in\dot{F}\text{.}\)</span> The <em class="emphasis">quaternion algebra</em> <span class="process-math">\((a,b)_F\)</span> or <span class="process-math">\(\left(\tfrac{a,b}{F}\right)\)</span> is the four-dimensional <span class="process-math">\(F\)</span>-vector space with basis <span class="process-math">\(\{1,i,j,k\}\)</span> and multiplication defined by the following relations and with <span class="process-math">\(1\)</span> as unity of <span class="process-math">\((a,b)_F\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="eq-defining-relations-in-quaternion-algebra">
+\begin{equation}
+i^2 = a\cdot 1, \quad j^2 = b\cdot 1, \quad ij = k = -ji.\tag{1.6.1}
+\end{equation}
+</div>
+<div class="para">We assume the associativity of multiplication and extend the multiplication to all elements of <span class="process-math">\((a,b)_F\)</span> by distributivity and linearity.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#def-quaternion-algebra-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="def-quaternion-algebra-1-2">
+<div class="para">We get the following relations.</div>
+<div class="displaymath process-math" id="eq-relations-in-quaternion-algebra">
+\begin{equation}
+k^2 = -ab\cdot 1, \quad jk = -kj = -bi, \quad ki = -ik = -aj.\tag{1.6.2}
+\end{equation}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#def-quaternion-algebra-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.6.1"><a href="#def-quaternion-algebra" title="Copy heading and permalink for Definition 1.6.1" aria-label="Copy heading and permalink for Definition 1.6.1">🔗</a></div></article><article class="note remark-like" id="sec-sec-quaternions-4"><h3 class="heading">
+<span class="type">Note</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.6.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-sec-quaternions-4-1-1">Keep notations of <a href="sec-sec-quaternions.html#def-quaternion-algebra" class="xref" data-knowl="./knowl/xref/def-quaternion-algebra.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.6.1">Definition 1.6.1</a>. The map <span class="process-math">\(F\to (a,b)_F\)</span> defined by <span class="process-math">\(r\mapsto r\cdot 1\)</span> is an injective ring homomorphism. Thus, we can identify <span class="process-math">\(F\)</span> as a subalgebra of <span class="process-math">\((a,b)_F\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-sec-quaternions-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Note 1.6.2"><a href="#sec-sec-quaternions-4" title="Copy heading and permalink for Note 1.6.2" aria-label="Copy heading and permalink for Note 1.6.2">🔗</a></div></article><article class="note remark-like" id="note-hamiltonian-quaternion-algebra"><h3 class="heading">
+<span class="type">Note</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.6.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Hamiltonian quaternion algebra.</span>
+</h3>
+<div class="para" id="note-hamiltonian-quaternion-algebra-2-1">The algebra <span class="process-math">\((-1,-1)_\R\)</span> is <em class="emphasis">Hamiltonion</em> quaternion algebra over the field of real numbers <span class="process-math">\(\R\text{.}\)</span> It is usually denoted by <span class="process-math">\(\mathbb{H}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#note-hamiltonian-quaternion-algebra-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Note 1.6.3: Hamiltonian quaternion algebra"><a href="#note-hamiltonian-quaternion-algebra" title="Copy heading and permalink for Note 1.6.3: Hamiltonian quaternion algebra" aria-label="Copy heading and permalink for Note 1.6.3: Hamiltonian quaternion algebra">🔗</a></div></article><article class="definition definition-like" id="def-simple-algebra"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.6.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="def-simple-algebra-1-1">Let <span class="process-math">\(A\)</span> be an <span class="process-math">\(F\)</span>-algebra of finite dimension as an <span class="process-math">\(F\)</span>-vector space. We say that <span class="process-math">\(A\)</span> is a <em class="emphasis">simple algebra</em> if the only two-sided ideals of <span class="process-math">\(A\)</span> are <span class="process-math">\(0\)</span> and <span class="process-math">\(A\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#def-simple-algebra-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.6.4"><a href="#def-simple-algebra" title="Copy heading and permalink for Definition 1.6.4" aria-label="Copy heading and permalink for Definition 1.6.4">🔗</a></div></article><article class="proposition theorem-like" id="prop-quaternion-algebra-is-simple"><h3 class="heading">
+<span class="type">Proposition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.6.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="prop-quaternion-algebra-is-simple-1-1">Let <span class="process-math">\(A=(a,b)_F\)</span> be a quaternion algebra over <span class="process-math">\(F\text{.}\)</span> Then, <span class="process-math">\(A\)</span> is a simple algebra with center <span class="process-math">\(F\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#prop-quaternion-algebra-is-simple-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proposition 1.6.5"><a href="#prop-quaternion-algebra-is-simple" title="Copy heading and permalink for Proposition 1.6.5" aria-label="Copy heading and permalink for Proposition 1.6.5">🔗</a></div></article><details id="sec-sec-quaternions-8" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary><article class="hiddenproof knowl__content"><div class="para logical" id="sec-sec-quaternions-8-1">
+<div class="para">Let <span class="process-math">\(I\)</span> be a nonzero two-sided ideal of <span class="process-math">\(A\text{.}\)</span> We show that <span class="process-math">\(I=A\text{.}\)</span> Let <span class="process-math">\(x\in I\)</span> be a nonzero element. Then, we can write <span class="process-math">\(x=x_01+x_1i+x_2j+x_3k\)</span> for some <span class="process-math">\(x_0,x_1,x_2,x_3\in F\text{.}\)</span> For <span class="process-math">\(x,y\in A\)</span> we write <span class="process-math">\([x,y]=xy-yx\text{.}\)</span> Then, we have the following relations.</div>
+<div class="displaymath process-math" id="sec-sec-quaternions-8-1-9">
+\begin{align*}
+[i,x] \amp=2ax_3j+2x_2k\in I \\
+[j,x] \amp=-2bx_3i-2x_1k\in I\\
+[k,x] \amp=2bx_2i-2ax_1j\in I 
+\end{align*}
+</div>
+<div class="para">Now <span class="process-math">\([j,[i,x]]=-4bx_2i\text{,}\)</span> <span class="process-math">\([k,[j,x]]=4abx_3j\text{,}\)</span> and <span class="process-math">\([i,[k,x]]=-4ax_1k\text{.}\)</span> So, if one of <span class="process-math">\(x_1,x_2,x_3\)</span> is nonzero then, <span class="process-math">\(I\)</span> will contain a unit, and thus, <span class="process-math">\(I=A\text{.}\)</span> If <span class="process-math">\(x_1=x_2=x_3=0\text{,}\)</span> then <span class="process-math">\(x=x_01\in I\)</span> for some nonzero <span class="process-math">\(x_0\in F\text{.}\)</span> Thus, <span class="process-math">\(1=x_0^{-1}x\in I\text{,}\)</span> and hence, <span class="process-math">\(I=A\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-sec-quaternions-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-sec-quaternions-8-2">If <span class="process-math">\(x\in Z(A)\)</span> then we must have <span class="process-math">\([i,x]=[j,x]=[k,x]=0\text{.}\)</span> This implies that <span class="process-math">\(x=x_0\cdot 1\text{.}\)</span> Thus, <span class="process-math">\(Z(A)=F\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-sec-quaternions-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proof 1.6.1"><a href="#sec-sec-quaternions-8" title="Copy heading and permalink for Proof 1.6.1" aria-label="Copy heading and permalink for Proof 1.6.1">🔗</a></div></article></details><article class="definition definition-like" id="def-finite-dimensional-division-algebra"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.6.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Finite-dimension division algebra.</span>
+</h3>
+<div class="para" id="def-finite-dimensional-division-algebra-2-1">An <span class="process-math">\(F\)</span>-algebra <span class="process-math">\(D\)</span> is said to be <em class="emphasis">finite-dimensional division algebra</em> if <span class="process-math">\(D\)</span> is finite dimensional as an <span class="process-math">\(F\)</span>-vector space, and every nonzero element of <span class="process-math">\(D\)</span> is invertible.<div class="autopermalink" data-description="Paragraph"><a href="#def-finite-dimensional-division-algebra-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.6.6: Finite-dimension division algebra"><a href="#def-finite-dimensional-division-algebra" title="Copy heading and permalink for Definition 1.6.6: Finite-dimension division algebra" aria-label="Copy heading and permalink for Definition 1.6.6: Finite-dimension division algebra">🔗</a></div></article><div class="para" id="sec-sec-quaternions-10">Now we classify finite-dimensional division algebras over <span class="process-math">\(\R\text{.}\)</span> We begin with the following lemma.<div class="autopermalink" data-description="Paragraph"><a href="#sec-sec-quaternions-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="lemma theorem-like" id="lem-element-satisfies-quadratic-equation-over-reals"><h3 class="heading">
+<span class="type">Lemma</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.6.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="lem-element-satisfies-quadratic-equation-over-reals-1-1">Let <span class="process-math">\(D\)</span> be a finite-dimensional division algebra over <span class="process-math">\(\R\text{.}\)</span> Then, for every element <span class="process-math">\(x\in D\)</span> there exists <span class="process-math">\(a\in\R\)</span> such that <span class="process-math">\(x^2+ax\in\R\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lem-element-satisfies-quadratic-equation-over-reals-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Lemma 1.6.7"><a href="#lem-element-satisfies-quadratic-equation-over-reals" title="Copy heading and permalink for Lemma 1.6.7" aria-label="Copy heading and permalink for Lemma 1.6.7">🔗</a></div></article><details id="sec-sec-quaternions-12" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary><article class="hiddenproof knowl__content"><div class="para logical" id="sec-sec-quaternions-12-1">
+<div class="para">Let <span class="process-math">\(D\)</span> be an <span class="process-math">\(n\)</span>-dimensional division algebra over <span class="process-math">\(\R\text{.}\)</span> Then, the set <span class="process-math">\(\{1,x,x^2,\ldots,x^n\}\)</span> is linearly dependent over <span class="process-math">\(\R\text{.}\)</span> Thus, there exists <span class="process-math">\(a_0,a_1,\ldots,a_n\in\R\text{,}\)</span> not all zero, such that <span class="process-math">\(f(x)=a_0+a_1x+\cdots+a_nx^n=0\text{.}\)</span> Since <span class="process-math">\(D\)</span> is a division algebra, we must have <span class="process-math">\(a_n\neq 0\text{,}\)</span> and hence by dividing by <span class="process-math">\(a_n^{-1}\text{,}\)</span> we may assume that the polynomial is monic. Over <span class="process-math">\(\R\text{,}\)</span> the polynomial <span class="process-math">\(f(t)\)</span> will splits into linear and quadratic factors. Say</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(t)=(t-\alpha_1)\cdots(t-\alpha_r)(t^2+b_1t+c_1)\cdots(t^2+b_st+c_s).
+\end{equation*}
+</div>
+<div class="para">Thus,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0=f(x)=(x-\alpha_1)\cdots(x-\alpha_r)(x^2+b_1x+c_1)\cdots(x^2+b_sx+c_s).
+\end{equation*}
+</div>
+<div class="para">Since <span class="process-math">\(D\)</span> is a division algebra, one of the factors is zero. This proves the lemma.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-sec-quaternions-12-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proof 1.6.2"><a href="#sec-sec-quaternions-12" title="Copy heading and permalink for Proof 1.6.2" aria-label="Copy heading and permalink for Proof 1.6.2">🔗</a></div></article></details><article class="lemma theorem-like" id="lem-orthogonal-complement-of-reals-in-division-algebra"><h3 class="heading">
+<span class="type">Lemma</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.6.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="lem-orthogonal-complement-of-reals-in-division-algebra-1-1">Let <span class="process-math">\(D\)</span> be a finite-dimensional division algebra over <span class="process-math">\(\R\text{.}\)</span> Let <span class="process-math">\(V=\{x\in D\mid x^2\in\R,\,x^2\leq 0\}\text{.}\)</span> Then, <span class="process-math">\(V\)</span> is an <span class="process-math">\(\R\)</span>-vector subspace of <span class="process-math">\(D\text{,}\)</span> and <span class="process-math">\(D=\R\oplus V\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lem-orthogonal-complement-of-reals-in-division-algebra-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Lemma 1.6.8"><a href="#lem-orthogonal-complement-of-reals-in-division-algebra" title="Copy heading and permalink for Lemma 1.6.8" aria-label="Copy heading and permalink for Lemma 1.6.8">🔗</a></div></article><details id="sec-sec-quaternions-14" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary><article class="hiddenproof knowl__content"><div class="para logical" id="sec-sec-quaternions-14-1">
+<div class="para">Note that if <span class="process-math">\(d\in D\setminus V\)</span> and <span class="process-math">\(d^2\in\R\)</span> then, <span class="process-math">\(d^2&gt;0\)</span> and hence there exists <span class="process-math">\(r\in\R\)</span> such that <span class="process-math">\(d^2=r^2\text{.}\)</span> Thus, <span class="process-math">\(0=(d-r)(d+r)\in D\text{,}\)</span> i.e., <span class="process-math">\(d=\pm r\in\R\text{.}\)</span> Now assume that <span class="process-math">\(u,v\in V\text{.}\)</span> We show that <span class="process-math">\(u+v\in V\text{.}\)</span> We further assume that <span class="process-math">\(u,v\)</span> are <span class="process-math">\(\R\)</span>-linearly independent. We claim that <span class="process-math">\(\{1,u,v\}\)</span> are <span class="process-math">\(\R\)</span>-linearly independent. If there are <span class="process-math">\(r,s,t\in\R\)</span> with <span class="process-math">\(ur+vs+t=0\)</span> then, <span class="process-math">\(0=(ur+vs+t)^2\text{.}\)</span> This gives <span class="process-math">\(stv\in\R\text{.}\)</span> This implies that either <span class="process-math">\(s=0\)</span> or <span class="process-math">\(t=0\text{.}\)</span> One may check that this gives <span class="process-math">\(r=s=t=0\text{.}\)</span> We have thus shown that <span class="process-math">\(\{1,u,v\}\)</span> are linearly independent. By <a href="sec-sec-quaternions.html#lem-element-satisfies-quadratic-equation-over-reals" class="xref" data-knowl="./knowl/xref/lem-element-satisfies-quadratic-equation-over-reals.html" data-reveal-label="Reveal" data-close-label="Close" title="Lemma 1.6.7">Lemma 1.6.7</a>, there exists <span class="process-math">\(a,b\in\R\)</span> such that</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/lem-element-satisfies-quadratic-equation-over-reals.html">
+\begin{equation*}
+(u+v)^2 + a(u+v)\in\R\quad\text{and}\quad (u-v)^2 + b(u-v)\in\R.
+\end{equation*}
+</div>
+<div class="para">While <span class="process-math">\((u+v)^2+(u-v)^2=2u^2+2v^2\in\R\text{.}\)</span> This gives <span class="process-math">\(a(u+v)+b(u-v)\in\R\text{.}\)</span> Since <span class="process-math">\(\{1,u,v\}\)</span> are <span class="process-math">\(\R\)</span>-linearly independent, we must have <span class="process-math">\(a=b=0\text{.}\)</span> Thus, <span class="process-math">\((u+v)\in V\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-sec-quaternions-14-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-sec-quaternions-14-2">We leave it to the reader to check that <span class="process-math">\(V\)</span> is closed under scalar multiplication. This shows that <span class="process-math">\(V\)</span> is an <span class="process-math">\(\R\)</span>-vector subspace of <span class="process-math">\(D\text{.}\)</span> Further, check that <span class="process-math">\(\R\cap V=0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-sec-quaternions-14-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-sec-quaternions-14-3">For <span class="process-math">\(d\in D\setminus\R\)</span> there exists <span class="process-math">\(a\in\R\)</span> such that <span class="process-math">\(d^2+ad\in\R\text{.}\)</span> Note that <span class="process-math">\(d+a/2\in V\)</span> and hence, <span class="process-math">\(d=-a/2+(d+a/2)\in\R+V\text{.}\)</span> This shows that <span class="process-math">\(D=\R\oplus V\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-sec-quaternions-14-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Proof 1.6.3"><a href="#sec-sec-quaternions-14" title="Copy heading and permalink for Proof 1.6.3" aria-label="Copy heading and permalink for Proof 1.6.3">🔗</a></div></article></details><article class="lemma theorem-like" id="lem-existence-of-i-j-k-in-division-algebra"><h3 class="heading">
+<span class="type">Lemma</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.6.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="lem-existence-of-i-j-k-in-division-algebra-1-1">Let <span class="process-math">\(D\)</span> be a finite-dimensional division algebra over <span class="process-math">\(\R\text{.}\)</span> If the dimension of <span class="process-math">\(D\)</span> is <span class="process-math">\(\geq 3\text{,}\)</span> then there exist <span class="process-math">\(i,j,k\in V\)</span> such that <span class="process-math">\(i^2=j^2=k^2=-1\text{,}\)</span> <span class="process-math">\(ij=k=-ji\text{,}\)</span> and <span class="process-math">\(\{1,i,j,k\}\)</span> are linearly independent over <span class="process-math">\(\R\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lem-existence-of-i-j-k-in-division-algebra-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Lemma 1.6.9"><a href="#lem-existence-of-i-j-k-in-division-algebra" title="Copy heading and permalink for Lemma 1.6.9" aria-label="Copy heading and permalink for Lemma 1.6.9">🔗</a></div></article><details id="sec-sec-quaternions-16" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary><article class="hiddenproof knowl__content"><div class="para" id="sec-sec-quaternions-16-1"><div class="autopermalink" data-description="Paragraph"><a href="#sec-sec-quaternions-16-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="autopermalink" data-description="Proof 1.6.4"><a href="#sec-sec-quaternions-16" title="Copy heading and permalink for Proof 1.6.4" aria-label="Copy heading and permalink for Proof 1.6.4">🔗</a></div></article></details><div class="autopermalink" data-description="Section 1.6: Quaternion algebra"><a href="#sec-sec-quaternions" title="Copy heading and permalink for Section 1.6: Quaternion algebra" aria-label="Copy heading and permalink for Section 1.6: Quaternion algebra">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-bimodule.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

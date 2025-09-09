@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-bimodule" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Bimodules</title>
+    
+    <p>
+        Suppose that <m>A</m> is a right <m>R</m>-algebra, and that <m>N</m> is a right <m>A</m>-module. Then, <m>N</m> is also a right <m>R</m>-module. Similarly, if <m>B</m> is a left <m>R</m>-algebra, and <m>N'</m> is a left <m>B</m>-module, then <m>N'</m> is also a left <m>R</m>-module.
+    </p>
+    <definition xml:id="def-bimodule">
+        <title>(A,B) bimodule</title>
+
+        <statement>
+            <p>
+                Let <m>R</m> be a commutative ring with unity. Let <m>A</m> and <m>B</m> be right <m>R</m>-algebras. An <em><m>(A,B)</m>-bimodule</em> is an abelian group <m>M</m> which is both a left <m>A</m>-module and a right <m>B</m>-module such that for all <m>a\in A</m>, <m>b\in B</m>, <m>r\in R</m> and <m>m\in M</m> we have the following compatibility conditions.
+                <me>
+                    (am)b = a(mb)\quad\text{and}\quad rm = mr.
+                </me>
+            </p>
+        </statement>
+    </definition>
+    <note>
+        <p>
+            We sometimes denote the <m>(A,B)</m>-bimodule <m>M</m> by <m>_AM_B</m>. Furthermore, if <m>A=B</m>, then we say that <m>M</m> is an <em><m>A</m>-bimodule</em>.
+        </p>
+    </note>
+    <example>
+        <statement>
+            <p>
+                Let <m>R</m> be a commutative ring with unity, and let <m>A</m> be a right <m>R</m>-algebra. Let <m>M</m> be a left <m>A</m>-module. Then, <m>M</m> is <m>(\End{A}{M},A)</m>-bimodule.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="ex-representation-and-left-module">
+        <title>Representations and left modules</title>
+        <statement>
+            <p>
+                Let <m>R</m> be a commutative ring with unity, and let <m>A</m> be a right <m>R</m>-algebra. If <m>M</m> is a left <m>A</m>-module, then <m>M</m> is an <m>(A,R)</m>-bimodule.
+            </p>
+            <p>
+                We can define <em>representation</em> of <m>L\colon A\to\End{R}{M}</m> by <m>a\mapsto L_a \,(m\mapsto a\cdot m)</m>. The map <m>L</m> is an <m>R</m>-algebra homomorphism.
+            </p>
+            <p>
+                Conversely, if <m>\varphi\colon A\to\End{R}{M}</m> is an <m>R</m>-algebra homomorphism, then <m>M</m> is a left <m>A</m>-module via <m>a\cdot m = \varphi(a)(m)</m> for all <m>a\in A</m> and <m>m\in M</m>.
+            </p>
+            <p>
+                We leave it to the reader to check that there is a one-to-one correspondence between left <m>A</m>-modules and representations of <m>A</m>.
+            </p>
+        </statement>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>R</m> be a commutative ring with unity, and let <m>A</m> be a right <m>R</m>-algebra. Suppose that <m>M</m> is a left <m>A</m>-module, and that <m>\phi,\psi</m> are <m>R</m>-algebra homomorphisms from <m>A</m> to <m>\End{R}{M}</m>. Show that the following are equivalent.
+                <ol>
+                    <li>
+                        <p>
+                            <m>\phi</m> and <m>\psi</m> induces isomorphic <m>A</m>-module structure on <m>M</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            There exists invertible <m>\theta\in\End{R}{M}</m> such that <m>\psi=\theta^{-1}\circ\phi\circ\phi</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    </section>
