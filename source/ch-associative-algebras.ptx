@@ -14,5 +14,6 @@
   <xi:include href="sec-morphisms-of-algebras.ptx" />
   <xi:include href="sec-bimodule.ptx" />
   <xi:include href="sec-quaternions.ptx" />
+  <xi:include href="sec-trace-norm-quaternions.ptx" />
 
 </chapter>

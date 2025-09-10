@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-sec-quaternions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Reduced trace and reduced norm in Quaternion algebra</title>
+    <introduction>
+        <p>
+            In this section we define the trace and the norm of a quaternion. Throughout this section we assume that <m>F</m> is a field of characteristic not <m>2</m> and that <m>Q=(a,b)_F</m> is a quaternion algebra.
+        </p>
+    </introduction>
+    <definition xml:id="def-trace-norm-quaternion">
+        <statement>
+            <p>
+                Let <m>x=x_0+x_1i+x_2j+x_3k\in Q</m>. The <term>reduced trace</term> of <m>x</m> is <m>\Trd{Q}(x)=x+\gamma(x)</m> and the <term>reduced norm</term> of <m>x</m> is <m>\Nrd{Q}(x)=x\gamma(x)</m>, where <m>\gamma</m> is the canonical involution (see <xref ref="def-canonical-involution-on-quaternion"/>).
+            </p>
+        </statement>
+    </definition>
+    <lemma xml:id="lem-basic-properties-trace">
+        <statement>
+            <p>
+                Suppose that <m>F</m> is a field of characteristic not <m>2</m> and that <m>Q=(a,b)_F</m> is a quaternion algebra.
+                <ol>
+                    <li>
+                        <p>
+                            <m>\Trd{Q}\colon Q\to Q</m> is an <m>F</m>-linear map.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            For <m>x\in Q</m>, <m>\Trd{Q}(x)\in F</m>. In fact, if <m>x=x_0+x_1i+x_2j+x_3</m> then, <m>\Trd{Q}(x)=2x_0</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </lemma>
+    <lemma xml:id="lem-basic-properties-norm">
+        <statement>
+            <p>
+                Suppose that <m>F</m> is a field of characteristic not <m>2</m> and that <m>Q=(a,b)_F</m> is a quaternion algebra.
+                <ol>
+                    <li>
+                        <p>
+                            <m>\Nrd{Q}\colon Q\to Q</m> is multiplicative, i.e., <m>\Nrd{Q}(xy)=\Nrd{Q}(x)\Nrd{Q}(y)</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            For <m>x\in Q</m>, <m>\Nrd{Q}(x)\in F</m>. In fact, if <m>x=x_0+x_1i+x_2j+x_3</m> then, <m>\Nrd{Q}(x)=x_0^2-ax_1^2-bx_2^2+abx_3^2</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            An element <m>x\in Q</m> is invertible if and only if <m>\Nrd{Q}(x)\neq 0</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </lemma>
+    <exercise>
+        <statement>
+            <p>
+                Show the following.
+                <ol>
+                    <li>
+                        <p>
+                            <m>(-1,-1)_{\R}</m> and <m>(-1,-1)_{\Q}</m> are division algebras;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>(-1,-1)_{\C}</m> is not a division algebra;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>(1,b)_F</m> is not a division algebra.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+</section>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-sec-quaternions" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-quaternions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Quaternion algebra</title>
     <introduction>
         <p>
@@ -73,6 +73,28 @@
             If <m>x\in Z(A)</m> then we must have <m>[i,x]=[j,x]=[k,x]=0</m>. This implies that <m>x=x_0\cdot 1</m>. Thus, <m>Z(A)=F</m>.
         </p>
     </proof>
+    <definition xml:id="def-canonical-involution-on-quaternion">
+        <title>Canonical involution of Quaternion algebra</title>
+
+        <statement>
+            <p>
+                Let <m>F</m> be a field of characteristic not <m>2</m>, and <m>(a,b)_F</m> a quaternion algebra. The <term>canonical involution</term> on <m>(a,b)_F</m> is <m>\gamma\colon(a,b)_F\to(a,b)_F</m> given by
+                <me>
+                    a_0+a_1i+a_2j+a_3k\mapsto a_0-a_1i-a_2j-a_3k.
+                </me>
+            </p>
+        </statement>
+    </definition>
+    <note>
+        <statement>
+            <p>
+                The canonical involution is an antiautomorphism of order <m>2</m>, i.e., for any <m>x\in Q</m> we have the following. 
+                <me>
+                    \gamma(xy)=\gamma(y)\gamma(x)\quad\text{and}\quad\gamma\left(\gamma(x)\right)=x
+                </me>
+            </p>
+        </statement>
+    </note>
     <definition xml:id="def-finite-dimensional-division-algebra">
         <title>Finite-dimension division algebra</title>
         
