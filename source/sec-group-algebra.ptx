@@ -116,7 +116,7 @@
         </p>
     </statement>
   </exercise>
-  <theorem xml:id="thm-universal-property-group-algebra">
+<theorem xml:id="thm-universal-property-group-algebra">
     <statement>
         <p>
             Suppose that <m>G</m> is a group and that <m>R</m> is a commutative ring. Then, <m>RG</m> is an <m>R</m>-algebra, and it is a free <m>R</m>-module with basis <m>\{\chi_g\mid g\in G\}</m>.
