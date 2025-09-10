@@ -679,6 +679,15 @@ var ptx_lunr_docs = [
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
+  "type": "References",
+  "number": "",
+  "title": "Bibliography",
+  "body": " Bibliography  Pierce, Richard S., Associative algebras , Graduate Texts in Mathematics, 88 , Springer, Cham, 1982 .  Lam, T. Y., Introduction to quadratic forms over fields , Graduate Studies in Mathematics, 67 , American Mathematical Society (AMS), Providence, RI, 2005 .  "
+},
+{
+  "id": "backmatter-3",
+  "level": "1",
+  "url": "backmatter-3.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
