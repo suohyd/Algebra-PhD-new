@@ -4,7 +4,7 @@
   <title>Associative Algebras</title>
 
   <introduction>
-    <p> We follow <q>Associative algebra</q> by R. S. Pierce. We do not claim any originality for the content.</p>
+    <p> We follow <sq>Associative algebra</sq> by R. S. Pierce. We do not claim any originality for the content.</p>
   </introduction>
 
   <!-- include sections -->
@@ -13,8 +13,5 @@
   <xi:include href="sec-group-algebra.ptx" />
   <xi:include href="sec-morphisms-of-algebras.ptx" />
   <xi:include href="sec-bimodule.ptx" />
-  <xi:include href="sec-quaternions.ptx" />
-  <xi:include href="sec-trace-norm-quaternions.ptx" />
-  <xi:include href="sec-finite-dim-division-over-R.ptx" />
 
 </chapter>
