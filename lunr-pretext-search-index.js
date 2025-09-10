@@ -502,7 +502,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Reduced trace and reduced norm in Quaternion algebra",
-  "body": " Reduced trace and reduced norm in Quaternion algebra   In this section we define the trace and the norm of a quaternion. Throughout this section we assume that is a field of characteristic not and that is a quaternion algebra.     Let . The reduced trace of is and the reduced norm of is , where is the canonical involution (see ).      Suppose that is a field of characteristic not and that is a quaternion algebra.    is an -linear map.    For , . In fact, if then, .         Suppose that is a field of characteristic not and that is a quaternion algebra.    is multiplicative, i.e., .    For , . In fact, if then, .    An element is invertible if and only if .         Show the following.    and are division algebras;     is not a division algebra;     is not a division algebra.         Suppose that is a field of characteristic not and that is a quaternion algebra. Consider . The map given by is an -linear. If is the matrix of with respect to the basis then,   the trace of the matrix , , and    the determinant of the matrix , .        We leave it to the reader to check that the map is -linear, also see . The following is the matrix of with respect to the basis . Thus, . The determinant of the matrix is One may verify that .   "
+  "body": " Reduced trace and reduced norm in Quaternion algebra   In this section we define the trace and the norm of a quaternion. Throughout this section we assume that is a field of characteristic not and that is a quaternion algebra.     Let . The reduced trace of is and the reduced norm of is , where is the canonical involution (see ).      Suppose that is a field of characteristic not and that is a quaternion algebra.    is an -linear map.    For , . In fact, if then, .         Suppose that is a field of characteristic not and that is a quaternion algebra.    is multiplicative, i.e., .    For , we have . In fact, if then, .    For , we have .    An element is invertible if and only if .         Show the following.    and are division algebras;     is not a division algebra;     is not a division algebra.         Let be a quaternion algebra over a field of characteristic . Every satisfy a quadratic polynomial over , viz.,      Indeed,      Suppose that is a field of characteristic not and that is a quaternion algebra. Consider . The map given by is an -linear. If is the matrix of with respect to the basis then,   the trace of the matrix , , and    the determinant of the matrix , .        We leave it to the reader to check that the map is -linear, also see . The following is the matrix of with respect to the basis . Thus, . The determinant of the matrix is One may verify that .   "
 },
 {
   "id": "def-trace-norm-quaternion",
@@ -529,7 +529,7 @@ var ptx_lunr_docs = [
   "type": "Lemma",
   "number": "2.2.3",
   "title": "",
-  "body": "  Suppose that is a field of characteristic not and that is a quaternion algebra.    is multiplicative, i.e., .    For , . In fact, if then, .    An element is invertible if and only if .      "
+  "body": "  Suppose that is a field of characteristic not and that is a quaternion algebra.    is multiplicative, i.e., .    For , we have . In fact, if then, .    For , we have .    An element is invertible if and only if .      "
 },
 {
   "id": "sec-sec-quaternions-6",
@@ -541,13 +541,13 @@ var ptx_lunr_docs = [
   "body": "  Show the following.    and are division algebras;     is not a division algebra;     is not a division algebra.      "
 },
 {
-  "id": "lem-matrix-of-left-multiplication",
+  "id": "lem-quadratic-equation-satisfied-by-quaternion",
   "level": "2",
-  "url": "sec-sec-quaternions.html#lem-matrix-of-left-multiplication",
+  "url": "sec-sec-quaternions.html#lem-quadratic-equation-satisfied-by-quaternion",
   "type": "Lemma",
   "number": "2.2.5",
   "title": "",
-  "body": "  Suppose that is a field of characteristic not and that is a quaternion algebra. Consider . The map given by is an -linear. If is the matrix of with respect to the basis then,   the trace of the matrix , , and    the determinant of the matrix , .      "
+  "body": "  Let be a quaternion algebra over a field of characteristic . Every satisfy a quadratic polynomial over , viz.,    "
 },
 {
   "id": "sec-sec-quaternions-8",
@@ -555,6 +555,24 @@ var ptx_lunr_docs = [
   "url": "sec-sec-quaternions.html#sec-sec-quaternions-8",
   "type": "Proof",
   "number": "2.2.1",
+  "title": "",
+  "body": " Indeed,   "
+},
+{
+  "id": "lem-matrix-of-left-multiplication",
+  "level": "2",
+  "url": "sec-sec-quaternions.html#lem-matrix-of-left-multiplication",
+  "type": "Lemma",
+  "number": "2.2.6",
+  "title": "",
+  "body": "  Suppose that is a field of characteristic not and that is a quaternion algebra. Consider . The map given by is an -linear. If is the matrix of with respect to the basis then,   the trace of the matrix , , and    the determinant of the matrix , .      "
+},
+{
+  "id": "sec-sec-quaternions-10",
+  "level": "2",
+  "url": "sec-sec-quaternions.html#sec-sec-quaternions-10",
+  "type": "Proof",
+  "number": "2.2.2",
   "title": "",
   "body": " We leave it to the reader to check that the map is -linear, also see . The following is the matrix of with respect to the basis . Thus, . The determinant of the matrix is One may verify that .  "
 },
@@ -564,8 +582,8 @@ var ptx_lunr_docs = [
   "url": "sec-finite-dim-division-over-R.html",
   "type": "Section",
   "number": "2.3",
-  "title": "Finite-dimensional division algebras over real numbers",
-  "body": " Finite-dimensional division algebras over real numbers  We classify finite-dimensional division algebras over . We begin with the following lemma.    Let be a finite-dimensional division algebra over . Then, for every element there exists such that .     Let be an -dimensional division algebra over . Then, the set is linearly dependent over . Thus, there exists , not all zero, such that . Since is a division algebra, we must have , and hence by dividing by , we may assume that the polynomial is monic. Over , the polynomial will splits into linear and quadratic factors. Say Thus, Since is a division algebra, one of the factors is zero. This proves the lemma.     Let be a finite-dimensional division algebra over . Let . Then, is an -vector subspace of , and .     Note that if and then, and hence there exists such that . Thus, , i.e., . Now assume that . We show that . We further assume that are -linearly independent. We claim that are -linearly independent. If there are with then, . This gives . This implies that either or . One may check that this gives . We have thus shown that are linearly independent. By , there exists such that While . This gives . Since are -linearly independent, we must have . Thus, .  We leave it to the reader to check that is closed under scalar multiplication. This shows that is an -vector subspace of . Further, check that .  For there exists such that . Note that and hence, . This shows that .     Let be a finite-dimensional division algebra over . If the dimension of is , then there exist such that , , and are linearly independent over .     By , . Suppose that are linearly independent over . Consider the element . Set It is left to the reader to check that defined above satisfies . To check the linear independence of we consider such that . However, implies that for all .    Classification of finite-dimensional division algebras over   A finite-dimensional division algebra over is isomorphic to either , or .     Let , where is a finite-dimensional division algebra over .   If then, .    If then, (see ) and it contains with .    By , the case does not appear and if then, .    Suppose that . By , there are such that and . In this case (see ), so there exists which is not in the linear span of . Consider the following element of . We get the following relations. This implies that , a contradiction because . Hence, can not be greater than .        There are no proper nontrivial finite-dimentional division algebras over .     Suppose that is a finite-dimensional division algebra over . Let . As is finite-dimensional, is an algebraic element over . Thus, because is algebraically closed field. This shows that .   "
+  "title": "Finite-dimensional division algebras over real and complex numbers",
+  "body": " Finite-dimensional division algebras over real and complex numbers  We classify finite-dimensional division algebras over . We begin with the following lemma.    Let be a finite-dimensional division algebra over . Then, for every element there exists such that .     Let be an -dimensional division algebra over . Then, the set is linearly dependent over . Thus, there exists , not all zero, such that . Since is a division algebra, we must have , and hence by dividing by , we may assume that the polynomial is monic. Over , the polynomial will splits into linear and quadratic factors. Say Thus, Since is a division algebra, one of the factors is zero. This proves the lemma.     Let be a finite-dimensional division algebra over . Let . Then, is an -vector subspace of , and .     Note that if and then, and hence there exists such that . Thus, , i.e., . Now assume that . We show that . We further assume that are -linearly independent. We claim that are -linearly independent. If there are with then, . This gives . This implies that either or . One may check that this gives . We have thus shown that are linearly independent. By , there exists such that While . This gives . Since are -linearly independent, we must have . Thus, .  We leave it to the reader to check that is closed under scalar multiplication. This shows that is an -vector subspace of . Further, check that .  For there exists such that . Note that and hence, . This shows that .     Let be a finite-dimensional division algebra over . If the dimension of is , then there exist such that , , and are linearly independent over .     By , . Suppose that are linearly independent over . Consider the element . Set It is left to the reader to check that defined above satisfies . To check the linear independence of we consider such that . However, implies that for all .    Classification of finite-dimensional division algebras over   A finite-dimensional division algebra over is isomorphic to either , or .     Let , where is a finite-dimensional division algebra over .   If then, .    If then, (see ) and it contains with .    By , the case does not appear and if then, .    Suppose that . By , there are such that and . In this case (see ), so there exists which is not in the linear span of . Consider the following element of . We get the following relations. This implies that , a contradiction because . Hence, can not be greater than .        There are no proper nontrivial finite-dimentional division algebras over .     Suppose that is a finite-dimensional division algebra over . Let . As is finite-dimensional, is an algebraic element over . Thus, because is algebraically closed field. This shows that .   "
 },
 {
   "id": "lem-element-satisfies-quadratic-equation-over-reals",
