@@ -1,0 +1,9 @@
+<references>
+  <title>Bibliography</title>
+  <biblio type="raw" xml:id="bib-Pierce">
+    Pierce, Richard S., <pubtitle>Associative algebras</pubtitle>, Graduate Texts in Mathematics, <volume>88</volume>, Springer, Cham, <year>1982</year>.
+  </biblio>
+  <biblio type="raw" xml:id="bib-Lam">
+    Lam, T. Y., <pubtitle>Introduction to quadratic forms over fields</pubtitle>, Graduate Studies in Mathematics, <volume>67</volume>, American Mathematical Society (AMS), Providence, RI, <year>2005</year>.
+  </biblio>
+</references>
