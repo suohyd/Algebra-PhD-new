@@ -3,8 +3,19 @@
 <section xml:id="sec-finite-dim-division-over-R" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Finite-dimensional division algebras over real and complex numbers</title>
     <p>
-            We classify finite-dimensional division algebras over <m>\R</m>. We begin with the following lemma.
+            We classify finite-dimensional division algebras over <m>\R</m>. We begin with the following definition.
     </p>
+        <definition xml:id="def-finite-dimensional-division-algebra">
+        <title>Finite-dimension division algebra</title>
+        
+        
+        <statement>
+            <p>
+                Let <m>F</m> be a field. An <m>F</m>-algebra <m>D</m> is said to be <em>finite-dimensional division algebra</em> if <m>D</m> is finite dimensional as an <m>F</m>-vector space, and every nonzero element of <m>D</m> is invertible.
+            </p>
+        </statement>
+    </definition>
+
     <lemma xml:id="lem-element-satisfies-quadratic-equation-over-reals">
         <statement>
             <p>
@@ -119,7 +130,7 @@
     </lemma>
     <proof>
         <p>
-            Suppose that <m>D</m> is a finite-dimensional division algebra over <m>\C</m>. Let <m>d\in D</m>. As <m>D</m> is finite-dimensional, <m>d</m> is an algebraic element over <m>\C</m>. Thus, <m>d\in\C</m> because <m>\C</m> is algebraically closed field. This shows that <m>D=\C</m>.
+            Suppose that <m>D</m> is a finite-dimensional division algebra over <m>\C</m>. Let <m>d\in D</m>. As <m>D</m> is finite-dimensional, <m>d</m> is an algebraic element over <m>\C</m>. Thus, <m>d\in\C</m> because <m>\C</m> is an algebraically closed field. This shows that <m>D=\C</m>.
         </p>
     </proof>
 </section>

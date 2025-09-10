@@ -103,16 +103,9 @@
                     \gamma(xy)=\gamma(y)\gamma(x)\quad\text{and}\quad\gamma\left(\gamma(x)\right)=x
                 </me>
             </p>
-        </statement>
-    </note>
-    <definition xml:id="def-finite-dimensional-division-algebra">
-        <title>Finite-dimension division algebra</title>
-        
-        
-        <statement>
             <p>
-                An <m>F</m>-algebra <m>D</m> is said to be <em>finite-dimensional division algebra</em> if <m>D</m> is finite dimensional as an <m>F</m>-vector space, and every nonzero element of <m>D</m> is invertible.
+                Furthermore, <m>\gamma(x)=x</m> if and only if <m>x\in F</m>.
             </p>
         </statement>
-    </definition>
+    </note>
 </section>

@@ -13,7 +13,7 @@
             <p>
                 Let <m>R</m> be a commutative ring with unity. Let <m>A</m> and <m>B</m> be right <m>R</m>-algebras. An <em><m>(A,B)</m>-bimodule</em> is an abelian group <m>M</m> which is both a left <m>A</m>-module and a right <m>B</m>-module such that for all <m>a\in A</m>, <m>b\in B</m>, <m>r\in R</m> and <m>m\in M</m> we have the following compatibility conditions.
                 <me>
-                    (am)b = a(mb)\quad\text{and}\quad rm = mr.
+                    (am)b = a(mb)\quad\text{and}\quad rm = mr
                 </me>
             </p>
         </statement>
@@ -47,6 +47,7 @@
             </p>
         </statement>
     </example>
+
     <exercise>
         <statement>
             <p>

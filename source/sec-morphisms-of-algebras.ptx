@@ -3,7 +3,7 @@
 <section xml:id="sec-morphisms-of-algebras" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Morphisms of algebras</title>
   <definition xml:id="def-morphism-of-algebras">
-    <title>Homomorphism <m>R</m>-algebras</title>
+    <title>Homomorphism of <m>R</m>-algebras</title>
     <statement>
         <p>
             Let <m>R</m> be a commutative ring with unity. Let <m>A</m> and <m>B</m> be <m>R</m>-algebras. An <em>R-algebra homomorphism</em> (or simply, a <em>morphism of <m>R</m>-algebras</em>) <m>\phi:A\to B</m> is a map which is both a ring homomorphism and an <m>R</m>-module homomorphism.

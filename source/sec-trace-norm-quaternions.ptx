@@ -21,12 +21,12 @@
                 <ol>
                     <li>
                         <p>
-                            <m>\Trd{Q}\colon Q\to Q</m> is an <m>F</m>-linear map.
+                            For <m>x\in Q</m>, <m>\Trd{Q}(x)\in F</m>. In fact, if <m>x=x_0+x_1i+x_2j+x_3</m> then, <m>\Trd{Q}(x)=2x_0</m>.
                         </p>
                     </li>
                     <li>
                         <p>
-                            For <m>x\in Q</m>, <m>\Trd{Q}(x)\in F</m>. In fact, if <m>x=x_0+x_1i+x_2j+x_3</m> then, <m>\Trd{Q}(x)=2x_0</m>.
+                            <m>\Trd{Q}\colon Q\to F</m> is an <m>F</m>-linear map.
                         </p>
                     </li>
                 </ol>
@@ -40,12 +40,12 @@
                 <ol>
                     <li>
                         <p>
-                            <m>\Nrd{Q}\colon Q\to Q</m> is multiplicative, i.e., <m>\Nrd{Q}(xy)=\Nrd{Q}(x)\Nrd{Q}(y)</m>.
+                            For <m>x\in Q</m>, we have <m>\Nrd{Q}(x)\in F</m>. In fact, if <m>x=x_0+x_1i+x_2j+x_3</m> then, <m>\Nrd{Q}(x)=x_0^2-ax_1^2-bx_2^2+abx_3^2</m>.
                         </p>
                     </li>
                     <li>
                         <p>
-                            For <m>x\in Q</m>, we have <m>\Nrd{Q}(x)\in F</m>. In fact, if <m>x=x_0+x_1i+x_2j+x_3</m> then, <m>\Nrd{Q}(x)=x_0^2-ax_1^2-bx_2^2+abx_3^2</m>.
+                            <m>\Nrd{Q}\colon Q\to F</m> is multiplicative, i.e., <m>\Nrd{Q}(xy)=\Nrd{Q}(x)\Nrd{Q}(y)</m>.
                         </p>
                     </li>
                     <li>
@@ -111,7 +111,7 @@
         <statement>
             <p>
                 Suppose that <m>F</m> is a field of characteristic not <m>2</m> and that <m>Q=(a,b)_F</m> is a quaternion algebra. Consider <m>q=x+yi+zj+wk\in Q</m>.
-                The map <m>L_q\colon Q\to Q</m> given by <m>r\mapsto qr</m> is an <m>F</m>-linear. If <m>[L_q]</m> is the matrix of <m>L_q</m> with respect to the basis <m>\{1,i,j,k\}</m> then,
+                The map <m>L_q\colon Q\to Q</m> given by <m>r\mapsto qr</m> is <m>F</m>-linear. If <m>[L_q]</m> is the matrix of <m>L_q</m> with respect to the basis <m>\{1,i,j,k\}</m> then,
                 <ol>
                     <li>
                         <p>
