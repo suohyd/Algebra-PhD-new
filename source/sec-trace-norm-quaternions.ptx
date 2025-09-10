@@ -50,7 +50,7 @@
                     </li>
                     <li>
                         <p>
-                            For <m>x\in Q</m>, we have <m>\Nrd{Q}(x)=\Nrd{Q}\left(\gamma(x)\right)</m>.
+                            For <m>x\in Q</m>, we have <m>\Nrd{Q}(x)=\Nrd{Q}\left(\gamma(x)\right)</m>, i.e., <m>x\gamma(x)=\gamma(x)x</m>.
                         </p>
                     </li>
                     <li>
