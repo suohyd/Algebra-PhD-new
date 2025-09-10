@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-finite-dim-division-over-R" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Finite-dimensional division algebras over real numbers</title>
+    <p>
+            We classify finite-dimensional division algebras over <m>\R</m>. We begin with the following lemma.
+    </p>
+    <lemma xml:id="lem-element-satisfies-quadratic-equation-over-reals">
+        <statement>
+            <p>
+                Let <m>D</m> be a finite-dimensional division algebra over <m>\R</m>. Then, for every element <m>x\in D</m> there exists <m>a\in\R</m> such that <m>x^2+ax\in\R</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            Let <m>D</m> be an <m>n</m>-dimensional division algebra over <m>\R</m>. Then, the set <m>\{1,x,x^2,\ldots,x^n\}</m> is linearly dependent over <m>\R</m>. Thus, there exists <m>a_0,a_1,\ldots,a_n\in\R</m>, not all zero, such that <m>f(x)=a_0+a_1x+\cdots+a_nx^n=0</m>. Since <m>D</m> is a division algebra, we must have <m>a_n\neq 0</m>, and hence by dividing by <m>a_n^{-1}</m>, we may assume that the polynomial is monic. Over <m>\R</m>, the polynomial <m>f(t)</m> will splits into linear and quadratic factors. Say
+            <me>
+                f(t)=(t-\alpha_1)\cdots(t-\alpha_r)(t^2+b_1t+c_1)\cdots(t^2+b_st+c_s).
+            </me>
+            Thus,
+            <me>
+                0=f(x)=(x-\alpha_1)\cdots(x-\alpha_r)(x^2+b_1x+c_1)\cdots(x^2+b_sx+c_s).
+            </me>
+            Since <m>D</m> is a division algebra, one of the factors is zero. This proves the lemma.
+        </p>
+    </proof>
+    <lemma xml:id="lem-orthogonal-complement-of-reals-in-division-algebra">
+        <statement>
+            <p>
+                Let <m>D</m> be a finite-dimensional division algebra over <m>\R</m>. Let <m>V=\{x\in D\mid x^2\in\R,\,x^2\leq 0\}</m>. Then, <m>V</m> is an <m>\R</m>-vector subspace of <m>D</m>, and <m>D=\R\oplus V</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            Note that if <m>d\in D\setminus V</m> and <m>d^2\in\R</m> then, <m>d^2&gt;0</m> and hence there exists <m>r\in\R</m> such that <m>d^2=r^2</m>. Thus, <m>0=(d-r)(d+r)\in D</m>, i.e., <m>d=\pm r\in\R</m>. Now assume that <m>u,v\in V</m>. We show that <m>u+v\in V</m>. We further assume that <m>u,v</m> are <m>\R</m>-linearly independent. We claim that <m>\{1,u,v\}</m> are <m>\R</m>-linearly independent. If there are <m>r,s,t\in\R</m> with <m>ur+vs+t=0</m> then, <m>0=(ur+vs+t)^2</m>. This gives <m>stv\in\R</m>. This implies that either <m>s=0</m> or <m>t=0</m>. One may check that this gives <m>r=s=t=0</m>. We have thus shown that <m>\{1,u,v\}</m> are linearly independent. By <xref ref="lem-element-satisfies-quadratic-equation-over-reals"/>, there exists <m>a,b\in\R</m> such that
+            <me>
+                (u+v)^2 + a(u+v)\in\R\quad\text{and}\quad (u-v)^2 + b(u-v)\in\R.
+            </me>
+            While <m>(u+v)^2+(u-v)^2=2u^2+2v^2\in\R</m>. This gives <m>a(u+v)+b(u-v)\in\R</m>. Since <m>\{1,u,v\}</m> are <m>\R</m>-linearly independent, we must have <m>a=b=0</m>. Thus, <m>(u+v)\in V</m>.
+        </p>
+        <p>
+            We leave it to the reader to check that <m>V</m> is closed under scalar multiplication. This shows that <m>V</m> is an <m>\R</m>-vector subspace of <m>D</m>. Further, check that <m>\R\cap V=0</m>.
+        </p>
+        <p>
+            For <m>d\in D\setminus\R</m> there exists <m>a\in\R</m> such that <m>d^2+ad\in\R</m>. Note that <m>d+a/2\in V</m> and hence, <m>d=-a/2+(d+a/2)\in\R+V</m>. This shows that <m>D=\R\oplus V</m>.
+        </p>
+    </proof>
+    <lemma xml:id="lem-existence-of-i-j-k-in-division-algebra">
+        <statement>
+            <p>
+                Let <m>D</m> be a finite-dimensional division algebra over <m>\R</m>. If the dimension of <m>D</m> is <m>\geq 3</m>, then there exist <m>i,j,k\in V</m> such that <m>i^2=j^2=k^2=-1</m>, <m>ij=k=-ji</m>, and <m>\{1,i,j,k\}</m> are linearly independent over <m>\R</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            By <xref ref="lem-orthogonal-complement-of-reals-in-division-algebra"/>, <m>\dim_\R V\geq 2</m>. Suppose that <m>u,v\in V</m> are linearly independent over <m>\R</m>. Consider the element <m>w=v-\tfrac{vu+uv}{2u^2}u</m>. Set
+            <me>
+                i=\frac{1}{\sqrt{-w^2}}w,\quad j=\frac{1}{\sqrt{-u^2}}u,\quad\text{and}\quad k=ij.
+            </me>
+            It is left to the reader to check that <m>i,j,k</m> defined above satisfies <xref ref="eq-defining-relations-in-quaternion-algebra"/>. To check the linear independence of <m>\{1,i,j,k\}</m> we consider <m>x_i\in\R</m> such that <m>x_0+x_1i+x_2j+x_3k=0</m>. However,
+            <me>
+                \left(x_0+x_1i+x_2j+x_3k\right)\left(x_0-x_1i-x_2j-x_3k\right)=x_0^2+x_1^2+x_2^2+x_3^2\in\R,
+            </me> implies that <m>x_i=0</m> for all <m>i</m>.
+        </p>
+    </proof>
+    <theorem xml:id="thm-division-algebras-over-R">
+        <title>Classification of finite-dimensional division algebras over <m>\R</m></title>       
+        
+        <statement>
+            <p>
+              A finite-dimensional division algebra over <m>\R</m> is isomorphic to either <m>\R</m>, <m>\C</m> or <m>\mathbb{H}</m>.
+            </p>
+        </statement>
+    </theorem>
+    <proof>
+        <p>
+            Let <m>n=\dim_\R D</m>, where <m>D</m> is a finite-dimensional division algebra over <m>\R</m>.
+            <ol>
+                <li>
+                    <p>
+                        If <m>n=1</m> then, <m>D\simeq\R</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>n=2</m> then, <m>V\neq 0</m> (see <xref ref="lem-orthogonal-complement-of-reals-in-division-algebra"/>) and it contains <m>i\in V</m> with <m>i^2=-1</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        By <xref ref="lem-existence-of-i-j-k-in-division-algebra"/>, the case <m>n=3</m> does not appear and if <m>n=4</m> then, <m>D\simeq\H</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Suppose that <m>n&gt;4</m>. By <xref ref="lem-existence-of-i-j-k-in-division-algebra"/>, there are <m>i,j,k\in D</m> such that <m>i^2=j^2=k^2=-1</m> and <m>k=ij=-ji</m>. In this case <m>\dim_{\R}V=n-1&gt;3</m> (see <xref ref="lem-orthogonal-complement-of-reals-in-division-algebra"/>), so there exists <m>v\in V</m> which is not in the linear span of <m>i,j,k</m>. Consider the following element of <m>D</m>.
+                        <me>
+                            w=v+\frac{iv+vi}{2}i+\frac{jv+vj}{2}j+\frac{kv+vk}{2}k
+                        </me>
+                        We get the following relations.
+                        <me>
+                            iw+wi=jw+wj=kw+wk=0
+                        </me>
+                        This implies that <m>wij=-iwj=ijw</m>, a contradiction because <m>k=ij</m>. Hence, <m>n</m> can not be greater than <m>4</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </proof>
+    <lemma xml:id="lem-division-algebras-over-C">
+        <statement>
+            <p>
+                There are no proper nontrivial finite-dimentional division algebras over <m>\C</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            Suppose that <m>D</m> is a finite-dimensional division algebra over <m>\C</m>. Let <m>d\in D</m>. As <m>D</m> is finite-dimensional, <m>d</m> is an algebraic element over <m>\C</m>. Thus, <m>d\in\C</m> because <m>\C</m> is algebraically closed field. This shows that <m>D=\C</m>.
+        </p>
+    </proof>
+</section>
