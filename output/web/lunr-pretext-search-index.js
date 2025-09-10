@@ -403,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Quaternion algebra",
-  "body": " Quaternion algebra   Throughout this section we assume that is a field with . The set of nonzero elements of is denoted by .    Quaternion algebra   Let . The quaternion algebra  or is the four-dimensional -vector space with basis and multiplication defined by the following relations and with as unity of . We assume the associativity of multiplication and extend the multiplication to all elements of by distributivity and linearity.  We get the following relations.       Keep notations of . The map defined by is an injective ring homomorphism. Thus, we can identify as a subalgebra of .     Hamiltonian quaternion algebra   The algebra is Hamiltonion quaternion algebra over the field of real numbers . It is usually denoted by .     Simple algebra   Let be an -algebra of finite dimension as an -vector space. We say that is a simple algebra if the only two-sided ideals of are and .      Let be a quaternion algebra over . Then, is a simple algebra with center .     Let be a nonzero two-sided ideal of . We show that . Let be a nonzero element. Then, we can write for some . For we write . Then, we have the following relations. Now , , and . So, if one of is nonzero then, will contain a unit, and thus, . If , then for some nonzero . Thus, , and hence, .  If then we must have . This implies that . Thus, .    Canonical involution of Quaternion algebra   Let be a field of characteristic not , and a quaternion algebra. The canonical involution on is given by       The canonical involution is an antiautomorphism of order , i.e., for any we have the following.      Finite-dimension division algebra   An -algebra is said to be finite-dimensional division algebra if is finite dimensional as an -vector space, and every nonzero element of is invertible.    Now we classify finite-dimensional division algebras over . We begin with the following lemma.    Let be a finite-dimensional division algebra over . Then, for every element there exists such that .     Let be an -dimensional division algebra over . Then, the set is linearly dependent over . Thus, there exists , not all zero, such that . Since is a division algebra, we must have , and hence by dividing by , we may assume that the polynomial is monic. Over , the polynomial will splits into linear and quadratic factors. Say Thus, Since is a division algebra, one of the factors is zero. This proves the lemma.     Let be a finite-dimensional division algebra over . Let . Then, is an -vector subspace of , and .     Note that if and then, and hence there exists such that . Thus, , i.e., . Now assume that . We show that . We further assume that are -linearly independent. We claim that are -linearly independent. If there are with then, . This gives . This implies that either or . One may check that this gives . We have thus shown that are linearly independent. By , there exists such that While . This gives . Since are -linearly independent, we must have . Thus, .  We leave it to the reader to check that is closed under scalar multiplication. This shows that is an -vector subspace of . Further, check that .  For there exists such that . Note that and hence, . This shows that .     Let be a finite-dimensional division algebra over . If the dimension of is , then there exist such that , , and are linearly independent over .     By , . Suppose that are linearly independent over . Consider the element . Set It is left to the reader to check that defined above satisfies . To check the linear independence of we consider such that . However, implies that for all .    Classification of finite-dimensional division algebras over   A finite-dimensional division algebra over is isomorphic to either , or .     Let , where is a finite-dimensional division algebra over .   If then, .    If then, (see ) and it contains with .    By , the case does not appear and if then, .    Suppose that . By , there are such that and . In this case (see ), so there exists which is not in the linear span of . Consider the following element of . We get the following relations. This implies that , a contradiction because . Hence, can not be greater than .        There are no proper nontrivial finite-dimentional division algebras over .     Suppose that is a finite-dimensional division algebra over . Let . As is finite-dimensional, is an algebraic element over . Thus, because is algebraically closed field. This shows that .   "
+  "body": " Quaternion algebra   Throughout this section we assume that is a field with . The set of nonzero elements of is denoted by .    Quaternion algebra   Let . The quaternion algebra  or is the four-dimensional -vector space with basis and multiplication defined by the following relations and with as unity of . We assume the associativity of multiplication and extend the multiplication to all elements of by distributivity and linearity.  We get the following relations.       Keep notations of . The map defined by is an injective ring homomorphism. Thus, we can identify as a subalgebra of .     Hamiltonian quaternion algebra   The algebra is Hamiltonion quaternion algebra over the field of real numbers . It is usually denoted by .     Degree of Quaternion algebra   Let be a quaternion algebra over a field of characteristic different from . The degree of , , i.e., .     Simple algebra   Let be an -algebra of finite dimension as an -vector space. We say that is a simple algebra if the only two-sided ideals of are and .      Let be a quaternion algebra over . Then, is a simple algebra with center .     Let be a nonzero two-sided ideal of . We show that . Let be a nonzero element. Then, we can write for some . For we write . Then, we have the following relations. Now , , and . So, if one of is nonzero then, will contain a unit, and thus, . If , then for some nonzero . Thus, , and hence, .  If then we must have . This implies that . Thus, .    Canonical involution of Quaternion algebra   Let be a field of characteristic not , and a quaternion algebra. The canonical involution on is given by       The canonical involution is an antiautomorphism of order , i.e., for any we have the following.      Finite-dimension division algebra   An -algebra is said to be finite-dimensional division algebra if is finite dimensional as an -vector space, and every nonzero element of is invertible.    Now we classify finite-dimensional division algebras over . We begin with the following lemma.    Let be a finite-dimensional division algebra over . Then, for every element there exists such that .     Let be an -dimensional division algebra over . Then, the set is linearly dependent over . Thus, there exists , not all zero, such that . Since is a division algebra, we must have , and hence by dividing by , we may assume that the polynomial is monic. Over , the polynomial will splits into linear and quadratic factors. Say Thus, Since is a division algebra, one of the factors is zero. This proves the lemma.     Let be a finite-dimensional division algebra over . Let . Then, is an -vector subspace of , and .     Note that if and then, and hence there exists such that . Thus, , i.e., . Now assume that . We show that . We further assume that are -linearly independent. We claim that are -linearly independent. If there are with then, . This gives . This implies that either or . One may check that this gives . We have thus shown that are linearly independent. By , there exists such that While . This gives . Since are -linearly independent, we must have . Thus, .  We leave it to the reader to check that is closed under scalar multiplication. This shows that is an -vector subspace of . Further, check that .  For there exists such that . Note that and hence, . This shows that .     Let be a finite-dimensional division algebra over . If the dimension of is , then there exist such that , , and are linearly independent over .     By , . Suppose that are linearly independent over . Consider the element . Set It is left to the reader to check that defined above satisfies . To check the linear independence of we consider such that . However, implies that for all .    Classification of finite-dimensional division algebras over   A finite-dimensional division algebra over is isomorphic to either , or .     Let , where is a finite-dimensional division algebra over .   If then, .    If then, (see ) and it contains with .    By , the case does not appear and if then, .    Suppose that . By , there are such that and . In this case (see ), so there exists which is not in the linear span of . Consider the following element of . We get the following relations. This implies that , a contradiction because . Hence, can not be greater than .        There are no proper nontrivial finite-dimentional division algebras over .     Suppose that is a finite-dimensional division algebra over . Let . As is finite-dimensional, is an algebraic element over . Thus, because is algebraically closed field. This shows that .   "
 },
 {
   "id": "def-quaternion-algebra",
@@ -433,11 +433,20 @@ var ptx_lunr_docs = [
   "body": " Hamiltonian quaternion algebra   The algebra is Hamiltonion quaternion algebra over the field of real numbers . It is usually denoted by .   "
 },
 {
+  "id": "def-degree-of-quaternion-algebra",
+  "level": "2",
+  "url": "sec-quaternions.html#def-degree-of-quaternion-algebra",
+  "type": "Definition",
+  "number": "1.6.4",
+  "title": "Degree of Quaternion algebra.",
+  "body": " Degree of Quaternion algebra   Let be a quaternion algebra over a field of characteristic different from . The degree of , , i.e., .   "
+},
+{
   "id": "def-simple-algebra",
   "level": "2",
   "url": "sec-quaternions.html#def-simple-algebra",
   "type": "Definition",
-  "number": "1.6.4",
+  "number": "1.6.5",
   "title": "Simple algebra.",
   "body": " Simple algebra   Let be an -algebra of finite dimension as an -vector space. We say that is a simple algebra if the only two-sided ideals of are and .   "
 },
@@ -446,14 +455,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quaternions.html#prop-quaternion-algebra-is-simple",
   "type": "Proposition",
-  "number": "1.6.5",
+  "number": "1.6.6",
   "title": "",
   "body": "  Let be a quaternion algebra over . Then, is a simple algebra with center .   "
 },
 {
-  "id": "sec-quaternions-8",
+  "id": "sec-quaternions-9",
   "level": "2",
-  "url": "sec-quaternions.html#sec-quaternions-8",
+  "url": "sec-quaternions.html#sec-quaternions-9",
   "type": "Proof",
   "number": "1.6.1",
   "title": "",
@@ -464,16 +473,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quaternions.html#def-canonical-involution-on-quaternion",
   "type": "Definition",
-  "number": "1.6.6",
+  "number": "1.6.7",
   "title": "Canonical involution of Quaternion algebra.",
   "body": " Canonical involution of Quaternion algebra   Let be a field of characteristic not , and a quaternion algebra. The canonical involution on is given by    "
 },
 {
-  "id": "sec-quaternions-10",
+  "id": "sec-quaternions-11",
   "level": "2",
-  "url": "sec-quaternions.html#sec-quaternions-10",
+  "url": "sec-quaternions.html#sec-quaternions-11",
   "type": "Note",
-  "number": "1.6.7",
+  "number": "1.6.8",
   "title": "",
   "body": "  The canonical involution is an antiautomorphism of order , i.e., for any we have the following.    "
 },
@@ -482,7 +491,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quaternions.html#def-finite-dimensional-division-algebra",
   "type": "Definition",
-  "number": "1.6.8",
+  "number": "1.6.9",
   "title": "Finite-dimension division algebra.",
   "body": " Finite-dimension division algebra   An -algebra is said to be finite-dimensional division algebra if is finite dimensional as an -vector space, and every nonzero element of is invertible.   "
 },
@@ -491,14 +500,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quaternions.html#lem-element-satisfies-quadratic-equation-over-reals",
   "type": "Lemma",
-  "number": "1.6.9",
+  "number": "1.6.10",
   "title": "",
   "body": "  Let be a finite-dimensional division algebra over . Then, for every element there exists such that .   "
 },
 {
-  "id": "sec-quaternions-14",
+  "id": "sec-quaternions-15",
   "level": "2",
-  "url": "sec-quaternions.html#sec-quaternions-14",
+  "url": "sec-quaternions.html#sec-quaternions-15",
   "type": "Proof",
   "number": "1.6.2",
   "title": "",
@@ -509,14 +518,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quaternions.html#lem-orthogonal-complement-of-reals-in-division-algebra",
   "type": "Lemma",
-  "number": "1.6.10",
+  "number": "1.6.11",
   "title": "",
   "body": "  Let be a finite-dimensional division algebra over . Let . Then, is an -vector subspace of , and .   "
 },
 {
-  "id": "sec-quaternions-16",
+  "id": "sec-quaternions-17",
   "level": "2",
-  "url": "sec-quaternions.html#sec-quaternions-16",
+  "url": "sec-quaternions.html#sec-quaternions-17",
   "type": "Proof",
   "number": "1.6.3",
   "title": "",
@@ -527,14 +536,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quaternions.html#lem-existence-of-i-j-k-in-division-algebra",
   "type": "Lemma",
-  "number": "1.6.11",
+  "number": "1.6.12",
   "title": "",
   "body": "  Let be a finite-dimensional division algebra over . If the dimension of is , then there exist such that , , and are linearly independent over .   "
 },
 {
-  "id": "sec-quaternions-18",
+  "id": "sec-quaternions-19",
   "level": "2",
-  "url": "sec-quaternions.html#sec-quaternions-18",
+  "url": "sec-quaternions.html#sec-quaternions-19",
   "type": "Proof",
   "number": "1.6.4",
   "title": "",
@@ -545,14 +554,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quaternions.html#thm-division-algebras-over-R",
   "type": "Theorem",
-  "number": "1.6.12",
+  "number": "1.6.13",
   "title": "Classification of finite-dimensional division algebras over <span class=\"process-math\">\\(\\R\\)<\/span>.",
   "body": " Classification of finite-dimensional division algebras over   A finite-dimensional division algebra over is isomorphic to either , or .   "
 },
 {
-  "id": "sec-quaternions-20",
+  "id": "sec-quaternions-21",
   "level": "2",
-  "url": "sec-quaternions.html#sec-quaternions-20",
+  "url": "sec-quaternions.html#sec-quaternions-21",
   "type": "Proof",
   "number": "1.6.5",
   "title": "",
@@ -563,14 +572,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quaternions.html#lem-division-algebras-over-C",
   "type": "Lemma",
-  "number": "1.6.13",
+  "number": "1.6.14",
   "title": "",
   "body": "  There are no proper nontrivial finite-dimentional division algebras over .   "
 },
 {
-  "id": "sec-quaternions-22",
+  "id": "sec-quaternions-23",
   "level": "2",
-  "url": "sec-quaternions.html#sec-quaternions-22",
+  "url": "sec-quaternions.html#sec-quaternions-23",
   "type": "Proof",
   "number": "1.6.6",
   "title": "",
@@ -583,7 +592,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.7",
   "title": "Reduced trace and reduced norm in Quaternion algebra",
-  "body": " Reduced trace and reduced norm in Quaternion algebra   In this section we define the trace and the norm of a quaternion. Throughout this section we assume that is a field of characteristic not and that is a quaternion algebra.     Let . The reduced trace of is and the reduced norm of is , where is the canonical involution (see ).      Suppose that is a field of characteristic not and that is a quaternion algebra.    is an -linear map.    For , . In fact, if then, .         Suppose that is a field of characteristic not and that is a quaternion algebra.    is multiplicative, i.e., .    For , . In fact, if then, .    An element is invertible if and only if .         Show the following.    and are division algebras;     is not a division algebra;     is not a division algebra.       "
+  "body": " Reduced trace and reduced norm in Quaternion algebra   In this section we define the trace and the norm of a quaternion. Throughout this section we assume that is a field of characteristic not and that is a quaternion algebra.     Let . The reduced trace of is and the reduced norm of is , where is the canonical involution (see ).      Suppose that is a field of characteristic not and that is a quaternion algebra.    is an -linear map.    For , . In fact, if then, .         Suppose that is a field of characteristic not and that is a quaternion algebra.    is multiplicative, i.e., .    For , . In fact, if then, .    An element is invertible if and only if .         Show the following.    and are division algebras;     is not a division algebra;     is not a division algebra.         Suppose that is a field of characteristic not and that is a quaternion algebra. Consider . The map given by is an -linear. If is the matrix of with respect to the basis then,   the trace of the matrix , , and    the determinant of the matrix , .        We leave it to the reader to check that the map is -linear, also see . The following is the matrix of with respect to the basis . Thus, . The determinant of the matrix is One may verify that .   "
 },
 {
   "id": "def-trace-norm-quaternion",
@@ -620,6 +629,24 @@ var ptx_lunr_docs = [
   "number": "1.7.4",
   "title": "",
   "body": "  Show the following.    and are division algebras;     is not a division algebra;     is not a division algebra.      "
+},
+{
+  "id": "lem-matrix-of-left-multiplication",
+  "level": "2",
+  "url": "sec-sec-quaternions.html#lem-matrix-of-left-multiplication",
+  "type": "Lemma",
+  "number": "1.7.5",
+  "title": "",
+  "body": "  Suppose that is a field of characteristic not and that is a quaternion algebra. Consider . The map given by is an -linear. If is the matrix of with respect to the basis then,   the trace of the matrix , , and    the determinant of the matrix , .      "
+},
+{
+  "id": "sec-sec-quaternions-8",
+  "level": "2",
+  "url": "sec-sec-quaternions.html#sec-sec-quaternions-8",
+  "type": "Proof",
+  "number": "1.7.1",
+  "title": "",
+  "body": " We leave it to the reader to check that the map is -linear, also see . The following is the matrix of with respect to the basis . Thus, . The determinant of the matrix is One may verify that .  "
 },
 {
   "id": "backmatter-2",

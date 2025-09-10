@@ -42,6 +42,16 @@
             </p>
         </statement>
     </note>
+    <definition xml:id="def-degree-of-quaternion-algebra">
+        <title>Degree of Quaternion algebra</title>
+        
+        
+        <statement>
+            <p>
+                Let <m>Q=(a,b)_F</m> be a quaternion algebra over a field <m>F</m> of characteristic different from <m>2</m>. The <term>degree</term> of <m>Q</m>, <m>\deg Q=\sqrt{\dim_FQ}</m>, i.e., <m>\deg Q=2</m>.
+            </p>
+        </statement>
+    </definition>
     <definition xml:id="def-simple-algebra">
         <title>Simple algebra</title>
         

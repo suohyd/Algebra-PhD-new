@@ -81,4 +81,37 @@
             </p>
         </statement>
     </exercise>
+    <lemma xml:id="lem-matrix-of-left-multiplication">
+        <statement>
+            <p>
+                Suppose that <m>F</m> is a field of characteristic not <m>2</m> and that <m>Q=(a,b)_F</m> is a quaternion algebra. Consider <m>q=x+yi+zj+wk\in Q</m>.
+                The map <m>L_q\colon Q\to Q</m> given by <m>r\mapsto qr</m> is an <m>F</m>-linear. If <m>[L_q]</m> is the matrix of <m>L_q</m> with respect to the basis <m>\{1,i,j,k\}</m> then,
+                <ol>
+                    <li>
+                        <p>
+                            the trace of the matrix <m>\left[L_q\right]</m>, <m>\tr\left[L_q\right]=2\Trd{Q}(q)</m>, and
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            the determinant of the matrix <m>\left[L_q\right]</m>, <m>\det\left[L_q\right]=\left(\Nrd{Q}(q)\right)^2</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            We leave it to the reader to check that the map is <m>F</m>-linear, also see <xref ref="ex-regular-representation"/>. The following is the matrix of <m>L_q</m> with respect to the basis <m>\{1,i,j,k\}</m>.
+            <me>
+                \left[L_q\right]=\begin{pmatrix}x\amp ay\amp bz\amp -abw\\y\amp x\amp bw\amp -bz\\z\amp -aw\amp x\amp ay\\w\amp -z\amp y\amp x\end{pmatrix}
+            </me>
+            Thus, <m>\tr\left[L_q\right]=2\Trd{Q}(q)</m>. The determinant of the matrix is 
+            <me>
+                \det\left[L_q\right]=a^2b^2w^4+x^4+2abw^2x^2+a^2y^4-2a^2bw^2y^2-2ax^2y^2+b^2z^4-2ab^2w^2z^2-2bx^2z^2+2aby^2z^2.
+            </me>
+            One may verify that <m>\det\left[L_q\right]=\left(\Nrd{Q}(q)\right)^2</m>.
+        </p>
+    </proof>
 </section>
