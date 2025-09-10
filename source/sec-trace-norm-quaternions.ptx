@@ -45,7 +45,12 @@
                     </li>
                     <li>
                         <p>
-                            For <m>x\in Q</m>, <m>\Nrd{Q}(x)\in F</m>. In fact, if <m>x=x_0+x_1i+x_2j+x_3</m> then, <m>\Nrd{Q}(x)=x_0^2-ax_1^2-bx_2^2+abx_3^2</m>.
+                            For <m>x\in Q</m>, we have <m>\Nrd{Q}(x)\in F</m>. In fact, if <m>x=x_0+x_1i+x_2j+x_3</m> then, <m>\Nrd{Q}(x)=x_0^2-ax_1^2-bx_2^2+abx_3^2</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            For <m>x\in Q</m>, we have <m>\Nrd{Q}(x)=\Nrd{Q}\left(\gamma(x)\right)</m>.
                         </p>
                     </li>
                     <li>
@@ -81,6 +86,27 @@
             </p>
         </statement>
     </exercise>
+    <lemma xml:id="lem-quadratic-equation-satisfied-by-quaternion">
+        <statement>
+            <p>
+                Let <m>Q</m> be a quaternion algebra over a field <m>F</m> of characteristic <m>\neq 2</m>. Every <m>x\in Q</m> satisfy a quadratic polynomial over <m>F</m>, viz.,
+                <me>
+                    x^2-\Trd{Q}(x)x+\Nrd{Q}(x)=0.
+                </me>
+                
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            Indeed,
+            <md>
+                <mrow>x^2-\Trd{Q}(x)x+\Nrd{Q}(x) \amp = x^2-(x+\gamma(x))x+x\gamma(x)</mrow>
+                <mrow> \amp = x^2-x^2-\gamma(x)x+x\gamma(x)</mrow>
+                <mrow> \amp = 0.</mrow>
+            </md>
+        </p>
+    </proof>
     <lemma xml:id="lem-matrix-of-left-multiplication">
         <statement>
             <p>

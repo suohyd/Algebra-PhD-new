@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-finite-dim-division-over-R" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Finite-dimensional division algebras over real numbers</title>
+    <title>Finite-dimensional division algebras over real and complex numbers</title>
     <p>
             We classify finite-dimensional division algebras over <m>\R</m>. We begin with the following lemma.
     </p>
