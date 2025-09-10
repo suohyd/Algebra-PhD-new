@@ -191,4 +191,16 @@
             </ol>
         </p>
     </proof>
+    <lemma xml:id="lem-division-algebras-over-C">
+        <statement>
+            <p>
+                There are no proper nontrivial finite-dimentional division algebras over <m>\C</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            Suppose that <m>D</m> is a finite-dimensional division algebra over <m>\C</m>. Let <m>d\in D</m>. As <m>D</m> is finite-dimensional, <m>d</m> is an algebraic element over <m>\C</m>. Thus, <m>d\in\C</m> because <m>\C</m> is algebraically closed field. This shows that <m>D=\C</m>.
+        </p>
+    </proof>
 </section>
