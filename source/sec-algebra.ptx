@@ -10,7 +10,7 @@
     
     <statement>
       <p>
-        Let <m>R</m> be a commutative ring with unity <m>1_R</m>. An <term><m>R</m>-algebra</term> or algebra over <m>R</m> is a unital right <m>R</m>-module <m>A</m> together with <m>R</m>-bilinear map <m>A\times A\to A</m> denoted by <m>(x,y)\mapsto xy</m> that is associative, i.e., <m>(xy)z=x(yz)</m> for all <m>x,y,z\in A</m>, and there is a unity <m>1_A\in A</m> such that <m>1_Rx=x1_R=x</m> for all <m>x\in A</m>.
+        Let <m>R</m> be a commutative ring with unity <m>1_R</m>. An <term><m>R</m>-algebra</term> or algebra over <m>R</m> is a unital right <m>R</m>-module <m>A</m> together with <m>R</m>-bilinear map <m>A\times A\to A</m> denoted by <m>(x,y)\mapsto xy</m> that is associative, i.e., <m>(xy)z=x(yz)</m> for all <m>x,y,z\in A</m>, and there is a unity <m>1_A\in A</m> such that <m>1_Ax=x1_A=x</m> for all <m>x\in A</m>.
       </p>
     </statement>
   </definition>
