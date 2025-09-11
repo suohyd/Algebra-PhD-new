@@ -268,7 +268,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Morphisms of algebras",
-  "body": " Morphisms of algebras   Homomorphism -algebras   Let be a commutative ring with unity. Let and be -algebras. An R-algebra homomorphism (or simply, a morphism of -algebras ) is a map which is both a ring homomorphism and an -module homomorphism.  An -algebra homomorphism from to itself is called an endormorphism of -algebras . The set of all endomorphisms of -algebras is denoted by .     Regular representation   Let be a field, and let be an -algebra. For we define an -linear map by for all . The following map is called the regular representation of . We leave it to the reader to verify that the regular representation is a homomorphism of -algebras.  Note that as is unital is nonzero for all nonzero . Thus, the regular representation is injective.     Ideal of an -algebra   Let be a commutative ring with unity. Let be an -algebra. A subset is called a (two-sided) ideal of the -algebra if is an ideal of the ring and an -submodule of the -module .      Keep notations of . Suppose that is a two-sided ideal of the ring . It is also -submodule of . Indeed, for and we have the following.      Quotient algebra   Let be a commutative ring with unity. Let be an -algebra. Show that the quotient is an -algebra for any ideal of . Furthermore, show that the natural projection is an -algebra homomorphism.  If is homomorphism of -algebras, then show that is an ideal of and that the image of is an -subalgebra of . Furthermore, show that as -algebras.     Factorization criterion   Let be a commutative ring with unity. Let and be homomorphisms of -algebras with surjective. Show that factors through (i.e., there exists a homomorphism of -algebras such that if and only if .   Factorization criterion   Factorization criterion diagram     In other words, there exists a dotted arrow ( -algebra homomorphism ) making the above diagram commutative if and only if .     Isomorphism of -algebras   Let be a commutative ring with unity. Let and be -algebras. An -algebra homomorphism is an isomorphism of -algebras if there exists an -algebra homomorphism such that and . In this case, we say that and are isomorphic as -algebras and we write .  An -algebra isomorphism from to itself is called an automorphism of -algebras . The set of all automorphisms of -algebras is denoted by .     Subalgebra   Let be a commutative ring with unity. Let be an -algebra. An -algebra is called an -subalgebra of if and the inclusion map is an -algebra homomorphism.    "
+  "body": " Morphisms of algebras   Homomorphism of -algebras   Let be a commutative ring with unity. Let and be -algebras. An R-algebra homomorphism (or simply, a morphism of -algebras ) is a map which is both a ring homomorphism and an -module homomorphism.  An -algebra homomorphism from to itself is called an endormorphism of -algebras . The set of all endomorphisms of -algebras is denoted by .     Regular representation   Let be a field, and let be an -algebra. For we define an -linear map by for all . The following map is called the regular representation of . We leave it to the reader to verify that the regular representation is a homomorphism of -algebras.  Note that as is unital is nonzero for all nonzero . Thus, the regular representation is injective.     Ideal of an -algebra   Let be a commutative ring with unity. Let be an -algebra. A subset is called a (two-sided) ideal of the -algebra if is an ideal of the ring and an -submodule of the -module .      Keep notations of . Suppose that is a two-sided ideal of the ring . It is also -submodule of . Indeed, for and we have the following.      Quotient algebra   Let be a commutative ring with unity. Let be an -algebra. Show that the quotient is an -algebra for any ideal of . Furthermore, show that the natural projection is an -algebra homomorphism.  If is homomorphism of -algebras, then show that is an ideal of and that the image of is an -subalgebra of . Furthermore, show that as -algebras.     Factorization criterion   Let be a commutative ring with unity. Let and be homomorphisms of -algebras with surjective. Show that factors through (i.e., there exists a homomorphism of -algebras such that if and only if .   Factorization criterion   Factorization criterion diagram     In other words, there exists a dotted arrow ( -algebra homomorphism ) making the above diagram commutative if and only if .     Isomorphism of -algebras   Let be a commutative ring with unity. Let and be -algebras. An -algebra homomorphism is an isomorphism of -algebras if there exists an -algebra homomorphism such that and . In this case, we say that and are isomorphic as -algebras and we write .  An -algebra isomorphism from to itself is called an automorphism of -algebras . The set of all automorphisms of -algebras is denoted by .     Subalgebra   Let be a commutative ring with unity. Let be an -algebra. An -algebra is called an -subalgebra of if and the inclusion map is an -algebra homomorphism.    "
 },
 {
   "id": "def-morphism-of-algebras",
@@ -276,8 +276,8 @@ var ptx_lunr_docs = [
   "url": "sec-morphisms-of-algebras.html#def-morphism-of-algebras",
   "type": "Definition",
   "number": "1.4.1",
-  "title": "Homomorphism <span class=\"process-math\">\\(R\\)<\/span>-algebras.",
-  "body": " Homomorphism -algebras   Let be a commutative ring with unity. Let and be -algebras. An R-algebra homomorphism (or simply, a morphism of -algebras ) is a map which is both a ring homomorphism and an -module homomorphism.  An -algebra homomorphism from to itself is called an endormorphism of -algebras . The set of all endomorphisms of -algebras is denoted by .   "
+  "title": "Homomorphism of <span class=\"process-math\">\\(R\\)<\/span>-algebras.",
+  "body": " Homomorphism of -algebras   Let be a commutative ring with unity. Let and be -algebras. An R-algebra homomorphism (or simply, a morphism of -algebras ) is a map which is both a ring homomorphism and an -module homomorphism.  An -algebra homomorphism from to itself is called an endormorphism of -algebras . The set of all endomorphisms of -algebras is denoted by .   "
 },
 {
   "id": "ex-regular-representation",
@@ -403,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Quaternion algebra",
-  "body": " Quaternion algebra   Throughout this section we assume that is a field with . The set of nonzero elements of is denoted by .    Quaternion algebra   Let . The quaternion algebra  or is the four-dimensional -vector space with basis and multiplication defined by the following relations and with as unity of . We assume the associativity of multiplication and extend the multiplication to all elements of by distributivity and linearity.  We get the following relations.       Keep notations of . The map defined by is an injective ring homomorphism. Thus, we can identify as a subalgebra of .     Hamiltonian quaternion algebra   The algebra is Hamiltonion quaternion algebra over the field of real numbers . It is usually denoted by .     Degree of Quaternion algebra   Let be a quaternion algebra over a field of characteristic different from . The degree of , , i.e., .     Simple algebra   Let be an -algebra of finite dimension as an -vector space. We say that is a simple algebra if the only two-sided ideals of are and .      Let be a quaternion algebra over . Then, is a simple algebra with center .     Let be a nonzero two-sided ideal of . We show that . Let be a nonzero element. Then, we can write for some . For we write . Then, we have the following relations. Now , , and . So, if one of is nonzero then, will contain a unit, and thus, . If , then for some nonzero . Thus, , and hence, .  If then we must have . This implies that . Thus, .    Canonical involution of Quaternion algebra   Let be a field of characteristic not , and a quaternion algebra. The canonical involution on is given by       The canonical involution is an antiautomorphism of order , i.e., for any we have the following.      Finite-dimension division algebra   An -algebra is said to be finite-dimensional division algebra if is finite dimensional as an -vector space, and every nonzero element of is invertible.    "
+  "body": " Quaternion algebra   Throughout this section we assume that is a field with . The set of nonzero elements of is denoted by .    Quaternion algebra   Let . The quaternion algebra  or is the four-dimensional -vector space with basis and multiplication defined by the following relations and with as unity of . We assume the associativity of multiplication and extend the multiplication to all elements of by distributivity and linearity.  We get the following relations.       Keep notations of . The map defined by is an injective ring homomorphism. Thus, we can identify as a subalgebra of .     Hamiltonian quaternion algebra   The algebra is Hamiltonion quaternion algebra over the field of real numbers . It is usually denoted by .     Degree of Quaternion algebra   Let be a quaternion algebra over a field of characteristic different from . The degree of , , i.e., .     Simple algebra   Let be an -algebra of finite dimension as an -vector space. We say that is a simple algebra if the only two-sided ideals of are and .      Let be a quaternion algebra over . Then, is a simple algebra with center .     Let be a nonzero two-sided ideal of . We show that . Let be a nonzero element. Then, we can write for some . For we write . Then, we have the following relations. Now , , and . So, if one of is nonzero then, will contain a unit, and thus, . If , then for some nonzero . Thus, , and hence, .  If then we must have . This implies that . Thus, .    Canonical involution of Quaternion algebra   Let be a field of characteristic not , and a quaternion algebra. The canonical involution on is given by       The canonical involution is an antiautomorphism of order , i.e., for any we have the following.   Furthermore, if and only if .    "
 },
 {
   "id": "def-quaternion-algebra",
@@ -484,16 +484,7 @@ var ptx_lunr_docs = [
   "type": "Note",
   "number": "2.1.8",
   "title": "",
-  "body": "  The canonical involution is an antiautomorphism of order , i.e., for any we have the following.    "
-},
-{
-  "id": "def-finite-dimensional-division-algebra",
-  "level": "2",
-  "url": "sec-quaternions.html#def-finite-dimensional-division-algebra",
-  "type": "Definition",
-  "number": "2.1.9",
-  "title": "Finite-dimension division algebra.",
-  "body": " Finite-dimension division algebra   An -algebra is said to be finite-dimensional division algebra if is finite dimensional as an -vector space, and every nonzero element of is invertible.   "
+  "body": "  The canonical involution is an antiautomorphism of order , i.e., for any we have the following.   Furthermore, if and only if .   "
 },
 {
   "id": "sec-sec-quaternions",
@@ -502,7 +493,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Reduced trace and reduced norm in Quaternion algebra",
-  "body": " Reduced trace and reduced norm in Quaternion algebra   In this section we define the trace and the norm of a quaternion. Throughout this section we assume that is a field of characteristic not and that is a quaternion algebra.     Let . The reduced trace of is and the reduced norm of is , where is the canonical involution (see ).      Suppose that is a field of characteristic not and that is a quaternion algebra.    is an -linear map.    For , . In fact, if then, .         Suppose that is a field of characteristic not and that is a quaternion algebra.    is multiplicative, i.e., .    For , we have . In fact, if then, .    For , we have , i.e., .    An element is invertible if and only if .         Show the following.    and are division algebras;     is not a division algebra;     is not a division algebra.         Let be a quaternion algebra over a field of characteristic . Every satisfy a quadratic polynomial over , viz.,      Indeed,      Suppose that is a field of characteristic not and that is a quaternion algebra. Consider . The map given by is an -linear. If is the matrix of with respect to the basis then,   the trace of the matrix , , and    the determinant of the matrix , .        We leave it to the reader to check that the map is -linear, also see . The following is the matrix of with respect to the basis . Thus, . The determinant of the matrix is One may verify that .   "
+  "body": " Reduced trace and reduced norm in Quaternion algebra   In this section we define the trace and the norm of a quaternion. Throughout this section we assume that is a field of characteristic not and that is a quaternion algebra.     Let . The reduced trace of is and the reduced norm of is , where is the canonical involution (see ).      Suppose that is a field of characteristic not and that is a quaternion algebra.   For , . In fact, if then, .     is an -linear map.         Suppose that is a field of characteristic not and that is a quaternion algebra.   For , we have . In fact, if then, .     is multiplicative, i.e., .    For , we have , i.e., .    An element is invertible if and only if .         Show the following.    and are division algebras;     is not a division algebra;     is not a division algebra.         Let be a quaternion algebra over a field of characteristic . Every satisfy a quadratic polynomial over , viz.,      Indeed,      Suppose that is a field of characteristic not and that is a quaternion algebra. Consider . The map given by is -linear. If is the matrix of with respect to the basis then,   the trace of the matrix , , and    the determinant of the matrix , .        We leave it to the reader to check that the map is -linear, also see . The following is the matrix of with respect to the basis . Thus, . The determinant of the matrix is One may verify that .   "
 },
 {
   "id": "def-trace-norm-quaternion",
@@ -520,7 +511,7 @@ var ptx_lunr_docs = [
   "type": "Lemma",
   "number": "2.2.2",
   "title": "",
-  "body": "  Suppose that is a field of characteristic not and that is a quaternion algebra.    is an -linear map.    For , . In fact, if then, .      "
+  "body": "  Suppose that is a field of characteristic not and that is a quaternion algebra.   For , . In fact, if then, .     is an -linear map.      "
 },
 {
   "id": "lem-basic-properties-norm",
@@ -529,7 +520,7 @@ var ptx_lunr_docs = [
   "type": "Lemma",
   "number": "2.2.3",
   "title": "",
-  "body": "  Suppose that is a field of characteristic not and that is a quaternion algebra.    is multiplicative, i.e., .    For , we have . In fact, if then, .    For , we have , i.e., .    An element is invertible if and only if .      "
+  "body": "  Suppose that is a field of characteristic not and that is a quaternion algebra.   For , we have . In fact, if then, .     is multiplicative, i.e., .    For , we have , i.e., .    An element is invertible if and only if .      "
 },
 {
   "id": "sec-sec-quaternions-6",
@@ -565,7 +556,7 @@ var ptx_lunr_docs = [
   "type": "Lemma",
   "number": "2.2.6",
   "title": "",
-  "body": "  Suppose that is a field of characteristic not and that is a quaternion algebra. Consider . The map given by is an -linear. If is the matrix of with respect to the basis then,   the trace of the matrix , , and    the determinant of the matrix , .      "
+  "body": "  Suppose that is a field of characteristic not and that is a quaternion algebra. Consider . The map given by is -linear. If is the matrix of with respect to the basis then,   the trace of the matrix , , and    the determinant of the matrix , .      "
 },
 {
   "id": "sec-sec-quaternions-10",
@@ -583,21 +574,30 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Finite-dimensional division algebras over real and complex numbers",
-  "body": " Finite-dimensional division algebras over real and complex numbers  We classify finite-dimensional division algebras over . We begin with the following lemma.    Let be a finite-dimensional division algebra over . Then, for every element there exists such that .     Let be an -dimensional division algebra over . Then, the set is linearly dependent over . Thus, there exists , not all zero, such that . Since is a division algebra, we must have , and hence by dividing by , we may assume that the polynomial is monic. Over , the polynomial will splits into linear and quadratic factors. Say Thus, Since is a division algebra, one of the factors is zero. This proves the lemma.     Let be a finite-dimensional division algebra over . Let . Then, is an -vector subspace of , and .     Note that if and then, and hence there exists such that . Thus, , i.e., . Now assume that . We show that . We further assume that are -linearly independent. We claim that are -linearly independent. If there are with then, . This gives . This implies that either or . One may check that this gives . We have thus shown that are linearly independent. By , there exists such that While . This gives . Since are -linearly independent, we must have . Thus, .  We leave it to the reader to check that is closed under scalar multiplication. This shows that is an -vector subspace of . Further, check that .  For there exists such that . Note that and hence, . This shows that .     Let be a finite-dimensional division algebra over . If the dimension of is , then there exist such that , , and are linearly independent over .     By , . Suppose that are linearly independent over . Consider the element . Set It is left to the reader to check that defined above satisfies . To check the linear independence of we consider such that . However, implies that for all .    Classification of finite-dimensional division algebras over   A finite-dimensional division algebra over is isomorphic to either , or .     Let , where is a finite-dimensional division algebra over .   If then, .    If then, (see ) and it contains with .    By , the case does not appear and if then, .    Suppose that . By , there are such that and . In this case (see ), so there exists which is not in the linear span of . Consider the following element of . We get the following relations. This implies that , a contradiction because . Hence, can not be greater than .        There are no proper nontrivial finite-dimentional division algebras over .     Suppose that is a finite-dimensional division algebra over . Let . As is finite-dimensional, is an algebraic element over . Thus, because is algebraically closed field. This shows that .   "
+  "body": " Finite-dimensional division algebras over real and complex numbers  We classify finite-dimensional division algebras over . We begin with the following definition.   Finite-dimension division algebra   Let be a field. An -algebra is said to be finite-dimensional division algebra if is finite dimensional as an -vector space, and every nonzero element of is invertible.      Let be a finite-dimensional division algebra over . Then, for every element there exists such that .     Let be an -dimensional division algebra over . Then, the set is linearly dependent over . Thus, there exists , not all zero, such that . Since is a division algebra, we must have , and hence by dividing by , we may assume that the polynomial is monic. Over , the polynomial will splits into linear and quadratic factors. Say Thus, Since is a division algebra, one of the factors is zero. This proves the lemma.     Let be a finite-dimensional division algebra over . Let . Then, is an -vector subspace of , and .     Note that if and then, and hence there exists such that . Thus, , i.e., . Now assume that . We show that . We further assume that are -linearly independent. We claim that are -linearly independent. If there are with then, . This gives . This implies that either or . One may check that this gives . We have thus shown that are linearly independent. By , there exists such that While . This gives . Since are -linearly independent, we must have . Thus, .  We leave it to the reader to check that is closed under scalar multiplication. This shows that is an -vector subspace of . Further, check that .  For there exists such that . Note that and hence, . This shows that .     Let be a finite-dimensional division algebra over . If the dimension of is , then there exist such that , , and are linearly independent over .     By , . Suppose that are linearly independent over . Consider the element . Set It is left to the reader to check that defined above satisfies . To check the linear independence of we consider such that . However, implies that for all .    Classification of finite-dimensional division algebras over   A finite-dimensional division algebra over is isomorphic to either , or .     Let , where is a finite-dimensional division algebra over .   If then, .    If then, (see ) and it contains with .    By , the case does not appear and if then, .    Suppose that . By , there are such that and . In this case (see ), so there exists which is not in the linear span of . Consider the following element of . We get the following relations. This implies that , a contradiction because . Hence, can not be greater than .        There are no proper nontrivial finite-dimentional division algebras over .     Suppose that is a finite-dimensional division algebra over . Let . As is finite-dimensional, is an algebraic element over . Thus, because is an algebraically closed field. This shows that .   "
+},
+{
+  "id": "def-finite-dimensional-division-algebra",
+  "level": "2",
+  "url": "sec-finite-dim-division-over-R.html#def-finite-dimensional-division-algebra",
+  "type": "Definition",
+  "number": "2.3.1",
+  "title": "Finite-dimension division algebra.",
+  "body": " Finite-dimension division algebra   Let be a field. An -algebra is said to be finite-dimensional division algebra if is finite dimensional as an -vector space, and every nonzero element of is invertible.   "
 },
 {
   "id": "lem-element-satisfies-quadratic-equation-over-reals",
   "level": "2",
   "url": "sec-finite-dim-division-over-R.html#lem-element-satisfies-quadratic-equation-over-reals",
   "type": "Lemma",
-  "number": "2.3.1",
+  "number": "2.3.2",
   "title": "",
   "body": "  Let be a finite-dimensional division algebra over . Then, for every element there exists such that .   "
 },
 {
-  "id": "sec-finite-dim-division-over-R-4",
+  "id": "sec-finite-dim-division-over-R-5",
   "level": "2",
-  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-4",
+  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-5",
   "type": "Proof",
   "number": "2.3.1",
   "title": "",
@@ -608,14 +608,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-dim-division-over-R.html#lem-orthogonal-complement-of-reals-in-division-algebra",
   "type": "Lemma",
-  "number": "2.3.2",
+  "number": "2.3.3",
   "title": "",
   "body": "  Let be a finite-dimensional division algebra over . Let . Then, is an -vector subspace of , and .   "
 },
 {
-  "id": "sec-finite-dim-division-over-R-6",
+  "id": "sec-finite-dim-division-over-R-7",
   "level": "2",
-  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-6",
+  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-7",
   "type": "Proof",
   "number": "2.3.2",
   "title": "",
@@ -626,14 +626,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-dim-division-over-R.html#lem-existence-of-i-j-k-in-division-algebra",
   "type": "Lemma",
-  "number": "2.3.3",
+  "number": "2.3.4",
   "title": "",
   "body": "  Let be a finite-dimensional division algebra over . If the dimension of is , then there exist such that , , and are linearly independent over .   "
 },
 {
-  "id": "sec-finite-dim-division-over-R-8",
+  "id": "sec-finite-dim-division-over-R-9",
   "level": "2",
-  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-8",
+  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-9",
   "type": "Proof",
   "number": "2.3.3",
   "title": "",
@@ -644,14 +644,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-dim-division-over-R.html#thm-division-algebras-over-R",
   "type": "Theorem",
-  "number": "2.3.4",
+  "number": "2.3.5",
   "title": "Classification of finite-dimensional division algebras over <span class=\"process-math\">\\(\\R\\)<\/span>.",
   "body": " Classification of finite-dimensional division algebras over   A finite-dimensional division algebra over is isomorphic to either , or .   "
 },
 {
-  "id": "sec-finite-dim-division-over-R-10",
+  "id": "sec-finite-dim-division-over-R-11",
   "level": "2",
-  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-10",
+  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-11",
   "type": "Proof",
   "number": "2.3.4",
   "title": "",
@@ -662,18 +662,18 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-dim-division-over-R.html#lem-division-algebras-over-C",
   "type": "Lemma",
-  "number": "2.3.5",
+  "number": "2.3.6",
   "title": "",
   "body": "  There are no proper nontrivial finite-dimentional division algebras over .   "
 },
 {
-  "id": "sec-finite-dim-division-over-R-12",
+  "id": "sec-finite-dim-division-over-R-13",
   "level": "2",
-  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-12",
+  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-13",
   "type": "Proof",
   "number": "2.3.5",
   "title": "",
-  "body": " Suppose that is a finite-dimensional division algebra over . Let . As is finite-dimensional, is an algebraic element over . Thus, because is algebraically closed field. This shows that .  "
+  "body": " Suppose that is a finite-dimensional division algebra over . Let . As is finite-dimensional, is an algebraic element over . Thus, because is an algebraically closed field. This shows that .  "
 },
 {
   "id": "backmatter-2",
@@ -682,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "References",
   "number": "",
   "title": "Bibliography",
-  "body": " Bibliography  Pierce, Richard S., Associative algebras , Graduate Texts in Mathematics, 88 , Springer, Cham, 1982 .  Lam, T. Y., Introduction to quadratic forms over fields , Graduate Studies in Mathematics, 67 , American Mathematical Society (AMS), Providence, RI, 2005 .  "
+  "body": " Bibliography  Lam, T. Y., Introduction to quadratic forms over fields , Graduate Studies in Mathematics, Volume 67, American Mathematical Society (AMS), Providence, RI, 2005 .  Pierce, Richard S., Associative algebras , Graduate Texts in Mathematics, Volume 88, Springer, Cham, 1982 .   "
 },
 {
   "id": "backmatter-3",
