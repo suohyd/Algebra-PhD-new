@@ -26,7 +26,7 @@
     <example>
         <statement>
             <p>
-                Let <m>R</m> be a commutative ring with unity, and let <m>A</m> be a right <m>R</m>-algebra. Let <m>M</m> be a left <m>A</m>-module. Then, <m>M</m> is <m>(\End{A}{M},A)</m>-bimodule.
+                Let <m>R</m> be a commutative ring with unity, and let <m>A</m> be a right <m>R</m>-algebra. Let <m>M</m> be a left <m>A</m>-module. Then, <m>M</m> is <m>(\LEnd{A}{M},A)</m>-bimodule.
             </p>
         </statement>
     </example>
@@ -37,10 +37,10 @@
                 Let <m>R</m> be a commutative ring with unity, and let <m>A</m> be a right <m>R</m>-algebra. If <m>M</m> is a left <m>A</m>-module, then <m>M</m> is an <m>(A,R)</m>-bimodule.
             </p>
             <p>
-                We can define <em>representation</em> of <m>L\colon A\to\End{R}{M}</m> by <m>a\mapsto L_a \,(m\mapsto a\cdot m)</m>. The map <m>L</m> is an <m>R</m>-algebra homomorphism.
+                We can define <em>representation</em> of <m>L\colon A\to\LEnd{R}{M}</m> by <m>a\mapsto L_a \,(m\mapsto a\cdot m)</m>. The map <m>L</m> is an <m>R</m>-algebra homomorphism.
             </p>
             <p>
-                Conversely, if <m>\varphi\colon A\to\End{R}{M}</m> is an <m>R</m>-algebra homomorphism, then <m>M</m> is a left <m>A</m>-module via <m>a\cdot m = \varphi(a)(m)</m> for all <m>a\in A</m> and <m>m\in M</m>.
+                Conversely, if <m>\varphi\colon A\to\LEnd{R}{M}</m> is an <m>R</m>-algebra homomorphism, then <m>M</m> is a left <m>A</m>-module via <m>a\cdot m = \varphi(a)(m)</m> for all <m>a\in A</m> and <m>m\in M</m>.
             </p>
             <p>
                 We leave it to the reader to check that there is a one-to-one correspondence between left <m>A</m>-modules and representations of <m>A</m>.
@@ -51,7 +51,7 @@
     <exercise>
         <statement>
             <p>
-                Let <m>R</m> be a commutative ring with unity, and let <m>A</m> be a right <m>R</m>-algebra. Suppose that <m>M</m> is a left <m>A</m>-module, and that <m>\phi,\psi</m> are <m>R</m>-algebra homomorphisms from <m>A</m> to <m>\End{R}{M}</m>. Show that the following are equivalent.
+                Let <m>R</m> be a commutative ring with unity, and let <m>A</m> be a right <m>R</m>-algebra. Suppose that <m>M</m> is a left <m>A</m>-module, and that <m>\phi,\psi</m> are <m>R</m>-algebra homomorphisms from <m>A</m> to <m>\LEnd{R}{M}</m>. Show that the following are equivalent.
                 <ol>
                     <li>
                         <p>
@@ -60,7 +60,7 @@
                     </li>
                     <li>
                         <p>
-                            There exists invertible <m>\theta\in\End{R}{M}</m> such that <m>\psi=\theta^{-1}\circ\phi\circ\phi</m>.
+                            There exists invertible <m>\theta\in\LEnd{R}{M}</m> such that <m>\psi=\theta^{-1}\circ\phi\circ\phi</m>.
                         </p>
                     </li>
                 </ol>
