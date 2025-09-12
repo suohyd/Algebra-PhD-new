@@ -19,12 +19,12 @@
         <p>
             Let <m>F</m> be a field, and let <m>A</m> be an <m>F</m>-algebra. For <m>a\in A</m> we define an <m>F</m>-linear map <m>L_a\colon A\to A</m> by <m>L_a(x)=ax</m> for all <m>x\in A</m>. The following map is called the <em>regular representation</em> of <m>A</m>.
             <me>
-                A\to\LEnd{F}{A},\quad\text{given by}\quad a\mapsto L_a
+                A\to\End{F}{A},\quad\text{given by}\quad a\mapsto L_a
             </me>
             We leave it to the reader to verify that the regular representation is a homomorphism of <m>F</m>-algebras.
         </p>
         <p>
-            Note that as <m>A</m> is unital <m>L_a\in\LEnd{F}{A}</m> is nonzero for all nonzero <m>a\in A</m>. Thus, the regular representation is injective.
+            Note that as <m>A</m> is unital <m>L_a\in\End{F}{A}</m> is nonzero for all nonzero <m>a\in A</m>. Thus, the regular representation is injective.
         </p>
     </statement>
   </example>
