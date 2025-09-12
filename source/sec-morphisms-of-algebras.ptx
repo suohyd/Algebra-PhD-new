@@ -13,6 +13,13 @@
         </p>
     </statement>
   </definition>
+  <note>
+    <statement>
+        <p>
+            The collection of <m>R</m>-module homomorphisms of <m>A</m> to itself will be denoted by <m>\End{R}{A}</m>.
+        </p>
+    </statement>
+  </note>
   <example xml:id="ex-regular-representation">
     <title>Regular representation</title>
     <statement>
