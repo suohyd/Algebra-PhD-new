@@ -268,7 +268,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Morphisms of algebras",
-  "body": " Morphisms of algebras   Homomorphism of -algebras   Let be a commutative ring with unity. Let and be -algebras. An R-algebra homomorphism (or simply, a morphism of -algebras ) is a map which is both a ring homomorphism and an -module homomorphism.  An -algebra homomorphism from to itself is called an endormorphism of -algebras . The set of all endomorphisms of -algebras is denoted by .     Regular representation   Let be a field, and let be an -algebra. For we define an -linear map by for all . The following map is called the regular representation of . We leave it to the reader to verify that the regular representation is a homomorphism of -algebras.  Note that as is unital is nonzero for all nonzero . Thus, the regular representation is injective.     Ideal of an -algebra   Let be a commutative ring with unity. Let be an -algebra. A subset is called a (two-sided) ideal of the -algebra if is an ideal of the ring and an -submodule of the -module .      Keep notations of . Suppose that is a two-sided ideal of the ring . It is also -submodule of . Indeed, for and we have the following.      Quotient algebra   Let be a commutative ring with unity. Let be an -algebra. Show that the quotient is an -algebra for any ideal of . Furthermore, show that the natural projection is an -algebra homomorphism.  If is homomorphism of -algebras, then show that is an ideal of and that the image of is an -subalgebra of . Furthermore, show that as -algebras.     Factorization criterion   Let be a commutative ring with unity. Let and be homomorphisms of -algebras with surjective. Show that factors through (i.e., there exists a homomorphism of -algebras such that if and only if .   Factorization criterion   Factorization criterion diagram     In other words, there exists a dotted arrow ( -algebra homomorphism ) making the above diagram commutative if and only if .     Isomorphism of -algebras   Let be a commutative ring with unity. Let and be -algebras. An -algebra homomorphism is an isomorphism of -algebras if there exists an -algebra homomorphism such that and . In this case, we say that and are isomorphic as -algebras and we write .  An -algebra isomorphism from to itself is called an automorphism of -algebras . The set of all automorphisms of -algebras is denoted by .     Subalgebra   Let be a commutative ring with unity. Let be an -algebra. An -algebra is called an -subalgebra of if and the inclusion map is an -algebra homomorphism.    "
+  "body": " Morphisms of algebras   Homomorphism of -algebras   Let be a commutative ring with unity. Let and be -algebras. An R-algebra homomorphism (or simply, a morphism of -algebras ) is a map which is both a ring homomorphism and an -module homomorphism.  An -algebra homomorphism from to itself is called an endormorphism of -algebras . The set of all endomorphisms of -algebras is denoted by .      The collection of -module homomorphisms of to itself will be denoted by .     Regular representation   Let be a field, and let be an -algebra. For we define an -linear map by for all . The following map is called the regular representation of . We leave it to the reader to verify that the regular representation is a homomorphism of -algebras.  Note that as is unital is nonzero for all nonzero . Thus, the regular representation is injective.     Ideal of an -algebra   Let be a commutative ring with unity. Let be an -algebra. A subset is called a (two-sided) ideal of the -algebra if is an ideal of the ring and an -submodule of the -module .      Keep notations of . Suppose that is a two-sided ideal of the ring . It is also -submodule of . Indeed, for and we have the following.      Quotient algebra   Let be a commutative ring with unity. Let be an -algebra. Show that the quotient is an -algebra for any ideal of . Furthermore, show that the natural projection is an -algebra homomorphism.  If is homomorphism of -algebras, then show that is an ideal of and that the image of is an -subalgebra of . Furthermore, show that as -algebras.     Factorization criterion   Let be a commutative ring with unity. Let and be homomorphisms of -algebras with surjective. Show that factors through (i.e., there exists a homomorphism of -algebras such that if and only if .   Factorization criterion   Factorization criterion diagram     In other words, there exists a dotted arrow ( -algebra homomorphism ) making the above diagram commutative if and only if .     Isomorphism of -algebras   Let be a commutative ring with unity. Let and be -algebras. An -algebra homomorphism is an isomorphism of -algebras if there exists an -algebra homomorphism such that and . In this case, we say that and are isomorphic as -algebras and we write .  An -algebra isomorphism from to itself is called an automorphism of -algebras . The set of all automorphisms of -algebras is denoted by .     Subalgebra   Let be a commutative ring with unity. Let be an -algebra. An -algebra is called an -subalgebra of if and the inclusion map is an -algebra homomorphism.    "
 },
 {
   "id": "def-morphism-of-algebras",
@@ -280,11 +280,20 @@ var ptx_lunr_docs = [
   "body": " Homomorphism of -algebras   Let be a commutative ring with unity. Let and be -algebras. An R-algebra homomorphism (or simply, a morphism of -algebras ) is a map which is both a ring homomorphism and an -module homomorphism.  An -algebra homomorphism from to itself is called an endormorphism of -algebras . The set of all endomorphisms of -algebras is denoted by .   "
 },
 {
+  "id": "sec-morphisms-of-algebras-3",
+  "level": "2",
+  "url": "sec-morphisms-of-algebras.html#sec-morphisms-of-algebras-3",
+  "type": "Note",
+  "number": "1.4.2",
+  "title": "",
+  "body": "  The collection of -module homomorphisms of to itself will be denoted by .   "
+},
+{
   "id": "ex-regular-representation",
   "level": "2",
   "url": "sec-morphisms-of-algebras.html#ex-regular-representation",
   "type": "Example",
-  "number": "1.4.2",
+  "number": "1.4.3",
   "title": "Regular representation.",
   "body": " Regular representation   Let be a field, and let be an -algebra. For we define an -linear map by for all . The following map is called the regular representation of . We leave it to the reader to verify that the regular representation is a homomorphism of -algebras.  Note that as is unital is nonzero for all nonzero . Thus, the regular representation is injective.   "
 },
@@ -293,7 +302,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-morphisms-of-algebras.html#def-ideal-of-algebra",
   "type": "Definition",
-  "number": "1.4.3",
+  "number": "1.4.4",
   "title": "Ideal of an <span class=\"process-math\">\\(R\\)<\/span>-algebra.",
   "body": " Ideal of an -algebra   Let be a commutative ring with unity. Let be an -algebra. A subset is called a (two-sided) ideal of the -algebra if is an ideal of the ring and an -submodule of the -module .   "
 },
@@ -302,7 +311,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-morphisms-of-algebras.html#note-ideal-of-algebra",
   "type": "Note",
-  "number": "1.4.4",
+  "number": "1.4.5",
   "title": "",
   "body": "  Keep notations of . Suppose that is a two-sided ideal of the ring . It is also -submodule of . Indeed, for and we have the following.    "
 },
@@ -311,7 +320,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-morphisms-of-algebras.html#exe-quotient-algebra",
   "type": "Checkpoint",
-  "number": "1.4.5",
+  "number": "1.4.6",
   "title": "Quotient algebra.",
   "body": " Quotient algebra   Let be a commutative ring with unity. Let be an -algebra. Show that the quotient is an -algebra for any ideal of . Furthermore, show that the natural projection is an -algebra homomorphism.  If is homomorphism of -algebras, then show that is an ideal of and that the image of is an -subalgebra of . Furthermore, show that as -algebras.   "
 },
@@ -320,7 +329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-morphisms-of-algebras.html#exe-factorization-criterion",
   "type": "Checkpoint",
-  "number": "1.4.6",
+  "number": "1.4.7",
   "title": "Factorization criterion.",
   "body": " Factorization criterion   Let be a commutative ring with unity. Let and be homomorphisms of -algebras with surjective. Show that factors through (i.e., there exists a homomorphism of -algebras such that if and only if .   Factorization criterion   Factorization criterion diagram     In other words, there exists a dotted arrow ( -algebra homomorphism ) making the above diagram commutative if and only if .   "
 },
@@ -329,7 +338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-morphisms-of-algebras.html#def-isomorphism-of-algebras",
   "type": "Definition",
-  "number": "1.4.8",
+  "number": "1.4.9",
   "title": "Isomorphism of <span class=\"process-math\">\\(R\\)<\/span>-algebras.",
   "body": " Isomorphism of -algebras   Let be a commutative ring with unity. Let and be -algebras. An -algebra homomorphism is an isomorphism of -algebras if there exists an -algebra homomorphism such that and . In this case, we say that and are isomorphic as -algebras and we write .  An -algebra isomorphism from to itself is called an automorphism of -algebras . The set of all automorphisms of -algebras is denoted by .   "
 },
@@ -338,7 +347,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-morphisms-of-algebras.html#def-subalgebra",
   "type": "Definition",
-  "number": "1.4.9",
+  "number": "1.4.10",
   "title": "Subalgebra.",
   "body": " Subalgebra   Let be a commutative ring with unity. Let be an -algebra. An -algebra is called an -subalgebra of if and the inclusion map is an -algebra homomorphism.   "
 },
