@@ -46,9 +46,9 @@
   <note xml:id="note-ideal-of-algebra">
     <statement>
         <p>
-            Keep notations of <xref ref="def-ideal-of-algebra"/>. Suppose that <m>I</m> is a two-sided ideal of the ring <m>A</m>. It is also <m>R</m>-submodule of <m>A</m>. Indeed, for <m>x\in I</m> and <m>r\in R</m> we have the following.
+            Keep notations of <xref ref="def-ideal-of-algebra"/>. Suppose that <m>I</m> is a two-sided ideal of the ring <m>A</m>. We claim that <m>I</m> is also an <m>R</m>-submodule of <m>A</m>. Indeed, for <m>x\in I</m> and <m>r\in R</m> we have the following.
             <me>
-                x\cdot r=x(r\cdot 1_A)\in A
+                x\cdot r=x(r\cdot 1_A)\in I
             </me>
             
         </p>
@@ -98,7 +98,7 @@
             Let <m>R</m> be a commutative ring with unity. Let <m>A</m> and <m>B</m> be <m>R</m>-algebras. An <m>R</m>-algebra homomorphism <m>\phi:A\to B</m> is an <em>isomorphism of <m>R</m>-algebras</em> if there exists an <m>R</m>-algebra homomorphism <m>\psi:B\to A</m> such that <m>\psi\circ\phi=\unit_A</m> and <m>\phi\circ\psi=\unit_B</m>. In this case, we say that <m>A</m> and <m>B</m> are <em>isomorphic as <m>R</m>-algebras</em> and we write <m>A\simeq B</m>.
         </p>
         <p>
-            An <m>R</m>-algebra isomorphism from <m>A</m> to itself is called an <em>automorphism of <m>R</m>-algebras</em>. The set of all automorphisms of <m>R</m>-algebras is denoted by <m>\Aut{R}{A}</m>.
+            An <m>R</m>-algebra isomorphism from <m>A</m> to itself is called an <em>automorphism of <m>R</m>-algebras</em>. The set of all automorphisms of <m>R</m>-algebras is denoted by <m>\AAut{R}{A}</m>.
         </p>
     </statement>
   </definition>
