@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-quadratic-space-associated-to-quaternion-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Quadratic space associated to quaternion-algebra</title>
+    <title>Quadratic space associated to quaternion algebra</title>
     <introduction>
         <p>
             Throughout this section we assume that <m>F</m> is a field with <m>{\rm ch}(F)\neq 2</m>. The set of nonzero elements of <m>F</m> is denoted by <m>\dot{F}</m>.
