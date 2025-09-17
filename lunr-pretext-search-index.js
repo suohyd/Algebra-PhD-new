@@ -412,7 +412,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Quaternion algebra",
-  "body": " Quaternion algebra   Throughout this section we assume that is a field with . The set of nonzero elements of is denoted by .    Quaternion algebra   Let . The quaternion algebra  or is the four-dimensional -vector space with basis and multiplication defined by the following relations and with as unity of . We assume the associativity of multiplication and extend the multiplication to all elements of by distributivity and linearity.  We get the following relations.       Keep notations of . The map defined by is an injective ring homomorphism. Thus, we can identify as a subalgebra of .     Hamiltonian quaternion algebra   The algebra is Hamiltonion quaternion algebra over the field of real numbers . It is usually denoted by .     Degree of Quaternion algebra   Let be a quaternion algebra over a field of characteristic different from . The degree of , , i.e., .     Simple algebra   Let be an -algebra of finite dimension as an -vector space. We say that is a simple algebra if the only two-sided ideals of are and .      Let be a quaternion algebra over . Then, is a simple algebra with center .     Let be a nonzero two-sided ideal of . We show that . Let be a nonzero element. Then, we can write for some . For we write . Then, we have the following relations. Now , , and . So, if one of is nonzero then, will contain a unit, and thus, . If , then for some nonzero . Thus, , and hence, .  If then we must have . This implies that . Thus, .    Canonical involution of Quaternion algebra   Let be a field of characteristic not , and a quaternion algebra. The canonical involution on is given by       The canonical involution is an antiautomorphism of order , i.e., for any we have the following.   Furthermore, if and only if .    "
+  "body": " Quaternion algebra   Throughout this section we assume that is a field with . The set of nonzero elements of is denoted by .    Quaternion algebra   Let . The quaternion algebra  or is the four-dimensional -vector space with basis and multiplication defined by the following relations and with as unity of . We assume the associativity of multiplication and extend the multiplication to all elements of by distributivity and linearity.  We get the following relations.       Keep notations of . The map defined by is an injective ring homomorphism. Thus, we can identify as a subalgebra of .     Hamiltonian quaternion algebra   The algebra is Hamiltonion quaternion algebra over the field of real numbers . It is usually denoted by .     as a quaternion algebra   Let be a field of characteristic not and a nonzero element. Consider the following matrices. Show that , , and that . Further show that is linearly independent over . Conclude that as an -algebra.     Degree of Quaternion algebra   Let be a quaternion algebra over a field of characteristic different from . The degree of , , i.e., .     Simple algebra   Let be an -algebra of finite dimension as an -vector space. We say that is a simple algebra if the only two-sided ideals of are and .      Let be a quaternion algebra over . Then, is a simple algebra with center .     Let be a nonzero two-sided ideal of . We show that . Let be a nonzero element. Then, we can write for some . For we write . Then, we have the following relations. Now , , and . So, if one of is nonzero then, will contain a unit, and thus, . If , then for some nonzero . Thus, , and hence, .  If then we must have . This implies that . Thus, .    Canonical involution of Quaternion algebra   Let be a field of characteristic not , and a quaternion algebra. The canonical involution on is given by       The canonical involution is an antiautomorphism of order , i.e., for any we have the following.   Furthermore, if and only if .     Pure quaternions   Let be a field of characteristic different from , and be a quaternion algebra over . The vector subspace of pure quaternions  is a vector subspace of spanned by , i.e.,       Let be a field of characteristic different from , and be a quaternion algebra over . Then,    implies that , and     if and only if and .       "
 },
 {
   "id": "def-quaternion-algebra",
@@ -442,11 +442,20 @@ var ptx_lunr_docs = [
   "body": " Hamiltonian quaternion algebra   The algebra is Hamiltonion quaternion algebra over the field of real numbers . It is usually denoted by .   "
 },
 {
+  "id": "ex-2-by-2-matrices-as-quaternion-algebra",
+  "level": "2",
+  "url": "sec-quaternions.html#ex-2-by-2-matrices-as-quaternion-algebra",
+  "type": "Checkpoint",
+  "number": "2.1.4",
+  "title": "<span class=\"process-math\">\\(M_2(F)\\)<\/span> as a quaternion algebra.",
+  "body": " as a quaternion algebra   Let be a field of characteristic not and a nonzero element. Consider the following matrices. Show that , , and that . Further show that is linearly independent over . Conclude that as an -algebra.   "
+},
+{
   "id": "def-degree-of-quaternion-algebra",
   "level": "2",
   "url": "sec-quaternions.html#def-degree-of-quaternion-algebra",
   "type": "Definition",
-  "number": "2.1.4",
+  "number": "2.1.5",
   "title": "Degree of Quaternion algebra.",
   "body": " Degree of Quaternion algebra   Let be a quaternion algebra over a field of characteristic different from . The degree of , , i.e., .   "
 },
@@ -455,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quaternions.html#def-simple-algebra",
   "type": "Definition",
-  "number": "2.1.5",
+  "number": "2.1.6",
   "title": "Simple algebra.",
   "body": " Simple algebra   Let be an -algebra of finite dimension as an -vector space. We say that is a simple algebra if the only two-sided ideals of are and .   "
 },
@@ -464,14 +473,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quaternions.html#prop-quaternion-algebra-is-simple",
   "type": "Proposition",
-  "number": "2.1.6",
+  "number": "2.1.7",
   "title": "",
   "body": "  Let be a quaternion algebra over . Then, is a simple algebra with center .   "
 },
 {
-  "id": "sec-quaternions-9",
+  "id": "sec-quaternions-10",
   "level": "2",
-  "url": "sec-quaternions.html#sec-quaternions-9",
+  "url": "sec-quaternions.html#sec-quaternions-10",
   "type": "Proof",
   "number": "2.1.1",
   "title": "",
@@ -482,18 +491,36 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quaternions.html#def-canonical-involution-on-quaternion",
   "type": "Definition",
-  "number": "2.1.7",
+  "number": "2.1.8",
   "title": "Canonical involution of Quaternion algebra.",
   "body": " Canonical involution of Quaternion algebra   Let be a field of characteristic not , and a quaternion algebra. The canonical involution on is given by    "
 },
 {
-  "id": "sec-quaternions-11",
+  "id": "sec-quaternions-12",
   "level": "2",
-  "url": "sec-quaternions.html#sec-quaternions-11",
+  "url": "sec-quaternions.html#sec-quaternions-12",
   "type": "Note",
-  "number": "2.1.8",
+  "number": "2.1.9",
   "title": "",
   "body": "  The canonical involution is an antiautomorphism of order , i.e., for any we have the following.   Furthermore, if and only if .   "
+},
+{
+  "id": "def-space-of-pure-quaternions",
+  "level": "2",
+  "url": "sec-quaternions.html#def-space-of-pure-quaternions",
+  "type": "Definition",
+  "number": "2.1.10",
+  "title": "Pure quaternions.",
+  "body": " Pure quaternions   Let be a field of characteristic different from , and be a quaternion algebra over . The vector subspace of pure quaternions  is a vector subspace of spanned by , i.e.,    "
+},
+{
+  "id": "lem-square-of-pure-quaternion",
+  "level": "2",
+  "url": "sec-quaternions.html#lem-square-of-pure-quaternion",
+  "type": "Lemma",
+  "number": "2.1.11",
+  "title": "",
+  "body": "  Let be a field of characteristic different from , and be a quaternion algebra over . Then,    implies that , and     if and only if and .      "
 },
 {
   "id": "sec-sec-quaternions",
@@ -683,6 +710,78 @@ var ptx_lunr_docs = [
   "number": "2.3.5",
   "title": "",
   "body": " Suppose that is a finite-dimensional division algebra over . Let . As is finite-dimensional, is an algebraic element over . Thus, because is an algebraically closed field. This shows that .  "
+},
+{
+  "id": "sec-quadratic-space-associated-to-quaternion-algebra",
+  "level": "1",
+  "url": "sec-quadratic-space-associated-to-quaternion-algebra.html",
+  "type": "Section",
+  "number": "2.4",
+  "title": "Quadratic space associated to quaternion-algebra",
+  "body": " Quadratic space associated to quaternion-algebra   Throughout this section we assume that is a field with . The set of nonzero elements of is denoted by .    Symmetric bilinear form associated to quaternion algebra   Let be a quaternion algebra over . The following map is a symmetric bilinear form associated to .      Quadratic form associated to quaternion algebra   We keep notations of above. The quadratic form  associated to is given by for .      For , we get that . In particular,      Matrix associated to   Keep notations of . The matrix associated to is the following matrix.      Regular\/nonsingular quadratic form   Keep notations of . The quadratic form or the symmetric bilinear form is said to be regular or nonsingular if the matrix associated to is invertible.      Keep notations of . The matrix associated to is a diagonal matrix , and is regular.     An easy calculations show that is an orthogonal basis with respect to . Hence, the matrix associated to is a diagonal matrix. More precisely, we get the following. As , we get that is regular.   "
+},
+{
+  "id": "def-symmetric-bilinear-form-associated-to-quaternion-algebra",
+  "level": "2",
+  "url": "sec-quadratic-space-associated-to-quaternion-algebra.html#def-symmetric-bilinear-form-associated-to-quaternion-algebra",
+  "type": "Definition",
+  "number": "2.4.1",
+  "title": "Symmetric bilinear form associated to quaternion algebra.",
+  "body": " Symmetric bilinear form associated to quaternion algebra   Let be a quaternion algebra over . The following map is a symmetric bilinear form associated to .    "
+},
+{
+  "id": "def-quadratic-form-associated-to-quaternion-algebra",
+  "level": "2",
+  "url": "sec-quadratic-space-associated-to-quaternion-algebra.html#def-quadratic-form-associated-to-quaternion-algebra",
+  "type": "Definition",
+  "number": "2.4.2",
+  "title": "Quadratic form associated to quaternion algebra.",
+  "body": " Quadratic form associated to quaternion algebra   We keep notations of above. The quadratic form  associated to is given by for .   "
+},
+{
+  "id": "note-reduced-norm-as-associated-quadratic-form",
+  "level": "2",
+  "url": "sec-quadratic-space-associated-to-quaternion-algebra.html#note-reduced-norm-as-associated-quadratic-form",
+  "type": "Note",
+  "number": "2.4.3",
+  "title": "",
+  "body": "  For , we get that . In particular,    "
+},
+{
+  "id": "def-matrix-associated-to-norm-form",
+  "level": "2",
+  "url": "sec-quadratic-space-associated-to-quaternion-algebra.html#def-matrix-associated-to-norm-form",
+  "type": "Definition",
+  "number": "2.4.4",
+  "title": "Matrix associated to <span class=\"process-math\">\\(b_Q\\)<\/span>.",
+  "body": " Matrix associated to   Keep notations of . The matrix associated to is the following matrix.    "
+},
+{
+  "id": "def-regular-quadratic-form",
+  "level": "2",
+  "url": "sec-quadratic-space-associated-to-quaternion-algebra.html#def-regular-quadratic-form",
+  "type": "Definition",
+  "number": "2.4.5",
+  "title": "Regular\/nonsingular quadratic form.",
+  "body": " Regular\/nonsingular quadratic form   Keep notations of . The quadratic form or the symmetric bilinear form is said to be regular or nonsingular if the matrix associated to is invertible.   "
+},
+{
+  "id": "lem-matrix-associated-to-norm-form-is-diagonal",
+  "level": "2",
+  "url": "sec-quadratic-space-associated-to-quaternion-algebra.html#lem-matrix-associated-to-norm-form-is-diagonal",
+  "type": "Lemma",
+  "number": "2.4.6",
+  "title": "",
+  "body": "  Keep notations of . The matrix associated to is a diagonal matrix , and is regular.   "
+},
+{
+  "id": "sec-quadratic-space-associated-to-quaternion-algebra-9",
+  "level": "2",
+  "url": "sec-quadratic-space-associated-to-quaternion-algebra.html#sec-quadratic-space-associated-to-quaternion-algebra-9",
+  "type": "Proof",
+  "number": "2.4.1",
+  "title": "",
+  "body": " An easy calculations show that is an orthogonal basis with respect to . Hence, the matrix associated to is a diagonal matrix. More precisely, we get the following. As , we get that is regular.  "
 },
 {
   "id": "backmatter-2",
