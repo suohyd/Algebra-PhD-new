@@ -42,6 +42,18 @@
             </p>
         </statement>
     </note>
+    <exercise xml:id="ex-2-by-2-matrices-as-quaternion-algebra">
+        <title><m>M_2(F)</m> as a quaternion algebra</title>
+        <statement>
+            <p>
+                Let <m>F</m> be a field of characteristic not <m>2</m> and <m>b\in F</m> a nonzero element. Consider the following matrices.
+                <me>
+                    X=\begin{pmatrix}1\amp 0\\0\amp -1\end{pmatrix}\quad\text{and}\quad Y=\begin{pmatrix}0\amp b\\1\amp 0\end{pmatrix}
+                </me>
+                Show that <m>X^2=I_2</m>, <m>Y^2=b\cdot I_2</m>, and that <m>XY=-YX</m>. Further show that <m>\{1,X,Y,XY\}</m> is linearly independent over <m>F</m>. Conclude that <m>(1,b)_F\simeq M_2(F)</m> as an <m>F</m>-algebra.
+            </p>
+        </statement>
+    </exercise>
     <definition xml:id="def-degree-of-quaternion-algebra">
         <title>Degree of Quaternion algebra</title>
         
@@ -108,4 +120,32 @@
             </p>
         </statement>
     </note>
+    <definition xml:id="def-space-of-pure-quaternions">
+        <title>Pure quaternions</title>
+        <statement>
+            <p>
+                Let <m>F</m> be a field of characteristic different from <m>2</m>, and <m>Q=(a,b)_F</m> be a quaternion algebra over <m>F</m>. The vector subspace of <em>pure quaternions</em> <m>Q_+</m> is a vector subspace of <m>Q=(a,b)_F</m> spanned by <m>i,j,k</m>, i.e., <me>Q_+=\{a_1i+a_2j+a_3k:a_1,a_2,a_3\in F\}.</me>
+            </p> 
+        </statement>
+    </definition>
+
+    <lemma xml:id="lem-square-of-pure-quaternion">
+        <statement>
+            <p>
+                Let <m>F</m> be a field of characteristic different from <m>2</m>, and <m>Q</m> be a quaternion algebra over <m>F</m>. Then,
+                <ol>
+                    <li>
+                        <p>
+                            <m>q\in Q_+</m> implies that <m>q\gamma(q)=-q^2</m>, and
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>x\in Q_+</m> if and only if <m>x\not\in F</m> and <m>x^2\in F</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </lemma>
 </section>

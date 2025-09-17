@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-quadratic-space-associated-to-quaternion-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Quadratic space associated to quaternion-algebra</title>
+    <introduction>
+        <p>
+            Throughout this section we assume that <m>F</m> is a field with <m>{\rm ch}(F)\neq 2</m>. The set of nonzero elements of <m>F</m> is denoted by <m>\dot{F}</m>.
+        </p>
+    </introduction>
+    <definition xml:id="def-symmetric-bilinear-form-associated-to-quaternion-algebra">
+        <title>Symmetric bilinear form associated to quaternion algebra</title>        
+        <statement>
+            <p>
+                Let <m>Q=(a,b)_F</m> be a quaternion algebra over <m>F</m>. The following map is a symmetric bilinear form associated to <m>Q</m>.
+                <me>
+                    b_Q\colon Q\times Q\to F\quad\text{given by}\quad (x,y)\mapsto\tfrac{1}{2}\left(x\gamma(y)+y\gamma(x)\right)=\tfrac{1}{2}\Trd{Q}\left(x\gamma(y)\right)
+                </me>
+            </p>
+        </statement>
+    </definition>
+    <definition xml:id="def-quadratic-form-associated-to-quaternion-algebra">
+        <title>Quadratic form associated to quaternion algebra</title>
+        <statement>
+            <p>
+                We keep notations of <xref ref="def-symmetric-bilinear-form-associated-to-quaternion-algebra"/> above. The quadratic form <m>q</m> <em>associated to <m>b_Q</m></em> is given by <m>q(x)=b_Q(x,x)</m> for <m>x\in Q</m>.
+            </p>
+        </statement>
+    </definition>
+    <note xml:id="note-reduced-norm-as-associated-quadratic-form">
+        <statement>
+            <p>
+                For <m>x\in Q</m>, we get that <m>q(x)=\Nrd{Q}(x)</m>. In particular,
+                <me>
+                    q(1)=1,\quad q(i)=-a\cdot 1,\quad q(j)=-b\cdot 1,\quad\text{and}\quad q(k)=ab\cdot 1.
+                </me>
+                
+            </p>
+        </statement>
+    </note>
+    <definition xml:id="def-matrix-associated-to-norm-form">
+        <title>Matrix associated to <m>b_Q</m></title>     
+        <statement>
+            <p>
+                Keep notations of <xref ref="def-symmetric-bilinear-form-associated-to-quaternion-algebra"/>. The <em>matrix associated to <m>b_Q</m></em> is the following matrix.
+                <me>
+                    \begin{pmatrix}b_Q(1,1)\amp b_Q(1,i)\amp b_Q(1,j)\amp b_Q(1,k)\\b_Q(i,1)\amp b_Q(i,i)\amp b_Q(i,j)\amp b_Q(i,k)\\b_Q(j,1)\amp b_Q(j,i)\amp b_Q(j,j)\amp b_Q(j,k)\\b_Q(k,1)\amp b_Q(k,i)\amp b_Q(k,j)\amp b_Q(k,k)\end{pmatrix}
+                </me>
+            </p>
+        </statement>
+    </definition>
+    <definition xml:id="def-regular-quadratic-form">
+        <title>Regular/nonsingular quadratic form</title>       
+        <statement>
+            <p>
+                Keep notations of <xref ref="def-symmetric-bilinear-form-associated-to-quaternion-algebra"/>. The quadratic form <m>q</m> or the symmetric bilinear form <m>b_Q</m> is said to be <em>regular</em> or <em>nonsingular</em> if the matrix associated to <m>b_Q</m> is invertible.
+            </p>
+        </statement>
+    </definition>
+    <lemma xml:id="lem-matrix-associated-to-norm-form-is-diagonal">
+        <statement>
+            <p>
+                Keep notations of <xref ref="def-symmetric-bilinear-form-associated-to-quaternion-algebra"/>. The matrix associated to <m>b_Q</m> is a diagonal matrix <m>{\rm diag}(1,-a,-b,ab)</m>, and <m>b_Q</m> is regular.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            An easy calculations show that <m>\{1,i,j,k\}</m> is an orthogonal basis with respect to <m>b_Q</m>. Hence, the matrix associated to <m>b_Q</m> is a diagonal matrix. More precisely, we get the following.
+                <me>
+                    \begin{pmatrix}b_Q(1,1)\amp b_Q(1,i)\amp b_Q(1,j)\amp b_Q(1,k)\\b_Q(i,1)\amp b_Q(i,i)\amp b_Q(i,j)\amp b_Q(i,k)\\b_Q(j,1)\amp b_Q(j,i)\amp b_Q(j,j)\amp b_Q(j,k)\\b_Q(k,1)\amp b_Q(k,i)\amp b_Q(k,j)\amp b_Q(k,k)\end{pmatrix}=\begin{pmatrix}1\amp 0\amp 0\amp 0\\0\amp -a\amp 0\amp 0\\0\amp 0\amp -b\amp 0\\0\amp 0\amp 0\amp ab\end{pmatrix}
+                </me>
+            As <m>a,b\in\dot{F}</m>, we get that <m>b_Q</m> is regular.
+        </p>
+    </proof>  
+</section>

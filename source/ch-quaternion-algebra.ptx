@@ -10,4 +10,5 @@
   <xi:include href="sec-quaternions.ptx" />
   <xi:include href="sec-trace-norm-quaternions.ptx" />
   <xi:include href="sec-finite-dim-division-over-R.ptx" />
+  <xi:include href="sec-quadratic-space-associated-to-quaternion-algebra.ptx" />
 </chapter>
