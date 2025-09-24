@@ -57,7 +57,7 @@
         <p>
             We first observe the following.
             <men xml:id="eq-decomposition-of-division-algebra-over-reals">
-                \text{If }d\in D\setminus V\text{ and }d^2\in\R\text{ then, }x\in\R.
+                \text{If }d\in D\setminus V\text{ and }d^2\in\R\text{ then, }d\in\R.
             </men>
             Indeed, if <m>d\in D\setminus V</m> and <m>d^2\in\R</m> then, <m>d^2&gt;0</m> and hence there exists <m>r\in\R</m> such that <m>d^2=r^2</m>. Thus, <m>0=(d-r)(d+r)\in D</m>, i.e., <m>d=\pm r\in\R</m>. Now assume that <m>u,v\in V</m>. We show that <m>u+v\in V</m>. We further assume that <m>u,v</m> are <m>\R</m>-linearly independent. We claim that <m>\{1,u,v\}</m> are <m>\R</m>-linearly independent. If there are <m>r,s,t\in\R</m> with <m>ru=sv+t</m> then, this will imply that <m>stv\in\R</m>. This implies that either <m>s=0</m> or <m>t=0</m>. One may check that this gives <m>r=s=t=0</m>. We have thus shown that <m>\{1,u,v\}</m> are linearly independent. By <xref ref="lem-element-satisfies-quadratic-equation-over-reals"/>, there exists <m>a,b\in\R</m> such that
             <me>
