@@ -85,7 +85,7 @@
     <theorem xml:id="thm-isomorphism-of-quaternion-algebra-with-associated-quadratic-space">
         <statement>
             <p>
-                Let <m>F</m> be a field of characteristic different from <m>2</m>. Suppose that <m>Q=(a,b)_F</m> and <m>Q'=(a',b')_F</m> are quaternion algebras over <m>F</m>. Then, <m>Q\simeq Q'</m> if and only if there exists an <m>F</m>-linear isomorphism <m>\ell\colon Q_+\to Q'_+</m> such that <m>\Nrd{Q'}(\ell(x))=\Nrd{Q}(x)</m> for all <m>x\in Q_+</m>.
+                Let <m>F</m> be a field of characteristic different from <m>2</m>. Suppose that <m>Q=(a,b)_F</m> and <m>Q'=(a',b')_F</m> are quaternion algebras over <m>F</m>. Then, <m>Q\simeq Q'</m> as an <m>F</m>-algebras if and only if there exists an <m>F</m>-linear isomorphism <m>\ell\colon Q_+\to Q'_+</m> such that <m>\Nrd{Q'}(\ell(x))=\Nrd{Q}(x)</m> for all <m>x\in Q_+</m>.
             </p>
         </statement>
     </theorem>
