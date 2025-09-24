@@ -25,17 +25,27 @@
     </lemma>
     <proof>
         <p>
-            Let <m>D</m> be an <m>n</m>-dimensional division algebra over <m>\R</m>. Then, the set <m>\{1,x,x^2,\ldots,x^n\}</m> is linearly dependent over <m>\R</m>. Thus, there exists <m>a_0,a_1,\ldots,a_n\in\R</m>, not all zero, such that <m>f(x)=a_0+a_1x+\cdots+a_nx^n=0</m>. Since <m>D</m> is a division algebra, we must have <m>a_n\neq 0</m>, and hence by dividing by <m>a_n^{-1}</m>, we may assume that the polynomial is monic. Over <m>\R</m>, the polynomial <m>f(t)</m> will splits into linear and quadratic factors. Say
+            Let <m>D</m> be an <m>n</m>-dimensional division algebra over <m>\R</m>. Then, the set <m>\{1,x,x^2,\ldots,x^n\}</m> is linearly dependent over <m>\R</m>. Thus, there exists <m>a_0,a_1,\ldots,a_n\in\R</m>, not all zero, such that <m>f(x)=a_0+a_1x+\cdots+a_nx^n=0</m>. We may assume that the polynomial is monic. Over <m>\R</m>, the polynomial <m>f(t)</m> will splits into linear and quadratic factors. Say
             <me>
                 f(t)=(t-\alpha_1)\cdots(t-\alpha_r)(t^2+b_1t+c_1)\cdots(t^2+b_st+c_s).
             </me>
-            Thus,
+            Using the fact that <m>\R</m> is in the center of <m>D</m> (see <xref ref="lem-algebra-in-center"/>), we get
             <me>
                 0=f(x)=(x-\alpha_1)\cdots(x-\alpha_r)(x^2+b_1x+c_1)\cdots(x^2+b_sx+c_s).
             </me>
             Since <m>D</m> is a division algebra, one of the factors is zero. This proves the lemma.
         </p>
     </proof>
+    <p>
+        One needs to be careful while <sq>evaluating</sq> a polynomial over an algebra at an element of the algebra. In fact, we require a definition of <sq>evaluation</sq>. We will define it later. The following exercise illustrates the point.
+    </p>
+    <exercise>
+        <statement>
+            <p>
+                Consider the Hamiltonian quaternion algebra <m>\mathbb{H}=(-1,-1)_\R</m>. Let <m>f(t)=t-i</m> and <m>g(t)=t-j</m>. Then, <m>f(i)g(i)=0</m> but <m>(fg)(i)\neq 0</m>, where <m>(fg)(t)=f(t)g(t)=t^2-(i+j)t+ij</m>.
+            </p>
+        </statement>
+    </exercise>
     <lemma xml:id="lem-orthogonal-complement-of-reals-in-division-algebra">
         <statement>
             <p>
@@ -45,7 +55,7 @@
     </lemma>
     <proof>
         <p>
-            Note that if <m>d\in D\setminus V</m> and <m>d^2\in\R</m> then, <m>d^2&gt;0</m> and hence there exists <m>r\in\R</m> such that <m>d^2=r^2</m>. Thus, <m>0=(d-r)(d+r)\in D</m>, i.e., <m>d=\pm r\in\R</m>. Now assume that <m>u,v\in V</m>. We show that <m>u+v\in V</m>. We further assume that <m>u,v</m> are <m>\R</m>-linearly independent. We claim that <m>\{1,u,v\}</m> are <m>\R</m>-linearly independent. If there are <m>r,s,t\in\R</m> with <m>ur+vs+t=0</m> then, <m>0=(ur+vs+t)^2</m>. This gives <m>stv\in\R</m>. This implies that either <m>s=0</m> or <m>t=0</m>. One may check that this gives <m>r=s=t=0</m>. We have thus shown that <m>\{1,u,v\}</m> are linearly independent. By <xref ref="lem-element-satisfies-quadratic-equation-over-reals"/>, there exists <m>a,b\in\R</m> such that
+            Note that if <m>d\in D\setminus V</m> and <m>d^2\in\R</m> then, <m>d^2&gt;0</m> and hence there exists <m>r\in\R</m> such that <m>d^2=r^2</m>. Thus, <m>0=(d-r)(d+r)\in D</m>, i.e., <m>d=\pm r\in\R</m>. Now assume that <m>u,v\in V</m>. We show that <m>u+v\in V</m>. We further assume that <m>u,v</m> are <m>\R</m>-linearly independent. We claim that <m>\{1,u,v\}</m> are <m>\R</m>-linearly independent. If there are <m>r,s,t\in\R</m> with <m>ru=sv+t</m> then, this will imply that <m>stv\in\R</m>. This implies that either <m>s=0</m> or <m>t=0</m>. One may check that this gives <m>r=s=t=0</m>. We have thus shown that <m>\{1,u,v\}</m> are linearly independent. By <xref ref="lem-element-satisfies-quadratic-equation-over-reals"/>, there exists <m>a,b\in\R</m> such that
             <me>
                 (u+v)^2 + a(u+v)\in\R\quad\text{and}\quad (u-v)^2 + b(u-v)\in\R.
             </me>
