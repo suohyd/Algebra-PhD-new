@@ -141,7 +141,7 @@
                     </li>
                     <li>
                         <p>
-                            <m>x\in Q_+</m> if and only if <m>x\not\in F</m> and <m>x^2\in F</m>.
+                            <m>q\in Q_+</m> if and only if <m>q\not\in F</m> and <m>q^2\in F</m>.
                         </p>
                     </li>
                 </ol>
