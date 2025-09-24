@@ -610,7 +610,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Finite-dimensional division algebras over real and complex numbers",
-  "body": " Finite-dimensional division algebras over real and complex numbers  We classify finite-dimensional division algebras over . We begin with the following definition.   Finite-dimension division algebra   Let be a field. An -algebra is said to be finite-dimensional division algebra if is finite dimensional as an -vector space, and every nonzero element of is invertible.      Let be a finite-dimensional division algebra over . Then, for every element there exists such that .     Let be an -dimensional division algebra over . Then, the set is linearly dependent over . Thus, there exists , not all zero, such that . Since is a division algebra, we must have , and hence by dividing by , we may assume that the polynomial is monic. Over , the polynomial will splits into linear and quadratic factors. Say Thus, Since is a division algebra, one of the factors is zero. This proves the lemma.     Let be a finite-dimensional division algebra over . Let . Then, is an -vector subspace of , and .     Note that if and then, and hence there exists such that . Thus, , i.e., . Now assume that . We show that . We further assume that are -linearly independent. We claim that are -linearly independent. If there are with then, . This gives . This implies that either or . One may check that this gives . We have thus shown that are linearly independent. By , there exists such that While . This gives . Since are -linearly independent, we must have . Thus, .  We leave it to the reader to check that is closed under scalar multiplication. This shows that is an -vector subspace of . Further, check that .  For there exists such that . Note that and hence, . This shows that .     Let be a finite-dimensional division algebra over . If the dimension of is , then there exist such that , , and are linearly independent over .     By , . Suppose that are linearly independent over . Consider the element . Set It is left to the reader to check that defined above satisfies . To check the linear independence of we consider such that . However, implies that for all .    Classification of finite-dimensional division algebras over   A finite-dimensional division algebra over is isomorphic to either , or .     Let , where is a finite-dimensional division algebra over .   If then, .    If then, (see ) and it contains with .    By , the case does not appear and if then, .    Suppose that . By , there are such that and . In this case (see ), so there exists which is not in the linear span of . Consider the following element of . We get the following relations. This implies that , a contradiction because . Hence, can not be greater than .        There are no proper nontrivial finite-dimentional division algebras over .     Suppose that is a finite-dimensional division algebra over . Let . As is finite-dimensional, is an algebraic element over . Thus, because is an algebraically closed field. This shows that .   "
+  "body": " Finite-dimensional division algebras over real and complex numbers  We classify finite-dimensional division algebras over . We begin with the following definition.   Finite-dimension division algebra   Let be a field. An -algebra is said to be finite-dimensional division algebra if is finite dimensional as an -vector space, and every nonzero element of is invertible.      Let be a finite-dimensional division algebra over . Then, for every element there exists such that .     Let be an -dimensional division algebra over . Then, the set is linearly dependent over . Thus, there exists , not all zero, such that . We may assume that the polynomial is monic. Over , the polynomial will splits into linear and quadratic factors. Say Using the fact that is in the center of (see ), we get Since is a division algebra, one of the factors is zero. This proves the lemma.   One needs to be careful while evaluating a polynomial over an algebra at an element of the algebra. In fact, we require a definition of evaluation . We will define it later. The following exercise illustrates the point.    Consider the Hamiltonian quaternion algebra . Let and . Then, but , where .      Let be a finite-dimensional division algebra over . Let . Then, is an -vector subspace of , and .     Note that if and then, and hence there exists such that . Thus, , i.e., . Now assume that . We show that . We further assume that are -linearly independent. We claim that are -linearly independent. If there are with then, this will imply that . This implies that either or . One may check that this gives . We have thus shown that are linearly independent. By , there exists such that While . This gives . Since are -linearly independent, we must have . Thus, .  We leave it to the reader to check that is closed under scalar multiplication. This shows that is an -vector subspace of . Further, check that .  For there exists such that . Note that and hence, . This shows that .     Let be a finite-dimensional division algebra over . If the dimension of is , then there exist such that , , and are linearly independent over .     By , . Suppose that are linearly independent over . Consider the element . Set It is left to the reader to check that defined above satisfies . To check the linear independence of we consider such that . However, implies that for all .    Classification of finite-dimensional division algebras over   A finite-dimensional division algebra over is isomorphic to either , or .     Let , where is a finite-dimensional division algebra over .   If then, .    If then, (see ) and it contains with .    By , the case does not appear and if then, .    Suppose that . By , there are such that and . In this case (see ), so there exists which is not in the linear span of . Consider the following element of . We get the following relations. This implies that , a contradiction because . Hence, can not be greater than .        There are no proper nontrivial finite-dimentional division algebras over .     Suppose that is a finite-dimensional division algebra over . Let . As is finite-dimensional, is an algebraic element over . Thus, because is an algebraically closed field. This shows that .   "
 },
 {
   "id": "def-finite-dimensional-division-algebra",
@@ -637,39 +637,48 @@ var ptx_lunr_docs = [
   "type": "Proof",
   "number": "2.3.1",
   "title": "",
-  "body": " Let be an -dimensional division algebra over . Then, the set is linearly dependent over . Thus, there exists , not all zero, such that . Since is a division algebra, we must have , and hence by dividing by , we may assume that the polynomial is monic. Over , the polynomial will splits into linear and quadratic factors. Say Thus, Since is a division algebra, one of the factors is zero. This proves the lemma.  "
+  "body": " Let be an -dimensional division algebra over . Then, the set is linearly dependent over . Thus, there exists , not all zero, such that . We may assume that the polynomial is monic. Over , the polynomial will splits into linear and quadratic factors. Say Using the fact that is in the center of (see ), we get Since is a division algebra, one of the factors is zero. This proves the lemma.  "
+},
+{
+  "id": "sec-finite-dim-division-over-R-7",
+  "level": "2",
+  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-7",
+  "type": "Checkpoint",
+  "number": "2.3.3",
+  "title": "",
+  "body": "  Consider the Hamiltonian quaternion algebra . Let and . Then, but , where .   "
 },
 {
   "id": "lem-orthogonal-complement-of-reals-in-division-algebra",
   "level": "2",
   "url": "sec-finite-dim-division-over-R.html#lem-orthogonal-complement-of-reals-in-division-algebra",
   "type": "Lemma",
-  "number": "2.3.3",
+  "number": "2.3.4",
   "title": "",
   "body": "  Let be a finite-dimensional division algebra over . Let . Then, is an -vector subspace of , and .   "
 },
 {
-  "id": "sec-finite-dim-division-over-R-7",
+  "id": "sec-finite-dim-division-over-R-9",
   "level": "2",
-  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-7",
+  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-9",
   "type": "Proof",
   "number": "2.3.2",
   "title": "",
-  "body": " Note that if and then, and hence there exists such that . Thus, , i.e., . Now assume that . We show that . We further assume that are -linearly independent. We claim that are -linearly independent. If there are with then, . This gives . This implies that either or . One may check that this gives . We have thus shown that are linearly independent. By , there exists such that While . This gives . Since are -linearly independent, we must have . Thus, .  We leave it to the reader to check that is closed under scalar multiplication. This shows that is an -vector subspace of . Further, check that .  For there exists such that . Note that and hence, . This shows that .  "
+  "body": " Note that if and then, and hence there exists such that . Thus, , i.e., . Now assume that . We show that . We further assume that are -linearly independent. We claim that are -linearly independent. If there are with then, this will imply that . This implies that either or . One may check that this gives . We have thus shown that are linearly independent. By , there exists such that While . This gives . Since are -linearly independent, we must have . Thus, .  We leave it to the reader to check that is closed under scalar multiplication. This shows that is an -vector subspace of . Further, check that .  For there exists such that . Note that and hence, . This shows that .  "
 },
 {
   "id": "lem-existence-of-i-j-k-in-division-algebra",
   "level": "2",
   "url": "sec-finite-dim-division-over-R.html#lem-existence-of-i-j-k-in-division-algebra",
   "type": "Lemma",
-  "number": "2.3.4",
+  "number": "2.3.5",
   "title": "",
   "body": "  Let be a finite-dimensional division algebra over . If the dimension of is , then there exist such that , , and are linearly independent over .   "
 },
 {
-  "id": "sec-finite-dim-division-over-R-9",
+  "id": "sec-finite-dim-division-over-R-11",
   "level": "2",
-  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-9",
+  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-11",
   "type": "Proof",
   "number": "2.3.3",
   "title": "",
@@ -680,14 +689,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-dim-division-over-R.html#thm-division-algebras-over-R",
   "type": "Theorem",
-  "number": "2.3.5",
+  "number": "2.3.6",
   "title": "Classification of finite-dimensional division algebras over <span class=\"process-math\">\\(\\R\\)<\/span>.",
   "body": " Classification of finite-dimensional division algebras over   A finite-dimensional division algebra over is isomorphic to either , or .   "
 },
 {
-  "id": "sec-finite-dim-division-over-R-11",
+  "id": "sec-finite-dim-division-over-R-13",
   "level": "2",
-  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-11",
+  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-13",
   "type": "Proof",
   "number": "2.3.4",
   "title": "",
@@ -698,14 +707,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-dim-division-over-R.html#lem-division-algebras-over-C",
   "type": "Lemma",
-  "number": "2.3.6",
+  "number": "2.3.7",
   "title": "",
   "body": "  There are no proper nontrivial finite-dimentional division algebras over .   "
 },
 {
-  "id": "sec-finite-dim-division-over-R-13",
+  "id": "sec-finite-dim-division-over-R-15",
   "level": "2",
-  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-13",
+  "url": "sec-finite-dim-division-over-R.html#sec-finite-dim-division-over-R-15",
   "type": "Proof",
   "number": "2.3.5",
   "title": "",
