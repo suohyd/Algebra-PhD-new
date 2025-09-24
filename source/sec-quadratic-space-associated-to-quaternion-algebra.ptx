@@ -71,5 +71,23 @@
                 </me>
             As <m>a,b\in\dot{F}</m>, we get that <m>b_Q</m> is regular.
         </p>
-    </proof>  
+    </proof>
+    <definition xml:id="def-pure-quaternions-space">
+        <statement>
+            <p>
+                Let <m>F</m> be a field of characteristic different from <m>2</m>, and <m>Q=(a,b)_F</m> a quaternion algebra over <m>F</m>. An element of the following <m>F</m>-vector subspace of <m>Q</m> is called a <em>pure quaternion</em>.
+                <me>
+                    Q_0=\{a_1i+a_2j+a_3k:a_1,a_2,a_3\in F\}=\{x\in Q:\gamma(x)=-x\}
+                </me>
+            </p>
+        </statement>
+    </definition>
+    <theorem xml:id="thm-isomorphism-of-quaternion-algebra-with-associated-quadratic-space">
+        <statement>
+            <p>
+                Let <m>F</m> be a field of characteristic different from <m>2</m>. Suppose that <m>Q=(a,b)_F</m> and <m>Q'=(a',b')_F</m> are quaternion algebras over <m>F</m>. Then, <m>Q\simeq Q'</m> if and only if there exists an <m>F</m>-linear isomorphism <m>\phi\colon Q_0\to Q'_0</m> such that <m>\Nrd{Q'}(\phi(x))=\Nrd{Q}(x)</m> for all <m>x\in Q_0</m>.
+            </p>
+        </statement>
+    </theorem>
+    
 </section>

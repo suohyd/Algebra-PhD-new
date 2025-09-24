@@ -727,7 +727,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Quadratic space associated to quaternion algebra",
-  "body": " Quadratic space associated to quaternion algebra   Throughout this section we assume that is a field with . The set of nonzero elements of is denoted by .    Symmetric bilinear form associated to quaternion algebra   Let be a quaternion algebra over . The following map is a symmetric bilinear form associated to .      Quadratic form associated to quaternion algebra   We keep notations of above. The quadratic form  associated to is given by for .      For , we get that . In particular,      Matrix associated to   Keep notations of . The matrix associated to is the following matrix.      Regular\/nonsingular quadratic form   Keep notations of . The quadratic form or the symmetric bilinear form is said to be regular or nonsingular if the matrix associated to is invertible.      Keep notations of . The matrix associated to is a diagonal matrix , and is regular.     An easy calculations show that is an orthogonal basis with respect to . Hence, the matrix associated to is a diagonal matrix. More precisely, we get the following. As , we get that is regular.   "
+  "body": " Quadratic space associated to quaternion algebra   Throughout this section we assume that is a field with . The set of nonzero elements of is denoted by .    Symmetric bilinear form associated to quaternion algebra   Let be a quaternion algebra over . The following map is a symmetric bilinear form associated to .      Quadratic form associated to quaternion algebra   We keep notations of above. The quadratic form  associated to is given by for .      For , we get that . In particular,      Matrix associated to   Keep notations of . The matrix associated to is the following matrix.      Regular\/nonsingular quadratic form   Keep notations of . The quadratic form or the symmetric bilinear form is said to be regular or nonsingular if the matrix associated to is invertible.      Keep notations of . The matrix associated to is a diagonal matrix , and is regular.     An easy calculations show that is an orthogonal basis with respect to . Hence, the matrix associated to is a diagonal matrix. More precisely, we get the following. As , we get that is regular.     Let be a field of characteristic different from , and a quaternion algebra over . An element of the following -vector subspace of is called a pure quaternion .       Let be a field of characteristic different from . Suppose that and are quaternion algebras over . Then, if and only if there exists an -linear isomorphism such that for all .    "
 },
 {
   "id": "def-symmetric-bilinear-form-associated-to-quaternion-algebra",
@@ -791,6 +791,24 @@ var ptx_lunr_docs = [
   "number": "2.4.1",
   "title": "",
   "body": " An easy calculations show that is an orthogonal basis with respect to . Hence, the matrix associated to is a diagonal matrix. More precisely, we get the following. As , we get that is regular.  "
+},
+{
+  "id": "def-pure-quaternions-space",
+  "level": "2",
+  "url": "sec-quadratic-space-associated-to-quaternion-algebra.html#def-pure-quaternions-space",
+  "type": "Definition",
+  "number": "2.4.7",
+  "title": "",
+  "body": "  Let be a field of characteristic different from , and a quaternion algebra over . An element of the following -vector subspace of is called a pure quaternion .    "
+},
+{
+  "id": "thm-isomorphism-of-quaternion-algebra-with-associated-quadratic-space",
+  "level": "2",
+  "url": "sec-quadratic-space-associated-to-quaternion-algebra.html#thm-isomorphism-of-quaternion-algebra-with-associated-quadratic-space",
+  "type": "Theorem",
+  "number": "2.4.8",
+  "title": "",
+  "body": "  Let be a field of characteristic different from . Suppose that and are quaternion algebras over . Then, if and only if there exists an -linear isomorphism such that for all .   "
 },
 {
   "id": "backmatter-2",
