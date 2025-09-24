@@ -55,17 +55,21 @@
     </lemma>
     <proof>
         <p>
-            Note that if <m>d\in D\setminus V</m> and <m>d^2\in\R</m> then, <m>d^2&gt;0</m> and hence there exists <m>r\in\R</m> such that <m>d^2=r^2</m>. Thus, <m>0=(d-r)(d+r)\in D</m>, i.e., <m>d=\pm r\in\R</m>. Now assume that <m>u,v\in V</m>. We show that <m>u+v\in V</m>. We further assume that <m>u,v</m> are <m>\R</m>-linearly independent. We claim that <m>\{1,u,v\}</m> are <m>\R</m>-linearly independent. If there are <m>r,s,t\in\R</m> with <m>ru=sv+t</m> then, this will imply that <m>stv\in\R</m>. This implies that either <m>s=0</m> or <m>t=0</m>. One may check that this gives <m>r=s=t=0</m>. We have thus shown that <m>\{1,u,v\}</m> are linearly independent. By <xref ref="lem-element-satisfies-quadratic-equation-over-reals"/>, there exists <m>a,b\in\R</m> such that
+            We first observe the following.
+            <men xml:id="eq-decomposition-of-division-algebra-over-reals">
+                \text{If }d\in D\setminus V\text{ and }d^2\in\R\text{ then, }x\in\R.
+            </men>
+            Indeed, if <m>d\in D\setminus V</m> and <m>d^2\in\R</m> then, <m>d^2&gt;0</m> and hence there exists <m>r\in\R</m> such that <m>d^2=r^2</m>. Thus, <m>0=(d-r)(d+r)\in D</m>, i.e., <m>d=\pm r\in\R</m>. Now assume that <m>u,v\in V</m>. We show that <m>u+v\in V</m>. We further assume that <m>u,v</m> are <m>\R</m>-linearly independent. We claim that <m>\{1,u,v\}</m> are <m>\R</m>-linearly independent. If there are <m>r,s,t\in\R</m> with <m>ru=sv+t</m> then, this will imply that <m>stv\in\R</m>. This implies that either <m>s=0</m> or <m>t=0</m>. One may check that this gives <m>r=s=t=0</m>. We have thus shown that <m>\{1,u,v\}</m> are linearly independent. By <xref ref="lem-element-satisfies-quadratic-equation-over-reals"/>, there exists <m>a,b\in\R</m> such that
             <me>
                 (u+v)^2 + a(u+v)\in\R\quad\text{and}\quad (u-v)^2 + b(u-v)\in\R.
             </me>
-            While <m>(u+v)^2+(u-v)^2=2u^2+2v^2\in\R</m>. This gives <m>a(u+v)+b(u-v)\in\R</m>. Since <m>\{1,u,v\}</m> are <m>\R</m>-linearly independent, we must have <m>a=b=0</m>. Thus, <m>(u+v)\in V</m>.
+            While <m>(u+v)^2+(u-v)^2=2u^2+2v^2\in\R</m>. This gives <m>a(u+v)+b(u-v)\in\R</m>. Since <m>\{1,u,v\}</m> are <m>\R</m>-linearly independent, we must have <m>a=b=0</m>. Thus, <m>(u\pm v)^2\in\R</m>. Using <xref ref="eq-decomposition-of-division-algebra-over-reals"/>, we get that <m>(u\pm v)\in V</m>.
         </p>
         <p>
             We leave it to the reader to check that <m>V</m> is closed under scalar multiplication. This shows that <m>V</m> is an <m>\R</m>-vector subspace of <m>D</m>. Further, check that <m>\R\cap V=0</m>.
         </p>
         <p>
-            For <m>d\in D\setminus\R</m> there exists <m>a\in\R</m> such that <m>d^2+ad\in\R</m>. Note that <m>d+a/2\in V</m> and hence, <m>d=-a/2+(d+a/2)\in\R+V</m>. This shows that <m>D=\R\oplus V</m>.
+            For <m>d\in D\setminus\R</m> there exists <m>a\in\R</m> such that <m>d^2+ad\in\R</m>. Note that, using <xref ref="eq-decomposition-of-division-algebra-over-reals"/>, <m>d+\tfrac{a}{2}\in V</m> and hence, <m>d=-\tfrac{a}{2}+(d+\tfrac{a}{2})\in\R+V</m>. This shows that <m>D=\R\oplus V</m>.
         </p>
     </proof>
     <lemma xml:id="lem-existence-of-i-j-k-in-division-algebra">
