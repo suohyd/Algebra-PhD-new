@@ -817,7 +817,34 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "2.5",
   "title": "Exercises related to quaternion algebras",
-  "body": " Exercises related to quaternion algebras  "
+  "body": " Exercises related to quaternion algebras   Most of the exercises are taken from and . Throughout this worksheet we assume that is a field with . The set of nonzero elements of is denoted by .     Show that the following conditions on are equivalent.    is a division algebra.     for all nonzero      and          Let be a finite field, and .   Show that there are such that .    Show that is not a division algebra.       Show that the values taken by and as ranges over can not be all different.      Following steps outlined below show that is isomorphic to the real subalgebra of consisting of the matrices , where .     Show that is a right -vector space with a basis .    Prove that for any , the left regular representation given by is a -linear map. Furthermore, show that is an -algebra homomorphism.    Show that is a faithful representation of the -algebra , i.e., is injective.    Compute matrices of , and with respect to the basis . Then, conclude that for , where , we have        "
+},
+{
+  "id": "ws-quaternion-algebras-3",
+  "level": "2",
+  "url": "ws-quaternion-algebras.html#ws-quaternion-algebras-3",
+  "type": "Worksheet Exercise",
+  "number": "2.5.1",
+  "title": "",
+  "body": "  Show that the following conditions on are equivalent.    is a division algebra.     for all nonzero      and       "
+},
+{
+  "id": "ws-quaternion-algebras-4",
+  "level": "2",
+  "url": "ws-quaternion-algebras.html#ws-quaternion-algebras-4",
+  "type": "Worksheet Exercise",
+  "number": "2.5.2",
+  "title": "",
+  "body": "  Let be a finite field, and .   Show that there are such that .    Show that is not a division algebra.       Show that the values taken by and as ranges over can not be all different.   "
+},
+{
+  "id": "ws-quaternion-algebras-5",
+  "level": "2",
+  "url": "ws-quaternion-algebras.html#ws-quaternion-algebras-5",
+  "type": "Worksheet Exercise",
+  "number": "2.5.3",
+  "title": "",
+  "body": "  Following steps outlined below show that is isomorphic to the real subalgebra of consisting of the matrices , where .     Show that is a right -vector space with a basis .    Prove that for any , the left regular representation given by is a -linear map. Furthermore, show that is an -algebra homomorphism.    Show that is a faithful representation of the -algebra , i.e., is injective.    Compute matrices of , and with respect to the basis . Then, conclude that for , where , we have       "
 },
 {
   "id": "backmatter-2",

@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <worksheet xml:id="ws-quaternion-algebras">
     <title>Exercises related to quaternion algebras</title>
-    
-    
+    <introduction>
+        <p>
+            Most of the exercises are taken from <xref ref="bib-Pierce"/> and <xref ref="bib-Lam"/>.
+            Throughout this worksheet we assume that <m>F</m> is a field with <m>{\rm ch}(F)\neq 2</m>. The set of nonzero elements of <m>F</m> is denoted by <m>\dot{F}</m>.
+        </p>
+    </introduction>
+    <exercise>
+        <statement>
+            <p>
+                Show that the following conditions on <m>Q=(a,b)_F</m> are equivalent.
+                <ol>
+                    <li>
+                        <p>
+                            <m>Q</m> is a division algebra.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\Nrd{Q}(x)\neq 0</m> for all nonzero <m>x\in Q</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>a\in\dot{F}</m> and <m>b\not\in N_{F(\sqrt{a})/F}\left(F(\sqrt{a})\right)</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>F</m> be a finite field, and <m>a,b\in\dot{F}</m>.
+                <ol>
+                    <li>
+                        <p>
+                            Show that there are <m>x,y\in F</m> such that <m>ax^2+by^2=1</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Show that <m>(a,b)_F</m> is not a division algebra.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <hint>
+            <p>
+                Show that the values taken by <m>ax^2</m> and <m>1-by^2</m> as <m>x,y</m> ranges over <m>F</m> can not be all different.
+            </p>
+        </hint>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Following steps outlined below show that <m>\mathbb{H}</m> is isomorphic to the real subalgebra of <m>M_2(\C)</m> consisting of the matrices <m>\left(\begin{smallmatrix}\alpha\amp -\overline{\beta}\\\beta\amp\overline{\alpha}\end{smallmatrix}\right)</m>, where <m>\alpha,\beta\in\C</m>.
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Show that <m>\mathbb{H}</m> is a right <m>\C</m>-vector space with a basis <m>\{1,j\}</m>. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Prove that for any <m>x\in\mathbb{H}</m>, the left regular representation <m>L_x\colon\mathbb{H}\to\mathbb{H}</m> given by <m>y\mapsto xy</m> is a <m>\C</m>-linear map. Furthermore, show that
+                            <me>
+                                L\colon\mathbb{H}\to{\rm End}_\C(\mathbb{H})\simeq M_2(\C),\quad\text{given by}\quad x\mapsto L_x
+                            </me>
+                             is an <m>\R</m>-algebra homomorphism.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Show that <m>L</m> is a <em>faithful representation</em> of the <m>\R</m>-algebra <m>\mathbb{H}</m>, i.e., <m>L</m> is injective.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Compute matrices of <m>L_i,L_j</m>, and <m>L_k</m> with respect to the basis <m>\mathfrak{B}=\{1,j\}</m>. Then, conclude that for <m>x=\alpha+j\beta</m>, where <m>\alpha,\beta\in\C</m>, we have
+                            <me>
+                                [L_x]_\mathfrak{B}=\begin{pmatrix}\alpha\amp -\overline{\beta}\\\beta\amp\overline{\alpha}\end{pmatrix}.
+                            </me>
+                            
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
 </worksheet>
