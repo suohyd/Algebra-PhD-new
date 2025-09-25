@@ -14,12 +14,12 @@
                 <ol>
                     <li>
                         <p>
-                            <m>Q</m> is a division algebra.
+                            <m>Q</m> is a division algebra;
                         </p>
                     </li>
                     <li>
                         <p>
-                            <m>\Nrd{Q}(x)\neq 0</m> for all nonzero <m>x\in Q</m>
+                            <m>\Nrd{Q}(x)\neq 0</m> for all nonzero <m>x\in Q</m>;
                         </p>
                     </li>
                     <li>
@@ -88,6 +88,42 @@
                                 [L_x]_\mathfrak{B}=\begin{pmatrix}\alpha\amp -\overline{\beta}\\\beta\amp\overline{\alpha}\end{pmatrix}.
                             </me>
                             
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Show that there are infinite many <m>x\in Q=(a,b)_F</m> with <m>x^2=a</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>Q=(a,b)_F</m> be a quaternion algebra over <m>F</m>. Consider <m>A=M_2(Q)</m> and <m>\sigma\colon A\to A</m> given by
+                <me>
+                    \begin{pmatrix}x_{11}\amp x_{12}\\x_{21}\amp x_{22}\end{pmatrix}\mapsto\begin{pmatrix}\gamma(x_{11})\amp\gamma(x_{21})\\\gamma(x_{12})\amp\gamma(x_{22})\end{pmatrix}.
+                </me>
+                
+                
+                <ol>
+                    <li>
+                        <p>
+                            Show that <m>{\rm Sym}(A,\sigma)=\{x\in A:\sigma(x)=x\}</m> and <m>{\rm Alt}(A,\sigma)=\{x\in Q:\sigma(x)=-x\}</m> are <m>F</m>-vector subspaces of <m>A</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find vector space dimension of <m>{\rm Sym}(A,\sigma)</m> and <m>{\rm Alt}(A,\sigma)</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Show that <m>A={\rm Sym}(A,\sigma)\oplus{\rm Alt}(A,\sigma)</m>.
                         </p>
                     </li>
                 </ol>
