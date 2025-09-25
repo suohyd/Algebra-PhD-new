@@ -811,6 +811,15 @@ var ptx_lunr_docs = [
   "body": " We use without explicit mention. We also denote the canonical involution on both and by .  Suppose that is an -algebra isomophism. For , as . Furthermore, implies that . We thus get that for every . Therefore, is an -linear map from to . As is injective, the map is injective as well. Now assume that . Then there exists some such that . As and we get that and that , i.e., for some . Thus, , i.e., . Hence, and thus, is surjective as well. It follows that is an -isomorphism. Finally for , we have and thus, .  Now assume there is an -linear isomorphism such that for all . Define by , , , and . Extend linearly to all . The reader may check that is an -algebra isomorphism. Here we only check that . First observe the following. On the other hand, Therefore, Using and the associated symmetric bilinear form we get the following. This shows that .  "
 },
 {
+  "id": "ws-quaternion-algebras",
+  "level": "1",
+  "url": "ws-quaternion-algebras.html",
+  "type": "Worksheet",
+  "number": "2.5",
+  "title": "Exercises related to quaternion algebras",
+  "body": " Exercises related to quaternion algebras  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",

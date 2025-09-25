@@ -116,7 +116,7 @@
             Using <m>\phi(i),\phi(j)\in Q_+'</m> and the associated symmetric bilinear form <m>b_{Q'}</m> we get the following.
             <md>
                 <mrow>b_{Q'}(\phi(i),\phi(j)) \amp= \tfrac{1}{2}\left(\phi(i)\gamma(\phi(j))+\phi(j)\gamma(\phi(i))\right)\amp </mrow>
-                <mrow> \amp=\tfrac{-1}{2}\left(\phi(i)\phi(j)+\phi(j)\phi(i)\right)\amp\text{ as }\phi(i),\phi(j)\in Q_+' </mrow>
+                <mrow> \amp=-\tfrac{1}{2}\left(\phi(i)\phi(j)+\phi(j)\phi(i)\right)\amp\text{ as }\phi(i),\phi(j)\in Q_+' </mrow>
                 <mrow> \amp=b_Q(i,j) \amp \text{ by }<xref ref="eq-bilinear-forms-equal-on-i-j"/></mrow>
                 <mrow> \amp=0 \amp</mrow>
             </md>
