@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-modules" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Modules</title>
+
+  <introduction>
+    <p> We (mostly) follow <xref ref="bib-Pierce"/> and <xref ref="bib-Lam"/>. We do not claim any originality for the content.<!--<sq>Associative algebra</sq> by R. S. Pierce, and <sq>Introduction to quadratic forms over fields</sq> by T. Y. Lam.-->
+    </p>
+  </introduction>
+  <xi:include href="sec-change-of-scalars.ptx" />
+</chapter>

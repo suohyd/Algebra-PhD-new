@@ -14,6 +14,7 @@
     <!-- Include chapters -->
     <xi:include href="./ch-associative-algebras.ptx" />
     <xi:include href="./ch-quaternion-algebra.ptx" />
+    <xi:include href="./ch-modules.ptx" />
 
 
     <!-- Include backmatter -->

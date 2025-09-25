@@ -883,6 +883,69 @@ var ptx_lunr_docs = [
   "body": "  Let be a quaternion algebra over . Consider and given by    Show that and are -vector subspaces of .    Find vector space dimension of and .    Show that .      "
 },
 {
+  "id": "sec-change-of-scalars",
+  "level": "1",
+  "url": "sec-change-of-scalars.html",
+  "type": "Section",
+  "number": "3.1",
+  "title": "Change of scalars",
+  "body": " Change of scalars   Throughout this section we assume that is a commutative ring with unity, and that is a nonzero unital right -algebra. All -algebras will be right -algebras unless otherwise stated.     Suppose that and are right -algebras. Let be an -algebra homomorphism. Let be a right -module. We can make a right -module by defining We denote by the right -module with this action. The process of obtaining the right -module from the right -module is called change of scalars from to via the homomorphism .      Let be an -algebra homomorphism, and let and be right -modules.   Direct sum and right -module action commutes with each other:     If then, . Furthermore, if is surjective then, .    If then, . If is surjective then, the sets and of the submodules of and respectively, are equal.        Annihilator of a module and faithful module   Let be a nonzero -algebra and be a right -module. Let . The annihilator of in is defined as If then, we say that is a faithful right -module.      Let , and be right -modules. Suppose that and . We have the following:    is a right ideal of . If is a submodule of then, is a two-sided ideal of .    If then, .    If then, .    If then, .    If is a right ideal of then, is the largest two-sided ideal of contained in .        Minimal polynomial of a linear transformation as a generator of an annihilator   Let be a finite-dimensional vector space over a field , and be an -linear transformation. Let be the polynomial ring in one variable over . We can make a right -module by defining The annihilator of in is a nonzero ideal of because is finite-dimensional. As is a principal ideal domain, there exists a unique monic polynomial such that . The polynomial is called the minimal polynomial of the linear transformation .     Modules over simple algebras are faithful   Let be a finite-dimension simple -algebra, see . If is a nonzero right -module then, is a faithful right -module. Indeed, by , is a two-sided ideal of . As is simple, either or . If then, for every . This implies that , which is a contradiction. Hence, .    "
+},
+{
+  "id": "def-change-of-scalars",
+  "level": "2",
+  "url": "sec-change-of-scalars.html#def-change-of-scalars",
+  "type": "Definition",
+  "number": "3.1.1",
+  "title": "",
+  "body": "  Suppose that and are right -algebras. Let be an -algebra homomorphism. Let be a right -module. We can make a right -module by defining We denote by the right -module with this action. The process of obtaining the right -module from the right -module is called change of scalars from to via the homomorphism .   "
+},
+{
+  "id": "lem-change-of-scalars-under-direct-sums-Hom",
+  "level": "2",
+  "url": "sec-change-of-scalars.html#lem-change-of-scalars-under-direct-sums-Hom",
+  "type": "Lemma",
+  "number": "3.1.2",
+  "title": "",
+  "body": "  Let be an -algebra homomorphism, and let and be right -modules.   Direct sum and right -module action commutes with each other:     If then, . Furthermore, if is surjective then, .    If then, . If is surjective then, the sets and of the submodules of and respectively, are equal.      "
+},
+{
+  "id": "def-annihilator-of-module",
+  "level": "2",
+  "url": "sec-change-of-scalars.html#def-annihilator-of-module",
+  "type": "Definition",
+  "number": "3.1.3",
+  "title": "Annihilator of a module and faithful module.",
+  "body": " Annihilator of a module and faithful module   Let be a nonzero -algebra and be a right -module. Let . The annihilator of in is defined as If then, we say that is a faithful right -module.   "
+},
+{
+  "id": "lem-annihilator-of-module-is-ideal",
+  "level": "2",
+  "url": "sec-change-of-scalars.html#lem-annihilator-of-module-is-ideal",
+  "type": "Lemma",
+  "number": "3.1.4",
+  "title": "",
+  "body": "  Let , and be right -modules. Suppose that and . We have the following:    is a right ideal of . If is a submodule of then, is a two-sided ideal of .    If then, .    If then, .    If then, .    If is a right ideal of then, is the largest two-sided ideal of contained in .      "
+},
+{
+  "id": "ex-minimal-polynomial-of-linear-transformation-as-generator-of-annihilator",
+  "level": "2",
+  "url": "sec-change-of-scalars.html#ex-minimal-polynomial-of-linear-transformation-as-generator-of-annihilator",
+  "type": "Example",
+  "number": "3.1.5",
+  "title": "Minimal polynomial of a linear transformation as a generator of an annihilator.",
+  "body": " Minimal polynomial of a linear transformation as a generator of an annihilator   Let be a finite-dimensional vector space over a field , and be an -linear transformation. Let be the polynomial ring in one variable over . We can make a right -module by defining The annihilator of in is a nonzero ideal of because is finite-dimensional. As is a principal ideal domain, there exists a unique monic polynomial such that . The polynomial is called the minimal polynomial of the linear transformation .   "
+},
+{
+  "id": "ex-modules-over-simple-algebras-are-faithful",
+  "level": "2",
+  "url": "sec-change-of-scalars.html#ex-modules-over-simple-algebras-are-faithful",
+  "type": "Example",
+  "number": "3.1.6",
+  "title": "Modules over simple algebras are faithful.",
+  "body": " Modules over simple algebras are faithful   Let be a finite-dimension simple -algebra, see . If is a nonzero right -module then, is a faithful right -module. Indeed, by , is a two-sided ideal of . As is simple, either or . If then, for every . This implies that , which is a contradiction. Hence, .   "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",

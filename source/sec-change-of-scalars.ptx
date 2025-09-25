@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-change-of-scalars" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Change of scalars</title>
+  <introduction>
+    <p>
+        Throughout this section we assume that <m>R</m> is a commutative ring with unity, and that <m>A</m> is a nonzero unital right <m>R</m>-algebra. All <m>R</m>-algebras will be right <m>R</m>-algebras unless otherwise stated.
+    </p>
+  </introduction>
+  <definition xml:id="def-change-of-scalars">
+    <statement>
+        <p>
+            Suppose that <m>0\neq A</m> and <m>B</m> are right <m>R</m>-algebras. Let <m>\theta\colon A\to B</m> be an <m>R</m>-algebra homomorphism. Let <m>M</m> be a right <m>B</m>-module. We can make <m>M</m> a right <m>A</m>-module by defining
+            <me>
+                m\cdot a := m\cdot \theta(a)\quad\text{for all } m\in M \text{ and } a\in A.
+            </me>
+            We denote by <m>M_A</m> the right <m>A</m>-module <m>M</m> with this action. The process of obtaining the right <m>A</m>-module <m>M_A</m> from the right <m>B</m>-module <m>M</m> is called <em>change of scalars</em> from <m>B</m> to <m>A</m> via the homomorphism <m>\theta</m>.
+        </p>
+    </statement>
+  </definition>
+  <lemma xml:id="lem-change-of-scalars-under-direct-sums-Hom">
+    <statement>
+        <p>
+           Let <m>\theta\colon A\to B</m> be an <m>R</m>-algebra homomorphism, and let <m>M</m> and <m>N</m> be right <m>B</m>-modules.
+           <ol>
+            <li>
+                <p>
+                   Direct sum and right <m>A</m>-module action commutes with each other: <me>\left(M\oplus N\right)_A \simeq M_A \oplus N_A</me>
+                    
+                </p>
+            </li>
+            <li>
+                <p>
+                    If <m>f\in\Hom{B}{M}{N}</m> then, <m>f\in\Hom{A}{M_A}{N_A}</m>. Furthermore, if <m>\theta</m> is surjective then, <m>\Hom{B}{M}{N}=\Hom{A}{M_A}{N_A}</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    If <m>N\leq M</m> then, <m>N_A\leq M_A</m>. If <m>\theta</m> is surjective then, the sets <m>S(M)</m> and <m>S(M_A)</m> of the submodules of <m>M</m> and <m>M_A</m> respectively, are equal.
+                </p>
+            </li>
+           </ol>
+        </p>
+    </statement>
+  </lemma>
+  <definition xml:id="def-annihilator-of-module">
+    <title>Annihilator of a module and faithful module</title>
+    <statement>
+        <p>
+            Let <m>A</m> be a nonzero <m>R</m>-algebra and <m>M</m> be a right <m>A</m>-module. Let <m>X\subseteq M</m>. The <em>annihilator of <m>X</m> in <m>A</m></em> is defined as
+            <me>
+                \Ann{A}{X} = \{a\in A: x\cdot a = 0 \text{ for all } x\in X\}.
+            </me>
+            If <m>\Ann{A}{M}=\{0\}</m> then, we say that <m>M</m> is a <em>faithful</em> right <m>A</m>-module.
+        </p>
+    </statement>
+  </definition>
+  <lemma xml:id="lem-annihilator-of-module-is-ideal">
+    <statement>
+        <p>
+            Let <m>M,M'</m>, and <m>\{M_j:j\in J\}</m> be right <m>A</m>-modules. Suppose that <m>X\subseteq M</m> and <m>Y\subseteq M</m>. We have the following:
+            <ol>
+                <li>
+                    <p>
+                        <m>\Ann{A}{X}</m> is a right ideal of <m>A</m>. If <m>X</m> is a submodule of <m>M</m> then, <m>\Ann{A}{X}</m> is a two-sided ideal of <m>A</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>X\subseteq Y</m> then, <m>\Ann{A}{Y}\subseteq \Ann{A}{X}</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>M\simeq M'</m> then, <m>\Ann{A}{M}=\Ann{A}{M'}</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>M=\sum_{j\in J}M_j</m> then, <m>\Ann{A}{M}=\cap_{j\in J}\Ann{A}{M_j}</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>M</m> is a right ideal of <m>A</m> then, <m>\Ann{A}{A/M}</m> is the largest two-sided ideal of <m>A</m> contained in <m>M</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+  </lemma>
+  <example xml:id="ex-minimal-polynomial-of-linear-transformation-as-generator-of-annihilator">
+    <title>Minimal polynomial of a linear transformation as a generator of an annihilator</title>
+    
+    
+    <statement>
+        <p>
+            Let <m>V</m> be a finite-dimensional vector space over a field <m>F</m>, and <m>T\colon V\to V</m> be an <m>F</m>-linear transformation. Let <m>A=F[x]</m> be the polynomial ring in one variable over <m>F</m>. We can make <m>V</m> a right <m>A</m>-module by defining
+            <me>
+                v\cdot f(x) := f(T)(v) \quad\text{for all } v\in V \text{ and } f(x)\in A.
+            </me>
+            The annihilator of <m>V</m> in <m>A</m> is a nonzero ideal of <m>A</m> because <m>V</m> is finite-dimensional. As <m>A</m> is a principal ideal domain, there exists a unique monic polynomial <m>p(x)\in A</m> such that <m>\Ann{A}{V} =(p(x))</m>. The polynomial <m>p(x)</m> is called the <em>minimal polynomial</em> of the linear transformation <m>T</m>.
+        </p>
+    </statement>
+  </example>
+  <example xml:id="ex-modules-over-simple-algebras-are-faithful">
+    <title>Modules over simple algebras are faithful</title>
+    <statement>
+        <p>
+            Let <m>A</m> be a finite-dimension simple <m>R</m>-algebra, see <xref ref="def-simple-algebra"/>. If <m>M</m> is a nonzero right <m>A</m>-module then, <m>M</m> is a faithful right <m>A</m>-module. Indeed, by <xref ref="lem-annihilator-of-module-is-ideal"/>, <m>\Ann{A}{M}</m> is a two-sided ideal of <m>A</m>. As <m>A</m> is simple, either <m>\Ann{A}{M}=A</m> or <m>\Ann{A}{M}=0</m>. If <m>\Ann{A}{M}=A</m> then, <m>m\cdot 1=0</m> for every <m>m\in M</m>. This implies that <m>M=\{0\}</m>, which is a contradiction. Hence, <m>\Ann{A}{M}=0</m>.
+        </p>
+    </statement>
+  </example>
+</section>
