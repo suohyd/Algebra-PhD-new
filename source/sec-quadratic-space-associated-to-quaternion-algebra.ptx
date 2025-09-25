@@ -123,5 +123,21 @@
             This shows that <m>\phi(i)\phi(j)=-\phi(j)\phi(i)</m>.
         </p>
     </proof>
-    
+    <corollary xml:id="cor-isomorphism-of-quaternions-upto-sqaures">
+        <statement>
+            <p>
+                Let <m>F</m> be a field of characteristic <m>\neq 2</m>. For <m>a,b,c\in\dot{F}</m>, <me>(ac^2,b)_F\simeq(a,b)_F\simeq(a,bc^2)_F.</me>
+            </p>
+        </statement>
+    </corollary>
+    <proof>
+        <p>
+            We use <xref ref="thm-isomorphism-of-quaternion-algebra-with-associated-quadratic-space"/>. Put <m>Q=(a,b)_F</m> and <m>Q'=(ac^2,b)_F</m>. Define <m>\ell\colon Q_+\to Q_+'</m> by <me>\ell(a_1i+a_2j+a_3ij)=\tfrac{1}{c}a_1i'+a_2j'+\tfrac{1}{c}a_3i'j'.</me>
+            We have the following.
+            <md>
+                <mrow>\Nrd_{Q'}\left(\ell(a_1i+a_2j+a_3ij)\right) \amp =\Nrd_{Q'}\left(\tfrac{1}{c}a_1i'+a_2j'+\tfrac{1}{c}a_3i'j'\right)</mrow>
+                <mrow> \amp =</mrow>
+            </md>
+        </p>
+    </proof>
 </section>
