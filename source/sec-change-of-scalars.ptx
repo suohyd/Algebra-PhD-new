@@ -113,6 +113,7 @@
             Let <m>A</m> be a finite-dimension simple <m>R</m>-algebra, see <xref ref="def-simple-algebra"/>. If <m>M</m> is a nonzero right <m>A</m>-module then, <m>M</m> is a faithful right <m>A</m>-module. Indeed, by <xref ref="lem-annihilator-of-module-is-ideal"/>, <m>\Ann{A}{M}</m> is a two-sided ideal of <m>A</m>. As <m>A</m> is simple, either <m>\Ann{A}{M}=A</m> or <m>\Ann{A}{M}=0</m>. If <m>\Ann{A}{M}=A</m> then, <m>m\cdot 1=0</m> for every <m>m\in M</m>. This implies that <m>M=\{0\}</m>, which is a contradiction. Hence, <m>\Ann{A}{M}=0</m>.
         </p>
     </statement>
+    </example>
   <example>
     <statement>
         <p>
@@ -120,4 +121,18 @@
         </p>
     </statement>
   </example>
+  <proposition xml:id="prop-collections-of-modules-after-change-of-scalars">
+    <statement>
+        <p>
+            Let <m>A,B</m> be <m>R</m>-algebras, and <m>\theta\colon A\to B</m> a surjective <m>R</m>-algebra homomorphism. If <m>N</m> is a right <m>A</m>-module then, there exists a right <m>B</m>-module <m>M</m> such that <m>N\simeq M_A</m> if and only if <m>\ker\theta\subseteq\Ann{A}{N}</m>.
+        </p>
+    </statement>
+  </proposition>
+  <corollary xml:id="cor-collections-of-modules-after-change-of-scalars-modulo-ideal">
+    <statement>
+        <p>
+            Let <m>I</m> be a two-sided ideal of an <m>R</m>-algebra <m>A</m>, and <m>N</m> is a right <m>A/I</m>-module. The module <m>N</m> is a faithful right <m>A/I</m>-module if and only if <m>\Ann{A}{N_A}=I</m>.
+        </p>
+    </statement>
+  </corollary>
 </section>
