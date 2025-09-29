@@ -101,14 +101,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.10';
+eBookConfig.runestone_version = '7.9.11';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.fea5c754ab3e056b.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.b37c97cbe7a5455b.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.59de9dca80a62a76.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.b37c97cbe7a5455b.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -284,15 +284,21 @@ i=\frac{1}{\sqrt{-w^2}}w,\quad j=\frac{1}{\sqrt{-u^2}}u,\quad\text{and}\quad k=i
 </li>
 <li id="sec-finite-dim-division-over-R-13-1-4-4">
 <div class="para logical" id="sec-finite-dim-division-over-R-13-1-4-4-1">
-<div class="para">Suppose that <span class="process-math">\(n&gt;4\text{.}\)</span> By <a href="sec-finite-dim-division-over-R.html#lem-existence-of-i-j-k-in-division-algebra" class="xref" data-knowl="./knowl/xref/lem-existence-of-i-j-k-in-division-algebra.html" data-reveal-label="Reveal" data-close-label="Close" title="Lemma 2.3.5">Lemma 2.3.5</a>, there are <span class="process-math">\(i,j,k\in D\)</span> such that <span class="process-math">\(i^2=j^2=k^2=-1\)</span> and <span class="process-math">\(k=ij=-ji\text{.}\)</span> In this case <span class="process-math">\(\dim_{\R}V=n-1&gt;3\)</span> (see <a href="sec-finite-dim-division-over-R.html#lem-orthogonal-complement-of-reals-in-division-algebra" class="xref" data-knowl="./knowl/xref/lem-orthogonal-complement-of-reals-in-division-algebra.html" data-reveal-label="Reveal" data-close-label="Close" title="Lemma 2.3.4">Lemma 2.3.4</a>), so there exists <span class="process-math">\(v\in V\)</span> which is not in the linear span of <span class="process-math">\(i,j,k\text{.}\)</span> Consider the following element of <span class="process-math">\(D\text{.}\)</span>
+<div class="para">Suppose that <span class="process-math">\(n&gt;4\text{.}\)</span> By <a href="sec-finite-dim-division-over-R.html#lem-existence-of-i-j-k-in-division-algebra" class="xref" data-knowl="./knowl/xref/lem-existence-of-i-j-k-in-division-algebra.html" data-reveal-label="Reveal" data-close-label="Close" title="Lemma 2.3.5">Lemma 2.3.5</a>, there are <span class="process-math">\(i,j,k\in D\)</span> such that <span class="process-math">\(i^2=j^2=k^2=-1\)</span> and <span class="process-math">\(k=ij=-ji\text{.}\)</span> In particular, <span class="process-math">\(i,j,k\in V\text{.}\)</span> In this case <span class="process-math">\(\dim_{\R}V=n-1&gt;3\)</span> (see <a href="sec-finite-dim-division-over-R.html#lem-orthogonal-complement-of-reals-in-division-algebra" class="xref" data-knowl="./knowl/xref/lem-orthogonal-complement-of-reals-in-division-algebra.html" data-reveal-label="Reveal" data-close-label="Close" title="Lemma 2.3.4">Lemma 2.3.4</a>), so there exists <span class="process-math">\(v\in V\)</span> which is not in the linear span of <span class="process-math">\(i,j,k\text{.}\)</span> Consider the following nonzero element of <span class="process-math">\(D\text{.}\)</span>
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/lem-existence-of-i-j-k-in-division-algebra.html ./knowl/xref/lem-orthogonal-complement-of-reals-in-division-algebra.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/lem-existence-of-i-j-k-in-division-algebra.html ./knowl/xref/lem-orthogonal-complement-of-reals-in-division-algebra.html ./knowl/xref/lem-orthogonal-complement-of-reals-in-division-algebra.html">
 \begin{equation*}
 w=v+\frac{iv+vi}{2}i+\frac{jv+vj}{2}j+\frac{kv+vk}{2}k
 \end{equation*}
 </div>
+<div class="para">We claim that <span class="process-math">\(iv+vi,jv+vj,kv+vk\in\R\text{.}\)</span> Indeed, for any <span class="process-math">\(u,v\in V\)</span> we have <span class="process-math">\(u+v\in V\)</span> (see <a href="sec-finite-dim-division-over-R.html#lem-orthogonal-complement-of-reals-in-division-algebra" class="xref" data-knowl="./knowl/xref/lem-orthogonal-complement-of-reals-in-division-algebra.html" data-reveal-label="Reveal" data-close-label="Close" title="Lemma 2.3.4">Lemma 2.3.4</a>), and</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/lem-existence-of-i-j-k-in-division-algebra.html ./knowl/xref/lem-orthogonal-complement-of-reals-in-division-algebra.html ./knowl/xref/lem-orthogonal-complement-of-reals-in-division-algebra.html">
+\begin{equation*}
+uv+vu=(u+v)^2 - u^2 - v^2\in\R.
+\end{equation*}
+</div>
 <div class="para">We get the following relations.</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/lem-existence-of-i-j-k-in-division-algebra.html ./knowl/xref/lem-orthogonal-complement-of-reals-in-division-algebra.html">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/lem-existence-of-i-j-k-in-division-algebra.html ./knowl/xref/lem-orthogonal-complement-of-reals-in-division-algebra.html ./knowl/xref/lem-orthogonal-complement-of-reals-in-division-algebra.html">
 \begin{equation*}
 iw+wi=jw+wj=kw+wk=0
 \end{equation*}
