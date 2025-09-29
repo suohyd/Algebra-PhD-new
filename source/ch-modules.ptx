@@ -8,4 +8,5 @@
     </p>
   </introduction>
   <xi:include href="sec-change-of-scalars.ptx" />
+  <xi:include href="sec-simple-modules.ptx" />
 </chapter>
