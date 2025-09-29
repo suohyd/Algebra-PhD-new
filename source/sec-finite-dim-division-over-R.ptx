@@ -121,10 +121,15 @@
                 </li>
                 <li>
                     <p>
-                        Suppose that <m>n&gt;4</m>. By <xref ref="lem-existence-of-i-j-k-in-division-algebra"/>, there are <m>i,j,k\in D</m> such that <m>i^2=j^2=k^2=-1</m> and <m>k=ij=-ji</m>. In this case <m>\dim_{\R}V=n-1&gt;3</m> (see <xref ref="lem-orthogonal-complement-of-reals-in-division-algebra"/>), so there exists <m>v\in V</m> which is not in the linear span of <m>i,j,k</m>. Consider the following element of <m>D</m>.
+                        Suppose that <m>n&gt;4</m>. By <xref ref="lem-existence-of-i-j-k-in-division-algebra"/>, there are <m>i,j,k\in D</m> such that <m>i^2=j^2=k^2=-1</m> and <m>k=ij=-ji</m>. In particular, <m>i,j,k\in V</m>. In this case <m>\dim_{\R}V=n-1&gt;3</m> (see <xref ref="lem-orthogonal-complement-of-reals-in-division-algebra"/>), so there exists <m>v\in V</m> which is not in the linear span of <m>i,j,k</m>. Consider the following nonzero element of <m>D</m>.
                         <me>
                             w=v+\frac{iv+vi}{2}i+\frac{jv+vj}{2}j+\frac{kv+vk}{2}k
                         </me>
+                        We claim that <m>iv+vi,jv+vj,kv+vk\in\R</m>. Indeed, for any <m>u,v\in V</m> we have <m>u+v\in V</m> (see <xref ref="lem-orthogonal-complement-of-reals-in-division-algebra"/>), and
+                        <me>
+                            uv+vu=(u+v)^2 - u^2 - v^2\in\R.
+                        </me>
+                        
                         We get the following relations.
                         <me>
                             iw+wi=jw+wj=kw+wk=0
