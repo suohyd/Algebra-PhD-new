@@ -224,15 +224,24 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li id="sec-simple-modules-5-1-1-3">
 <div class="para logical" id="sec-simple-modules-5-1-1-3-1">
-<div class="para">We first check that <span class="process-math">\(B\)</span> is a subalgebra of <span class="process-math">\(A\)</span> containing <span class="process-math">\(N\text{.}\)</span> For <span class="process-math">\(a\in B\text{,}\)</span> <span class="process-math">\(n\in M\text{,}\)</span> and <span class="process-math">\(r\in R\)</span> we have</div>
+<div class="para">We first check that <span class="process-math">\(B\)</span> is a subalgebra of <span class="process-math">\(A\)</span> containing <span class="process-math">\(N\text{.}\)</span> For <span class="process-math">\(b\in B\subseteq A\text{,}\)</span> <span class="process-math">\(n\in N\text{,}\)</span> and <span class="process-math">\(r\in R\)</span> we have</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-algebra.html">
 \begin{equation*}
-(a\cdot r)n =a(n\cdot r), \text{as }n\in N\subseteq A\text{ and using algebra condition }\knowl{./knowl/xref/eqn-algebra.html}{(1.1.1)}.
+(b\cdot r)n =b(n\cdot r), \text{as }n\in N\subseteq A\text{ and using algebra condition }\knowl{./knowl/xref/eqn-algebra.html}{(1.1.1)}.
 \end{equation*}
 </div>
-<div class="para">The <span class="process-math">\(N\)</span> is a right ideal of <span class="process-math">\(A\)</span> and hence <span class="process-math">\(n\cdot r\in N\text{.}\)</span> This shows that <span class="process-math">\(a\cdot r\in B\text{.}\)</span>
+<div class="para">As <span class="process-math">\(N\)</span> is a right ideal of <span class="process-math">\(A\)</span> and hence <span class="process-math">\(n\cdot r\in N\text{.}\)</span> This shows that <span class="process-math">\(b\cdot r\in B\text{.}\)</span> We leave to the reader to check other conditions for <span class="process-math">\(B\)</span> to be a subalgebra of <span class="process-math">\(A\text{.}\)</span>
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec-simple-modules-5-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-simple-modules-5-1-1-3-2">
+<div class="para">Note that <span class="process-math">\(A/N\)</span> is a right <span class="process-math">\(A\)</span>-module and so is <span class="process-math">\(\End{A}{A/N}\text{.}\)</span> As <span class="process-math">\(B\hookrightarrow A\)</span> is a subalgebra, <span class="process-math">\(\End{A}{A/N}\)</span> is also a right <span class="process-math">\(B\)</span>-module. We define <span class="process-math">\(\varphi\colon\End{A}{A/N}\to B/N\)</span> by <span class="process-math">\(f\mapsto f(1)+N\text{.}\)</span> We check that <span class="process-math">\(\varphi\)</span> is <span class="process-math">\(B\)</span>-module homomorphism. For <span class="process-math">\(f,g\in\End{A}{A/N}\text{,}\)</span> and <span class="process-math">\(b,b'\in B\)</span> we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\varphi(f\cdot b+g\cdot b')=(f\cdot b)(1)+(g\cdot b')(1)+N=(f(1)\cdot b)+N+(g(1)\cdot b')+N=\varphi(f)\cdot b+\varphi(g)\cdot b'.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-simple-modules-5-1-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 3"><a href="#sec-simple-modules-5-1-1-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
 </li>

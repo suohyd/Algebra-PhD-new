@@ -56,11 +56,17 @@
                 </li>
                 <li>
                     <p>
-                        We first check that <m>B</m> is a subalgebra of <m>A</m> containing <m>N</m>. For <m>a\in B</m>, <m>n\in M</m>, and <m>r\in R</m> we have
+                        We first check that <m>B</m> is a subalgebra of <m>A</m> containing <m>N</m>. For <m>b\in B\subseteq A</m>, <m>n\in N</m>, and <m>r\in R</m> we have
                         <me>
-                            (a\cdot r)n =a(n\cdot r), \text{as }n\in N\subseteq A\text{ and using algebra condition }<xref ref="eqn-algebra"/>.
+                            (b\cdot r)n =b(n\cdot r), \text{as }n\in N\subseteq A\text{ and using algebra condition }<xref ref="eqn-algebra"/>.
                         </me>
-                        The <m>N</m> is a right ideal of <m>A</m> and hence <m>n\cdot r\in N</m>. This shows that <m>a\cdot r\in B</m>.
+                        As <m>N</m> is a right ideal of <m>A</m> and hence <m>n\cdot r\in N</m>. This shows that <m>b\cdot r\in B</m>. We leave to the reader to check other conditions for <m>B</m> to be a subalgebra of <m>A</m>.
+                    </p>
+                    <p>
+                        Note that <m>A/N</m> is a right <m>A</m>-module and so is <m>\End{A}{A/N}</m>. As <m>B\hookrightarrow A</m> is a subalgebra, <m>\End{A}{A/N}</m> is also a right <m>B</m>-module. We define <m>\varphi\colon\End{A}{A/N}\to B/N</m> by <m>f\mapsto f(1)+N</m>. We check that <m>\varphi</m> is <m>B</m>-module homomorphism. For <m>f,g\in\End{A}{A/N}</m>, and <m>b,b'\in B</m> we have
+                        <me>
+                            \varphi(f\cdot b+g\cdot b')=(f\cdot b)(1)+(g\cdot b')(1)+N=(f(1)\cdot b)+N+(g(1)\cdot b')+N=\varphi(f)\cdot b+\varphi(g)\cdot b'.
+                        </me>
                     </p>
                 </li>
             </ol>
