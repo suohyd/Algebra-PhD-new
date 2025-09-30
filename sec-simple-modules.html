@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Some examples of algebras</title>
+<title>Simple modules</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -129,7 +129,7 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-algebra.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-associative-algebras.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-group-algebra.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-change-of-scalars.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-modules.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb{C}} \newcommand{\H}{\mathbb H} 
  \newcommand{\End}[2]{\operatorname{End}_{#1}\left(#2\right)} \newcommand{\Aut}[2]{\operatorname{Aut}_{#1}\left(#2\right)} \newcommand{\Hom}[3]{\operatorname{Hom}_{#1}\left(#2,#3\right)} \newcommand{\AEnd}[2]{\operatorname{End}_{#1{\textup {-}}{\rm alg}}\left(#2\right)} \newcommand{\AAut}[2]{\operatorname{Aut}_{#1{\textup {-}}{\rm alg}}\left(#2\right)} \newcommand{\LEnd}[2]{\operatorname{End}_{#1{\textup {-}}{\rm mod}}\left(#2\right)} \newcommand{\unit}{1\!\!1} \newcommand{\Trd}[1]{\operatorname{Trd}_{#1}} \newcommand{\Nrd}[1]{\operatorname{Nrd}_{#1}} \newcommand{\tr}{\operatorname{tr}} \newcommand{\Ann}[2]{\operatorname{ann}_{#1}{#2}}
 \newcommand{\lt}{&lt;}
@@ -141,11 +141,11 @@ eBookConfig.enable_chatcodes =  false;
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
-<li class="toc-item toc-chapter contains-active">
+<li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-associative-algebras.html" class="internal"><span class="codenumber">1</span> <span class="title">Associative Algebras</span></a></div>
-<ul class="structural toc-item-list contains-active">
+<ul class="structural toc-item-list">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-algebra.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Algebra over a commutative ring</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-examples-algebras.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Some examples of algebras</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-examples-algebras.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Some examples of algebras</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-group-algebra.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Group algebra</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-morphisms-of-algebras.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Morphisms of algebras</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-bimodule.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Bimodules</span></a></div></li>
@@ -161,11 +161,11 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-quaternion-algebras.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises related to quaternion algebras</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter">
+<li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-modules.html" class="internal"><span class="codenumber">3</span> <span class="title">Modules</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-change-of-scalars.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Change of scalars</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-simple-modules.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Simple modules</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-simple-modules.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Simple modules</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -176,56 +176,81 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-examples-algebras"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Some examples of algebras</span>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-simple-modules"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Simple modules</span>
 </h2>
-<details id="sec-examples-algebras-2" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Associative ring as <span class="process-math">\(\Z\)</span>-algbera.</span>
-</h3></summary><article class="example example-like knowl__content"><div class="para" id="sec-examples-algebras-2-2-1">Every associative ring <span class="process-math">\(A\)</span> can be considered as a <span class="process-math">\(\Z\)</span>-algebra.<div class="autopermalink" data-description="Paragraph"><a href="#sec-examples-algebras-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="introduction" id="sec-simple-modules-2"><div class="para" id="sec-simple-modules-2-1">We define simple modules and study some of their properties. We begin with the definition of ‘cyclic modules’. Throughout this section, we assume that <span class="process-math">\(R\)</span> is a commutative ring with unity and all modules are right <span class="process-math">\(R\)</span>-modules.<div class="autopermalink" data-description="Paragraph"><a href="#sec-simple-modules-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><article class="definition definition-like" id="def-cyclic-module"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Cyclic module.</span>
+</h3>
+<div class="para" id="def-cyclic-module-2-1">Let <span class="process-math">\(A\)</span> be an <span class="process-math">\(R\)</span>-algebra and <span class="process-math">\(M\)</span> be a right <span class="process-math">\(A\)</span>-module. We say that <span class="process-math">\(M\)</span> is a <em class="emphasis">cyclic module</em> if there exists <span class="process-math">\(m\in M\)</span> such that <span class="process-math">\(M=mA\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#def-cyclic-module-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.2.1: Associative ring as \Z-algbera"><a href="#sec-examples-algebras-2" title="Copy heading and permalink for Example 1.2.1: Associative ring as \Z-algbera" aria-label="Copy heading and permalink for Example 1.2.1: Associative ring as \Z-algbera">🔗</a></div></article></details><details id="ex-ring-over-itself" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Ring as an algebra over itself.</span>
-</h3></summary><article class="example example-like knowl__content"><div class="para" id="ex-ring-over-itself-2-1">Let <span class="process-math">\(R\)</span> be a commutative ring with unity. Then <span class="process-math">\(R\)</span> can be considered a right <span class="process-math">\(R\)</span>-module using the multiplication in ring <span class="process-math">\(R\text{.}\)</span> With this considerations, <span class="process-math">\(R\)</span> is an <span class="process-math">\(R\)</span>-algebra.<div class="autopermalink" data-description="Paragraph"><a href="#ex-ring-over-itself-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Definition 3.2.1: Cyclic module"><a href="#def-cyclic-module" title="Copy heading and permalink for Definition 3.2.1: Cyclic module" aria-label="Copy heading and permalink for Definition 3.2.1: Cyclic module">🔗</a></div></article><article class="lemma theorem-like" id="lem-cyclic-module-and-annihilator"><h3 class="heading">
+<span class="type">Lemma</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para logical" id="lem-cyclic-module-and-annihilator-1-1">
+<div class="para">Let <span class="process-math">\(A\)</span> be an <span class="process-math">\(R\)</span>-algebra and <span class="process-math">\(M\)</span> be a right <span class="process-math">\(A\)</span>-module which is cyclic. Then,</div>
+<ol class="decimal" id="lem-cyclic-module-and-annihilator-1-1-5">
+<li id="lem-cyclic-module-and-annihilator-1-1-5-1">
+<div class="para" id="lem-cyclic-module-and-annihilator-1-1-5-1-1">
+<span class="process-math">\(M\simeq A/\Ann{A}{M}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lem-cyclic-module-and-annihilator-1-1-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.2.2: Ring as an algebra over itself"><a href="#ex-ring-over-itself" title="Copy heading and permalink for Example 1.2.2: Ring as an algebra over itself" aria-label="Copy heading and permalink for Example 1.2.2: Ring as an algebra over itself">🔗</a></div></article></details><details id="ex-algebra-over-center" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Ring over its center.</span>
-</h3></summary><article class="example example-like knowl__content"><div class="para" id="ex-algebra-over-center-2-1">Suppose that <span class="process-math">\(A\)</span> is a ring (not necessarily commutative), and let <span class="process-math">\(Z(A)\)</span> be the center of <span class="process-math">\(A\text{.}\)</span> Then <span class="process-math">\(A\)</span> is a <span class="process-math">\(Z(A)\)</span>-algebra.<div class="autopermalink" data-description="Paragraph"><a href="#ex-algebra-over-center-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Item 1"><a href="#lem-cyclic-module-and-annihilator-1-1-5-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="lem-cyclic-module-and-annihilator-1-1-5-2">
+<div class="para" id="lem-cyclic-module-and-annihilator-1-1-5-2-1">If <span class="process-math">\(N\)</span> is a right ideal of <span class="process-math">\(A\)</span> then, <span class="process-math">\(A/N\)</span> is a cyclic right <span class="process-math">\(A\)</span>-module.<div class="autopermalink" data-description="Paragraph"><a href="#lem-cyclic-module-and-annihilator-1-1-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.2.3: Ring over its center"><a href="#ex-algebra-over-center" title="Copy heading and permalink for Example 1.2.3: Ring over its center" aria-label="Copy heading and permalink for Example 1.2.3: Ring over its center">🔗</a></div></article></details><details id="ex-matrix-algebra" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Matrix algebra.</span>
-</h3></summary><article class="example example-like knowl__content"><div class="para" id="ex-matrix-algebra-2-1">Suppose that <span class="process-math">\(R\)</span> is a commutative ring and <span class="process-math">\(n\)</span> is a positive integer. Suppose that <span class="process-math">\(A\)</span> is an <span class="process-math">\(R\)</span>-algebra. Then the ring of <span class="process-math">\(n\times n\)</span> matrices over <span class="process-math">\(A\text{,}\)</span> denoted by <span class="process-math">\(M_n(A)\text{,}\)</span> is an <span class="process-math">\(R\)</span>-algebra.<div class="autopermalink" data-description="Paragraph"><a href="#ex-matrix-algebra-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Item 2"><a href="#lem-cyclic-module-and-annihilator-1-1-5-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="lem-cyclic-module-and-annihilator-1-1-5-3">
+<div class="para" id="lem-cyclic-module-and-annihilator-1-1-5-3-1">Let <span class="process-math">\(N\)</span> be a right ideal of <span class="process-math">\(A\text{.}\)</span> Put <span class="process-math">\(B=\{a\in A:aN\subseteq N\}\text{.}\)</span> Then, <span class="process-math">\(B\)</span> is a subalgebra of <span class="process-math">\(A\)</span> containing <span class="process-math">\(N\text{.}\)</span> Furthermore, <span class="process-math">\(\End{A}{A/N}\simeq B/N\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#lem-cyclic-module-and-annihilator-1-1-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.2.4: Matrix algebra"><a href="#ex-matrix-algebra" title="Copy heading and permalink for Example 1.2.4: Matrix algebra" aria-label="Copy heading and permalink for Example 1.2.4: Matrix algebra">🔗</a></div></article></details><details id="ex-endomorphism-algebra" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Endomorphism algebra.</span>
-</h3></summary><article class="example example-like knowl__content"><div class="para" id="ex-endomorphism-algebra-2-1">Let <span class="process-math">\(R\)</span> be a commutative ring with unity. Suppose that <span class="process-math">\(M\)</span> is a right <span class="process-math">\(R\)</span>-module. The endomorphism ring <span class="process-math">\(\End{R}{M}\)</span> is an <span class="process-math">\(R\)</span>-algebra.<div class="autopermalink" data-description="Paragraph"><a href="#ex-endomorphism-algebra-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Item 3"><a href="#lem-cyclic-module-and-annihilator-1-1-5-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#lem-cyclic-module-and-annihilator-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.2.5: Endomorphism algebra"><a href="#ex-endomorphism-algebra" title="Copy heading and permalink for Example 1.2.5: Endomorphism algebra" aria-label="Copy heading and permalink for Example 1.2.5: Endomorphism algebra">🔗</a></div></article></details><details id="ex-polynomial-algebra" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Polynomial ring as algebra.</span>
-</h3></summary><article class="example example-like knowl__content"><div class="para" id="ex-polynomial-algebra-2-1">Let <span class="process-math">\(R\)</span> be a commutative ring with unity. The polynomial ring <span class="process-math">\(R[X]\)</span> is an <span class="process-math">\(R\)</span>-algebra.<div class="autopermalink" data-description="Paragraph"><a href="#ex-polynomial-algebra-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Lemma 3.2.2"><a href="#lem-cyclic-module-and-annihilator" title="Copy heading and permalink for Lemma 3.2.2" aria-label="Copy heading and permalink for Lemma 3.2.2">🔗</a></div></article><details id="sec-simple-modules-5" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary><article class="hiddenproof knowl__content"><div class="para logical" id="sec-simple-modules-5-1">
+<ol class="decimal" id="sec-simple-modules-5-1-1">
+<li id="sec-simple-modules-5-1-1-1">
+<div class="para" id="sec-simple-modules-5-1-1-1-1">Suppose that <span class="process-math">\(M=mA\text{.}\)</span> Define a map <span class="process-math">\(\varphi\colon A\to M\)</span> by <span class="process-math">\(a\mapsto m\cdot a\text{.}\)</span> As <span class="process-math">\(M\)</span> is cyclic, the map is surjective and its kernel is precisely <span class="process-math">\(\Ann{A}{M}\text{.}\)</span> The first isomorphism theorem for modules gives the required isomorphism.<div class="autopermalink" data-description="Paragraph"><a href="#sec-simple-modules-5-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.2.6: Polynomial ring as algebra"><a href="#ex-polynomial-algebra" title="Copy heading and permalink for Example 1.2.6: Polynomial ring as algebra" aria-label="Copy heading and permalink for Example 1.2.6: Polynomial ring as algebra">🔗</a></div></article></details><details id="ex-oppositive-algebra" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Opposite algebra.</span>
-</h3></summary><article class="example example-like knowl__content"><div class="para logical" id="ex-oppositive-algebra-2-1">
-<div class="para">Let <span class="process-math">\(R\)</span> be a commutative ring, and let <span class="process-math">\(A\)</span> be a right <span class="process-math">\(R\)</span>-algebra. We denote by <span class="process-math">\(A^{op}\)</span> the opposite ring of <span class="process-math">\(A\text{.}\)</span> Recall that <span class="process-math">\(A^{op}\)</span> as a set is equal to <span class="process-math">\(A\text{.}\)</span> Furthemore, it satisfies the following relations for any <span class="process-math">\(a^{op},b^{op}\in A^{op}\text{.}\)</span>
+<div class="autopermalink" data-description="Item 1"><a href="#sec-simple-modules-5-1-1-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="sec-simple-modules-5-1-1-2">
+<div class="para" id="sec-simple-modules-5-1-1-2-1">Checking <span class="process-math">\(A/N\)</span> is a right <span class="process-math">\(A\)</span>-module is left to the reader. Consider the submodule of <span class="process-math">\(N\)</span> generated by <span class="process-math">\(1+N\text{.}\)</span> Given any <span class="process-math">\(a+N\in A/N\)</span> we have <span class="process-math">\(a+N=(1+N)\cdot a\text{,}\)</span> and therefore, <span class="process-math">\(A/N\simeq (1+N)(A/N)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-simple-modules-5-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="displaymath process-math">
+<div class="autopermalink" data-description="Item 2"><a href="#sec-simple-modules-5-1-1-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="sec-simple-modules-5-1-1-3">
+<div class="para logical" id="sec-simple-modules-5-1-1-3-1">
+<div class="para">We first check that <span class="process-math">\(B\)</span> is a subalgebra of <span class="process-math">\(A\)</span> containing <span class="process-math">\(N\text{.}\)</span> For <span class="process-math">\(b\in B\subseteq A\text{,}\)</span> <span class="process-math">\(n\in N\text{,}\)</span> and <span class="process-math">\(r\in R\)</span> we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-algebra.html">
 \begin{equation*}
-a^{op}+b^{op}=(a+b)^{op},\quad\text{and}\quad a^{op}b^{op}=(ba)^{op}
+(b\cdot r)n =b(n\cdot r), \text{as }n\in N\subseteq A\text{ and using algebra condition }\knowl{./knowl/xref/eqn-algebra.html}{(1.1.1)}.
 \end{equation*}
 </div>
-<div class="para">Then <span class="process-math">\(A^{op}\)</span> is a right <span class="process-math">\(R\)</span>-algebra, called the opposite algebra of <span class="process-math">\(A\text{,}\)</span> gievn by the scalar multiplication</div>
+<div class="para">As <span class="process-math">\(N\)</span> is a right ideal of <span class="process-math">\(A\)</span> and hence <span class="process-math">\(n\cdot r\in N\text{.}\)</span> This shows that <span class="process-math">\(b\cdot r\in B\text{.}\)</span> We leave to the reader to check other conditions for <span class="process-math">\(B\)</span> to be a subalgebra of <span class="process-math">\(A\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-simple-modules-5-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-simple-modules-5-1-1-3-2">
+<div class="para">Note that <span class="process-math">\(A/N\)</span> is a right <span class="process-math">\(A\)</span>-module and so is <span class="process-math">\(\End{A}{A/N}\text{.}\)</span> As <span class="process-math">\(B\hookrightarrow A\)</span> is a subalgebra, <span class="process-math">\(\End{A}{A/N}\)</span> is also a right <span class="process-math">\(B\)</span>-module. We define <span class="process-math">\(\varphi\colon\End{A}{A/N}\to B/N\)</span> by <span class="process-math">\(f\mapsto f(1)+N\text{.}\)</span> We check that <span class="process-math">\(\varphi\)</span> is <span class="process-math">\(B\)</span>-module homomorphism. For <span class="process-math">\(f,g\in\End{A}{A/N}\text{,}\)</span> and <span class="process-math">\(b,b'\in B\)</span> we have</div>
 <div class="displaymath process-math">
 \begin{equation*}
-a^{op}\cdot r=(a\cdot r)^{op} \quad\text{for any }r\in R\text{ and }a^{op}\in A^{op}.
+\varphi(f\cdot b+g\cdot b')=(f\cdot b)(1)+(g\cdot b')(1)+N=(f(1)\cdot b)+N+(g(1)\cdot b')+N=\varphi(f)\cdot b+\varphi(g)\cdot b'.
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#ex-oppositive-algebra-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-simple-modules-5-1-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.2.7: Opposite algebra"><a href="#ex-oppositive-algebra" title="Copy heading and permalink for Example 1.2.7: Opposite algebra" aria-label="Copy heading and permalink for Example 1.2.7: Opposite algebra">🔗</a></div></article></details><div class="para" id="sec-examples-algebras-9">We discuss the example of ‘Group algebra’ in the next section.<div class="autopermalink" data-description="Paragraph"><a href="#sec-examples-algebras-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Item 3"><a href="#sec-simple-modules-5-1-1-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-simple-modules-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Section 1.2: Some examples of algebras"><a href="#sec-examples-algebras" title="Copy heading and permalink for Section 1.2: Some examples of algebras" aria-label="Copy heading and permalink for Section 1.2: Some examples of algebras">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Proof 3.2.1"><a href="#sec-simple-modules-5" title="Copy heading and permalink for Proof 3.2.1" aria-label="Copy heading and permalink for Proof 3.2.1">🔗</a></div></article></details><div class="autopermalink" data-description="Section 3.2: Simple modules"><a href="#sec-simple-modules" title="Copy heading and permalink for Section 3.2: Simple modules" aria-label="Copy heading and permalink for Section 3.2: Simple modules">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="sec-algebra.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-group-algebra.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-change-of-scalars.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
