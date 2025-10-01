@@ -63,10 +63,20 @@
                         As <m>N</m> is a right ideal of <m>A</m> and hence <m>n\cdot r\in N</m>. This shows that <m>b\cdot r\in B</m>. We leave to the reader to check other conditions for <m>B</m> to be a subalgebra of <m>A</m>.
                     </p>
                     <p>
-                        Note that <m>A/N</m> is a right <m>A</m>-module and so is <m>\End{A}{A/N}</m>. As <m>B\hookrightarrow A</m> is a subalgebra, <m>\End{A}{A/N}</m> is also a right <m>B</m>-module. We define <m>\varphi\colon\End{A}{A/N}\to B/N</m> by <m>f\mapsto f(1)+N</m>. We check that <m>\varphi</m> is <m>B</m>-module homomorphism. For <m>f,g\in\End{A}{A/N}</m>, and <m>b,b'\in B</m> we have
-                        <me>
-                            \varphi(f\cdot b+g\cdot b')=(f\cdot b)(1)+(g\cdot b')(1)+N=(f(1)\cdot b)+N+(g(1)\cdot b')+N=\varphi(f)\cdot b+\varphi(g)\cdot b'.
-                        </me>
+                        Note that <m>A/N</m> is a right <m>A</m>-module and so is <m>\End{A}{A/N}</m>. As <m>B\hookrightarrow A</m> is a subalgebra, <m>\End{A}{A/N}</m> is also a right <m>B</m>-module. We define <m>\varphi\colon\End{A}{A/N}\to B/N</m> by <m>f\mapsto f(1)+N</m>. We check that <m>\varphi</m> is a <m>B</m>-module homomorphism. For <m>f,g\in\End{A}{A/N}</m>, and <m>b,b'\in B</m> we have
+                        <md>
+                            <mrow> \varphi(f\cdot b+g\cdot b')\amp =(f\cdot b)(1)+(g\cdot b')(1)+N</mrow>
+                            <mrow> \amp =(f(1)\cdot b)+N+(g(1)\cdot b')+N</mrow>
+                            <mrow> \amp =\varphi(f)\cdot b+\varphi(g)\cdot b'.</mrow>
+                        </md>
+                        For <m>b+N\in B/N</m> consider <m>r_b\colon A/N\to A/N</m> given by <m>\ell_b(a+N)=ba+N</m>, i.e., <m>a+N</m> maps to the coset of <m>ba</m>. We check the well-definedness of this map. Suppose that <m>a\equiv a'\mod N</m>, say <m>a'=a+n</m> for some <m>n\in N</m>. We obtain the following:
+                        <md>
+                            <mrow>\ell_b(a'+N) \amp=\ell_b((a+n)+N) </mrow>
+                            <mrow> \amp=\left(b(a+n)\right)+N </mrow>
+                            <mrow> \amp=(ba+bn)+N </mrow>
+                            <mrow> \amp=ba+N\text{ (by the definition of }B,\, bn\in N) </mrow>
+                            <mrow> \amp=\ell_b(a+N) </mrow>
+                        </md>
                     </p>
                 </li>
             </ol>
