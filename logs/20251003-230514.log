@@ -1,0 +1,17 @@
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+ERROR   : XInclude Error caused build to fail:
+ERROR   : /home/abhay/Documents/PreTeXt/Algebra-PhD-new/source/sec-simple-modules.ptx:253:21:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: m line 252 and statement
+/home/abhay/Documents/PreTeXt/Algebra-PhD-new/source/sec-simple-modules.ptx:254:15:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: statement line 248 and example
+/home/abhay/Documents/PreTeXt/Algebra-PhD-new/source/sec-simple-modules.ptx:255:11:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: example line 247 and section
+/home/abhay/Documents/PreTeXt/Algebra-PhD-new/source/ch-modules.ptx:11:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load /home/abhay/Documents/PreTeXt/Algebra-PhD-new/source/sec-simple-modules.ptx, and no fallback was found
+CRITICAL: XML syntax for source file is invalid
+INFO    : ------------------------
+CRITICAL: Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------
