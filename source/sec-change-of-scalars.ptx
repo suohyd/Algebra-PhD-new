@@ -85,7 +85,7 @@
                 </li>
                 <li>
                     <p>
-                        If <m>M</m> is a right ideal of <m>A</m> then, <m>\Ann{A}{A/M}</m> is the largest two-sided ideal of <m>A</m> contained in <m>M</m>.
+                        If <m>M</m> is a right ideal of <m>A</m> then, <m>\Ann{A}{(A/M)}</m> is the largest two-sided ideal of <m>A</m> contained in <m>M</m>.
                     </p>
                 </li>
             </ol>
