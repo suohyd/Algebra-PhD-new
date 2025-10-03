@@ -34,7 +34,7 @@
                     </li>
                     <li>
                         <p>
-                            Let <m>N</m> be a right ideal of <m>A</m>. Put <m>B=\{a\in A:aN\subseteq N\}</m>. Then, <m>B</m> is a subalgebra of <m>A</m> containing <m>N</m>. Furthermore, <m>\End{A}{A/N}\simeq B/N</m>.
+                            Let <m>N</m> be a right ideal of <m>A</m>. Put <m>B=\{a\in A:aN\subseteq N\}</m>. Then, <m>B</m> is a subalgebra of <m>A</m> containing <m>N</m>. Furthermore, <m>\End{A}{A/N}\simeq B/N</m> as right <m>B</m>-modules.
                         </p>
                     </li>
                 </ol>
@@ -69,7 +69,7 @@
                             <mrow> \amp =(f(1)\cdot b)+N+(g(1)\cdot b')+N</mrow>
                             <mrow> \amp =\varphi(f)\cdot b+\varphi(g)\cdot b'.</mrow>
                         </md>
-                        For <m>b+N\in B/N</m> consider <m>r_b\colon A/N\to A/N</m> given by <m>\ell_b(a+N)=ba+N</m>, i.e., <m>a+N</m> maps to the coset of <m>ba</m>. We check the well-definedness of this map. Suppose that <m>a\equiv a'\mod N</m>, say <m>a'=a+n</m> for some <m>n\in N</m>. We obtain the following:
+                        For <m>b+N\in B/N</m> consider <m>\ell_b\colon A/N\to A/N</m> given by <m>\ell_b(a+N)=ba+N</m>, i.e., coset representative <m>a</m> maps to a coset representative <m>ba</m>. We check the well-definedness of this map. Suppose that <m>a\equiv a'\mod N</m>, say <m>a'=a+n</m> for some <m>n\in N</m>. We obtain the following:
                         <md>
                             <mrow>\ell_b(a'+N) \amp=\ell_b((a+n)+N) </mrow>
                             <mrow> \amp=\left(b(a+n)\right)+N </mrow>
@@ -77,6 +77,16 @@
                             <mrow> \amp=ba+N\text{ (by the definition of }B,\, bn\in N) </mrow>
                             <mrow> \amp=\ell_b(a+N) </mrow>
                         </md>
+                        Suppose now that <m>b'=b+n</m> for some <m>n\in N</m>. We check that <m>\ell_b=\ell_{b'}</m>.
+                        <md>
+                            <mrow>\ell_{b'}(a+N) \amp=\ell_{b+n}(a+N) </mrow>
+                            <mrow> \amp=((b+n)a)+N </mrow>
+                            <mrow> \amp=(ba+na)+N </mrow>
+                            <mrow> \amp=ba+N\text{ (as }na\in N\text{, since }N\text{ is a right ideal of }A) </mrow>
+                            <mrow> \amp=\ell_b(a+N) </mrow>
+                        </md>
+                        Furthermore, the map <m>\ell_b</m> is <m>A</m>-linear. Indeed, for <m>a,a'\in A</m> we have <me>\ell_b\left((a+N)\cdot a'\right)=\ell_b(aa'+N)=(baa')+N=\ell_b(a+N)\cdot a'.</me>
+                        Therefore, we ge the map <m>\psi\colon B/N\to\End{A}{A/N}</m> given by <m>b+N\mapsto\ell_b</m>. One may check that <m>\varphi</m> and <m>\psi</m> are mutually inverse homomorphisms of <m>B</m>-modules.
                     </p>
                 </li>
             </ol>
