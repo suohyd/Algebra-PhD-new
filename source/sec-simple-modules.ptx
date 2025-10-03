@@ -135,7 +135,7 @@
                 <me>
                     M_1=\left\{\begin{pmatrix}d_{11}\amp d_{12}\amp\cdots\amp d_{1n}\\0\amp 0\amp\cdots\amp 0\\\vdots\amp\vdots\amp\ddots\amp\vdots\\0\amp 0\amp\cdots\amp 0\end{pmatrix}:d_{1i}\in D\right\}
                 </me>
-                The <m>M_1</m> is a right ideal of <m>M_n(D)</m>. We consider <m>M_1</m> as a right <m>M_n(D)</m>-module. We claim that <m>M_1</m> is a simple right <m>M_n(D)</m>-module. Suppose that <m>0\neq A=(a_{ij})\in M_1</m>, say <m>a_{1k}\neq 0</m>. As <m>D</m> is a division algebra, there exists <m>b_k\in D</m> such that <m>1=b_ka_{1k}=a_{1k}b_k</m>. Assume that <m>E_{1k}</m> to be the matrix with <m>(1,k)</m>-th entry <m>1</m> and all other entries <m>0</m>. One check that <m>A\cdot E_{1k}b_k=E_{1k}</m>. This shows that for <m>d_{11},d_{12},\ldots,d_{1n}\in D</m>,
+                The <m>M_1</m> is a right ideal of <m>M_n(D)</m>. We consider <m>M_1</m> as a right <m>M_n(D)</m>-module. We claim that <m>M_1</m> is a simple right <m>M_n(D)</m>-module. Suppose that <m>0\neq A=(a_{ij})\in M_1</m>, say <m>a_{1k}\neq 0</m>. As <m>D</m> is a division algebra, there exists <m>b_k\in D</m> such that <m>1=b_ka_{1k}=a_{1k}b_k</m>. Assume that <m>E_{\ell k}</m> to be the matrix with <m>(\ell,k)</m>-th entry <m>1</m> and all other entries <m>0</m>. One check that <m>A\cdot E_{k k}b_k=E_{1k}\in AM_n(D)</m>. This shows that for <m>d_{11},d_{12},\ldots,d_{1n}\in D</m>,
                 <me>
                     \sum_{k=1}^n E_{1k}d_{1k}=\begin{pmatrix}d_{11}\amp d_{12}\amp\cdots\amp d_{1n}\\0\amp 0\amp\cdots\amp 0\\\vdots\amp\vdots\amp\ddots\amp\vdots\\0\amp 0\amp\cdots\amp 0\end{pmatrix}\in AM_n(D).
                 </me>
