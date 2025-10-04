@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-ws-simple-modules">
+    <title>Exercises related to simple modules</title>
+    <introduction>
+        <p>
+            Most of the exercises are taken from <xref ref="bib-Pierce"/> 
+        </p>
+    </introduction>
+    <exercisegroup>
+    
+        <introduction>
+            <p>
+                Determine all simple right <m>A</m>-modules for the following algebras:
+            </p>
+        </introduction>
+    
+        <exercise>
+            <statement>
+                <p>
+                    <m>A=\Z</m> and <m>A=\{a/n:a\in\Z,n\in\N,2\not\mid n\}</m>;
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    <m>A=\C[x]</m> and <m>A=\C[x,y]/(x^2+y^2-1)</m>;
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    <m>A=\mathcal{C}[0,1]</m>, an <m>\R</m>-algebra of continuous real valued functions on <m>[0,1]</m>;
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    <m>A=\left\{\left(\begin{smallmatrix}a\amp 0\\b\amp c\end{smallmatrix}\right):a,b,c\in F\right\}</m> for any field <m>F</m>.
+                </p>
+            </statement>
+        </exercise>
+    
+    </exercisegroup>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>A</m> be an integral domain which is not a field. Let <m>F</m> be the field of fractions of <m>A</m>. Consider <m>F</m> as an <m>A</m>-module. Show that <m>\End{A}{F_A}\simeq F_A</m> but <m>F_A</m> is not simple.
+            </p>
+        </statement>
+    </exercise>
+</worksheet>
