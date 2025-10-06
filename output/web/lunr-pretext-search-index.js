@@ -1204,7 +1204,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.4",
   "title": "Semisimple modules",
-  "body": " Semisimple modules   In this section we assume that is a commutative ring with unity and is a right -algebra. For a right -module we denote by the collection of all -submodules of .    Complement of a submodule   Assume that is a commutative ring with unity and is a right -algebra. Let be a right -module and be -submodules of . The module is called a complement of in if .    We show in this section that semisimple modules (see ) are characterized by existence of complements of its submodules. We begin with the following lemma.    Let , where is a simple -submodule of . If then, there exists such that      Consider the following set. The set as empty sum of submodules is considered as . Suppose that we have a chain of submodules corresponding to a chain of subsets of . Then, put . We claim that For any This shows that every chain has an upper bound. By Zorn's lemma there exists a maximal element, say a subset such that . Put . By maximality of , for every . As is simple, we must have , i.e., for each . Therefore, we get the result.   "
+  "body": " Semisimple modules   In this section we assume that is a commutative ring with unity and is a right -algebra. For a right -module we denote by the collection of all -submodules of .    Complement of a submodule   Assume that is a commutative ring with unity and is a right -algebra. Let be a right -module and be -submodules of . The module is called a complement of in if .      Let be a collection of submodules of . The set is said to be independent if for every we have Otherwise we call  dependent .    We show in this section that semisimple modules (see ) are characterized by existence of complements of its submodules. We begin with the following lemma.    Let , where is a simple -submodule of . If then, there exists such that      Consider the following set. The set as empty sum of submodules is considered as . Suppose that we have a chain of submodules corresponding to a chain of subsets of . Then, put . We claim that For any This shows that every chain has an upper bound. By Zorn's lemma there exists a maximal element, say a subset such that . Put . By maximality of , for every . As is simple, we must have , i.e., for each . Therefore, we get the result.   "
 },
 {
   "id": "def-complement-of-a-submodule",
@@ -1216,18 +1216,27 @@ var ptx_lunr_docs = [
   "body": " Complement of a submodule   Assume that is a commutative ring with unity and is a right -algebra. Let be a right -module and be -submodules of . The module is called a complement of in if .   "
 },
 {
+  "id": "def-independent-submodules",
+  "level": "2",
+  "url": "sec-semisimple-modules.html#def-independent-submodules",
+  "type": "Definition",
+  "number": "3.4.2",
+  "title": "",
+  "body": "  Let be a collection of submodules of . The set is said to be independent if for every we have Otherwise we call  dependent .   "
+},
+{
   "id": "lem-step-in-charaterization-of-semisimple-modules",
   "level": "2",
   "url": "sec-semisimple-modules.html#lem-step-in-charaterization-of-semisimple-modules",
   "type": "Lemma",
-  "number": "3.4.2",
+  "number": "3.4.3",
   "title": "",
   "body": "  Let , where is a simple -submodule of . If then, there exists such that    "
 },
 {
-  "id": "sec-semisimple-modules-6",
+  "id": "sec-semisimple-modules-7",
   "level": "2",
-  "url": "sec-semisimple-modules.html#sec-semisimple-modules-6",
+  "url": "sec-semisimple-modules.html#sec-semisimple-modules-7",
   "type": "Proof",
   "number": "3.4.1",
   "title": "",

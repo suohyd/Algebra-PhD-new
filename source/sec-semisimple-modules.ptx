@@ -17,6 +17,17 @@
             </p>
         </statement>
     </definition>
+    <definition xml:id="def-independent-submodules">
+        <statement>
+            <p>
+                Let <m>S=\{N_i\}_{i\in I}</m> be a collection of submodules of <m>M</m>. The set <m>S</m> is said to be <em>independent</em> if for every <m>N_i\in S</m> we have
+                <me>
+                    N_i\cap \sum_{N_k\neq N_i}N_k=0.
+                </me>
+                Otherwise we call <m>S</m> <em>dependent</em>.
+            </p>
+        </statement>
+    </definition>
     <p>
         We show in this section that semisimple modules (see <xref ref="def-semisimple-module"/>) are characterized by existence of complements of its submodules. We begin with the following lemma.
     </p> 
