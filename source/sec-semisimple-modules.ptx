@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-semisimple-modules" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Semisimple modules</title>
+    <introduction>
+        <p>
+            In this section we assume that <m>R</m> is a commutative ring with unity and <m>A</m> is a right <m>R</m>-algebra. For a right <m>A</m>-module <m>M</m> we denote by <m>S(M)</m> the collection of all <m>A</m>-submodules of <m>M</m>.
+        </p>
+    </introduction>
+    <definition xml:id="def-complement-of-a-submodule">
+        <title>Complement of a submodule</title>
+        
+        
+        <statement>
+            <p>
+                Assume that <m>R</m> is a commutative ring with unity and <m>A</m> is a right <m>R</m>-algebra. Let <m>M</m> be a right <m>A</m>-module and <m>P,N\leq M</m> be <m>A</m>-submodules of <m>M</m>. The module <m>P</m> is called a <em>complement</em> of <m>N</m> in <m>S(M)</m> if <m>M=P\oplus N</m>.
+            </p>
+        </statement>
+    </definition>
+    <p>
+        We show in this section that semisimple modules (see <xref ref="def-semisimple-module"/>) are characterized by existence of complements of its submodules. We begin with the following lemma.
+    </p> 
+    <lemma xml:id="lem-step-in-charaterization-of-semisimple-modules">
+        <statement>
+            <p>
+                Let <m>M=\sum_{j\in J}N_j</m>, where <m>N_j</m> is a simple <m>A</m>-submodule of <m>M</m>. If <m>P\leq M</m> then, there exists <m>I\subseteq J</m> such that
+                <me>
+                    M=\left(\bigoplus_{i\in I}N_i\right)\bigoplus P.
+                </me>
+                
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            Consider the following set.
+            <m>\Sigma=\left\{\{N_i\}_{i\in I}\cup\{P\}:\sum_{i\in I}N_i+P=\left(\bigoplus_{i\in I} N_i\right)\bigoplus P\text{ for some subset }I\subseteq J\right\}</m>
+            The set <m>\Sigma\neq\emptyset</m> as empty sum of submodules is considered as <m>\{0\}</m>. Suppose that we have a chain of submodules corresponding to a chain of subsets <m>\{I_{k}\}</m> of <m>J</m>. Then, put <m>I=\cup I_k</m>. We claim that <me>\sum_{i\in I}N_i+P=\left(\bigoplus_{i\in I}N_i\right)\bigoplus P.</me> For any <me>\sum_{r=1}^sn_{i_r}+p\in \sum_{t\in I_k}N_t+P=\left(\bigoplus_{t\in I_k}N_t\right)\bigoplus P\text{ for some }k.</me>
+            This shows that every chain has an upper bound. By Zorn's lemma there exists a maximal element, say a subset <m>I\subseteq J</m> such that <m>\sum_{i\in I}N_i+P=\left(\bigoplus N_i\right)\bigoplus P</m>. Put <m>M_1=\sum_{i\in I}N_i+P</m>. By maximality of <m>I</m>, <m>M_1\cap N_j\neq 0</m> for every <m>j\in J</m>. As <m>N_j</m> is simple, we must have <m>M_1\cap N_j=N_j</m>, i.e., <m>N_j\subseteq M_1</m> for each <m>j\in J</m>. Therefore, we get the result.
+        </p>
+    </proof>
+</section>

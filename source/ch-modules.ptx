@@ -10,4 +10,5 @@
   <xi:include href="sec-change-of-scalars.ptx" />
   <xi:include href="sec-simple-modules.ptx" />
   <xi:include href="ws-simple-modules.ptx" />
+  <xi:include href="sec-semisimple-modules.ptx" />
 </chapter>
