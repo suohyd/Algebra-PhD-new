@@ -42,21 +42,7 @@
         <statement>
             <p>
                 Let <m>S=\{M_j\}_{j\in J}</m> be a nonempty collection of right <m>A</m>-modules. There exists a right <m>A</m>-module <m>M</m> with <m>A</m>-module homomorphisms <m>i_j\colon M_j\to M</m> for every <m>j\in J</m>, and with the following universal property: if there exists a right <m>A</m>-module <m>N</m> with <m>f_j\colon M_j\to N</m> for every <m>j\in J</m> then there exists a unique <m>A</m>-module homomorphism <m>f\colon M\to N</m> such that <m>f\circ i_j=f_j</m> for each <m>j\in J</m>. The universal property can be summarized in the following commutative diagram.
-                <figure xml:id="fig-universal-property-of-direct-sum">
-                    <caption></caption>
-                    <image>
-                        <shortdescription></shortdescription>
-                        <latex-image>
-                            
-\begin{tikzcd}
-M_j \arrow[rd, "i_j"] \arrow[rdd, "f_j"', bend right] \amp                          \amp M_k \arrow[ld, "i_k"'] \arrow[ldd, "f_k", bend left] \\
-                                                      \amp M \arrow[d, "f", dashed] \amp                                                      \\
-                                                      \amp N                        \amp                                                     
-\end{tikzcd}
-                        </latex-image>
-                    </image>
-                </figure>
-            </p>
+            </p>            
         </statement>
     </proposition>
     <p>
