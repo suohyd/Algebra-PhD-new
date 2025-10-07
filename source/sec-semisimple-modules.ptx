@@ -98,6 +98,9 @@ M_j \arrow[rd, "i_j"] \arrow[rdd, "f_j"', bend right] \amp\amp M_k \arrow[ld, "i
         </p>
     </proof>
     <corollary xml:id="cor-semisimple-implies-existence-of-complement">
+        <title>Existence of complement for semisimple modules</title>
+        
+        
         <statement>
             <p>
                 Let <m>M</m> be a semisimple right <m>A</m>-module, and <m>P\leq M</m>. Then there exists <m>N\leq M</m> such that <m>M=N\bigoplus P</m>.
