@@ -1,5 +1,8 @@
 <references>
   <title>Bibliography</title>
+  <biblio type="raw" xml:id="bib-Jacobson-II">
+    Jacobson, N., <pubtitle>Basic Algebra II</pubtitle>, Second Edition, Dover Publications, <year>2009</year>.
+  </biblio>
   <biblio type="raw" xml:id="bib-Lam">
     Lam, T. Y., <pubtitle>Introduction to quadratic forms over fields</pubtitle>, Graduate Studies in Mathematics, Volume 67, American Mathematical Society (AMS), Providence, RI, <year>2005</year>.
   </biblio>

@@ -4,7 +4,7 @@
     <title>Semisimple modules</title>
     <introduction>
         <p>
-            In this section we assume that <m>R</m> is a commutative ring with unity and <m>A</m> is a right <m>R</m>-algebra. For a right <m>A</m>-module <m>M</m> we denote by <m>S(M)</m> the collection of all <m>A</m>-submodules of <m>M</m>.
+            In this section we assume that <m>R</m> is a commutative ring with unity and <m>A</m> is a right <m>R</m>-algebra. For a right <m>A</m>-module <m>M</m> we denote by <m>S(M)</m> the collection of all <m>A</m>-submodules of <m>M</m>. We follow <xref ref="bib-Jacobson-II"/> and <xref ref="bib-Pierce"/>.
         </p>
     </introduction>
     <definition xml:id="def-complement-of-a-submodule">
@@ -46,21 +46,19 @@
             <p>
                 Let <m>S=\{M_j\}_{j\in J}</m> be a nonempty collection of right <m>A</m>-modules. There exists a right <m>A</m>-module <m>M</m> with <m>A</m>-module homomorphisms <m>i_j\colon M_j\to M</m> for every <m>j\in J</m>, and with the following universal property: if there exists a right <m>A</m>-module <m>N</m> with <m>f_j\colon M_j\to N</m> for every <m>j\in J</m> then there exists a unique <m>A</m>-module homomorphism <m>f\colon M\to N</m> such that <m>f\circ i_j=f_j</m> for each <m>j\in J</m>. 
             </p>
- <!--            <figure xml:id="fig-universal-property-of-direct-sum">
+<!--                <figure xml:id="fig-universal-property-of-direct-sum">
                <caption>Universal property of direct sum</caption>
                 <image>
                     <shortdescription></shortdescription>
                     <latex-image>
-                        
-                            \begin{tikzcd}
-M_j \arrow[rd, "i_j"] \arrow[rdd, "f_j"', bend right] \amp\amp M_k \arrow[ld, "i_k"'] \arrow[ldd, "f_k", bend left] \\
-\amp M \arrow[d, "f", dashed] \amp\\
-\amp N \amp                                                     
-\end{tikzcd}
-                        
+                        \begin{tikzcd}
+                        M_j\arrow[rd,"i_j"]\arrow[rdd,"f_j",bend right]\amp\amp M_k\arrow[ld,"i_k"]\arrow[ldd,"f_k",bend left]\\
+                        \amp M\arrow[d,"f",dashed]\amp\\
+                        \amp N\amp
+                        \end{tikzcd}    
                     </latex-image>
                 </image>
-            </figure>-->     
+            </figure>-->
         </statement>
     </proposition>
     <p>
@@ -112,4 +110,98 @@ M_j \arrow[rd, "i_j"] \arrow[rdd, "f_j"', bend right] \amp\amp M_k \arrow[ld, "i
             This is a direct consequence of <xref ref="def-semisimple-module"/> and <xref ref="lem-step-in-charaterization-of-semisimple-modules"/>
         </p>
     </proof>
+    <lemma xml:id="lem-existence-of-complement-for-submodules">
+        <statement>
+            <p>
+                Let <m>M</m> be a right <m>A</m>-module with the following property.
+                <men xml:id="eqn-complement-property">
+                    \text{For any submodule }N\leq M\text{ there exists a submodule }N'\leq M\text{ such that }M=N\oplus N'
+                </men>
+                Then, for any submodule <m>L\leq M</m> has the above property <xref ref="eqn-complement-property"/>, i.e., for any submodule <m>P\leq L</m> there exists <m>Q\leq L</m> such that <m>L=P\oplus Q</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            Let <m>P\leq L</m>. Then, there exists <m>P'\leq M</m> such that <m>M=P\oplus P'</m>. Note that <m>L=P\oplus (P'\cap L)</m>. Indeed, <m>P\cap\left(P'\cap L\right)\subseteq P\cap P'=0</m>, and for <m>\ell\in L</m> there exists unique <m>p\in P</m> and <m>p'\in P'</m> such that <m>\ell=p+p'</m>, i.e., <m>p'=\ell-p\in L</m> and hence, <m>p'\in L\cap P'</m> and <m>L=P+(L\cap P')</m>.
+        </p>
+    </proof>
+    <proposition xml:id="prop-existence-of-complement-implies-existence-of-simple-submodule">
+        <statement>
+            <p>
+                Let <m>M</m> be a nonzero right <m>A</m>-module with the property that every <m>A</m>-submodule of <m>M</m> has a complement in <m>M</m>. Then, <m>M</m> has a simple <m>A</m>-submodule.
+            </p>
+        </statement>
+    </proposition>
+    <proof>
+        <p>
+            Suppose that <m>0\neq m\in M</m>. Consider the following set.
+            <me>
+                \Sigma=\left\{N\leq M:m\not\in N\right\}
+            </me>
+            As <m>0\in\Sigma</m>, the set <m>S\neq\emptyset</m>. Furthermore, by considering a partial order given by inclusion of sets, every chain in <m>S</m> has an upper bound, viz., the union of sets in the chain. By Zorn's lemma, there exists a maximal element, say <m>P\in S</m>. Note that <m>P\neq M</m>. By the assumption on <m>M</m> there exists <m>P'\leq M</m> such that <m>M=P\oplus P'</m>. The module <m>P'</m> is a candidate for a simple submodule. First note that <m>P'\neq 0</m> because <m>P\neq M</m>. Suppose that <m>m=p+x</m> for uniquely determined <m>p\in P</m> and <m>x\in P'</m>. As <m>m\not\in P</m>, we must have <m>x\neq 0</m>. We show that any two nonzero submodules of <m>P'</m> intersect nontrivially. Take a nonzero submodule <m>L</m> of <m>P'</m>. The submodule <m>P+L</m> contains <m>P</m> properly and hence, <m>m=p+x\in P+L</m> by the maximality of <m>P</m>. However, <m>P+L=P\oplus L</m>, hence <m>x\in L</m>. We thus have shown that every nonzero submodule of <m>P'</m> contains <m>x\neq 0</m>. If <m>Q\leq P'</m> then there exist <m>Q'\leq P'</m> such that <m>P'=Q\oplus Q'</m> by <xref ref="lem-existence-of-complement-for-submodules"/>. However, this implies that submodules <m>Q</m> and <m>Q'</m> have trivial intersection. This is possible only if one of the <m>Q</m> or <m>Q'</m> is trivial and the other one is <m>P'</m>. Hence, <m>P'</m> is simple.
+        </p>
+    </proof>
+    <p>
+        We are now in a position to prove the following equivalent characterization of semisimple modules.
+    </p>
+    <theorem xml:id="thm-equivalent-conditions-for-semisimple-modules">
+        <title>Equivalent conditions for semisimple modules</title>
+        
+        
+        <statement>
+            <p>
+                For a right <m>A</m>-module <m>M</m> following conditions are equivalent.
+                <ol>
+                    <li>
+                        <p>
+                            The module <m>M</m> is semisimple;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            There are simple submodules <m>N_j\leq M</m> such that <m>M=\sum_{j\in J}N_j</m>;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The module <m>M\neq 0</m> has the property <xref ref="eqn-complement-property"/>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </theorem>
+    <proof>
+        <p>
+            By the definition of semisimple module we get (1) implies (2).
+        </p>
+        <p>
+            The condition (2) implies the condition (3) follows from <xref ref="lem-step-in-charaterization-of-semisimple-modules"/>.
+        </p>
+        <p>
+            Now assume (3). By <xref ref="prop-existence-of-complement-implies-existence-of-simple-submodule"/>, <m>M</m> has a simple submodule. Let <m>\{N_j\}_{j\in J}</m> be all simple submodules of <m>M</m>. By the assumption <m>M</m> satisfies <xref ref="eqn-complement-property"/>, i.e., there exists <m>P\leq M</m> such that <m>M=\left(\sum_{j\in J}N_j\right)\oplus P</m>. However, by <xref ref="lem-existence-of-complement-for-submodules"/> and applying <xref ref="prop-existence-of-complement-implies-existence-of-simple-submodule"/> to <m>P</m>, we get that <m>P</m> has a simple submodule. As a simple submodule of <m>P</m> is also a simple submodule of <m>M</m> we get that <m>\left(\sum_{j\in J}N_j\right)\cap P\neq 0</m>, a contradiction. Therefore, we must have <m>M=\sum_{j\in J}N_j</m>. Thus we get (1) by using <xref ref="cor-sum-of-simple-modules-is-direct-sum"/>.
+        </p>
+    </proof>
+    <p>
+        As a direct consequence we obtain the following corollary.
+    </p>
+    <corollary xml:id="cor-quotient-and-submodule-of-semisimple-module-is-semisimple">
+        <statement>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            If <m>M</m> is a semisimple <m>A</m>-module and <m>N</m> is a proper <m>A</m>-submodule of <m>M</m> then, <m>N</m> and <m>M/N</m> are semisimple <m>A</m>-modules.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Direct sum of semisimple <m>A</m>-modules is a semisimple <m>A</m>-module.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </corollary>
 </section>

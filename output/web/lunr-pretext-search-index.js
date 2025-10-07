@@ -1204,7 +1204,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.4",
   "title": "Semisimple modules",
-  "body": " Semisimple modules   In this section we assume that is a commutative ring with unity and is a right -algebra. For a right -module we denote by the collection of all -submodules of .    Complement of a submodule   Assume that is a commutative ring with unity and is a right -algebra. Let be a right -module and be -submodules of . The module is called a complement of in if .      Let be a collection of submodules of . The set is said to be independent if for every we have Otherwise we call  dependent .     Internal direct sum   Suppose that is a right -module. If is independent then, is called a internal direct sum of submodules  , and we write it as .     Direct sum - Existence and universal property   Let be a nonempty collection of right -modules. There exists a right -module with -module homomorphisms for every , and with the following universal property: if there exists a right -module with for every then there exists a unique -module homomorphism such that for each .     We show in this section that semisimple modules (see ) are characterized by existence of complements of its submodules. We begin with the following lemma.    Let , where is a simple -submodule of . If then, there exists such that      Consider the following set. The set as empty sum of submodules is considered as . Suppose that we have a chain of submodules corresponding to a chain of subsets of . Then, put . We claim that For any This shows that every chain has an upper bound. By Zorn's lemma there exists a maximal element, say a subset such that . Put . By maximality of , for every . As is simple, we must have , i.e., for each . Therefore, we get the result.     Let , where are simple right -modules. Then, there exists such that .     This follows by taking as the zero module in .    Existence of complement for semisimple modules   Let be a semisimple right -module, and . Then there exists such that .     This is a direct consequence of and    "
+  "body": " Semisimple modules   In this section we assume that is a commutative ring with unity and is a right -algebra. For a right -module we denote by the collection of all -submodules of . We follow and .    Complement of a submodule   Assume that is a commutative ring with unity and is a right -algebra. Let be a right -module and be -submodules of . The module is called a complement of in if .      Let be a collection of submodules of . The set is said to be independent if for every we have Otherwise we call  dependent .     Internal direct sum   Suppose that is a right -module. If is independent then, is called a internal direct sum of submodules  , and we write it as .     Direct sum - Existence and universal property   Let be a nonempty collection of right -modules. There exists a right -module with -module homomorphisms for every , and with the following universal property: if there exists a right -module with for every then there exists a unique -module homomorphism such that for each .     We show in this section that semisimple modules (see ) are characterized by existence of complements of its submodules. We begin with the following lemma.    Let , where is a simple -submodule of . If then, there exists such that      Consider the following set. The set as empty sum of submodules is considered as . Suppose that we have a chain of submodules corresponding to a chain of subsets of . Then, put . We claim that For any This shows that every chain has an upper bound. By Zorn's lemma there exists a maximal element, say a subset such that . Put . By maximality of , for every . As is simple, we must have , i.e., for each . Therefore, we get the result.     Let , where are simple right -modules. Then, there exists such that .     This follows by taking as the zero module in .    Existence of complement for semisimple modules   Let be a semisimple right -module, and . Then there exists such that .     This is a direct consequence of and      Let be a right -module with the following property. Then, for any submodule has the above property , i.e., for any submodule there exists such that .     Let . Then, there exists such that . Note that . Indeed, , and for there exists unique and such that , i.e., and hence, and .     Let be a nonzero right -module with the property that every -submodule of has a complement in . Then, has a simple -submodule.     Suppose that . Consider the following set. As , the set . Furthermore, by considering a partial order given by inclusion of sets, every chain in has an upper bound, viz., the union of sets in the chain. By Zorn's lemma, there exists a maximal element, say . Note that . By the assumption on there exists such that . The module is a candidate for a simple submodule. First note that because . Suppose that for uniquely determined and . As , we must have . We show that any two nonzero submodules of intersect nontrivially. Take a nonzero submodule of . The submodule contains properly and hence, by the maximality of . However, , hence . We thus have shown that every nonzero submodule of contains . If then there exist such that by . However, this implies that submodules and have trivial intersection. This is possible only if one of the or is trivial and the other one is . Hence, is simple.   We are now in a position to prove the following equivalent characterization of semisimple modules.   Equivalent conditions for semisimple modules   For a right -module following conditions are equivalent.   The module is semisimple;    There are simple submodules such that ;    The module has the property .        By the definition of semisimple module we get (1) implies (2).  The condition (2) implies the condition (3) follows from .  Now assume (3). By , has a simple submodule. Let be all simple submodules of . By the assumption satisfies , i.e., there exists such that . However, by and applying to , we get that has a simple submodule. As a simple submodule of is also a simple submodule of we get that , a contradiction. Therefore, we must have . Thus we get (1) by using .   As a direct consequence we obtain the following corollary.       If is a semisimple -module and is a proper -submodule of then, and are semisimple -modules.    Direct sum of semisimple -modules is a semisimple -module.       "
 },
 {
   "id": "def-complement-of-a-submodule",
@@ -1297,13 +1297,76 @@ var ptx_lunr_docs = [
   "body": " This is a direct consequence of and   "
 },
 {
+  "id": "lem-existence-of-complement-for-submodules",
+  "level": "2",
+  "url": "sec-semisimple-modules.html#lem-existence-of-complement-for-submodules",
+  "type": "Lemma",
+  "number": "3.4.8",
+  "title": "",
+  "body": "  Let be a right -module with the following property. Then, for any submodule has the above property , i.e., for any submodule there exists such that .   "
+},
+{
+  "id": "sec-semisimple-modules-15",
+  "level": "2",
+  "url": "sec-semisimple-modules.html#sec-semisimple-modules-15",
+  "type": "Proof",
+  "number": "3.4.4",
+  "title": "",
+  "body": " Let . Then, there exists such that . Note that . Indeed, , and for there exists unique and such that , i.e., and hence, and .  "
+},
+{
+  "id": "prop-existence-of-complement-implies-existence-of-simple-submodule",
+  "level": "2",
+  "url": "sec-semisimple-modules.html#prop-existence-of-complement-implies-existence-of-simple-submodule",
+  "type": "Proposition",
+  "number": "3.4.9",
+  "title": "",
+  "body": "  Let be a nonzero right -module with the property that every -submodule of has a complement in . Then, has a simple -submodule.   "
+},
+{
+  "id": "sec-semisimple-modules-17",
+  "level": "2",
+  "url": "sec-semisimple-modules.html#sec-semisimple-modules-17",
+  "type": "Proof",
+  "number": "3.4.5",
+  "title": "",
+  "body": " Suppose that . Consider the following set. As , the set . Furthermore, by considering a partial order given by inclusion of sets, every chain in has an upper bound, viz., the union of sets in the chain. By Zorn's lemma, there exists a maximal element, say . Note that . By the assumption on there exists such that . The module is a candidate for a simple submodule. First note that because . Suppose that for uniquely determined and . As , we must have . We show that any two nonzero submodules of intersect nontrivially. Take a nonzero submodule of . The submodule contains properly and hence, by the maximality of . However, , hence . We thus have shown that every nonzero submodule of contains . If then there exist such that by . However, this implies that submodules and have trivial intersection. This is possible only if one of the or is trivial and the other one is . Hence, is simple.  "
+},
+{
+  "id": "thm-equivalent-conditions-for-semisimple-modules",
+  "level": "2",
+  "url": "sec-semisimple-modules.html#thm-equivalent-conditions-for-semisimple-modules",
+  "type": "Theorem",
+  "number": "3.4.10",
+  "title": "Equivalent conditions for semisimple modules.",
+  "body": " Equivalent conditions for semisimple modules   For a right -module following conditions are equivalent.   The module is semisimple;    There are simple submodules such that ;    The module has the property .      "
+},
+{
+  "id": "sec-semisimple-modules-20",
+  "level": "2",
+  "url": "sec-semisimple-modules.html#sec-semisimple-modules-20",
+  "type": "Proof",
+  "number": "3.4.6",
+  "title": "",
+  "body": " By the definition of semisimple module we get (1) implies (2).  The condition (2) implies the condition (3) follows from .  Now assume (3). By , has a simple submodule. Let be all simple submodules of . By the assumption satisfies , i.e., there exists such that . However, by and applying to , we get that has a simple submodule. As a simple submodule of is also a simple submodule of we get that , a contradiction. Therefore, we must have . Thus we get (1) by using .  "
+},
+{
+  "id": "cor-quotient-and-submodule-of-semisimple-module-is-semisimple",
+  "level": "2",
+  "url": "sec-semisimple-modules.html#cor-quotient-and-submodule-of-semisimple-module-is-semisimple",
+  "type": "Corollary",
+  "number": "3.4.11",
+  "title": "",
+  "body": "     If is a semisimple -module and is a proper -submodule of then, and are semisimple -modules.    Direct sum of semisimple -modules is a semisimple -module.      "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
   "type": "References",
   "number": "",
   "title": "Bibliography",
-  "body": " Bibliography  Lam, T. Y., Introduction to quadratic forms over fields , Graduate Studies in Mathematics, Volume 67, American Mathematical Society (AMS), Providence, RI, 2005 .  Pierce, Richard S., Associative algebras , Graduate Texts in Mathematics, Volume 88, Springer, Cham, 1982 .   "
+  "body": " Bibliography  Jacobson, N., Basic Algebra II , Second Edition, Dover Publications, 2009 .  Lam, T. Y., Introduction to quadratic forms over fields , Graduate Studies in Mathematics, Volume 67, American Mathematical Society (AMS), Providence, RI, 2005 .  Pierce, Richard S., Associative algebras , Graduate Texts in Mathematics, Volume 88, Springer, Cham, 1982 .   "
 },
 {
   "id": "backmatter-3",
