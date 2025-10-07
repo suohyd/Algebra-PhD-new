@@ -1204,7 +1204,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.4",
   "title": "Semisimple modules",
-  "body": " Semisimple modules   In this section we assume that is a commutative ring with unity and is a right -algebra. For a right -module we denote by the collection of all -submodules of .    Complement of a submodule   Assume that is a commutative ring with unity and is a right -algebra. Let be a right -module and be -submodules of . The module is called a complement of in if .      Let be a collection of submodules of . The set is said to be independent if for every we have Otherwise we call  dependent .     Internal direct sum   Suppose that is a right -module. If is independent then, is called a internal direct sum of submodules  , and we write it as .      Let be a nonempty collection of right -modules. There exists a right -module with -module homomorphisms for every , and with the following universal property: if there exists a right -module with for every then there exists a unique -module homomorphism such that for each .     We show in this section that semisimple modules (see ) are characterized by existence of complements of its submodules. We begin with the following lemma.    Let , where is a simple -submodule of . If then, there exists such that      Consider the following set. The set as empty sum of submodules is considered as . Suppose that we have a chain of submodules corresponding to a chain of subsets of . Then, put . We claim that For any This shows that every chain has an upper bound. By Zorn's lemma there exists a maximal element, say a subset such that . Put . By maximality of , for every . As is simple, we must have , i.e., for each . Therefore, we get the result.   "
+  "body": " Semisimple modules   In this section we assume that is a commutative ring with unity and is a right -algebra. For a right -module we denote by the collection of all -submodules of .    Complement of a submodule   Assume that is a commutative ring with unity and is a right -algebra. Let be a right -module and be -submodules of . The module is called a complement of in if .      Let be a collection of submodules of . The set is said to be independent if for every we have Otherwise we call  dependent .     Internal direct sum   Suppose that is a right -module. If is independent then, is called a internal direct sum of submodules  , and we write it as .     Direct sum - Existence and universal property   Let be a nonempty collection of right -modules. There exists a right -module with -module homomorphisms for every , and with the following universal property: if there exists a right -module with for every then there exists a unique -module homomorphism such that for each .     We show in this section that semisimple modules (see ) are characterized by existence of complements of its submodules. We begin with the following lemma.    Let , where is a simple -submodule of . If then, there exists such that      Consider the following set. The set as empty sum of submodules is considered as . Suppose that we have a chain of submodules corresponding to a chain of subsets of . Then, put . We claim that For any This shows that every chain has an upper bound. By Zorn's lemma there exists a maximal element, say a subset such that . Put . By maximality of , for every . As is simple, we must have , i.e., for each . Therefore, we get the result.     Let , where are simple right -modules. Then, there exists such that .     This follows by taking as the zero module in .     Let be a semisimple right -module, and . Then there exists such that .     This is a direct consequence of and    "
 },
 {
   "id": "def-complement-of-a-submodule",
@@ -1239,8 +1239,8 @@ var ptx_lunr_docs = [
   "url": "sec-semisimple-modules.html#prop-universal-property-of-direct-sum",
   "type": "Proposition",
   "number": "3.4.4",
-  "title": "",
-  "body": "  Let be a nonempty collection of right -modules. There exists a right -module with -module homomorphisms for every , and with the following universal property: if there exists a right -module with for every then there exists a unique -module homomorphism such that for each .    "
+  "title": "Direct sum - Existence and universal property.",
+  "body": " Direct sum - Existence and universal property   Let be a nonempty collection of right -modules. There exists a right -module with -module homomorphisms for every , and with the following universal property: if there exists a right -module with for every then there exists a unique -module homomorphism such that for each .    "
 },
 {
   "id": "lem-step-in-charaterization-of-semisimple-modules",
@@ -1259,6 +1259,42 @@ var ptx_lunr_docs = [
   "number": "3.4.1",
   "title": "",
   "body": " Consider the following set. The set as empty sum of submodules is considered as . Suppose that we have a chain of submodules corresponding to a chain of subsets of . Then, put . We claim that For any This shows that every chain has an upper bound. By Zorn's lemma there exists a maximal element, say a subset such that . Put . By maximality of , for every . As is simple, we must have , i.e., for each . Therefore, we get the result.  "
+},
+{
+  "id": "cor-sum-of-simple-modules-is-direct-sum",
+  "level": "2",
+  "url": "sec-semisimple-modules.html#cor-sum-of-simple-modules-is-direct-sum",
+  "type": "Corollary",
+  "number": "3.4.6",
+  "title": "",
+  "body": "  Let , where are simple right -modules. Then, there exists such that .   "
+},
+{
+  "id": "sec-semisimple-modules-11",
+  "level": "2",
+  "url": "sec-semisimple-modules.html#sec-semisimple-modules-11",
+  "type": "Proof",
+  "number": "3.4.2",
+  "title": "",
+  "body": " This follows by taking as the zero module in .  "
+},
+{
+  "id": "cor-semisimple-implies-existence-of-complement",
+  "level": "2",
+  "url": "sec-semisimple-modules.html#cor-semisimple-implies-existence-of-complement",
+  "type": "Corollary",
+  "number": "3.4.7",
+  "title": "",
+  "body": "  Let be a semisimple right -module, and . Then there exists such that .   "
+},
+{
+  "id": "sec-semisimple-modules-13",
+  "level": "2",
+  "url": "sec-semisimple-modules.html#sec-semisimple-modules-13",
+  "type": "Proof",
+  "number": "3.4.3",
+  "title": "",
+  "body": " This is a direct consequence of and   "
 },
 {
   "id": "backmatter-2",
