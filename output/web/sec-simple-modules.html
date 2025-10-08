@@ -205,7 +205,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="autopermalink" data-description="Item 2"><a href="#lem-cyclic-module-and-annihilator-1-1-5-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
 <li id="lem-cyclic-module-and-annihilator-1-1-5-3">
-<div class="para" id="lem-cyclic-module-and-annihilator-1-1-5-3-1">Let <span class="process-math">\(N\)</span> be a right ideal of <span class="process-math">\(A\text{.}\)</span> Put <span class="process-math">\(B=\{a\in A:aN\subseteq N\}\text{.}\)</span> Then, <span class="process-math">\(B\)</span> is a subalgebra of <span class="process-math">\(A\)</span> containing <span class="process-math">\(N\text{.}\)</span> Furthermore, <span class="process-math">\(\End{A}{A/N}\simeq B/N\)</span> as right <span class="process-math">\(B\)</span>-modules.<div class="autopermalink" data-description="Paragraph"><a href="#lem-cyclic-module-and-annihilator-1-1-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="lem-cyclic-module-and-annihilator-1-1-5-3-1">Let <span class="process-math">\(N\)</span> be a right ideal of <span class="process-math">\(A\text{.}\)</span> Put <span class="process-math">\(B=\{a\in A:aN\subseteq N\}\text{.}\)</span> Then, <span class="process-math">\(B\)</span> is a subalgebra of <span class="process-math">\(A\)</span> containing <span class="process-math">\(N\text{.}\)</span> <div class="autopermalink" data-description="Paragraph"><a href="#lem-cyclic-module-and-annihilator-1-1-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 3"><a href="#lem-cyclic-module-and-annihilator-1-1-5-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
 </li>
@@ -235,46 +235,6 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para">As <span class="process-math">\(N\)</span> is a right ideal of <span class="process-math">\(A\)</span> and hence <span class="process-math">\(n\cdot r\in N\text{.}\)</span> This shows that <span class="process-math">\(b\cdot r\in B\text{.}\)</span> We leave to the reader to check other conditions for <span class="process-math">\(B\)</span> to be a subalgebra of <span class="process-math">\(A\text{.}\)</span>
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec-simple-modules-5-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="sec-simple-modules-5-1-1-3-2">
-<div class="para">Note that <span class="process-math">\(A/N\)</span> is a right <span class="process-math">\(A\)</span>-module and so is <span class="process-math">\(\End{A}{A/N}\text{.}\)</span> As <span class="process-math">\(B\hookrightarrow A\)</span> is a subalgebra, <span class="process-math">\(\End{A}{A/N}\)</span> is also a right <span class="process-math">\(B\)</span>-module. We define <span class="process-math">\(\varphi\colon\End{A}{A/N}\to B/N\)</span> by <span class="process-math">\(f\mapsto f(1)+N\text{.}\)</span> Observe that <span class="process-math">\(f(1)+N\in B/N\text{.}\)</span> Indeed, for any <span class="process-math">\(n,n'\in N\)</span> we have <span class="process-math">\((f(1)+n)n'=f(1\cdot n')+nn'\)</span> as <span class="process-math">\(f\)</span> is given to be an <span class="process-math">\(A\)</span>-module endomomorphism of <span class="process-math">\(A/N\text{.}\)</span> Hence, <span class="process-math">\(f(1\cdot n')=f(n')\in N\)</span> and hence <span class="process-math">\(f(1)+N\in B/N\text{.}\)</span> We now check that <span class="process-math">\(\varphi\)</span> is a <span class="process-math">\(B\)</span>-module homomorphism. For <span class="process-math">\(f,g\in\End{A}{A/N}\text{,}\)</span> and <span class="process-math">\(b,b'\in B\)</span> we have</div>
-<div class="displaymath process-math" id="sec-simple-modules-5-1-1-3-2-21">
-\begin{align*}
-\varphi(f\cdot b+g\cdot b')\amp =(f\cdot b+g\cdot b')(1)+N \\
-\amp =\left((f\cdot b)(1)+(g\cdot b')(1)\right)+N\\
-\amp =(f(1)\cdot b)+N+(g(1)\cdot b')+N\\
-\amp =\varphi(f)\cdot b+\varphi(g)\cdot b'.
-\end{align*}
-</div>
-<div class="para">For <span class="process-math">\(b+N\in B/N\)</span> consider <span class="process-math">\(\ell_b\colon A/N\to A/N\)</span> given by <span class="process-math">\(\ell_b(a+N)=ba+N\text{,}\)</span> i.e., coset representative <span class="process-math">\(a\)</span> maps to a coset representative <span class="process-math">\(ba\text{.}\)</span> We check the well-definedness of this map. Suppose that <span class="process-math">\(a\equiv a'\mod N\text{,}\)</span> say <span class="process-math">\(a'=a+n\)</span> for some <span class="process-math">\(n\in N\text{.}\)</span> We obtain the following:</div>
-<div class="displaymath process-math" id="sec-simple-modules-5-1-1-3-2-30">
-\begin{align*}
-\ell_b(a'+N) \amp=\ell_b((a+n)+N) \\
-\amp=\left(b(a+n)\right)+N \\
-\amp=(ba+bn)+N \\
-\amp=ba+N\text{ (by the definition of }B,\, bn\in N) \\
-\amp=\ell_b(a+N) 
-\end{align*}
-</div>
-<div class="para">Suppose now that <span class="process-math">\(b'=b+n\)</span> for some <span class="process-math">\(n\in N\text{.}\)</span> We check that <span class="process-math">\(\ell_b=\ell_{b'}\text{.}\)</span>
-</div>
-<div class="displaymath process-math" id="sec-simple-modules-5-1-1-3-2-34">
-\begin{align*}
-\ell_{b'}(a+N) \amp=\ell_{b+n}(a+N) \\
-\amp=((b+n)a)+N \\
-\amp=(ba+na)+N \\
-\amp=ba+N\text{ (as }na\in N\text{, since }N\text{ is a right ideal of }A) \\
-\amp=\ell_b(a+N) 
-\end{align*}
-</div>
-<div class="para">Furthermore, the map <span class="process-math">\(\ell_b\)</span> is <span class="process-math">\(A\)</span>-linear. Indeed, for <span class="process-math">\(a,a'\in A\)</span> we have</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\ell_b\left((a+N)\cdot a'\right)=\ell_b(aa'+N)=(baa')+N=\ell_b(a+N)\cdot a'.
-\end{equation*}
-</div>
-<div class="para">Therefore, we get the map <span class="process-math">\(\psi\colon B/N\to\End{A}{A/N}\)</span> given by <span class="process-math">\(b+N\mapsto\ell_b\text{.}\)</span> One may check that <span class="process-math">\(\varphi\)</span> and <span class="process-math">\(\psi\)</span> are mutually inverse homomorphisms of <span class="process-math">\(B\)</span>-modules.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec-simple-modules-5-1-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 3"><a href="#sec-simple-modules-5-1-1-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
 </li>

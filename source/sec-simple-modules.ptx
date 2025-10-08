@@ -34,7 +34,7 @@
                     </li>
                     <li>
                         <p>
-                            Let <m>N</m> be a right ideal of <m>A</m>. Put <m>B=\{a\in A:aN\subseteq N\}</m>. Then, <m>B</m> is a subalgebra of <m>A</m> containing <m>N</m>. Furthermore, <m>\End{A}{A/N}\simeq B/N</m> as right <m>B</m>-modules.
+                            Let <m>N</m> be a right ideal of <m>A</m>. Put <m>B=\{a\in A:aN\subseteq N\}</m>. Then, <m>B</m> is a subalgebra of <m>A</m> containing <m>N</m>. <!--Furthermore, <m>\End{A}{A/N}\simeq B/N</m> as right <m>B</m>-modules.-->
                         </p>
                     </li>
                 </ol>
@@ -62,7 +62,7 @@
                         </me>
                         As <m>N</m> is a right ideal of <m>A</m> and hence <m>n\cdot r\in N</m>. This shows that <m>b\cdot r\in B</m>. We leave to the reader to check other conditions for <m>B</m> to be a subalgebra of <m>A</m>.
                     </p>
-                    <p>
+                    <!--<p>
                         Note that <m>A/N</m> is a right <m>A</m>-module and so is <m>\End{A}{A/N}</m>. As <m>B\hookrightarrow A</m> is a subalgebra, <m>\End{A}{A/N}</m> is also a right <m>B</m>-module. We define <m>\varphi\colon\End{A}{A/N}\to B/N</m> by <m>f\mapsto f(1)+N</m>. Observe that <m>f(1)+N\in B/N</m>. Indeed, for any <m>n,n'\in N</m> we have <m>(f(1)+n)n'=f(1\cdot n')+nn'</m> as <m>f</m> is given to be an <m>A</m>-module endomomorphism of <m>A/N</m>. Hence, <m>f(1\cdot n')=f(n')\in N</m> and hence <m>f(1)+N\in B/N</m>. We now check that <m>\varphi</m> is a <m>B</m>-module homomorphism. For <m>f,g\in\End{A}{A/N}</m>, and <m>b,b'\in B</m> we have
                         <md>
                             <mrow> \varphi(f\cdot b+g\cdot b')\amp =(f\cdot b+g\cdot b')(1)+N </mrow>
@@ -88,7 +88,7 @@
                         </md>
                         Furthermore, the map <m>\ell_b</m> is <m>A</m>-linear. Indeed, for <m>a,a'\in A</m> we have <me>\ell_b\left((a+N)\cdot a'\right)=\ell_b(aa'+N)=(baa')+N=\ell_b(a+N)\cdot a'.</me>
                         Therefore, we get the map <m>\psi\colon B/N\to\End{A}{A/N}</m> given by <m>b+N\mapsto\ell_b</m>. One may check that <m>\varphi</m> and <m>\psi</m> are mutually inverse homomorphisms of <m>B</m>-modules.
-                    </p>
+                    </p>-->
                 </li>
             </ol>
         </p>
