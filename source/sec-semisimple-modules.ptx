@@ -7,9 +7,20 @@
             In this section we assume that <m>R</m> is a commutative ring with unity and <m>A</m> is a right <m>R</m>-algebra. For a right <m>A</m>-module <m>M</m> we denote by <m>S(M)</m> the collection of all <m>A</m>-submodules of <m>M</m>. We follow <xref ref="bib-Jacobson-II"/> and <xref ref="bib-Pierce"/>.
         </p>
         <p>
-            Recall the definition of semisimple module (see <xref ref="def-semisimple-module"/>), viz., a right <m>A</m>-module <m>M</m> is semisimple if <m>M</m> is a direct sum of simple right <m>A</m>-modules.
+            Recall the definition of semisimple module (see <xref ref="def-semisimple-module"/>), viz., a right <m>A</m>-module <m>M</m> is semisimple if <m>M</m> is a direct sum of simple right <m>A</m>-modules. Also recall from that a vector space <m>V</m> over a field <m>F</m> is direct sum of one-dimension vector subspaces. More generally we look at the following example.
         </p>
     </introduction>
+    <example>
+        <statement>
+            <p>
+                Let <m>D</m> be a division algebra over a field <m>F</m> and <m>A=M_n(D)</m> be a matrix algebra over <m>D</m>. Consider <m>k\leq n</m> and <m>E_{rs}</m> to be the <m>n\times n</m> matrix with <m>(r,s)</m>-th entry <m>1</m> and all other entries <m>0</m>. We consider the following <m>A</m>-module.
+                <me>
+                    M=E_{11}A\oplus E_{22}A\oplus\cdots\oplus E_{kk}A
+                </me>
+                Note that each <m>E_{ii}A</m> is a minimal right ideal of <m>A</m> (in notation of <xref ref="ex-minimal-right-ideal-of-matrix-algebra"/>, <m>E_{ii}A=M_i</m>) and hence it is simple. Therefore, <m>M</m> is semisimple.
+            </p>
+        </statement>
+    </example>
     <definition xml:id="def-complement-of-a-submodule">
         <title>Complement of a submodule</title>
         
