@@ -7,7 +7,7 @@
             In this section we assume that <m>R</m> is a commutative ring with unity and <m>A</m> is a right <m>R</m>-algebra. For a right <m>A</m>-module <m>M</m> we denote by <m>S(M)</m> the collection of all <m>A</m>-submodules of <m>M</m>. We follow <xref ref="bib-Jacobson-II"/> and <xref ref="bib-Pierce"/>.
         </p>
         <p>
-            Recall the definition of semisimple module (see <xref ref="def-semisimple-module"/>), viz., a right <m>A</m>-module <m>M</m> is semisimple if <m>M</m> is a direct sum of simple right <m>A</m>-modules. Also recall from that a vector space <m>V</m> over a field <m>F</m> is direct sum of one-dimension vector subspaces. More generally we look at the following example.
+            Recall the definition of semisimple module (see <xref ref="def-semisimple-module"/>), viz., a right <m>A</m>-module <m>M</m> is semisimple if <m>M</m> is a direct sum of simple right <m>A</m>-submodules. Also recall that a vector space <m>V</m> over a field <m>F</m> is direct sum of one-dimension vector subspaces. More generally we look at the following example.
         </p>
     </introduction>
     <example>
