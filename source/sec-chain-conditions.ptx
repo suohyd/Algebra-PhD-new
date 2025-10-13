@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-chain-conditions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Chain conditions</title>
+    <introduction>
+        <p>
+            We introduce in this section important classes of maodules, viz., Artinian and Noetherian modules. In this section we assume that <m>R</m> is a commutative ring with unity and <m>A</m> is a right <m>R</m>-algebra. For an <m>A</m>-module <m>M</m> we denote by <m>S(M)</m> the collection of all <m>A</m>-submodules of <m>M</m>.
+        </p>
+    </introduction>
+    <definition xml:id="def-artinian-module">
+        <statement>
+            <p>
+                An <m>A</m>-module <m>M</m> is said to be <term>Artinian</term> if there are no infinite, strictly decreasing sequences of submodules of <m>M</m>, i.e., if <me>
+                    M_1\supsetneq M_2
+                </me>
+                
+            </p>
+        </statement>
+    </definition>
+</section>

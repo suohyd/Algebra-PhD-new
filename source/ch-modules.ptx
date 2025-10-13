@@ -11,4 +11,5 @@
   <xi:include href="sec-simple-modules.ptx" />
   <xi:include href="ws-simple-modules.ptx" />
   <xi:include href="sec-semisimple-modules.ptx" />
+  <xi:include href="sec-chain-conditions.ptx" />
 </chapter>

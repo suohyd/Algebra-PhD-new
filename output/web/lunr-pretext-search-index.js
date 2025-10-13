@@ -1369,6 +1369,24 @@ var ptx_lunr_docs = [
   "body": "     If is a semisimple -module and is a proper -submodule of then, and are semisimple -modules.    Direct sum of semisimple -modules is a semisimple -module.      "
 },
 {
+  "id": "sec-chain-conditions",
+  "level": "1",
+  "url": "sec-chain-conditions.html",
+  "type": "Section",
+  "number": "3.5",
+  "title": "Chain conditions",
+  "body": " Chain conditions   We introduce in this section important classes of maodules, viz., Artinian and Noetherian modules. In this section we assume that is a commutative ring with unity and is a right -algebra. For an -module we denote by the collection of all -submodules of .     An -module is said to be Artinian if there are no infinite, strictly decreasing sequences of submodules of , i.e., if     "
+},
+{
+  "id": "def-artinian-module",
+  "level": "2",
+  "url": "sec-chain-conditions.html#def-artinian-module",
+  "type": "Definition",
+  "number": "3.5.1",
+  "title": "",
+  "body": "  An -module is said to be Artinian if there are no infinite, strictly decreasing sequences of submodules of , i.e., if    "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
