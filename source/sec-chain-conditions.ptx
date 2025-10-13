@@ -4,7 +4,7 @@
     <title>Chain conditions</title>
     <introduction>
         <p>
-            We introduce in this section important classes of maodules, viz., Artinian and Noetherian modules. In this section we assume that <m>R</m> is a commutative ring with unity and <m>A</m> is a right <m>R</m>-algebra. For an <m>A</m>-module <m>M</m> we denote by <m>S(M)</m> the collection of all <m>A</m>-submodules of <m>M</m>.
+            We introduce in this section important classes of modules, viz., Artinian and Noetherian modules. In this section we assume that <m>R</m> is a commutative ring with unity and <m>A</m> is a right <m>R</m>-algebra. For an <m>A</m>-module <m>M</m> we denote by <m>S(M)</m> the collection of all <m>A</m>-submodules of <m>M</m>.
         </p>
     </introduction>
     <definition xml:id="def-artinian-module">
