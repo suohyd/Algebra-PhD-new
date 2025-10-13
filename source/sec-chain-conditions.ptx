@@ -8,13 +8,87 @@
         </p>
     </introduction>
     <definition xml:id="def-artinian-module">
+        <title>Artinian Module</title>
+        
+        
         <statement>
             <p>
                 An <m>A</m>-module <m>M</m> is said to be <term>Artinian</term> if there are no infinite, strictly decreasing sequences of submodules of <m>M</m>, i.e., if <me>
-                    M_1\supsetneq M_2
+                    N_1\supsetneq N_2\supsetneq N_3\supsetneq\cdots
+                </me>
+                is a decreasing chain of <m>A</m>-submodules of <m>M</m> then, there exists <m>\ell\in\N</m> such that <m>N_i=N_j</m> for all <m>i,j\geq\ell</m>.
+            </p>
+        </statement>
+    </definition>
+    <definition xml:id="def-noetherian-module">
+        <title>Noetherian Module</title>
+        
+        
+        <statement>
+            <p>
+                An <m>A</m>-module <m>M</m> is said to be <term>Noetherian</term> if there are no infinite, strictly increasing sequences of submodules of <m>M</m>, i.e., if <me>
+                    N_1\subsetneq N_2\subsetneq N_3\subsetneq\cdots
+                </me>
+                is a increasing chain of <m>A</m>-submodules of <m>M</m> then, there exists <m>\ell\in\N</m> such that <m>N_i=N_j</m> for all <m>i,j\geq\ell</m>.
+            </p>
+        </statement>
+    </definition>
+    <p>
+        We often use the following equivalent conditions for Artinian/Noetherian modules.
+    </p>
+    <lemma xml:id="lem-existence-of-minimal-maximal-element">
+        <statement>
+            <p>
+                Following are equivalent for an <m>A</m>-module <m>M</m>.
+                <ol>
+                    <li>
+                        <p>
+                            The module <m>M</m> is Noetherian (resp. Artinian);
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Every nonempty subset of <m>S(M)</m> has a maximal (resp., minimal) element.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </lemma>
+    <example xml:id="ex-noetherian-but-not-artinian">
+        <title>Noetherian but not Artinian</title>
+        <statement>
+            <p>
+                If we consider <m>\Z</m> as a <m>\Z</m>-module then, <m>\Z</m> is Noetherian but not Artinian.
+            </p>
+        </statement>
+        
+    </example>
+    <example xml:id="ex-artinian-but-not-noetherian">
+        <title>Artinian but not Noetherian</title>
+        <statement>
+            <p>
+                If we consider <m>\Z(p^\infty)=\{a/p^n:a\in\Z,n\in\N\}</m> as a <m>\Z</m>-module then, <m>\Z</m> is Artinian but not Noetherian.
+            </p>
+        </statement>
+        
+    </example>
+    <lemma xml:id="lem-technical-condition">
+        <statement>
+            <p>
+                Let <m>P,Q,R</m> be <m>A</m>-submodules of <m>M</m> with <m>P\subseteq Q</m>. Then there exists the following exact sequence of <m>A</m>-modules.
+                <me>
+                    0\to Q\cap R\big/P\cap R\to Q/P\to Q+R\big/P+R\to 0
                 </me>
                 
             </p>
         </statement>
-    </definition>
+    </lemma>
+    <lemma xml:id="lem-artinian-noetherian-short-exact-sequence">
+        <statement>
+            <p>
+                Let <m>0\to N\to M\to P</m> be a short exact sequence of <m>A</m>-modules. The module <m>M</m> is Noetherian (resp. Artinian) if and only if <m>N</m> and <m>P</m> are Noetherian (resp. Artinian).
+            </p>
+        </statement>
+    </lemma>
 </section>

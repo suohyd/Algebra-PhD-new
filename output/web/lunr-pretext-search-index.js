@@ -1375,7 +1375,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.5",
   "title": "Chain conditions",
-  "body": " Chain conditions   We introduce in this section important classes of maodules, viz., Artinian and Noetherian modules. In this section we assume that is a commutative ring with unity and is a right -algebra. For an -module we denote by the collection of all -submodules of .     An -module is said to be Artinian if there are no infinite, strictly decreasing sequences of submodules of , i.e., if     "
+  "body": " Chain conditions   We introduce in this section important classes of maodules, viz., Artinian and Noetherian modules. In this section we assume that is a commutative ring with unity and is a right -algebra. For an -module we denote by the collection of all -submodules of .    Artinian Module   An -module is said to be Artinian if there are no infinite, strictly decreasing sequences of submodules of , i.e., if is a decreasing chain of -submodules of then, there exists such that for all .     Noetherian Module   An -module is said to be Noetherian if there are no infinite, strictly increasing sequences of submodules of , i.e., if is a increasing chain of -submodules of then, there exists such that for all .    We often use the following equivalent conditions for Artinian\/Noetherian modules.    Following are equivalent for an -module .   The module is Noetherian (resp. Artinian);    Every nonempty subset of has a maximal (resp., minimal) element.        Noetherian but not Artinian   If we consider as a -module then, is Noetherian but not Artinian.    Artinian but not Noetherian   If we consider as a -module then, is Artinian but not Noetherian.      Let be -submodules of with . Then there exists the following exact sequence of -modules.       Let be a short exact sequence of -modules. The module is Noetherian (resp. Artinian) if and only if and are Noetherian (resp. Artinian).    "
 },
 {
   "id": "def-artinian-module",
@@ -1383,8 +1383,62 @@ var ptx_lunr_docs = [
   "url": "sec-chain-conditions.html#def-artinian-module",
   "type": "Definition",
   "number": "3.5.1",
+  "title": "Artinian Module.",
+  "body": " Artinian Module   An -module is said to be Artinian if there are no infinite, strictly decreasing sequences of submodules of , i.e., if is a decreasing chain of -submodules of then, there exists such that for all .   "
+},
+{
+  "id": "def-noetherian-module",
+  "level": "2",
+  "url": "sec-chain-conditions.html#def-noetherian-module",
+  "type": "Definition",
+  "number": "3.5.2",
+  "title": "Noetherian Module.",
+  "body": " Noetherian Module   An -module is said to be Noetherian if there are no infinite, strictly increasing sequences of submodules of , i.e., if is a increasing chain of -submodules of then, there exists such that for all .   "
+},
+{
+  "id": "lem-existence-of-minimal-maximal-element",
+  "level": "2",
+  "url": "sec-chain-conditions.html#lem-existence-of-minimal-maximal-element",
+  "type": "Lemma",
+  "number": "3.5.3",
   "title": "",
-  "body": "  An -module is said to be Artinian if there are no infinite, strictly decreasing sequences of submodules of , i.e., if    "
+  "body": "  Following are equivalent for an -module .   The module is Noetherian (resp. Artinian);    Every nonempty subset of has a maximal (resp., minimal) element.      "
+},
+{
+  "id": "ex-noetherian-but-not-artinian",
+  "level": "2",
+  "url": "sec-chain-conditions.html#ex-noetherian-but-not-artinian",
+  "type": "Example",
+  "number": "3.5.4",
+  "title": "Noetherian but not Artinian.",
+  "body": " Noetherian but not Artinian   If we consider as a -module then, is Noetherian but not Artinian.   "
+},
+{
+  "id": "ex-artinian-but-not-noetherian",
+  "level": "2",
+  "url": "sec-chain-conditions.html#ex-artinian-but-not-noetherian",
+  "type": "Example",
+  "number": "3.5.5",
+  "title": "Artinian but not Noetherian.",
+  "body": " Artinian but not Noetherian   If we consider as a -module then, is Artinian but not Noetherian.   "
+},
+{
+  "id": "lem-technical-condition",
+  "level": "2",
+  "url": "sec-chain-conditions.html#lem-technical-condition",
+  "type": "Lemma",
+  "number": "3.5.6",
+  "title": "",
+  "body": "  Let be -submodules of with . Then there exists the following exact sequence of -modules.    "
+},
+{
+  "id": "lem-artinian-noetherian-short-exact-sequence",
+  "level": "2",
+  "url": "sec-chain-conditions.html#lem-artinian-noetherian-short-exact-sequence",
+  "type": "Lemma",
+  "number": "3.5.7",
+  "title": "",
+  "body": "  Let be a short exact sequence of -modules. The module is Noetherian (resp. Artinian) if and only if and are Noetherian (resp. Artinian).   "
 },
 {
   "id": "backmatter-2",
