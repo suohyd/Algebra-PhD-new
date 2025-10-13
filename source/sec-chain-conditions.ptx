@@ -52,6 +52,7 @@
                         </p>
                     </li>
                 </ol>
+                Furthermore, <m>M</m> is Noetherian if and only if every <m>A</m>-submodule of <m>M</m> is finitely generated.
             </p>
         </statement>
     </lemma>
@@ -73,6 +74,18 @@
         </statement>
         
     </example>
+    <example xml:id="ex-artinian-noetherian-module">
+        <title>Module which is both Artinian and Noetherian</title>
+        
+       <statement>
+        <p>
+            Let <m>V</m> be a finite-dimensional vector space over a field <m>F</m>. Due to dimension reasons, <m>V</m> is both Artinian and Noetherian <m>F</m>-module.
+        </p>
+        <p>
+            Every finite abelian group as a <m>\Z</m>-module is both Artinian and Noetherian.
+        </p>
+       </statement> 
+    </example>
     <lemma xml:id="lem-technical-condition">
         <statement>
             <p>
@@ -91,4 +104,21 @@
             </p>
         </statement>
     </lemma>
+    <proposition xml:id="prop-artinian-noetherian-implies-composition-series">
+        <statement>
+            <p>
+                Suppose that an <m>A</m>-module <m>M</m> is both Artinian and Noetherian and that <m>M\neq 0</m>. Then, there exists a sequence of submodules of <m>A</m>
+                <me>
+                    0=M_0\subsetneq M_1\subsetneq\cdots\subsetneq M_{n-1}\subsetneq M_n=M
+                </me>
+                such that <m>M_{i+1}/M_{i}</m> are simple <m>A</m>-modules for <m>i&lt;n</m>.
+                
+            </p>
+        </statement>
+    </proposition>
+    <proof>
+        <p>
+            By the assumption we have <m>0=M_0\subsetneq M</m>. Consider the set <m>S_1</m> of all the nonzero submodules of <m>M</m>. As <m>M\in S_1</m>, the set <m>S_1\neq\emptyset</m>. By <xref ref="lem-existence-of-minimal-maximal-element"/>, there exists a minimal element, say <m>M_1\in S_1</m>. Note that by the minimality <m>M_1/M_0\simeq M_1</m> is simple.
+        </p>
+    </proof>
 </section>

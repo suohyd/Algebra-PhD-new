@@ -1375,7 +1375,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.5",
   "title": "Chain conditions",
-  "body": " Chain conditions   We introduce in this section important classes of maodules, viz., Artinian and Noetherian modules. In this section we assume that is a commutative ring with unity and is a right -algebra. For an -module we denote by the collection of all -submodules of .    Artinian Module   An -module is said to be Artinian if there are no infinite, strictly decreasing sequences of submodules of , i.e., if is a decreasing chain of -submodules of then, there exists such that for all .     Noetherian Module   An -module is said to be Noetherian if there are no infinite, strictly increasing sequences of submodules of , i.e., if is a increasing chain of -submodules of then, there exists such that for all .    We often use the following equivalent conditions for Artinian\/Noetherian modules.    Following are equivalent for an -module .   The module is Noetherian (resp. Artinian);    Every nonempty subset of has a maximal (resp., minimal) element.        Noetherian but not Artinian   If we consider as a -module then, is Noetherian but not Artinian.    Artinian but not Noetherian   If we consider as a -module then, is Artinian but not Noetherian.      Let be -submodules of with . Then there exists the following exact sequence of -modules.       Let be a short exact sequence of -modules. The module is Noetherian (resp. Artinian) if and only if and are Noetherian (resp. Artinian).    "
+  "body": " Chain conditions   We introduce in this section important classes of modules, viz., Artinian and Noetherian modules. In this section we assume that is a commutative ring with unity and is a right -algebra. For an -module we denote by the collection of all -submodules of .    Artinian Module   An -module is said to be Artinian if there are no infinite, strictly decreasing sequences of submodules of , i.e., if is a decreasing chain of -submodules of then, there exists such that for all .     Noetherian Module   An -module is said to be Noetherian if there are no infinite, strictly increasing sequences of submodules of , i.e., if is a increasing chain of -submodules of then, there exists such that for all .    We often use the following equivalent conditions for Artinian\/Noetherian modules.    Following are equivalent for an -module .   The module is Noetherian (resp. Artinian);    Every nonempty subset of has a maximal (resp., minimal) element.   Furthermore, is Noetherian if and only if every -submodule of is finitely generated.     Noetherian but not Artinian   If we consider as a -module then, is Noetherian but not Artinian.     Artinian but not Noetherian   If we consider as a -module then, is Artinian but not Noetherian.     Module which is both Artinian and Noetherian   Let be a finite-dimensional vector space over a field . Due to dimension reasons, is both Artinian and Noetherian -module.  Every finite abelian group as a -module is both Artinian and Noetherian.      Let be -submodules of with . Then there exists the following exact sequence of -modules.       Let be a short exact sequence of -modules. The module is Noetherian (resp. Artinian) if and only if and are Noetherian (resp. Artinian).      Suppose that an -module is both Artinian and Noetherian and that . Then, there exists a sequence of submodules of  such that are simple -modules for .     By the assumption we have . Consider the set of all the nonzero submodules of . As , the set . By , there exists a minimal element, say . Note that by the minimality is simple.   "
 },
 {
   "id": "def-artinian-module",
@@ -1402,7 +1402,7 @@ var ptx_lunr_docs = [
   "type": "Lemma",
   "number": "3.5.3",
   "title": "",
-  "body": "  Following are equivalent for an -module .   The module is Noetherian (resp. Artinian);    Every nonempty subset of has a maximal (resp., minimal) element.      "
+  "body": "  Following are equivalent for an -module .   The module is Noetherian (resp. Artinian);    Every nonempty subset of has a maximal (resp., minimal) element.   Furthermore, is Noetherian if and only if every -submodule of is finitely generated.   "
 },
 {
   "id": "ex-noetherian-but-not-artinian",
@@ -1423,11 +1423,20 @@ var ptx_lunr_docs = [
   "body": " Artinian but not Noetherian   If we consider as a -module then, is Artinian but not Noetherian.   "
 },
 {
+  "id": "ex-artinian-noetherian-module",
+  "level": "2",
+  "url": "sec-chain-conditions.html#ex-artinian-noetherian-module",
+  "type": "Example",
+  "number": "3.5.6",
+  "title": "Module which is both Artinian and Noetherian.",
+  "body": " Module which is both Artinian and Noetherian   Let be a finite-dimensional vector space over a field . Due to dimension reasons, is both Artinian and Noetherian -module.  Every finite abelian group as a -module is both Artinian and Noetherian.   "
+},
+{
   "id": "lem-technical-condition",
   "level": "2",
   "url": "sec-chain-conditions.html#lem-technical-condition",
   "type": "Lemma",
-  "number": "3.5.6",
+  "number": "3.5.7",
   "title": "",
   "body": "  Let be -submodules of with . Then there exists the following exact sequence of -modules.    "
 },
@@ -1436,9 +1445,27 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-chain-conditions.html#lem-artinian-noetherian-short-exact-sequence",
   "type": "Lemma",
-  "number": "3.5.7",
+  "number": "3.5.8",
   "title": "",
   "body": "  Let be a short exact sequence of -modules. The module is Noetherian (resp. Artinian) if and only if and are Noetherian (resp. Artinian).   "
+},
+{
+  "id": "prop-artinian-noetherian-implies-composition-series",
+  "level": "2",
+  "url": "sec-chain-conditions.html#prop-artinian-noetherian-implies-composition-series",
+  "type": "Proposition",
+  "number": "3.5.9",
+  "title": "",
+  "body": "  Suppose that an -module is both Artinian and Noetherian and that . Then, there exists a sequence of submodules of  such that are simple -modules for .   "
+},
+{
+  "id": "sec-chain-conditions-13",
+  "level": "2",
+  "url": "sec-chain-conditions.html#sec-chain-conditions-13",
+  "type": "Proof",
+  "number": "3.5.1",
+  "title": "",
+  "body": " By the assumption we have . Consider the set of all the nonzero submodules of . As , the set . By , there exists a minimal element, say . Note that by the minimality is simple.  "
 },
 {
   "id": "backmatter-2",
