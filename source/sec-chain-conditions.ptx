@@ -118,7 +118,30 @@
     </proposition>
     <proof>
         <p>
-            By the assumption we have <m>0=M_0\subsetneq M</m>. Consider the set <m>S_1</m> of all the nonzero submodules of <m>M</m>. As <m>M\in S_1</m>, the set <m>S_1\neq\emptyset</m>. By <xref ref="lem-existence-of-minimal-maximal-element"/>, there exists a minimal element, say <m>M_1\in S_1</m>. Note that by the minimality <m>M_1/M_0\simeq M_1</m> is simple.
+            By the assumption we have <m>0=M_0\subsetneq M</m>. Consider the set <m>S_1</m> of all the nonzero submodules of <m>M</m>. As <m>M\in S_1</m>, the set <m>S_1\neq\emptyset</m>. As <m>M</m> is Artinian, using <xref ref="lem-existence-of-minimal-maximal-element"/>, there exists a minimal element, say <m>M_1\in S_1</m>. Note that by the minimality <m>M_1/M_0\simeq M_1</m> is simple. We continue as before by considering the set of all submodules of <m>M</m> containing <m>M_1</m>, so as to obtain a submodule <m>M_2</m> with <m>M_2/M_1</m> simple. Continuing in this way one obtains a increasing chain of submodules
+            <me>
+                0=M_0\subsetneq M_1\subsetneq M_2\subsetneq\cdots\subsetneq 
+            </me>
+            such that <m>M_{i+1}/M_i</m> is simple. Now Noetherian hypothesis implies that there exists <m>\ell\in\N</m> such that <m>M_\ell=M_i</m> for <m>i\geq\ell</m>. It follows that <m>M_\ell=M</m>.
+            
         </p>
     </proof>
+    <definition xml:id="def-composition-series">
+        <title>Composition series and composition factors</title>
+        
+        
+        <statement>
+            <p>
+                A chain of <m>A</m>-submodules of <m>M</m>, <m>0=M_0\subsetneq M_1\subsetneq\cdots\subsetneq M_n=M</m>  is called a <term>composition series of <m>M</m></term> if <m>M_{i+1}/M_i</m> is simple for <m>i&lt;n</m>. The factor modules <m>M_{i+1}/M_i</m> are called <term>composition factors</term> of the series.
+            </p>
+        </statement>
+    </definition>
+    <theorem xml:id="thm-Jordan-Holder-for-modules">
+        <statement>
+            <p>
+                If <m>0=M_0\subsetneq M_1\subsetneq M_2\subsetneq\cdots\subsetneq M_n=M</m> and <m>0=M_0\subsetneq M_1\subsetneq M_2\subsetneq\cdots\subsetneq M'_k=M</m> are composition series of <m>M</m> then, <m>n=k</m> and there is a permutation <m>\sigma\in S_n</m> such that <m>M_{j+1}/M_j\simeq M_{\sigma(j+1)}/M_{\sigma(j)}</m> for all <m>j&lt;n</m>.
+            </p>
+        </statement>
+    </theorem>
+    
 </section>
