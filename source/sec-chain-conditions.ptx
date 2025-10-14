@@ -136,12 +136,71 @@
             </p>
         </statement>
     </definition>
-    <theorem xml:id="thm-Jordan-Holder-for-modules">
+    <theorem xml:id="thm-composition-series-iff-artinian-noetherian">
         <statement>
             <p>
-                If <m>0=M_0\subsetneq M_1\subsetneq M_2\subsetneq\cdots\subsetneq M_n=M</m> and <m>0=M'_0\subsetneq M'_1\subsetneq M'_2\subsetneq\cdots\subsetneq M'_k=M</m> are composition series of <m>M</m> then, <m>n=k</m> and there is a permutation <m>\sigma\in S_n</m> such that <m>M'_{j+1}/M'_j\simeq M_{\sigma(j+1)}/M_{\sigma(j)}</m> for all <m>j&lt;n</m>.
+                A nonzero <m>A</m>-module <m>M</m> is both Artinian and Noetherian if and only if <m>M</m> has a composition series.
             </p>
         </statement>
     </theorem>
+    <proof>
+        <p>
+            We have proved in <xref ref="prop-artinian-noetherian-implies-composition-series"/> that if <m>M</m> is both Artinian and Noetherian then, <m>M</m> has a composition series.
+        </p>
+    </proof>
     
+    <theorem xml:id="thm-Jordan-Holder-for-modules">
+        <title>Jordan-Hölder Theorem</title>
+        
+        
+        <statement>
+            <p>
+                Assume that <m>M</m> is an <m>A</m>-module. If <m>0=M_0\subsetneq M_1\subsetneq M_2\subsetneq\cdots\subsetneq M_n=M</m> and <m>0=M'_0\subsetneq M'_1\subsetneq M'_2\subsetneq\cdots\subsetneq M'_k=M</m> are composition series of <m>M</m> then, <m>n=k</m> and there is a permutation <m>\sigma\in S_n</m> such that <m>M'_{j+1}/M'_j\simeq M_{\sigma(j+1)}/M_{\sigma(j)}</m> for all <m>j&lt;n</m>.
+            </p>
+        </statement>
+    </theorem>
+    <proof>
+        <p>
+            Suppose that <m>n=1</m>, i.e., we have <m>0=M_0\subsetneq M_1=M</m> and that <m>M_1/M_0\simeq M_1</m> is simple. This shows that <m>M</m> can not have a nonzero proper submodule. Hence, <m>k=1</m>. Now we assume that <m>n\geq 2</m>. Consider the following chain of submodules of <m>M</m>.
+            <md>
+                <mrow> 0=M_0'\cap M_{n-1}\subseteq M_1'\cap M_{n-1}\subseteq\amp\cdots\subseteq M_k'\cap M_{n-1}=M_{n-1}</mrow>
+                <mrow> \subseteq M_{n-1}=M'_0+M_{n-1}\subseteq M_1'+M_{n-1}\amp\subseteq\cdots\subseteq M_k'+M_{n-1}=M_n=M</mrow>
+            </md>
+            For <m>j&lt;k</m> we have the following exact sequence of <m>A</m>-modules (see <xref ref="lem-technical-condition"/>).
+            <me>
+                0\to \frac{M_{j+1}'\cap M_{n-1}}{M_j'\cap M_{n-1}}\to \frac{M_{j+1}'}{M_j'}\to \frac{M_{j+1}'+M_{n-1}}{M_j'+M_{n-1}}\to 0
+            </me>
+            As <m>\tfrac{M_{j+1}'}{M_j'}</m> is simple either
+            <me>
+                0=\frac{M_{j+1}'\cap M_{n-1}}{M_j'\cap M_{n-1}}\quad\text{and}\quad\frac{M_{j+1}'}{{M_j'}}\simeq \frac{M_{j+1}'+M_{n-1}}{M_j'+M_{n-1}}
+            </me>
+            or
+            <me>
+                0=\frac{M_{j+1}'+M_{n-1}}{M_j'+M_{n-1}}\quad\text{and}\quad\frac{M_{j+1}'}{M_j'}\simeq \frac{M_{j+1}'\cap M_{n-1}}{M_j'\cap M_{n-1}}.
+            </me>
+            Furthermore, <m>M_n/M_{n-1}</m> is simple implies that there exists exactly one <m>i&lt;k</m> such that <m>M_{n-1}=M_i'+M_{n-1}</m> and <m>M_n=M_{i+1}'+M_{n-1}</m>. Therefore, <m>M_n/M_{n-1}\simeq M_{i+1}'/M_i'</m> and 
+            <me>
+                0=M_0'\cap M_{n-1}\subsetneq M_1'\cap M_{n-1}\subsetneq\cdots\subsetneq M_{i-1}'\cap M_{n-1}\subsetneq M_i'\cap M_{n-1}{\color{blue}=}M_{i+1}'\cap M_{n-1}'\subsetneq\cdots\subsetneq M_k'\cap M_{n-1}
+            </me>
+            is a composition series for <m>M_{n-1}</m>. By the induction hypothesis, <m>k-1=n-1</m> and there is a permutation <m>\sigma'\in S_{n-1}</m> such that <m>M_{j+1}'/M_j'\simeq M_{\sigma'(j+1)}/M_{\sigma'(j)}</m> for all <m>j\neq i</m>. We define <m>\sigma\in S_n</m> as <m>\sigma(j)=\sigma'(j)</m> for <m>j\neq i</m> and <m>\sigma(i)=n-1</m>. This gives a required result.
+        </p>
+    </proof>
+    <definition xml:id="def-length-of-composition-series">
+        <statement>
+            <p>
+                We keep notations of <xref ref="def-composition-series"/>. By <xref ref="thm-Jordan-Holder-for-modules"/>, the number <m>n</m> is unique for any composition series of <m>M</m>. This number is called the <term>composition length of <m>M</m></term> and it is denoted by <m>\ell(M)</m>.
+            </p>
+        </statement>
+    </definition>
+    <corollary xml:id="cor-additivity-of-length">
+        <statement>
+            <p>
+                Suppose that <m>M, N</m> and <m>P</m> are both Artinian and Noetherian <m>A</m>-modules. If <m>0\to N\to M\to P\to 0</m> is a short exact sequence of modules then, 
+                <me>
+                    \ell(N)+\ell(P)=\ell(M).
+                </me>
+                
+            </p>
+        </statement>
+    </corollary>
 </section>

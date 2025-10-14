@@ -1375,7 +1375,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.5",
   "title": "Chain conditions",
-  "body": " Chain conditions   We introduce in this section important classes of modules, viz., Artinian and Noetherian modules. In this section we assume that is a commutative ring with unity and is a right -algebra. For an -module we denote by the collection of all -submodules of .    Artinian Module   An -module is said to be Artinian if there are no infinite, strictly decreasing sequences of submodules of , i.e., if is a decreasing chain of -submodules of then, there exists such that for all .     Noetherian Module   An -module is said to be Noetherian if there are no infinite, strictly increasing sequences of submodules of , i.e., if is a increasing chain of -submodules of then, there exists such that for all .    We often use the following equivalent conditions for Artinian\/Noetherian modules.    Following are equivalent for an -module .   The module is Noetherian (resp. Artinian);    Every nonempty subset of has a maximal (resp., minimal) element.   Furthermore, is Noetherian if and only if every -submodule of is finitely generated.     Noetherian but not Artinian   If we consider as a -module then, is Noetherian but not Artinian.     Artinian but not Noetherian   If we consider as a -module then, is Artinian but not Noetherian.     Module which is both Artinian and Noetherian   Let be a finite-dimensional vector space over a field . Due to dimension reasons, is both Artinian and Noetherian -module.  Every finite abelian group as a -module is both Artinian and Noetherian.      Let be -submodules of with . Then there exists the following exact sequence of -modules.       Let be a short exact sequence of -modules. The module is Noetherian (resp. Artinian) if and only if and are Noetherian (resp. Artinian).      Suppose that an -module is both Artinian and Noetherian and that . Then, there exists a sequence of submodules of  such that are simple -modules for .     By the assumption we have . Consider the set of all the nonzero submodules of . As , the set . As is Artinian, using , there exists a minimal element, say . Note that by the minimality is simple. We continue as before by considering the set of all submodules of containing , so as to obtain a submodule with simple. Continuing in this way one obtains a increasing chain of submodules such that is simple. Now Noetherian hypothesis implies that there exists such that for . It follows that .    Composition series and composition factors   A chain of -submodules of , is called a composition series of if is simple for . The factor modules are called composition factors of the series.      If and are composition series of then, and there is a permutation such that for all .    "
+  "body": " Chain conditions   We introduce in this section important classes of modules, viz., Artinian and Noetherian modules. In this section we assume that is a commutative ring with unity and is a right -algebra. For an -module we denote by the collection of all -submodules of .    Artinian Module   An -module is said to be Artinian if there are no infinite, strictly decreasing sequences of submodules of , i.e., if is a decreasing chain of -submodules of then, there exists such that for all .     Noetherian Module   An -module is said to be Noetherian if there are no infinite, strictly increasing sequences of submodules of , i.e., if is a increasing chain of -submodules of then, there exists such that for all .    We often use the following equivalent conditions for Artinian\/Noetherian modules.    Following are equivalent for an -module .   The module is Noetherian (resp. Artinian);    Every nonempty subset of has a maximal (resp., minimal) element.   Furthermore, is Noetherian if and only if every -submodule of is finitely generated.     Noetherian but not Artinian   If we consider as a -module then, is Noetherian but not Artinian.     Artinian but not Noetherian   If we consider as a -module then, is Artinian but not Noetherian.     Module which is both Artinian and Noetherian   Let be a finite-dimensional vector space over a field . Due to dimension reasons, is both Artinian and Noetherian -module.  Every finite abelian group as a -module is both Artinian and Noetherian.      Let be -submodules of with . Then there exists the following exact sequence of -modules.       Let be a short exact sequence of -modules. The module is Noetherian (resp. Artinian) if and only if and are Noetherian (resp. Artinian).      Suppose that an -module is both Artinian and Noetherian and that . Then, there exists a sequence of submodules of  such that are simple -modules for .     By the assumption we have . Consider the set of all the nonzero submodules of . As , the set . As is Artinian, using , there exists a minimal element, say . Note that by the minimality is simple. We continue as before by considering the set of all submodules of containing , so as to obtain a submodule with simple. Continuing in this way one obtains a increasing chain of submodules such that is simple. Now Noetherian hypothesis implies that there exists such that for . It follows that .    Composition series and composition factors   A chain of -submodules of , is called a composition series of if is simple for . The factor modules are called composition factors of the series.      A nonzero -module is both Artinian and Noetherian if and only if has a composition series.     We have proved in that if is both Artinian and Noetherian then, has a composition series.    Jordan-Hölder Theorem   Assume that is an -module. If and are composition series of then, and there is a permutation such that for all .     Suppose that , i.e., we have and that is simple. This shows that can not have a nonzero proper submodule. Hence, . Now we assume that . Consider the following chain of submodules of . For we have the following exact sequence of -modules (see ). As is simple either or Furthermore, is simple implies that there exists exactly one such that and . Therefore, and is a composition series for . By the induction hypothesis, and there is a permutation such that for all . We define as for and . This gives a required result.     We keep notations of . By , the number is unique for any composition series of . This number is called the composition length of and it is denoted by .      Suppose that and are both Artinian and Noetherian -modules. If is a short exact sequence of modules then,     "
 },
 {
   "id": "def-artinian-module",
@@ -1477,13 +1477,58 @@ var ptx_lunr_docs = [
   "body": " Composition series and composition factors   A chain of -submodules of , is called a composition series of if is simple for . The factor modules are called composition factors of the series.   "
 },
 {
+  "id": "thm-composition-series-iff-artinian-noetherian",
+  "level": "2",
+  "url": "sec-chain-conditions.html#thm-composition-series-iff-artinian-noetherian",
+  "type": "Theorem",
+  "number": "3.5.11",
+  "title": "",
+  "body": "  A nonzero -module is both Artinian and Noetherian if and only if has a composition series.   "
+},
+{
+  "id": "sec-chain-conditions-16",
+  "level": "2",
+  "url": "sec-chain-conditions.html#sec-chain-conditions-16",
+  "type": "Proof",
+  "number": "3.5.2",
+  "title": "",
+  "body": " We have proved in that if is both Artinian and Noetherian then, has a composition series.  "
+},
+{
   "id": "thm-Jordan-Holder-for-modules",
   "level": "2",
   "url": "sec-chain-conditions.html#thm-Jordan-Holder-for-modules",
   "type": "Theorem",
-  "number": "3.5.11",
+  "number": "3.5.12",
+  "title": "Jordan-Hölder Theorem.",
+  "body": " Jordan-Hölder Theorem   Assume that is an -module. If and are composition series of then, and there is a permutation such that for all .   "
+},
+{
+  "id": "sec-chain-conditions-18",
+  "level": "2",
+  "url": "sec-chain-conditions.html#sec-chain-conditions-18",
+  "type": "Proof",
+  "number": "3.5.3",
   "title": "",
-  "body": "  If and are composition series of then, and there is a permutation such that for all .   "
+  "body": " Suppose that , i.e., we have and that is simple. This shows that can not have a nonzero proper submodule. Hence, . Now we assume that . Consider the following chain of submodules of . For we have the following exact sequence of -modules (see ). As is simple either or Furthermore, is simple implies that there exists exactly one such that and . Therefore, and is a composition series for . By the induction hypothesis, and there is a permutation such that for all . We define as for and . This gives a required result.  "
+},
+{
+  "id": "def-length-of-composition-series",
+  "level": "2",
+  "url": "sec-chain-conditions.html#def-length-of-composition-series",
+  "type": "Definition",
+  "number": "3.5.13",
+  "title": "",
+  "body": "  We keep notations of . By , the number is unique for any composition series of . This number is called the composition length of and it is denoted by .   "
+},
+{
+  "id": "cor-additivity-of-length",
+  "level": "2",
+  "url": "sec-chain-conditions.html#cor-additivity-of-length",
+  "type": "Corollary",
+  "number": "3.5.14",
+  "title": "",
+  "body": "  Suppose that and are both Artinian and Noetherian -modules. If is a short exact sequence of modules then,    "
 },
 {
   "id": "backmatter-2",
