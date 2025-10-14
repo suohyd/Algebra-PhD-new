@@ -139,7 +139,7 @@
     <theorem xml:id="thm-Jordan-Holder-for-modules">
         <statement>
             <p>
-                If <m>0=M_0\subsetneq M_1\subsetneq M_2\subsetneq\cdots\subsetneq M_n=M</m> and <m>0=M_0\subsetneq M_1\subsetneq M_2\subsetneq\cdots\subsetneq M'_k=M</m> are composition series of <m>M</m> then, <m>n=k</m> and there is a permutation <m>\sigma\in S_n</m> such that <m>M_{j+1}/M_j\simeq M_{\sigma(j+1)}/M_{\sigma(j)}</m> for all <m>j&lt;n</m>.
+                If <m>0=M_0\subsetneq M_1\subsetneq M_2\subsetneq\cdots\subsetneq M_n=M</m> and <m>0=M'_0\subsetneq M'_1\subsetneq M'_2\subsetneq\cdots\subsetneq M'_k=M</m> are composition series of <m>M</m> then, <m>n=k</m> and there is a permutation <m>\sigma\in S_n</m> such that <m>M'_{j+1}/M'_j\simeq M_{\sigma(j+1)}/M_{\sigma(j)}</m> for all <m>j&lt;n</m>.
             </p>
         </statement>
     </theorem>
