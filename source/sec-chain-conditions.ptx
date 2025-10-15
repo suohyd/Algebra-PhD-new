@@ -240,13 +240,13 @@
             </p>
         </statement>
     </theorem>
-<!--    <proof>
+    <proof>
         <p>
             We first show that (1) and (2) are equivalent. Suppose that <m>M</m> is a finitely generated semisimpe module. Let <m>M=\oplus_{i\in I}N_i</m> with <m>I</m> infinite. If <m>\{u_1,\ldots,u_r\}</m> are finite generators of <m>M</m> then, there exists <m>i_j</m> such that <m>u_j\in N_{i_j}</m>. For any <m>k&gt;\max\{i_1,\ldots,i_r\}</m>, an element <m>u_k\in N_k</m> is not <m>A</m>-linear combination of <m>\{u_{i_j}\}</m> because <m>M</m> is a direct sum of <m>N_i</m>'s. Therefore, <m>I</m> can not be infinite. Conversely, assume that <m>M</m> is a direct sum of finitely many simple <m>A</m>-modules, say <m>M=\oplus_{i=1}^mN_i</m>. By <xref ref="prop-equivalent-criterion-for-simple-modules"/>, there exists <m>u_i\in N_i</m> such that <m>u_iA=N_i</m> for each <m>i\in\{1,2,\ldots,m\}</m>. As <m>M=\oplus_{i=1}^mN_i=\oplus_{i=1}^mu_iA</m>, elements <m>u_1,u_2,\ldots,u_m</m> are finite number of generators of <m>M</m>.
         </p>
         <p>
-            Now we show that (2) and (3) (resp., (2) and (4)) are equivalent. Assume that <m>M</m> is a direct sum of finitely many simple modules. Every simple module is both Artinian and Noetherian. Therefore, by applying <xref ref="lem-artinian-noetherian-short-exact-sequence"/> finitely many times, we get that <m>M</m> is Artinian and Noetherian. Conversely, suppose that <m>u_i</m> (<m>i\in I</m>) are infinite generators of <m>M</m>. We choose countable generators <m>u_{i_1},u_{i_2},\ldots</m> among <m>\{u_i\}</m>. Consider submodules <m>M_k=\langle u_{i_{k+1},u_{k+2},\ldots}\rangle</m> for <m>k\geq 0</m> (resp., <m>N_k=\langle u_{i_1},\ldots,u_{i_k}\rangle</m> for <m>k\geq 1</m>). Then, <m>M_0\supsetneq M_1\supsetneq M_2\supsetneq\cdots</m> (resp., <m>N_1\subsetneq N_2\subsetneq\cdots</m>) is an infinite decreasing (resp., increasing) chain of submodules of <m>M</m>. Therefore, <m>M</m> can not be Artinian (resp., Noetherian).
+            Now we show that (2) and (3) (resp., (2) and (4)) are equivalent. Assume that <m>M</m> is a direct sum of finitely many simple modules. Every simple module is both Artinian and Noetherian. Therefore, by applying <xref ref="lem-artinian-noetherian-short-exact-sequence"/> finitely many times, we get that <m>M</m> is Artinian and Noetherian.
         </p>
-    </proof>-->
+    </proof>
     
 </section>
