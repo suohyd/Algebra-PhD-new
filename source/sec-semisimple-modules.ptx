@@ -92,9 +92,9 @@
     <proof>
         <p>
             Consider the following set.
-            <me>\Sigma=\left\{\{N_i\}_{i\in I}\cup\{P\}:\sum_{i\in I}N_i+P=\left(\bigoplus_{i\in I} N_i\right)\bigoplus P\text{ for some subset }I\subseteq J\right\}</me>
-            The set <m>\Sigma\neq\emptyset</m> as empty sum of submodules is considered as <m>\{0\}</m>. Suppose that we have a chain of submodules corresponding to a chain of subsets <m>\{I_{k}\}</m> of <m>J</m>. Then, put <m>I=\cup I_k</m>. We claim that <me>\sum_{i\in I}N_i+P=\left(\bigoplus_{i\in I}N_i\right)\bigoplus P.</me> For any <me>\sum_{r=1}^sn_{i_r}+p\in \sum_{t\in I_k}N_t+P=\left(\bigoplus_{t\in I_k}N_t\right)\bigoplus P\text{ for some }k.</me>
-            This shows that every chain has an upper bound. By Zorn's lemma there exists a maximal element, say a subset <m>I\subseteq J</m> such that <m>\sum_{i\in I}N_i+P=\left(\bigoplus N_i\right)\bigoplus P</m>. Put <m>M_1=\sum_{i\in I}N_i+P</m>. By maximality of <m>I</m>, <m>M_1\cap N_j\neq 0</m> for every <m>j\in J</m>. As <m>N_j</m> is simple, we must have <m>M_1\cap N_j=N_j</m>, i.e., <m>N_j\subseteq M_1</m> for each <m>j\in J</m>. Therefore, we get the result.
+            <me>\Sigma=\left\{I\subseteq J:\sum_{i\in I}N_i+P=\left(\bigoplus_{i\in I} N_i\right)\bigoplus P\text{ for some subset }I\subseteq J\right\}</me>
+            The set <m>\Sigma\neq\emptyset</m> as empty sum of submodules is considered as <m>\{0\}</m>. One verifies that every chain in <m>\Sigma</m> has an upper bound.<!--Suppose that we have a chain of submodules corresponding to a chain of subsets <m>\{I_{k}\}</m> of <m>J</m>. Then, put <m>I=\cup I_k</m>. We claim that <me>\sum_{i\in I}N_i+P=\left(\bigoplus_{i\in I}N_i\right)\bigoplus P.</me> For any <me>\sum_{r=1}^sn_{i_r}+p\in \sum_{t\in I_k}N_t+P=\left(\bigoplus_{t\in I_k}N_t\right)\bigoplus P\text{ for some }k.</me>
+            This shows that every chain has an upper bound.-->By Zorn's lemma there exists a maximal element, say a subset <m>I\subseteq J</m> such that <m>\sum_{i\in I}N_i+P=\left(\bigoplus N_i\right)\bigoplus P</m>. Put <m>M_1=\sum_{i\in I}N_i+P</m>. By maximality of <m>I</m>, <m>M_1\cap N_j\neq 0</m> for every <m>j\in J</m>. As <m>N_j</m> is simple, we must have <m>M_1\cap N_j=N_j</m>, i.e., <m>N_j\subseteq M_1</m> for each <m>j\in J</m>. Therefore, we get the result.
         </p>
     </proof>
     <corollary xml:id="cor-sum-of-simple-modules-is-direct-sum">
