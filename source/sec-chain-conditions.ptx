@@ -247,6 +247,9 @@
         <p>
             Now we show that (2) and (3) (resp., (2) and (4)) are equivalent. Assume that <m>M</m> is a direct sum of finitely many simple modules. Every simple module is both Artinian and Noetherian. Therefore, by applying <xref ref="lem-artinian-noetherian-short-exact-sequence"/> finitely many times, we get that <m>M</m> is Artinian and Noetherian.
         </p>
+        <p>
+            Assume condition (5). This implies that <m>M</m> is Noetherian. Hence, also Artinian due to equivalence of (1) to (4). Now assume that <m>M</m> is Artinian, hence also Noetherian. By <xref ref="cor-additivity-of-length"/>, strictly increasing sequence of submodules of <m>M</m> can have at most <m>\ell(M)+1</m> terms.
+        </p>
     </proof>
     <example xml:id="ex-fininitely-generated-but-not-artinian">
         <title>Finitely generated non-Artinian (non-Noetherian) module</title>
