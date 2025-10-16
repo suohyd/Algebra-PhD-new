@@ -248,5 +248,16 @@
             Now we show that (2) and (3) (resp., (2) and (4)) are equivalent. Assume that <m>M</m> is a direct sum of finitely many simple modules. Every simple module is both Artinian and Noetherian. Therefore, by applying <xref ref="lem-artinian-noetherian-short-exact-sequence"/> finitely many times, we get that <m>M</m> is Artinian and Noetherian.
         </p>
     </proof>
-    
+    <example xml:id="ex-fininitely-generated-but-not-artinian">
+        <title>Finitely generated non-Artinian (non-Noetherian) module</title>
+        
+        <statement>
+            <p>
+                The hypothesis that <m>M</m> is semisimple in <xref ref="thm-semisimple-artinian-noetherian-modules"/> is necessary. For instance, we may consider <m>M=\Z</m> as a <m>\Z</m>-module. The module is finitely generated, say by <m>1\in\Z</m>. However, <m>M</m> is not Artinian.
+            </p>
+            <p>
+                For non-Noetherian module we may consider the polynomial ring in infinitely many variables, say <m>\Q[x_1,x_2,\ldots]</m> as a module over itself. Then <m>1</m> generates the module and the module is not Noetherian.
+            </p>
+        </statement>
+    </example>
 </section>
