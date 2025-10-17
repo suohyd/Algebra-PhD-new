@@ -69,4 +69,31 @@
             Let <m>M=\oplus_{i\in I}N_i</m>, where <m>N_i</m> is a simple <m>A</m>-module. For every <m>i\in I</m> consider <m>L_i=\oplus_{k\neq i}N_k</m>. Then, <m>M/L_i\simeq N_i</m> is simple for each <m>i\in I</m>. Thus, <m>\rad{M}\subseteq\cap_iL_i=\{0\}</m>.
         </p>
     </proof>
+    <theorem xml:id="thm-artinian-and-radical-zero-iff-finitely-generated-semisimple">
+        <statement>
+            <p>
+                A right <m>A</m>-module <m>M</m> is finitely generated and semisimple if and only if <m>M</m> is Artinian and <m>\rad{M}=0</m>.
+            </p>
+        </statement>
+    </theorem>
+    <proof>
+        <p>
+            Suppose that <m>M</m> is a finitely generated and semisimple <m>A</m>-module. By <xref ref="thm-semisimple-artinian-noetherian-modules"/> and <xref ref="lem-radical-of-semisimple-module-is-trivial"/>, the module <m>M</m> is Artinian and its radical is trivial.
+        </p>
+        <p>
+            Conversely, assume that <m>M</m> is Artinian and that <m>\rad{M}=0</m>. Suppose that <m>\rad{M}</m> is the inversection of <m>N_i</m> (<m>i\in I</m>) such that <m>M/N_i</m> is simple. Note that as <m>\rad{M}=0</m>, the set <m>I</m> is not empty. Consider the following collection of <m>A</m>-submodules of <m>M</m>
+            <me>
+                \Sigma=\{N_{i_1}\cap\cdots\cap N_{i_k}:i_1,\ldots,i_k\in I\}
+            </me>
+            This is a nonempty collection of submodules of an Artinian module, hence, by <xref ref="lem-existence-of-minimal-maximal-element"/>, the collection <m>\Sigma</m> has a minimal element, say <m>N_1\cap\cdots\cap N_r</m>. We first observe that this minimal element is zero. Indeed, if <m>N_1\cap\cdots\cap N_r\neq 0</m> then for some <m>i\in I</m>, <m>N_1\cap\cdots\cap N_r</m> is not a subset of <m>N_i</m> and hence, <m>N_1\cap\cdots\cap N_r\cap N_i\subsetneq N_1\cap\cdots\cap N_r</m>, a contradiction to minimality. Therefore, <m>N_1\cap\cdots\cap N_r=0</m>. We define an <m>A</m>-module homomorphism <m>\varphi\colon M\to\oplus_{i=1}^rM/N_i</m> by 
+            <me>
+                m\mapsto(m+N_1,\ldots,m+N_r).
+            </me>
+            This is a surjective map with the kernel <m>N_1\cap\cdots\cap N_r</m>. Hence, 
+            <me>
+                M\simeq (M/N_1)\oplus\cdots\oplus(M/N_r).
+            </me>
+            This shows that <m>M</m> is semisimple. It is also finitely generated because <m>M</m> given to be Artinian (see <xref ref="thm-semisimple-artinian-noetherian-modules"/>).
+        </p>
+    </proof>
 </section>

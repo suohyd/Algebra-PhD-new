@@ -1564,7 +1564,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.6",
   "title": "Radical of a module",
-  "body": " Radical of a module   We assume that is a commutative ring with unity, and that is a right -algebra. Consider as a right -module.     The radical of a right -module is If has no -submodule such that is simple then, we write .     Radical of as a -module is   Consider as a -module. Suppose there is a proper submodule of such that is simple. By , there exists a prime number such that as -modules. Thus, for any , . Choose . Then there is such that . Note that , a contradiction.    We collect a few observations related to radical in the following lemma.    Let be a right -module.   The radical of is an -submodule of .    If and then, .    The radical of is zero.         If a right -module is semisimple then, .     Let , where is a simple -module. For every consider . Then, is simple for each . Thus, .   "
+  "body": " Radical of a module   We assume that is a commutative ring with unity, and that is a right -algebra. Consider as a right -module.     The radical of a right -module is If has no -submodule such that is simple then, we write .     Radical of as a -module is   Consider as a -module. Suppose there is a proper submodule of such that is simple. By , there exists a prime number such that as -modules. Thus, for any , . Choose . Then there is such that . Note that , a contradiction.    We collect a few observations related to radical in the following lemma.    Let be a right -module.   The radical of is an -submodule of .    If and then, .    The radical of is zero.         If a right -module is semisimple then, .     Let , where is a simple -module. For every consider . Then, is simple for each . Thus, .     A right -module is finitely generated and semisimple if and only if is Artinian and .     Suppose that is a finitely generated and semisimple -module. By and , the module is Artinian and its radical is trivial.  Conversely, assume that is Artinian and that . Suppose that is the inversection of ( ) such that is simple. Note that as , the set is not empty. Consider the following collection of -submodules of  This is a nonempty collection of submodules of an Artinian module, hence, by , the collection has a minimal element, say . We first observe that this minimal element is zero. Indeed, if then for some , is not a subset of and hence, , a contradiction to minimality. Therefore, . We define an -module homomorphism by This is a surjective map with the kernel . Hence, This shows that is semisimple. It is also finitely generated because given to be Artinian (see ).   "
 },
 {
   "id": "def-radical-of-a-module",
@@ -1610,6 +1610,24 @@ var ptx_lunr_docs = [
   "number": "3.6.1",
   "title": "",
   "body": " Let , where is a simple -module. For every consider . Then, is simple for each . Thus, .  "
+},
+{
+  "id": "thm-artinian-and-radical-zero-iff-finitely-generated-semisimple",
+  "level": "2",
+  "url": "sec-radical.html#thm-artinian-and-radical-zero-iff-finitely-generated-semisimple",
+  "type": "Theorem",
+  "number": "3.6.5",
+  "title": "",
+  "body": "  A right -module is finitely generated and semisimple if and only if is Artinian and .   "
+},
+{
+  "id": "sec-radical-10",
+  "level": "2",
+  "url": "sec-radical.html#sec-radical-10",
+  "type": "Proof",
+  "number": "3.6.2",
+  "title": "",
+  "body": " Suppose that is a finitely generated and semisimple -module. By and , the module is Artinian and its radical is trivial.  Conversely, assume that is Artinian and that . Suppose that is the inversection of ( ) such that is simple. Note that as , the set is not empty. Consider the following collection of -submodules of  This is a nonempty collection of submodules of an Artinian module, hence, by , the collection has a minimal element, say . We first observe that this minimal element is zero. Indeed, if then for some , is not a subset of and hence, , a contradiction to minimality. Therefore, . We define an -module homomorphism by This is a surjective map with the kernel . Hence, This shows that is semisimple. It is also finitely generated because given to be Artinian (see ).  "
 },
 {
   "id": "backmatter-2",
