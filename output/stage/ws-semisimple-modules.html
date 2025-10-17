@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Algebra</title>
+<title>Exercises related to semisimple modules</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -129,7 +129,7 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><span class="up-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></span><a class="next-button button" href="frontmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-semisimple-modules.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-modules.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-chain-conditions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb{C}} \newcommand{\H}{\mathbb H} 
  \newcommand{\End}[2]{\operatorname{End}_{#1}\left(#2\right)} \newcommand{\Aut}[2]{\operatorname{Aut}_{#1}\left(#2\right)} \newcommand{\Hom}[3]{\operatorname{Hom}_{#1}\left(#2,#3\right)} \newcommand{\AEnd}[2]{\operatorname{End}_{#1{\textup {-}}{\rm alg}}\left(#2\right)} \newcommand{\AAut}[2]{\operatorname{Aut}_{#1{\textup {-}}{\rm alg}}\left(#2\right)} \newcommand{\LEnd}[2]{\operatorname{End}_{#1{\textup {-}}{\rm mod}}\left(#2\right)} \newcommand{\unit}{1\!\!1} \newcommand{\Trd}[1]{\operatorname{Trd}_{#1}} \newcommand{\Nrd}[1]{\operatorname{Nrd}_{#1}} \newcommand{\tr}{\operatorname{tr}} \newcommand{\Ann}[2]{\operatorname{ann}_{#1}{#2}} \newcommand{\rad}[1]{\operatorname{rad}{#1}}
 \newcommand{\lt}{&lt;}
@@ -161,14 +161,14 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-quaternion-algebras.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Exercises related to quaternion algebras</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter">
+<li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-modules.html" class="internal"><span class="codenumber">3</span> <span class="title">Modules</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-change-of-scalars.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Change of scalars</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-simple-modules.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Simple modules</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-simple-modules.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Exercises related to simple modules</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-semisimple-modules.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Semisimple modules</span></a></div></li>
-<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-semisimple-modules.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises related to semisimple modules</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="ws-semisimple-modules.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises related to semisimple modules</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-chain-conditions.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Chain conditions</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-radical.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Radical of a module</span></a></div></li>
 </ul>
@@ -181,15 +181,50 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="book" id="Algebra-PhD"><nav class="summary-links"><ul>
-<li><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></li>
-<li><a href="ch-associative-algebras.html" class="internal"><span class="codenumber">1</span> <span class="title">Associative Algebras</span></a></li>
-<li><a href="ch-quaternion-algebra.html" class="internal"><span class="codenumber">2</span> <span class="title">Quaternion Algebras</span></a></li>
-<li><a href="ch-modules.html" class="internal"><span class="codenumber">3</span> <span class="title">Modules</span></a></li>
-<li><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></li>
-</ul></nav><div class="autopermalink" data-description="Book: Algebra"><a href="#Algebra-PhD" title="Copy heading and permalink for Book: Algebra" aria-label="Copy heading and permalink for Book: Algebra">🔗</a></div></section></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="worksheet" id="ws-semisimple-modules" data-margins="0.75in 0.75in 0.75in 0.75in"><h2 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exercises related to semisimple modules</span><div class="print-links"><a href="ws-semisimple-modules-printable.html" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h2>
+<article class="exercise exercise-like" id="ws-semisimple-modules-2"><h3 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="ws-semisimple-modules-2-1-1">Let <span class="process-math">\(V\)</span> be a finite-dimensional vector space over a field <span class="process-math">\(F\text{.}\)</span> Show that if <span class="process-math">\(V\)</span> is considered as a right <span class="process-math">\(\End{F}{V}\)</span> is simple.<div class="autopermalink" data-description="Paragraph"><a href="#ws-semisimple-modules-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Worksheet Exercise 3.5.1"><a href="#ws-semisimple-modules-2" title="Copy heading and permalink for Worksheet Exercise 3.5.1" aria-label="Copy heading and permalink for Worksheet Exercise 3.5.1">🔗</a></div></article><article class="exercise exercise-like" id="ws-semisimple-modules-3"><h3 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="ws-semisimple-modules-3-1-1">Let <span class="process-math">\(V\)</span> be a two-dimensional vector space over a field <span class="process-math">\(F\)</span> with an ordered basis <span class="process-math">\(\{v,w\}\text{.}\)</span> Let <span class="process-math">\(A\)</span> be the collection of all <span class="process-math">\(F\)</span>-linear endomorphisms such that <span class="process-math">\(v\mapsto\alpha\cdot v\)</span> and <span class="process-math">\(w\mapsto\beta\cdot v+\gamma\cdot w\text{,}\)</span> where <span class="process-math">\(\alpha,\beta,\gamma\in F\text{.}\)</span> Show that <span class="process-math">\(A\)</span> is a ring and that <span class="process-math">\(V\)</span> considered as a right <span class="process-math">\(A\)</span>-module is not simple. Furthermore, show that <span class="process-math">\(\End{A}{V}\)</span> is the field consisting of scalar multiplications.<div class="autopermalink" data-description="Paragraph"><a href="#ws-semisimple-modules-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Worksheet Exercise 3.5.2"><a href="#ws-semisimple-modules-3" title="Copy heading and permalink for Worksheet Exercise 3.5.2" aria-label="Copy heading and permalink for Worksheet Exercise 3.5.2">🔗</a></div></article><article class="exercise exercise-like" id="ws-semisimple-modules-4"><h3 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="ws-semisimple-modules-4-1-1">Let <span class="process-math">\(V\)</span> be a finite-dimensional vector space over a field <span class="process-math">\(F\)</span> and fix an <span class="process-math">\(F\)</span>-linear transformation from <span class="process-math">\(V\)</span> to itself. We regard <span class="process-math">\(V\)</span> as a right <span class="process-math">\(F[x]\)</span>-module via <span class="process-math">\(T\text{.}\)</span> Prove that <span class="process-math">\(F[x]\)</span>-module <span class="process-math">\(V\)</span> is semisimple if and only if the minimal polynomial of <span class="process-math">\(T\)</span> is a product of distinct irreducible factors in <span class="process-math">\(F[x]\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ws-semisimple-modules-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Worksheet Exercise 3.5.3"><a href="#ws-semisimple-modules-4" title="Copy heading and permalink for Worksheet Exercise 3.5.3" aria-label="Copy heading and permalink for Worksheet Exercise 3.5.3">🔗</a></div></article><article class="exercise exercise-like" id="ws-semisimple-modules-5"><h3 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para" id="ws-semisimple-modules-5-1-1">If <span class="process-math">\(M_i\)</span> are simple <span class="process-math">\(A\)</span>-modules then, is <span class="process-math">\(\prod_{i}M_i\)</span> simple <span class="process-math">\(A\)</span>-module?<div class="autopermalink" data-description="Paragraph"><a href="#ws-semisimple-modules-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Worksheet Exercise 3.5.4"><a href="#ws-semisimple-modules-5" title="Copy heading and permalink for Worksheet Exercise 3.5.4" aria-label="Copy heading and permalink for Worksheet Exercise 3.5.4">🔗</a></div></article><article class="exercise exercise-like" id="ws-semisimple-modules-6"><h3 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div class="para logical" id="ws-semisimple-modules-6-1-1">
+<ol class="lower-alpha lower-alpha-level-1" id="ws-semisimple-modules-6-1-1-1">
+<li id="ws-semisimple-modules-6-1-1-1-1">
+<div class="para" id="ws-semisimple-modules-6-1-1-1-1-1">Let <span class="process-math">\(p\)</span> be a prime number. Is <span class="process-math">\(\Z/p\Z\)</span> a semisimple <span class="process-math">\(\Z\)</span>-module?<div class="autopermalink" data-description="Paragraph"><a href="#ws-semisimple-modules-6-1-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.5.5.a"><a href="#ws-semisimple-modules-6-1-1-1-1" title="Copy heading and permalink for Item 3.5.5.a" aria-label="Copy heading and permalink for Item 3.5.5.a">🔗</a></div>
+</li>
+<li id="ws-semisimple-modules-6-1-1-1-2">
+<div class="para" id="ws-semisimple-modules-6-1-1-1-2-1">Is <span class="process-math">\(\Z\)</span> a semisimple <span class="process-math">\(\Z\)</span>-module?<div class="autopermalink" data-description="Paragraph"><a href="#ws-semisimple-modules-6-1-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.5.5.b"><a href="#ws-semisimple-modules-6-1-1-1-2" title="Copy heading and permalink for Item 3.5.5.b" aria-label="Copy heading and permalink for Item 3.5.5.b">🔗</a></div>
+</li>
+<li id="ws-semisimple-modules-6-1-1-1-3">
+<div class="para" id="ws-semisimple-modules-6-1-1-1-3-1">Is <span class="process-math">\(\R\)</span> a semisimple <span class="process-math">\(\Q\)</span>-module?<div class="autopermalink" data-description="Paragraph"><a href="#ws-semisimple-modules-6-1-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.5.5.c"><a href="#ws-semisimple-modules-6-1-1-1-3" title="Copy heading and permalink for Item 3.5.5.c" aria-label="Copy heading and permalink for Item 3.5.5.c">🔗</a></div>
+</li>
+<li id="ws-semisimple-modules-6-1-1-1-4">
+<div class="para" id="ws-semisimple-modules-6-1-1-1-4-1">Is <span class="process-math">\(\R[x]\)</span> semisimple <span class="process-math">\(\R[x]\)</span>-module?<div class="autopermalink" data-description="Paragraph"><a href="#ws-semisimple-modules-6-1-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3.5.5.d"><a href="#ws-semisimple-modules-6-1-1-1-4" title="Copy heading and permalink for Item 3.5.5.d" aria-label="Copy heading and permalink for Item 3.5.5.d">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#ws-semisimple-modules-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Worksheet Exercise 3.5.5"><a href="#ws-semisimple-modules-6" title="Copy heading and permalink for Worksheet Exercise 3.5.5" aria-label="Copy heading and permalink for Worksheet Exercise 3.5.5">🔗</a></div></article><div class="autopermalink" data-description="Worksheet 3.5: Exercises related to semisimple modules"><a href="#ws-semisimple-modules" title="Copy heading and permalink for Worksheet 3.5: Exercises related to semisimple modules" aria-label="Copy heading and permalink for Worksheet 3.5: Exercises related to semisimple modules">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="frontmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-semisimple-modules.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-chain-conditions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
