@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-radical" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Radical of a module</title>
+    
+    
+    <introduction>
+        <p>
+            We assume that <m>R</m> is a commutative ring with unity, and that <m>A</m> is a right <m>R</m>-algebra. Consider <m>M</m> as a right <m>A</m>-module.
+        </p>
+    </introduction>
+    <definition xml:id="def-radical-of-a-module">
+        <statement>
+            <p>
+                The <term>radical</term> of a right <m>A</m>-module <m>M</m> is
+                <me>
+                    \rad{M}=\bigcap_{\substack{N\leq M\\M/N\text{ is simple}}}N
+                </me>
+                If <m>M</m> has no <m>A</m>-submodule <m>N</m> such that <m>M/N</m> is simple then, we write <m>\rad{M}=M</m>.
+            </p>
+        </statement>
+    </definition>
+    <example xml:id="ex-radical-is-whole-module">
+        <title>Radical of <m>\Q</m> as a <m>\Z</m>-module is <m>\Q</m></title>
+        
+        
+        <statement>
+            <p>
+                Consider <m>\Q</m> as a <m>\Z</m>-module. Suppose there is a proper submodule <m>N</m> of <m>\Q</m> such that <m>\Q/N</m> is simple. By <xref ref="prop-equivalent-criterion-for-simple-modules"/>, there exists a prime number <m>p</m> such that <m>\Q/N\simeq\Z/p\Z</m> as <m>\Z</m>-modules. Thus, for any <m>x\in\Q</m>, <m>px\in N</m>. Choose <m>x\in\Q\setminus N</m>. Then there is <m>y\in\Q</m> such that <m>py=x</m>. Note that <m>x=py\in N</m>, a contradiction. 
+            </p>
+        </statement>
+    </example>
+    <p>
+        We collect a few observations related to radical in the following lemma.
+    </p>
+    <lemma xml:id="lem-observations-related-to-radical">
+        <statement>
+            <p>
+                Let <m>M</m> be a right <m>A</m>-module.
+                <ol>
+                    <li>
+                        <p>
+                            The radical of <m>M</m> is an <m>A</m>-submodule of <m>M</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>N\leq M</m> and <m>\rad{(M/N)}=0</m> then, <m>\rad{M}\subseteq N</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The radical of <m>M/\rad{M}</m> is zero.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </lemma>
+    <lemma xml:id="lem-radical-of-semisimple-module-is-trivial">
+        <statement>
+            <p>
+                If a right <m>A</m>-module <m>M</m> is semisimple then, <m>\rad{M}=0</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            Let <m>M=\oplus_{i\in I}N_i</m>, where <m>N_i</m> is a simple <m>A</m>-module. For every <m>i\in I</m> consider <m>L_i=\oplus_{k\neq i}N_k</m>. Then, <m>M/L_i\simeq N_i</m> is simple for each <m>i\in I</m>. Thus, <m>\rad{M}\subseteq\cap_iL_i=\{0\}</m>.
+        </p>
+    </proof>
+</section>

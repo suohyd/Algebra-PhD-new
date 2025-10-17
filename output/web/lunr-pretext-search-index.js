@@ -1558,6 +1558,60 @@ var ptx_lunr_docs = [
   "body": " Finitely generated non-Artinian (non-Noetherian) module   The hypothesis that is semisimple in is necessary. For instance, we may consider as a -module. The module is finitely generated, say by . However, is not Artinian.  For non-Noetherian module we may consider the polynomial ring in infinitely many variables, say as a module over itself. Then generates the module and the module is not Noetherian.   "
 },
 {
+  "id": "sec-radical",
+  "level": "1",
+  "url": "sec-radical.html",
+  "type": "Section",
+  "number": "3.6",
+  "title": "Radical of a module",
+  "body": " Radical of a module   We assume that is a commutative ring with unity, and that is a right -algebra. Consider as a right -module.     The radical of a right -module is If has no -submodule such that is simple then, we write .     Radical of as a -module is   Consider as a -module. Suppose there is a proper submodule of such that is simple. By , there exists a prime number such that as -modules. Thus, for any , . Choose . Then there is such that . Note that , a contradiction.    We collect a few observations related to radical in the following lemma.    Let be a right -module.   The radical of is an -submodule of .    If and then, .    The radical of is zero.         If a right -module is semisimple then, .     Let , where is a simple -module. For every consider . Then, is simple for each . Thus, .   "
+},
+{
+  "id": "def-radical-of-a-module",
+  "level": "2",
+  "url": "sec-radical.html#def-radical-of-a-module",
+  "type": "Definition",
+  "number": "3.6.1",
+  "title": "",
+  "body": "  The radical of a right -module is If has no -submodule such that is simple then, we write .   "
+},
+{
+  "id": "ex-radical-is-whole-module",
+  "level": "2",
+  "url": "sec-radical.html#ex-radical-is-whole-module",
+  "type": "Example",
+  "number": "3.6.2",
+  "title": "Radical of <span class=\"process-math\">\\(\\Q\\)<\/span> as a <span class=\"process-math\">\\(\\Z\\)<\/span>-module is <span class=\"process-math\">\\(\\Q\\)<\/span>.",
+  "body": " Radical of as a -module is   Consider as a -module. Suppose there is a proper submodule of such that is simple. By , there exists a prime number such that as -modules. Thus, for any , . Choose . Then there is such that . Note that , a contradiction.   "
+},
+{
+  "id": "lem-observations-related-to-radical",
+  "level": "2",
+  "url": "sec-radical.html#lem-observations-related-to-radical",
+  "type": "Lemma",
+  "number": "3.6.3",
+  "title": "",
+  "body": "  Let be a right -module.   The radical of is an -submodule of .    If and then, .    The radical of is zero.      "
+},
+{
+  "id": "lem-radical-of-semisimple-module-is-trivial",
+  "level": "2",
+  "url": "sec-radical.html#lem-radical-of-semisimple-module-is-trivial",
+  "type": "Lemma",
+  "number": "3.6.4",
+  "title": "",
+  "body": "  If a right -module is semisimple then, .   "
+},
+{
+  "id": "sec-radical-8",
+  "level": "2",
+  "url": "sec-radical.html#sec-radical-8",
+  "type": "Proof",
+  "number": "3.6.1",
+  "title": "",
+  "body": " Let , where is a simple -module. For every consider . Then, is simple for each . Thus, .  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
