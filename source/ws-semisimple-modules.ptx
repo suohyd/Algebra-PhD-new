@@ -4,7 +4,7 @@
     <exercise>
         <statement>
             <p>
-                Let <m>V</m> be a finite-dimensional vector space over a field <m>F</m>. Show that if <m>V</m> is considered as a right <m>\End{F}{V}</m> is simple.
+                Let <m>V</m> be a finite-dimensional vector space over a field <m>F</m>. Show that if <m>V</m> is considered as a right <m>\End{F}{V}</m>-module then, <m>V</m> is simple.
             </p>
         </statement>
     </exercise>
@@ -18,7 +18,7 @@
     <exercise>
         <statement>
             <p>
-                Let <m>V</m> be a finite-dimensional vector space over a field <m>F</m> and fix an <m>F</m>-linear transformation from <m>V</m> to itself. We regard <m>V</m> as a right <m>F[x]</m>-module via <m>T</m>. Prove that <m>F[x]</m>-module <m>V</m> is semisimple if and only if the minimal polynomial of <m>T</m> is a product of distinct irreducible factors in <m>F[x]</m>.
+                Let <m>V</m> be a finite-dimensional vector space over a field <m>F</m> and fix an <m>F</m>-linear transformation <m>T</m> from <m>V</m> to itself. We regard <m>V</m> as a right <m>F[x]</m>-module via <m>T</m>. Prove that <m>F[x]</m>-module <m>V</m> is semisimple if and only if the minimal polynomial of <m>T</m> is a product of distinct irreducible factors in <m>F[x]</m>.
             </p>
         </statement>
     </exercise>

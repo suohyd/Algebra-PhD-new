@@ -1375,7 +1375,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "3.5",
   "title": "Exercises related to semisimple modules",
-  "body": " Exercises related to semisimple modules    Let be a finite-dimensional vector space over a field . Show that if is considered as a right is simple.      Let be a two-dimensional vector space over a field with an ordered basis . Let be the collection of all -linear endomorphisms such that and , where . Show that is a ring and that considered as a right -module is not simple. Furthermore, show that is the field consisting of scalar multiplications.      Let be a finite-dimensional vector space over a field and fix an -linear transformation from to itself. We regard as a right -module via . Prove that -module is semisimple if and only if the minimal polynomial of is a product of distinct irreducible factors in .      If are simple -modules then, is simple -module?         Let be a prime number. Is a semisimple -module?    Is a semisimple -module?    Is a semisimple -module?    Is semisimple -module?       "
+  "body": " Exercises related to semisimple modules    Let be a finite-dimensional vector space over a field . Show that if is considered as a right -module then, is simple.      Let be a two-dimensional vector space over a field with an ordered basis . Let be the collection of all -linear endomorphisms such that and , where . Show that is a ring and that considered as a right -module is not simple. Furthermore, show that is the field consisting of scalar multiplications.      Let be a finite-dimensional vector space over a field and fix an -linear transformation from to itself. We regard as a right -module via . Prove that -module is semisimple if and only if the minimal polynomial of is a product of distinct irreducible factors in .      If are simple -modules then, is simple -module?         Let be a prime number. Is a semisimple -module?    Is a semisimple -module?    Is a semisimple -module?    Is a semisimple -module?       "
 },
 {
   "id": "ws-semisimple-modules-2",
@@ -1384,7 +1384,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.5.1",
   "title": "",
-  "body": "  Let be a finite-dimensional vector space over a field . Show that if is considered as a right is simple.   "
+  "body": "  Let be a finite-dimensional vector space over a field . Show that if is considered as a right -module then, is simple.   "
 },
 {
   "id": "ws-semisimple-modules-3",
@@ -1420,7 +1420,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.5.5",
   "title": "",
-  "body": "     Let be a prime number. Is a semisimple -module?    Is a semisimple -module?    Is a semisimple -module?    Is semisimple -module?      "
+  "body": "     Let be a prime number. Is a semisimple -module?    Is a semisimple -module?    Is a semisimple -module?    Is a semisimple -module?      "
 },
 {
   "id": "sec-chain-conditions",
