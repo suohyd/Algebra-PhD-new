@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-semisimple-modules">
+    <title>Exercises related to semisimple modules</title>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>V</m> be a finite-dimensional vector space over a field <m>F</m>. Show that if <m>V</m> is considered as a right <m>\End{F}{V}</m> is simple.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>V</m> be a two-dimensional vector space over a field <m>F</m> with an ordered basis <m>\{v,w\}</m>. Let <m>A</m> be the collection of all <m>F</m>-linear endomorphisms such that <m>v\mapsto\alpha\cdot v</m> and <m>w\mapsto\beta\cdot v+\gamma\cdot w</m>, where <m>\alpha,\beta,\gamma\in F</m>. Show that <m>A</m> is a ring and that <m>V</m> considered as a right <m>A</m>-module is not simple. Furthermore, show that <m>\End{A}{V}</m> is the field consisting of scalar multiplications.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>V</m> be a finite-dimensional vector space over a field <m>F</m> and fix an <m>F</m>-linear transformation from <m>V</m> to itself. We regard <m>V</m> as a right <m>F[x]</m>-module via <m>T</m>. Prove that <m>F[x]</m>-module <m>V</m> is semisimple if and only if the minimal polynomial of <m>T</m> is a product of distinct irreducible factors in <m>F[x]</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                If <m>M_i</m> are simple <m>A</m>-modules then, is <m>\prod_{i}M_i</m> simple <m>A</m>-module?
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Let <m>p</m> be a prime number. Is <m>\Z/p\Z</m> a semisimple <m>\Z</m>-module?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Is <m>\Z</m> a semisimple <m>\Z</m>-module? 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Is <m>\R</m> a semisimple <m>\Q</m>-module?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Is <m>\R[x]</m> semisimple <m>\R[x]</m>-module?
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+</worksheet>
