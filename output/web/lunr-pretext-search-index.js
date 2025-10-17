@@ -1684,6 +1684,42 @@ var ptx_lunr_docs = [
   "body": " Suppose that is a finitely generated and semisimple -module. By and , the module is Artinian and its radical is trivial.  Conversely, assume that is Artinian and that . Suppose that is the inversection of ( ) such that is simple. Note that as , the set is not empty. Consider the following collection of -submodules of  This is a nonempty collection of submodules of an Artinian module, hence, by , the collection has a minimal element, say . We first observe that this minimal element is zero. Indeed, if then for some , is not a subset of and hence, , a contradiction to minimality. Therefore, . We define an -module homomorphism by This is a surjective map with the kernel . Hence, This shows that is semisimple. It is also finitely generated because given to be Artinian (see ).  "
 },
 {
+  "id": "sec-semisimple-algebras",
+  "level": "1",
+  "url": "sec-semisimple-algebras.html",
+  "type": "Section",
+  "number": "4.1",
+  "title": "Semisimple algebras",
+  "body": " Semisimple algebras   We assume that is a commutative ring with unity and that is a right -algebra.    Semisimple algebra   An -algebra is said to be semisimple if considered as a right -module is semisimple module.      Suppose that is a semisimple algebra. Then the simple right -submodules are the minimal right ideals of . Furthermore, as is generated as a module over by , by , we have that   Using we get the following. The algebra is semisimple if and only if is Artinian and .     Finite-dimensional algebra is simple if and only if radical is trivial   Suppose that is a field and that is a finite-dimensional algebra over . Show that is semisimple if and only if .    "
+},
+{
+  "id": "def-semisimple-algebra",
+  "level": "2",
+  "url": "sec-semisimple-algebras.html#def-semisimple-algebra",
+  "type": "Definition",
+  "number": "4.1.1",
+  "title": "Semisimple algebra.",
+  "body": " Semisimple algebra   An -algebra is said to be semisimple if considered as a right -module is semisimple module.   "
+},
+{
+  "id": "note-consequence-of-def-of-semisimple-algebra",
+  "level": "2",
+  "url": "sec-semisimple-algebras.html#note-consequence-of-def-of-semisimple-algebra",
+  "type": "Note",
+  "number": "4.1.2",
+  "title": "",
+  "body": "  Suppose that is a semisimple algebra. Then the simple right -submodules are the minimal right ideals of . Furthermore, as is generated as a module over by , by , we have that   Using we get the following. The algebra is semisimple if and only if is Artinian and .   "
+},
+{
+  "id": "ex-finite-dim-algebra-is-semisimple-iff-radical-is-zero",
+  "level": "2",
+  "url": "sec-semisimple-algebras.html#ex-finite-dim-algebra-is-semisimple-iff-radical-is-zero",
+  "type": "Checkpoint",
+  "number": "4.1.3",
+  "title": "Finite-dimensional algebra is simple if and only if radical is trivial.",
+  "body": " Finite-dimensional algebra is simple if and only if radical is trivial   Suppose that is a field and that is a finite-dimensional algebra over . Show that is semisimple if and only if .   "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",

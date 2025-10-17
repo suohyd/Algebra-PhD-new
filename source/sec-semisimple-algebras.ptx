@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-semisimple-algebras" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Semisimple algebras</title>
+    <introduction>
+        <p>
+            We assume that <m>R</m> is a commutative ring with unity and that <m>A</m> is a right <m>R</m>-algebra. 
+        </p>
+    </introduction>
+    <definition xml:id="def-semisimple-algebra">
+        <title>Semisimple algebra</title>
+        
+        
+        <statement>
+            <p>
+                An <m>R</m>-algebra <m>A</m> is said to be <term>semisimple</term> if <m>A</m> considered as a right <m>A</m>-module is semisimple module.
+            </p>
+        </statement>
+    </definition>
+    <note xml:id="note-consequence-of-def-of-semisimple-algebra">
+        <statement>
+            <p>
+                Suppose that <m>A</m> is a semisimple algebra. Then the simple right <m>A</m>-submodules are the minimal right ideals of <m>A</m>. Furthermore, as <m>A</m> is generated as a module over <m>A</m> by <m>1_A</m>, by <xref ref="thm-semisimple-artinian-noetherian-modules"/>, we have that
+                <me>
+                    A\simeq\bigoplus_{\substack{N_i\text{ minimal right ideals}\\1\leq i\leq n}}N_i.
+                </me>
+                
+            </p>
+            <p>
+                Using <xref ref="thm-artinian-and-radical-zero-iff-finitely-generated-semisimple"/> we get the following.
+                The algebra <m>A</m> is semisimple if and only if <m>A_A</m> is Artinian and <m>\rad{A_A}=0</m>.
+            </p>
+        </statement>
+    </note>
+    <exercise xml:id="ex-finite-dim-algebra-is-semisimple-iff-radical-is-zero">
+        <title>Finite-dimensional algebra is simple if and only if radical is trivial</title>
+        
+        
+        <statement>
+            <p>
+                Suppose that <m>F</m> is a field and that <m>A</m> is a finite-dimensional algebra over <m>F</m>. Show that <m>A</m> is semisimple if and only if <m>\rad{A_A}=0</m>.
+            </p>
+        </statement>
+    </exercise>
+</section>
