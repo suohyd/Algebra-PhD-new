@@ -16,7 +16,33 @@
     <exercise>
         <statement>
             <p>
-                Show that if an endomorphism of a right Noetherian (resp., Artinian) module is epimorphism (resp., monomorphism), then it is an isomorphism.
+                Let <m>f\colon M\to M</m> be an <m>A</m>-module endomorphism.
+                <ol>
+                    <li>
+                        <p>
+                            Show that if <m>M</m> is Artinian then, <m>\Image{f^n}+\ker f^n=M</m> for some positive integer <m>n</m>. Use this to show that <m>f</m> is an isomorphism if and only if it is a monomorphism.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Show that if <m>M</m> is Noetherian then, <m>\Image{f^n}\cap\ker f^n=0</m> for some positive integer <m>n</m>. Use this to show that <m>f</m> is an isomorphism if and only if it is an epimorphism.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise xml:id="ex-Fitting-lemma">
+        <title>Fitting's lemma</title>
+        
+        
+        <statement>
+            <p>
+                If <m>M</m> is a module with a composition series, and <m>f\colon M\to M</m> is an endomorphism, show that there exists a positive integer <m>n</m> such that
+                <me>
+                    M=\Image{f^n}\oplus\ker f^n.
+                </me>
+                Furthermore, show that the restriction of <m>f</m> to <m>\Image{f^n}</m> is an automorphism and the restriction of <m>f</m> to <m>\ker f^n</m> is a nilpotent endomorphism.
             </p>
         </statement>
     </exercise>
@@ -66,8 +92,49 @@
     <exercise>
         <statement>
             <p>
-                Determine the length of the <m>\Z</m>-module <m>\Z_{n}</m> for a prime integer <m>p</m> and a positive integer <m>n</m>.
+                Let <m>N_1,N_2,\ldots,N_k</m> be submodules of <m>M</m> with each <m>M/N_i</m> has finite length. Show that <m>M/\bigcap_{i=1}^k N_i</m> has finite length.
             </p>
         </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Determine the length of the <m>\Z</m>-module <m>\Z/{n}\Z</m> for a positive integer <m>n</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Determine for which positive integers <m>n</m>, the module <m>\Z/n\Z</m> has a unique composition series.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find all compostion series of <m>\Z/12\Z</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <hint>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Suppose that <m>n=p^k</m> for some prime number <m>p</m> and some positive integer <m>k</m>. Show that the length of the <m>\Z</m>-module <m>\Z_{p^k}</m> is <m>k</m>. For instance,
+                            <me>
+                                0=p^k\Z/p^k\Z\subsetneq p^{k-1}\Z/p^k\Z\subsetneq\cdots\subsetneq p\Z/p^k\Z\subsetneq\Z/p^k\Z
+                            </me>
+                            is a composition series of <m>\Z_{p^k}</m>.   
+                        </p>
+                        <p>
+                            For a general positive integer <m>n</m>, use the Chinese Remainder Theorem to write <m>\Z_n</m> as a direct sum of <m>\Z_{p_i^{k_i}}</m>'s and use the previous part along with <xref ref="cor-additivity-of-length"/> to conclude.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </hint>
     </exercise>
 </worksheet>
