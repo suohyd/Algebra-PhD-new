@@ -14,7 +14,7 @@
         <statement>
             <p>
                 An <m>A</m>-module <m>M</m> is said to be <term>Artinian</term> if there are no infinite, strictly decreasing sequences of submodules of <m>M</m>, i.e., if <me>
-                    N_1\supsetneq N_2\supsetneq N_3\supsetneq\cdots
+                    N_1\supseteq N_2\supseteq N_3\supseteq\cdots
                 </me>
                 is a decreasing chain of <m>A</m>-submodules of <m>M</m> then, there exists <m>\ell\in\N</m> such that <m>N_i=N_j</m> for all <m>i,j\geq\ell</m>.
             </p>
@@ -27,9 +27,9 @@
         <statement>
             <p>
                 An <m>A</m>-module <m>M</m> is said to be <term>Noetherian</term> if there are no infinite, strictly increasing sequences of submodules of <m>M</m>, i.e., if <me>
-                    N_1\subsetneq N_2\subsetneq N_3\subsetneq\cdots
+                    N_1\subseteq N_2\subseteq N_3\subseteq\cdots
                 </me>
-                is a increasing chain of <m>A</m>-submodules of <m>M</m> then, there exists <m>\ell\in\N</m> such that <m>N_i=N_j</m> for all <m>i,j\geq\ell</m>.
+                is an increasing chain of <m>A</m>-submodules of <m>M</m> then, there exists <m>\ell\in\N</m> such that <m>N_i=N_j</m> for all <m>i,j\geq\ell</m>.
             </p>
         </statement>
     </definition>
