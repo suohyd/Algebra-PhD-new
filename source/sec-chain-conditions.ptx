@@ -69,7 +69,7 @@
         <title>Artinian but not Noetherian</title>
         <statement>
             <p>
-                If we consider <m>\Z(p^\infty)=\{a/p^n:a\in\Z,n\in\N\}</m> as a <m>\Z</m>-module then, <m>\Z</m> is Artinian but not Noetherian.
+                If we consider <m>\Z(p^\infty)=\{a/p^n:a\in\Z,n\in\N\cup\{0\}\}\big/\Z</m> as a <m>\Z</m>-module then, it is Artinian but not Noetherian.
             </p>
         </statement>
         

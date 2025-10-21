@@ -63,4 +63,11 @@
             </p>
         </hint>
     </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Determine the length of the <m>\Z</m>-module <m>\Z_{n}</m> for a prime integer <m>p</m> and a positive integer <m>n</m>.
+            </p>
+        </statement>
+    </exercise>
 </worksheet>
