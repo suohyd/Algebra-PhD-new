@@ -1618,7 +1618,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "3.7",
   "title": "Exercises related to Artinian and Noetherian modules",
-  "body": " Exercises related to Artinian and Noetherian modules   Most of the exercises are taken from and . Throughout this worsheet we assume that is a commutative ring with unity and that is a right -algebra. We assume that is a right -module.     Show that if is Noetherian (resp., Artinian) then, every finitely-generated right -module is Noetherian (resp., Artinian). In particular, show that if is a division ring and is a finitely-generated right -module, then is Noetherian and Artinian.      Show that if an endomorphism of a right Noetherian (resp., Artinian) module is epimorphism (resp., monomorphism), then it is an isomorphism.      Let be a vector space over a field with a countable basis . Suppose that is an -linear endomorphism of . Using we consider as a right -module.   Let be defined by and for . Show that -module is Artinian.    Let be defined by for . Show that -module is Noetherian.         Let be a right -module of finite length , and be submodules of . Show the following.     Use the isomorphism and the following short exact sequences.        Determine the length of the -module for a prime integer and a positive integer .    "
+  "body": " Exercises related to Artinian and Noetherian modules   Most of the exercises are taken from and . Throughout this worsheet we assume that is a commutative ring with unity and that is a right -algebra. We assume that is a right -module.     Show that if is Noetherian (resp., Artinian) then, every finitely-generated right -module is Noetherian (resp., Artinian). In particular, show that if is a division ring and is a finitely-generated right -module, then is Noetherian and Artinian.      Let be an -module endomorphism.   Show that if is Artinian then, for some positive integer . Use this to show that is an isomorphism if and only if it is a monomorphism.    Show that if is Noetherian then, for some positive integer . Use this to show that is an isomorphism if and only if it is an epimorphism.        Fitting's lemma   If is a module with a composition series, and is an endomorphism, show that there exists a positive integer such that Furthermore, show that the restriction of to is an automorphism and the restriction of to is a nilpotent endomorphism.      Let be a vector space over a field with a countable basis . Suppose that is an -linear endomorphism of . Using we consider as a right -module.   Let be defined by and for . Show that -module is Artinian.    Let be defined by for . Show that -module is Noetherian.         Let be a right -module of finite length , and be submodules of . Show the following.     Use the isomorphism and the following short exact sequences.        Let be submodules of with each has finite length. Show that has finite length.         Determine the length of the -module for a positive integer .    Determine for which positive integers , the module has a unique composition series.    Find all compostion series of .          Suppose that for some prime number and some positive integer . Show that the length of the -module is . For instance, is a composition series of .  For a general positive integer , use the Chinese Remainder Theorem to write as a direct sum of 's and use the previous part along with to conclude.       "
 },
 {
   "id": "ws-artinian-noetherian-3",
@@ -1636,16 +1636,16 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.7.2",
   "title": "",
-  "body": "  Show that if an endomorphism of a right Noetherian (resp., Artinian) module is epimorphism (resp., monomorphism), then it is an isomorphism.   "
+  "body": "  Let be an -module endomorphism.   Show that if is Artinian then, for some positive integer . Use this to show that is an isomorphism if and only if it is a monomorphism.    Show that if is Noetherian then, for some positive integer . Use this to show that is an isomorphism if and only if it is an epimorphism.      "
 },
 {
-  "id": "ws-artinian-noetherian-5",
+  "id": "ex-Fitting-lemma",
   "level": "2",
-  "url": "ws-artinian-noetherian.html#ws-artinian-noetherian-5",
+  "url": "ws-artinian-noetherian.html#ex-Fitting-lemma",
   "type": "Worksheet Exercise",
   "number": "3.7.3",
-  "title": "",
-  "body": "  Let be a vector space over a field with a countable basis . Suppose that is an -linear endomorphism of . Using we consider as a right -module.   Let be defined by and for . Show that -module is Artinian.    Let be defined by for . Show that -module is Noetherian.      "
+  "title": "Fitting’s lemma.",
+  "body": " Fitting's lemma   If is a module with a composition series, and is an endomorphism, show that there exists a positive integer such that Furthermore, show that the restriction of to is an automorphism and the restriction of to is a nilpotent endomorphism.   "
 },
 {
   "id": "ws-artinian-noetherian-6",
@@ -1654,7 +1654,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.7.4",
   "title": "",
-  "body": "  Let be a right -module of finite length , and be submodules of . Show the following.     Use the isomorphism and the following short exact sequences.     "
+  "body": "  Let be a vector space over a field with a countable basis . Suppose that is an -linear endomorphism of . Using we consider as a right -module.   Let be defined by and for . Show that -module is Artinian.    Let be defined by for . Show that -module is Noetherian.      "
 },
 {
   "id": "ws-artinian-noetherian-7",
@@ -1663,7 +1663,25 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3.7.5",
   "title": "",
-  "body": "  Determine the length of the -module for a prime integer and a positive integer .   "
+  "body": "  Let be a right -module of finite length , and be submodules of . Show the following.     Use the isomorphism and the following short exact sequences.     "
+},
+{
+  "id": "ws-artinian-noetherian-8",
+  "level": "2",
+  "url": "ws-artinian-noetherian.html#ws-artinian-noetherian-8",
+  "type": "Worksheet Exercise",
+  "number": "3.7.6",
+  "title": "",
+  "body": "  Let be submodules of with each has finite length. Show that has finite length.   "
+},
+{
+  "id": "ws-artinian-noetherian-9",
+  "level": "2",
+  "url": "ws-artinian-noetherian.html#ws-artinian-noetherian-9",
+  "type": "Worksheet Exercise",
+  "number": "3.7.7",
+  "title": "",
+  "body": "     Determine the length of the -module for a positive integer .    Determine for which positive integers , the module has a unique composition series.    Find all compostion series of .          Suppose that for some prime number and some positive integer . Show that the length of the -module is . For instance, is a composition series of .  For a general positive integer , use the Chinese Remainder Theorem to write as a direct sum of 's and use the previous part along with to conclude.      "
 },
 {
   "id": "sec-radical",
