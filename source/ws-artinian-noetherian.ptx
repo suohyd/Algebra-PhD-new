@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-artinian-noetherian">
+    <title>Exercises related to Artinian and Noetherian modules</title>
+    <introduction>
+        <p>
+            Most of the exercises are taken from <xref ref="bib-Pierce"/> and <xref ref="bib-Jacobson-II"/>. Throughout this worsheet we assume that <m>R</m> is a commutative ring with unity and that <m>A</m> is a right <m>R</m>-algebra. We assume that <m>M</m> is a right <m>A</m>-module.
+        </p>
+    </introduction>
+    <exercise>
+        <statement>
+            <p>
+                Show that if <m>A_A</m> is Noetherian (resp., Artinian) then, every finitely-generated right <m>A</m>-module is Noetherian (resp., Artinian). In particular, show that if <m>A</m> is a division ring and <m>M</m> is a finitely-generated right <m>A</m>-module, then <m>M</m> is Noetherian and Artinian.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Show that if an endomorphism of a right Noetherian (resp., Artinian) module is epimorphism (resp., monomorphism), then it is an isomorphism.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>V</m> be a vector space over a field <m>F</m> with a countable basis <m>\{v_1,v_2,\ldots\}</m>. Suppose that <m>T</m> is an <m>F</m>-linear endomorphism of <m>V</m>. Using <m>T</m> we consider <m>V</m> as a right <m>F[t]</m>-module.
+                <ol>
+                    <li>
+                        <p>
+                            Let <m>T\colon V\to V</m> be defined by <m>T(v_1)=0</m> and <m>T(v_{i+1})=v_i</m> for <m>i=1,2,3,\ldots</m>. Show that <m>F[t]</m>-module <m>V</m> is Artinian. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Let <m>T\colon V\to V</m> be defined by <m>T(v_i)=v_{i+1}</m> for <m>i=1,2,3,\ldots</m>. Show that <m>F[t]</m>-module <m>V</m> is Noetherian.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>M</m> be a right <m>A</m>-module of finite length <m>\ell(M)</m>, and <m>L,N</m> be submodules of <m>M</m>. Show the following.
+                <me>
+                    \ell(L+N)+\ell(L\cap N)=\ell(L)+\ell(N)
+                </me>
+                
+            </p>
+        </statement>
+        <hint>
+            <p>
+                Use the isomorphism <m>(L+N)\big/N\simeq L\big/(L\cap N)</m> and the following short exact sequences.
+                <me>
+                    0\to N\to L+N\to (L+N)/N\to 0
+                </me>
+                <me>
+                    0\to L\cap N\to L\to L/(L\cap N)
+                </me>
+                
+                
+            </p>
+        </hint>
+    </exercise>
+</worksheet>

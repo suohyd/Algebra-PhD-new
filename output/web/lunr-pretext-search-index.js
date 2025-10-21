@@ -1612,11 +1612,56 @@ var ptx_lunr_docs = [
   "body": " Finitely generated non-Artinian (non-Noetherian) module   The hypothesis that is semisimple in is necessary. For instance, we may consider as a -module. The module is finitely generated, say by . However, is not Artinian.  For non-Noetherian module we may consider the polynomial ring in infinitely many variables, say as a module over itself. Then generates the module and the module is not Noetherian.   "
 },
 {
+  "id": "ws-artinian-noetherian",
+  "level": "1",
+  "url": "ws-artinian-noetherian.html",
+  "type": "Worksheet",
+  "number": "3.7",
+  "title": "Exercises related to Artinian and Noetherian modules",
+  "body": " Exercises related to Artinian and Noetherian modules   Most of the exercises are taken from and . Throughout this worsheet we assume that is a commutative ring with unity and that is a right -algebra. We assume that is a right -module.     Show that if is Noetherian (resp., Artinian) then, every finitely-generated right -module is Noetherian (resp., Artinian). In particular, show that if is a division ring and is a finitely-generated right -module, then is Noetherian and Artinian.      Show that if an endomorphism of a right Noetherian (resp., Artinian) module is epimorphism (resp., monomorphism), then it is an isomorphism.      Let be a vector space over a field with a countable basis . Suppose that is an -linear endomorphism of . Using we consider as a right -module.   Let be defined by and for . Show that -module is Artinian.    Let be defined by for . Show that -module is Noetherian.         Let be a right -module of finite length , and be submodules of . Show the following.     Use the isomorphism and the following short exact sequences.      "
+},
+{
+  "id": "ws-artinian-noetherian-3",
+  "level": "2",
+  "url": "ws-artinian-noetherian.html#ws-artinian-noetherian-3",
+  "type": "Worksheet Exercise",
+  "number": "3.7.1",
+  "title": "",
+  "body": "  Show that if is Noetherian (resp., Artinian) then, every finitely-generated right -module is Noetherian (resp., Artinian). In particular, show that if is a division ring and is a finitely-generated right -module, then is Noetherian and Artinian.   "
+},
+{
+  "id": "ws-artinian-noetherian-4",
+  "level": "2",
+  "url": "ws-artinian-noetherian.html#ws-artinian-noetherian-4",
+  "type": "Worksheet Exercise",
+  "number": "3.7.2",
+  "title": "",
+  "body": "  Show that if an endomorphism of a right Noetherian (resp., Artinian) module is epimorphism (resp., monomorphism), then it is an isomorphism.   "
+},
+{
+  "id": "ws-artinian-noetherian-5",
+  "level": "2",
+  "url": "ws-artinian-noetherian.html#ws-artinian-noetherian-5",
+  "type": "Worksheet Exercise",
+  "number": "3.7.3",
+  "title": "",
+  "body": "  Let be a vector space over a field with a countable basis . Suppose that is an -linear endomorphism of . Using we consider as a right -module.   Let be defined by and for . Show that -module is Artinian.    Let be defined by for . Show that -module is Noetherian.      "
+},
+{
+  "id": "ws-artinian-noetherian-6",
+  "level": "2",
+  "url": "ws-artinian-noetherian.html#ws-artinian-noetherian-6",
+  "type": "Worksheet Exercise",
+  "number": "3.7.4",
+  "title": "",
+  "body": "  Let be a right -module of finite length , and be submodules of . Show the following.     Use the isomorphism and the following short exact sequences.     "
+},
+{
   "id": "sec-radical",
   "level": "1",
   "url": "sec-radical.html",
   "type": "Section",
-  "number": "3.7",
+  "number": "3.8",
   "title": "Radical of a module",
   "body": " Radical of a module   We assume that is a commutative ring with unity, and that is a right -algebra. Consider as a right -module.     The radical of a right -module is If has no -submodule such that is simple then, we write .     Radical of as a -module is   Consider as a -module. Suppose there is a proper submodule of such that is simple. By , there exists a prime number such that as -modules. Thus, for any , . Choose . Then there is such that . Note that , a contradiction.    We collect a few observations related to radical in the following lemma.    Let be a right -module.   The radical of is an -submodule of .    If and then, .    The radical of is zero.         If a right -module is semisimple then, .     Let , where is a simple -module. For every consider . Then, is simple for each . Thus, .     A right -module is finitely generated and semisimple if and only if is Artinian and .     Suppose that is a finitely generated and semisimple -module. By and , the module is Artinian and its radical is trivial.  Conversely, assume that is Artinian and that . Suppose that is the inversection of ( ) such that is simple. Note that as , the set is not empty. Consider the following collection of -submodules of  This is a nonempty collection of submodules of an Artinian module, hence, by , the collection has a minimal element, say . We first observe that this minimal element is zero. Indeed, if then for some , is not a subset of and hence, , a contradiction to minimality. Therefore, . We define an -module homomorphism by This is a surjective map with the kernel . Hence, This shows that is semisimple. It is also finitely generated because given to be Artinian (see ).   "
 },
@@ -1625,7 +1670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radical.html#def-radical-of-a-module",
   "type": "Definition",
-  "number": "3.7.1",
+  "number": "3.8.1",
   "title": "",
   "body": "  The radical of a right -module is If has no -submodule such that is simple then, we write .   "
 },
@@ -1634,7 +1679,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radical.html#ex-radical-is-whole-module",
   "type": "Example",
-  "number": "3.7.2",
+  "number": "3.8.2",
   "title": "Radical of <span class=\"process-math\">\\(\\Q\\)<\/span> as a <span class=\"process-math\">\\(\\Z\\)<\/span>-module is <span class=\"process-math\">\\(\\Q\\)<\/span>.",
   "body": " Radical of as a -module is   Consider as a -module. Suppose there is a proper submodule of such that is simple. By , there exists a prime number such that as -modules. Thus, for any , . Choose . Then there is such that . Note that , a contradiction.   "
 },
@@ -1643,7 +1688,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radical.html#lem-observations-related-to-radical",
   "type": "Lemma",
-  "number": "3.7.3",
+  "number": "3.8.3",
   "title": "",
   "body": "  Let be a right -module.   The radical of is an -submodule of .    If and then, .    The radical of is zero.      "
 },
@@ -1652,7 +1697,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radical.html#lem-radical-of-semisimple-module-is-trivial",
   "type": "Lemma",
-  "number": "3.7.4",
+  "number": "3.8.4",
   "title": "",
   "body": "  If a right -module is semisimple then, .   "
 },
@@ -1661,7 +1706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radical.html#sec-radical-8",
   "type": "Proof",
-  "number": "3.7.1",
+  "number": "3.8.1",
   "title": "",
   "body": " Let , where is a simple -module. For every consider . Then, is simple for each . Thus, .  "
 },
@@ -1670,7 +1715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radical.html#thm-artinian-and-radical-zero-iff-finitely-generated-semisimple",
   "type": "Theorem",
-  "number": "3.7.5",
+  "number": "3.8.5",
   "title": "",
   "body": "  A right -module is finitely generated and semisimple if and only if is Artinian and .   "
 },
@@ -1679,7 +1724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radical.html#sec-radical-10",
   "type": "Proof",
-  "number": "3.7.2",
+  "number": "3.8.2",
   "title": "",
   "body": " Suppose that is a finitely generated and semisimple -module. By and , the module is Artinian and its radical is trivial.  Conversely, assume that is Artinian and that . Suppose that is the inversection of ( ) such that is simple. Note that as , the set is not empty. Consider the following collection of -submodules of  This is a nonempty collection of submodules of an Artinian module, hence, by , the collection has a minimal element, say . We first observe that this minimal element is zero. Indeed, if then for some , is not a subset of and hence, , a contradiction to minimality. Therefore, . We define an -module homomorphism by This is a surjective map with the kernel . Hence, This shows that is semisimple. It is also finitely generated because given to be Artinian (see ).  "
 },

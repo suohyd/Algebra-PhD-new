@@ -13,5 +13,6 @@
   <xi:include href="sec-semisimple-modules.ptx" />
   <xi:include href="ws-semisimple-modules.ptx" />
   <xi:include href="sec-chain-conditions.ptx" />
+  <xi:include href="ws-artinian-noetherian.ptx" />
   <xi:include href="sec-radical.ptx" />
 </chapter>
