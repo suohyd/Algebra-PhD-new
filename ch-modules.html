@@ -101,14 +101,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.13';
+eBookConfig.runestone_version = '7.9.14';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.9f7f6b353cd8c357.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.629fdbd852876870.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.cc8d78735f870736.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.29d986501a531379.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -170,8 +170,13 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-semisimple-modules.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Semisimple modules</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-semisimple-modules.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises related to semisimple modules</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-chain-conditions.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Chain conditions</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-radical.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Radical of a module</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-artinian-noetherian.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Exercises related to Artinian and Noetherian modules</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-radical.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Radical of a module</span></a></div></li>
 </ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Artin-Wedderburn.html" class="internal"><span class="codenumber">4</span> <span class="title">Structure theorem for semisimple modules: Artin-Wedderburn theorem</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-semisimple-algebras.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Semisimple algebras</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-backmatter">
 <div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
@@ -184,7 +189,7 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="chapter" id="ch-modules"><h2 class="heading">
 <span class="type">Chapter</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Modules</span>
 </h2>
-<section class="introduction" id="ch-modules-2"><div class="para" id="ch-modules-2-1">We (mostly) follow <a href="backmatter-2.html#bib-Pierce" class="xref" data-knowl="./knowl/xref/bib-Pierce.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 3">[3]</a> and <a href="backmatter-2.html#bib-Lam" class="xref" data-knowl="./knowl/xref/bib-Lam.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 2">[2]</a>. We do not claim any originality for the content.<div class="autopermalink" data-description="Paragraph"><a href="#ch-modules-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="introduction" id="ch-modules-2"><div class="para" id="ch-modules-2-1">We (mostly) follow <a href="backmatter-2.html#bib-Pierce" class="xref" data-knowl="./knowl/xref/bib-Pierce.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 3">[3]</a> and <a href="backmatter-2.html#bib-Jacobson-II" class="xref" data-knowl="./knowl/xref/bib-Jacobson-II.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1">[1]</a>. We do not claim any originality for the content.<div class="autopermalink" data-description="Paragraph"><a href="#ch-modules-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></section><nav class="summary-links"><ul>
 <li><a href="sec-change-of-scalars.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Change of scalars</span></a></li>
 <li><a href="sec-simple-modules.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Simple modules</span></a></li>
@@ -192,7 +197,8 @@ eBookConfig.enable_chatcodes =  false;
 <li><a href="sec-semisimple-modules.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Semisimple modules</span></a></li>
 <li><a href="ws-semisimple-modules.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercises related to semisimple modules</span></a></li>
 <li><a href="sec-chain-conditions.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Chain conditions</span></a></li>
-<li><a href="sec-radical.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Radical of a module</span></a></li>
+<li><a href="ws-artinian-noetherian.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Exercises related to Artinian and Noetherian modules</span></a></li>
+<li><a href="sec-radical.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Radical of a module</span></a></li>
 </ul></nav><div class="autopermalink" data-description="Chapter 3: Modules"><a href="#ch-modules" title="Copy heading and permalink for Chapter 3: Modules" aria-label="Copy heading and permalink for Chapter 3: Modules">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ws-quaternion-algebras.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-change-of-scalars.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
