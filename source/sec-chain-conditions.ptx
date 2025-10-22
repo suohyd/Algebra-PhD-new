@@ -100,7 +100,7 @@
     <lemma xml:id="lem-artinian-noetherian-short-exact-sequence">
         <statement>
             <p>
-                Let <m>0\to N\to M\to P</m> be a short exact sequence of <m>A</m>-modules. The module <m>M</m> is Noetherian (resp. Artinian) if and only if <m>N</m> and <m>P</m> are Noetherian (resp. Artinian).
+                Let <m>0\to N\to M\to P\to 0</m> be a short exact sequence of <m>A</m>-modules. The module <m>M</m> is Noetherian (resp. Artinian) if and only if <m>N</m> and <m>P</m> are Noetherian (resp. Artinian).
             </p>
         </statement>
     </lemma>
