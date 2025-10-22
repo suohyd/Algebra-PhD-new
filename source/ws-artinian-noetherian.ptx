@@ -13,7 +13,7 @@
             </p>
         </statement>
     </exercise>
-    <exercise>
+    <exercise xml:id="ex-endomorphism-artinian-noetherian">
         <statement>
             <p>
                 Let <m>f\colon M\to M</m> be an <m>A</m>-module endomorphism.
@@ -45,6 +45,21 @@
                 Furthermore, show that the restriction of <m>f</m> to <m>\Image{f^n}</m> is an automorphism and the restriction of <m>f</m> to <m>\ker f^n</m> is a nilpotent endomorphism.
             </p>
         </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>M</m> be a right Artinian (resp., Noetherian) <m>A</m>-module. Show that if <m>M^{(r)}\simeq M^{(s)}</m> for some positive integers <m>r,s</m>, then <m>r=s</m>.
+            </p>
+            <p>
+                Recall that <m>M^{(n)}</m> denotes the direct sum of <m>n</m>-copies of <m>M</m>.
+            </p>
+        </statement>
+        <hint>
+            <p>
+                We may assume that <m>r&lt;s</m> and that <m>M</m> is Noetherian. Consider the projection homomorphism <m>\pi\colon M^{(s)}\to M^{(r)}</m>, and suppose that <m>\varphi\colon M^{(s)}\xrightarrow{\sim}M^{(r)}</m> is the given isomorphism. Consider the endomorphism <m>f=\varphi\circ\pi</m>. As <m>\varphi</m> and <m>\pi</m> are surjective, so is <m>f</m>. Using <xref ref="ex-endomorphism-artinian-noetherian"/>, we conclude that <m>f</m> is an isomorphism. In particular, <m>\pi</m> is an isomorphism onto its image, which is impossible if <m>r&lt;s</m>.
+            </p>
+        </hint>
     </exercise>
     <exercise>
         <statement>
