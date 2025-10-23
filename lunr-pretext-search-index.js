@@ -1771,7 +1771,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Semisimple algebras",
-  "body": " Semisimple algebras   We assume that is a commutative ring with unity and that is a right -algebra.    Semisimple algebra   An -algebra is said to be semisimple if considered as a right -module is semisimple module.      Suppose that is a semisimple algebra. Then the simple right -submodules are the minimal right ideals of . Furthermore, as is generated as a module over by , by , we have that   Using we get the following. The algebra is semisimple if and only if is Artinian and .     Finite-dimensional algebra is simple if and only if radical is trivial   Suppose that is a field and that is a finite-dimensional algebra over . Show that is semisimple if and only if .    "
+  "body": " Semisimple algebras   We assume that is a commutative ring with unity and that is a right -algebra.    Semisimple algebra   An -algebra is said to be semisimple if considered as a right -module is semisimple module.      Suppose that is a semisimple algebra. Then the simple right -submodules are the minimal right ideals of . Furthermore, as is generated as a module over by , by , we have that   Using we get the following. The algebra is semisimple if and only if is Artinian and .     Finite-dimensional algebra is simple if and only if radical is trivial   Suppose that is a field and that is a finite-dimensional algebra over . Show that is semisimple if and only if .      If is a semisimple algebra, then every right -module is semisimple. Furthermore, simple right -modules are precisely the minimal right ideals of .     A free -module is a direct sum of copies of . By , every free -module is semisimple. Suppose that is a right -module. Consider the direct sum of with indexing set , say . For each define an -module homomorphism such that . Using the universal property of the direct sum (see ) there exists an -module homomorphism . Note that is surjective. By the previous observation, is semisimple, so by , is semisimple.  By , a simple right -module is isomorphic to a quotient of for some maximal right ideal of of . As is semisimple, complement of exists, say be a right ideal of such that . Hence, . By the correspondence theorem for submodules of a quotient modules, it follows that must be a minimal right ideal of .     Let and be -algebras with semisimple. If is a surjective -algebra homomorphism, then is semisimple.     Using we consider as an -module (see ). By the above , is semisimple as an -module. Suppose that are simple -modules such that . If , then, for any we have , i.e., . Furthermore, for each , i.e., . Thus, by , for every , there exists a simple right -module such that . Therefore, using , we get the following. This shows that is semisimple as a right -module.   "
 },
 {
   "id": "def-semisimple-algebra",
@@ -1799,6 +1799,42 @@ var ptx_lunr_docs = [
   "number": "4.1.3",
   "title": "Finite-dimensional algebra is simple if and only if radical is trivial.",
   "body": " Finite-dimensional algebra is simple if and only if radical is trivial   Suppose that is a field and that is a finite-dimensional algebra over . Show that is semisimple if and only if .   "
+},
+{
+  "id": "prop-modules-over-semisimple-algebra",
+  "level": "2",
+  "url": "sec-semisimple-algebras.html#prop-modules-over-semisimple-algebra",
+  "type": "Proposition",
+  "number": "4.1.4",
+  "title": "",
+  "body": "  If is a semisimple algebra, then every right -module is semisimple. Furthermore, simple right -modules are precisely the minimal right ideals of .   "
+},
+{
+  "id": "sec-semisimple-algebras-7",
+  "level": "2",
+  "url": "sec-semisimple-algebras.html#sec-semisimple-algebras-7",
+  "type": "Proof",
+  "number": "4.1.1",
+  "title": "",
+  "body": " A free -module is a direct sum of copies of . By , every free -module is semisimple. Suppose that is a right -module. Consider the direct sum of with indexing set , say . For each define an -module homomorphism such that . Using the universal property of the direct sum (see ) there exists an -module homomorphism . Note that is surjective. By the previous observation, is semisimple, so by , is semisimple.  By , a simple right -module is isomorphic to a quotient of for some maximal right ideal of of . As is semisimple, complement of exists, say be a right ideal of such that . Hence, . By the correspondence theorem for submodules of a quotient modules, it follows that must be a minimal right ideal of .  "
+},
+{
+  "id": "cor-homomorphic-image-of-semisimple-algebra-is-semisimple",
+  "level": "2",
+  "url": "sec-semisimple-algebras.html#cor-homomorphic-image-of-semisimple-algebra-is-semisimple",
+  "type": "Corollary",
+  "number": "4.1.5",
+  "title": "",
+  "body": "  Let and be -algebras with semisimple. If is a surjective -algebra homomorphism, then is semisimple.   "
+},
+{
+  "id": "sec-semisimple-algebras-9",
+  "level": "2",
+  "url": "sec-semisimple-algebras.html#sec-semisimple-algebras-9",
+  "type": "Proof",
+  "number": "4.1.2",
+  "title": "",
+  "body": " Using we consider as an -module (see ). By the above , is semisimple as an -module. Suppose that are simple -modules such that . If , then, for any we have , i.e., . Furthermore, for each , i.e., . Thus, by , for every , there exists a simple right -module such that . Therefore, using , we get the following. This shows that is semisimple as a right -module.  "
 },
 {
   "id": "backmatter-2",
