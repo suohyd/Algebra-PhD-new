@@ -42,4 +42,35 @@
             </p>
         </statement>
     </exercise>
+    <proposition xml:id="prop-modules-over-semisimple-algebra">
+        <statement>
+            <p>
+                If <m>A</m> is a semisimple algebra, then every right <m>A</m>-module is semisimple. Furthermore, simple right <m>A</m>-modules are precisely the minimal right ideals of <m>A</m>.
+            </p>
+        </statement>
+    </proposition>
+    <proof>
+        <p>
+            A free <m>A</m>-module is a direct sum of copies of <m>A_A</m>. By <xref ref="cor-quotient-and-submodule-of-semisimple-module-is-semisimple"/>, every free <m>A</m>-module is semisimple. Suppose that <m>M</m> is a right <m>A</m>-module. Consider the direct sum of <m>A_A</m> with indexing set <m>M</m>, say <m>F=\oplus_MA_A</m>. For each <m>m\in M</m> define an <m>A</m>-module homomorphism <m>f_m\colon A_A\to M</m> such that <m>f_m(1)=m</m>. Using the universal property of the direct sum (see <xref ref="prop-universal-property-of-direct-sum"/>) there exists an <m>A</m>-module homomorphism <m>f\colon\oplus_MA_A\to M</m>. Note that <m>f</m> is surjective. By the previous observation, <m>F</m> is semisimple, so by <xref ref="cor-quotient-and-submodule-of-semisimple-module-is-semisimple"/>, <m>M</m> is semisimple.
+        </p>
+        <p>
+            By <xref ref="prop-equivalent-criterion-for-simple-modules"/>, a simple right <m>A</m>-module is isomorphic to a quotient of <m>A_A/\mathfrak{m}</m> for some maximal right ideal of <m>\mathfrak{m}</m> of <m>A</m>. As <m>A_A</m> is semisimple, complement of <m>\mathfrak{m}</m> exists, say <m>\mathfrak{n}</m> be a right ideal of <m>A</m> such that <m>A_A=\mathfrak{m}\oplus\mathfrak{n}</m>. Hence, <m>A_A/\mathfrak{m}\simeq\mathfrak{n}</m>. By the correspondence theorem for submodules of a quotient modules, it follows that <m>\mathfrak{n}</m> must be a minimal right ideal of <m>A</m>.
+        </p>
+    </proof>
+    <corollary xml:id="cor-homomorphic-image-of-semisimple-algebra-is-semisimple">
+        <statement>
+            <p>
+                Let <m>A</m> and <m>B</m> be <m>R</m>-algebras with <m>A</m> simisimple. If <m>f\colon A\to B</m> is a surjective <m>R</m>-algebra homomorphism, then <m>B</m> is semisimple.
+            </p>
+        </statement>
+    </corollary>
+    <proof>
+        <p>
+            Using <m>f</m> we consider <m>B</m> as an <m>A</m>-module (see <xref ref="def-change-of-scalars"/>). By the above <xref ref="prop-modules-over-semisimple-algebra"/>, <m>B</m> is semisimple as an <m>A</m>-module. Suppose that <m>N_i</m> are simple <m>A</m>-modules such that <m>B_A\simeq\oplus_iN_i</m>. If <m>a\in\ker f</m>, then, for any <m>b\in B</m> we have <m>b\cdot a=bf(a)=0</m>, i.e., <m>\ker f\subseteq\Ann{A}{B}</m>. Furthermore, <m>\Ann{A}{B}\subseteq\Ann{A}{N_i}</m> for each <m>i</m>, i.e., <m>\ker f\subseteq\Ann{A}{N_i}</m>. Thus, by <xref ref="prop-collections-of-modules-after-change-of-scalars"/>, for every <m>i</m>, there exists a simple right <m>B</m>-module <m>M_i</m> such that <m>N_i\simeq {(M_i)}_A</m>. Therefore, using <xref ref="lem-change-of-scalars-under-direct-sums-Hom"/>,
+            <me>
+                B_A\simeq\oplus_iN_i\simeq\oplus_i(M_i)_A\simeq\left(\oplus_iM_i\right)_A.
+            </me>
+            This shows that <m>B</m> is semisimple as a right <m>B</m>-module.
+        </p>
+    </proof>
 </section>
