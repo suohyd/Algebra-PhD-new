@@ -118,7 +118,7 @@
     </proposition>
     <proof>
         <p>
-            By the assumption we have <m>0=M_0\subsetneq M</m>. Consider the set <m>S_1</m> of all the nonzero submodules of <m>M</m>. As <m>M\in S_1</m>, the set <m>S_1\neq\emptyset</m>. As <m>M</m> is Artinian, using <xref ref="lem-existence-of-minimal-maximal-element"/>, there exists a minimal element, say <m>M_1\in S_1</m>. Note that by the minimality <m>M_1/M_0\simeq M_1</m> is simple. We continue as before by considering the set of all submodules of <m>M</m> containing <m>M_1</m>, so as to obtain a submodule <m>M_2</m> with <m>M_2/M_1</m> simple. Continuing in this way one obtains a increasing chain of submodules
+            By the assumption we have <m>0=M_0\subsetneq M</m>. Consider the set <m>S_1</m> of all the nonzero submodules of <m>M</m>. As <m>M\in S_1</m>, the set <m>S_1\neq\emptyset</m>. As <m>M</m> is Artinian, using <xref ref="lem-existence-of-minimal-maximal-element"/>, there exists a minimal element, say <m>M_1\in S_1</m>. Note that by the minimality <m>M_1/M_0\simeq M_1</m> is simple. If <m>M_1=M</m> then, we are done. So we assume that <m>M_1\subsetneq M</m>. We continue as before by considering the set of all submodules of <m>M</m> containing <m>M_1</m>, so as to obtain a submodule <m>M_2</m> with <m>M_2/M_1</m> simple. Continuing in this way one obtains a increasing chain of submodules
             <me>
                 0=M_0\subsetneq M_1\subsetneq M_2\subsetneq\cdots\subsetneq 
             </me>
@@ -185,7 +185,7 @@
             We have proved in <xref ref="prop-artinian-noetherian-implies-composition-series"/> that if <m>M</m> is both Artinian and Noetherian then, <m>M</m> has a composition series. Converse follows from <xref ref="thm-Jordan-Holder-for-modules"/>.
         </p>
     </proof>
-        <definition xml:id="def-length-of-composition-series">
+    <definition xml:id="def-length-of-composition-series">
         <statement>
             <p>
                 We keep notations of <xref ref="def-composition-series"/>. By <xref ref="thm-Jordan-Holder-for-modules"/>, the number <m>n</m> is unique for any composition series of <m>M</m>. This number is called the <term>composition length of <m>M</m></term> and it is denoted by <m>\ell(M)</m>.
@@ -195,7 +195,7 @@
     <corollary xml:id="cor-additivity-of-length">
         <statement>
             <p>
-                Suppose that <m>M, N</m> and <m>P</m> are both Artinian and Noetherian <m>A</m>-modules. If <m>0\to N\to M\to P\to 0</m> is a short exact sequence of modules then, 
+                Suppose that <m>M, N</m> and <m>P</m> are both Artinian and Noetherian <m>A</m>-modules. If <m>0\to N\xrightarrow{i} M\xrightarrow{\pi} P\to 0</m> is a short exact sequence of modules then, 
                 <me>
                     \ell(N)+\ell(P)=\ell(M).
                 </me>
@@ -203,6 +203,23 @@
             </p>
         </statement>
     </corollary>
+    <proof>
+        <p>
+            As <m>M</m> is both Artinian and Noetherian, modules <m>N</m> and <m>P\simeq M/N</m> are Artinian and Noetherian as well (see <xref ref="lem-artinian-noetherian-short-exact-sequence"/>). Hence, <m>N</m> and <m>P</m> have composition series. Let
+            <me>
+                0=N_0\subsetneq N_1\subsetneq\cdots\subsetneq N_r=N
+            </me>
+            and
+            <me>
+                0=Q_0/N\subsetneq Q_1/N\subsetneq\cdots\subsetneq Q_s/N=M/N
+            </me>
+            be composition series of <m>N</m> and <m>P</m> respectively. As <m>\left(Q_{i+1}/N\right)/\left(Q_i/N\right)</m> is a simple module and it is isomorphic to <m>Q_{i+1}/Q_i</m> for <m>i&lt;s</m>, we have the following composition series of <m>M</m>.
+            <me>
+                0=N_0\subsetneq N_1\subsetneq\cdots\subsetneq N_r=N=Q_0\subsetneq Q_1\subsetneq\cdots\subsetneq Q_s=M
+            </me>
+            By <xref ref="thm-Jordan-Holder-for-modules"/>, we get <m>\ell(M)=r+s=\ell(N)+\ell(P)</m>.
+        </p>
+    </proof>
     <p>
         We denote by <m>\omega</m> the first infinite ordinal number.
     </p>
