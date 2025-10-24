@@ -1429,7 +1429,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.6",
   "title": "Chain conditions",
-  "body": " Chain conditions   We introduce in this section important classes of modules, viz., Artinian and Noetherian modules. In this section we assume that is a commutative ring with unity and is a right -algebra. For an -module we denote by the collection of all -submodules of .    Artinian Module   An -module is said to be Artinian if there are no infinite, strictly decreasing sequences of submodules of , i.e., if is a decreasing chain of -submodules of then, there exists such that for all .     Noetherian Module   An -module is said to be Noetherian if there are no infinite, strictly increasing sequences of submodules of , i.e., if is an increasing chain of -submodules of then, there exists such that for all .    We often use the following equivalent conditions for Artinian\/Noetherian modules.    Following are equivalent for an -module .   The module is Noetherian (resp. Artinian);    Every nonempty subset of has a maximal (resp., minimal) element.   Furthermore, is Noetherian if and only if every -submodule of is finitely generated.     Noetherian but not Artinian   If we consider as a -module then, is Noetherian but not Artinian.     Artinian but not Noetherian   If we consider as a -module then, it is Artinian but not Noetherian.     Module which is both Artinian and Noetherian   Let be a finite-dimensional vector space over a field . Due to dimension reasons, is both Artinian and Noetherian -module.  Every finite abelian group as a -module is both Artinian and Noetherian.      Let be -submodules of with . Then there exists the following exact sequence of -modules.       Let be a short exact sequence of -modules. The module is Noetherian (resp. Artinian) if and only if and are Noetherian (resp. Artinian).      Suppose that an -module is both Artinian and Noetherian and that . Then, there exists a sequence of submodules of  such that are simple -modules for .     By the assumption we have . Consider the set of all the nonzero submodules of . As , the set . As is Artinian, using , there exists a minimal element, say . Note that by the minimality is simple. If then, we are done. So we assume that . We continue as before by considering the set of all submodules of containing , so as to obtain a submodule with simple. Continuing in this way one obtains a increasing chain of submodules such that is simple. Now Noetherian hypothesis implies that there exists such that for . It follows that .    Composition series and composition factors   A chain of -submodules of , is called a composition series of if is simple for . The factor modules are called composition factors of the series.     Jordan-Hölder Theorem   Assume that is an -module. If and are composition series of then, and there is a permutation such that for all .     Suppose that , i.e., we have and that is simple. This shows that can not have a nonzero proper submodule. Hence, . Now we assume that . Consider the following chain of submodules of . For we have the following exact sequence of -modules (see ). As is simple either or Furthermore, is simple implies that there exists exactly one such that and . Therefore, and is a composition series for . By the induction hypothesis, and there is a permutation such that for all . We define as for and . This gives a required result.     A nonzero -module is both Artinian and Noetherian if and only if has a composition series.     We have proved in that if is both Artinian and Noetherian then, has a composition series. Converse follows from .     We keep notations of . By , the number is unique for any composition series of . This number is called the composition length of and it is denoted by .      Suppose that and are both Artinian and Noetherian -modules. If is a short exact sequence of modules then,      As is both Artinian and Noetherian, modules and are Artinian and Noetherian as well (see ). Hence, and have composition series. Let and be composition series of and respectively. As is a simple module and it is isomorphic to for , we have the following composition series of . By , we get .   We denote by the first infinite ordinal number.    Following conditions are equivalent for a nonzero semisimple  -module .   The module is finitely generated as an -module    The module is direct sum of finitely many simple modules.    The module is Artinian.    The module is Noetherian.    There exists such that if is finite then, .        We first show that (1) and (2) are equivalent. Suppose that is a finitely generated semisimpe module. Let with infinite. If are finite generators of then, there exists such that . For any , an element is not -linear combination of because is a direct sum of 's. Therefore, can not be infinite. Conversely, assume that is a direct sum of finitely many simple -modules, say . By , there exists such that for each . As , elements are finite number of generators of .  Now we show that (2) and (3) (resp., (2) and (4)) are equivalent. Assume that is a direct sum of finitely many simple modules. Every simple module is both Artinian and Noetherian. Therefore, by applying finitely many times, we get that is Artinian and Noetherian.  Assume condition (5). This implies that is Noetherian. Hence, also Artinian due to equivalence of (1) to (4). Now assume that is Artinian, hence also Noetherian. By , strictly increasing sequence of submodules of can have at most terms.    Finitely generated non-Artinian (non-Noetherian) module   The hypothesis that is semisimple in is necessary. For instance, we may consider as a -module. The module is finitely generated, say by . However, is not Artinian.  For non-Noetherian module we may consider the polynomial ring in infinitely many variables, say as a module over itself. Then generates the module and the module is not Noetherian.    "
+  "body": " Chain conditions   We introduce in this section important classes of modules, viz., Artinian and Noetherian modules. In this section we assume that is a commutative ring with unity and is a right -algebra. For an -module we denote by the collection of all -submodules of .    Artinian Module   An -module is said to be Artinian if there are no infinite, strictly decreasing sequences of submodules of , i.e., if is a decreasing chain of -submodules of then, there exists such that for all .     Noetherian Module   An -module is said to be Noetherian if there are no infinite, strictly increasing sequences of submodules of , i.e., if is an increasing chain of -submodules of then, there exists such that for all .    We often use the following equivalent conditions for Artinian\/Noetherian modules.    Following are equivalent for an -module .   The module is Noetherian (resp. Artinian);    Every nonempty subset of has a maximal (resp., minimal) element.   Furthermore, is Noetherian if and only if every -submodule of is finitely generated.     Existence of a simple submodule of a nonzero Artinian module   Let be a nonzero Artinian -module. Then, has a simple -submodule.     Consider the set of all nonzero -submodules of . As , the set . By , there exists a minimal element, say . By the minimality of , only submodules of are and itself. Thus, it is a simple -submodule.    Noetherian but not Artinian   If we consider as a -module then, is Noetherian but not Artinian.     Artinian but not Noetherian   If we consider as a -module then, it is Artinian but not Noetherian.     Module which is both Artinian and Noetherian   Let be a finite-dimensional vector space over a field . Due to dimension reasons, is both Artinian and Noetherian -module.  Every finite abelian group as a -module is both Artinian and Noetherian.      Let be -submodules of with . Then there exists the following exact sequence of -modules.       Let be a short exact sequence of -modules. The module is Noetherian (resp. Artinian) if and only if and are Noetherian (resp. Artinian).      Suppose that an -module is both Artinian and Noetherian and that . Then, there exists a sequence of submodules of  such that are simple -modules for .     By the assumption we have . Consider the set of all the nonzero submodules of . As , the set . As is Artinian, using , there exists a minimal element, say . Note that by the minimality is simple. If then, we are done. So we assume that . We continue as before by considering the set of all submodules of containing , so as to obtain a submodule with simple. Continuing in this way one obtains a increasing chain of submodules such that is simple. Now Noetherian hypothesis implies that there exists such that for . It follows that .    Composition series and composition factors   A chain of -submodules of , is called a composition series of if is simple for . The factor modules are called composition factors of the series.     Jordan-Hölder Theorem   Assume that is an -module. If and are composition series of then, and there is a permutation such that for all .     Suppose that , i.e., we have and that is simple. This shows that can not have a nonzero proper submodule. Hence, . Now we assume that . Consider the following chain of submodules of . For we have the following exact sequence of -modules (see ). As is simple either or Furthermore, is simple implies that there exists exactly one such that and . Therefore, and is a composition series for . By the induction hypothesis, and there is a permutation such that for all . We define as for and . This gives a required result.     A nonzero -module is both Artinian and Noetherian if and only if has a composition series.     We have proved in that if is both Artinian and Noetherian then, has a composition series. Converse follows from .     We keep notations of . By , the number is unique for any composition series of . This number is called the composition length of and it is denoted by .      Suppose that and are both Artinian and Noetherian -modules. If is a short exact sequence of modules then,      As is both Artinian and Noetherian, modules and are Artinian and Noetherian as well (see ). Hence, and have composition series. We consider as a submodule of using the injection . Let and be composition series of and respectively. As is a simple module and it is isomorphic to for , we have the following composition series of . By , we get .   We denote by the first infinite ordinal number.    Following conditions are equivalent for a nonzero semisimple  -module .   The module is finitely generated as an -module    The module is direct sum of finitely many simple modules.    The module is Artinian.    The module is Noetherian.    There exists such that if is finite then, .        We first show that (1) and (2) are equivalent. Suppose that is a finitely generated semisimpe module. Let with infinite. If are finite generators of then, we may assume that, there exists such that . Indeed, if is a generator then, for . Then, we may consider instead of . For any , an element is not -linear combination of because is a direct sum of 's. Therefore, can not be infinite. Conversely, assume that is a direct sum of finitely many simple -modules, say . By , there exists such that for each . As , elements are finite number of generators of .  Now we show that (2) and (3) (resp., (2) and (4)) are equivalent. Assume that is a direct sum of finitely many simple modules. Every simple module is both Artinian and Noetherian. Therefore, by applying finitely many times, we get that is Artinian and Noetherian.  Assume condition (5). This implies that is Noetherian. Hence, also Artinian due to equivalence of (1) to (4). Now assume that is Artinian, hence also Noetherian. By , strictly increasing sequence of submodules of can have at most terms.    Finitely generated non-Artinian (non-Noetherian) module   The hypothesis that is semisimple in is necessary. For instance, we may consider as a -module. The module is finitely generated, say by . However, is not Artinian.  For non-Noetherian module we may consider the polynomial ring in infinitely many variables, say as a module over itself. Then generates the module and the module is not Noetherian.    "
 },
 {
   "id": "def-artinian-module",
@@ -1459,11 +1459,29 @@ var ptx_lunr_docs = [
   "body": "  Following are equivalent for an -module .   The module is Noetherian (resp. Artinian);    Every nonempty subset of has a maximal (resp., minimal) element.   Furthermore, is Noetherian if and only if every -submodule of is finitely generated.   "
 },
 {
+  "id": "cor-artinian-module-has-simple-submodule",
+  "level": "2",
+  "url": "sec-chain-conditions.html#cor-artinian-module-has-simple-submodule",
+  "type": "Corollary",
+  "number": "3.6.4",
+  "title": "Existence of a simple submodule of a nonzero Artinian module.",
+  "body": " Existence of a simple submodule of a nonzero Artinian module   Let be a nonzero Artinian -module. Then, has a simple -submodule.   "
+},
+{
+  "id": "sec-chain-conditions-8",
+  "level": "2",
+  "url": "sec-chain-conditions.html#sec-chain-conditions-8",
+  "type": "Proof",
+  "number": "3.6.1",
+  "title": "",
+  "body": " Consider the set of all nonzero -submodules of . As , the set . By , there exists a minimal element, say . By the minimality of , only submodules of are and itself. Thus, it is a simple -submodule.  "
+},
+{
   "id": "ex-noetherian-but-not-artinian",
   "level": "2",
   "url": "sec-chain-conditions.html#ex-noetherian-but-not-artinian",
   "type": "Example",
-  "number": "3.6.4",
+  "number": "3.6.5",
   "title": "Noetherian but not Artinian.",
   "body": " Noetherian but not Artinian   If we consider as a -module then, is Noetherian but not Artinian.   "
 },
@@ -1472,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-chain-conditions.html#ex-artinian-but-not-noetherian",
   "type": "Example",
-  "number": "3.6.5",
+  "number": "3.6.6",
   "title": "Artinian but not Noetherian.",
   "body": " Artinian but not Noetherian   If we consider as a -module then, it is Artinian but not Noetherian.   "
 },
@@ -1481,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-chain-conditions.html#ex-artinian-noetherian-module",
   "type": "Example",
-  "number": "3.6.6",
+  "number": "3.6.7",
   "title": "Module which is both Artinian and Noetherian.",
   "body": " Module which is both Artinian and Noetherian   Let be a finite-dimensional vector space over a field . Due to dimension reasons, is both Artinian and Noetherian -module.  Every finite abelian group as a -module is both Artinian and Noetherian.   "
 },
@@ -1490,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-chain-conditions.html#lem-technical-condition",
   "type": "Lemma",
-  "number": "3.6.7",
+  "number": "3.6.8",
   "title": "",
   "body": "  Let be -submodules of with . Then there exists the following exact sequence of -modules.    "
 },
@@ -1499,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-chain-conditions.html#lem-artinian-noetherian-short-exact-sequence",
   "type": "Lemma",
-  "number": "3.6.8",
+  "number": "3.6.9",
   "title": "",
   "body": "  Let be a short exact sequence of -modules. The module is Noetherian (resp. Artinian) if and only if and are Noetherian (resp. Artinian).   "
 },
@@ -1508,16 +1526,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-chain-conditions.html#prop-artinian-noetherian-implies-composition-series",
   "type": "Proposition",
-  "number": "3.6.9",
+  "number": "3.6.10",
   "title": "",
   "body": "  Suppose that an -module is both Artinian and Noetherian and that . Then, there exists a sequence of submodules of  such that are simple -modules for .   "
 },
 {
-  "id": "sec-chain-conditions-13",
+  "id": "sec-chain-conditions-15",
   "level": "2",
-  "url": "sec-chain-conditions.html#sec-chain-conditions-13",
+  "url": "sec-chain-conditions.html#sec-chain-conditions-15",
   "type": "Proof",
-  "number": "3.6.1",
+  "number": "3.6.2",
   "title": "",
   "body": " By the assumption we have . Consider the set of all the nonzero submodules of . As , the set . As is Artinian, using , there exists a minimal element, say . Note that by the minimality is simple. If then, we are done. So we assume that . We continue as before by considering the set of all submodules of containing , so as to obtain a submodule with simple. Continuing in this way one obtains a increasing chain of submodules such that is simple. Now Noetherian hypothesis implies that there exists such that for . It follows that .  "
 },
@@ -1526,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-chain-conditions.html#def-composition-series",
   "type": "Definition",
-  "number": "3.6.10",
+  "number": "3.6.11",
   "title": "Composition series and composition factors.",
   "body": " Composition series and composition factors   A chain of -submodules of , is called a composition series of if is simple for . The factor modules are called composition factors of the series.   "
 },
@@ -1535,27 +1553,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-chain-conditions.html#thm-Jordan-Holder-for-modules",
   "type": "Theorem",
-  "number": "3.6.11",
+  "number": "3.6.12",
   "title": "Jordan-Hölder Theorem.",
   "body": " Jordan-Hölder Theorem   Assume that is an -module. If and are composition series of then, and there is a permutation such that for all .   "
-},
-{
-  "id": "sec-chain-conditions-16",
-  "level": "2",
-  "url": "sec-chain-conditions.html#sec-chain-conditions-16",
-  "type": "Proof",
-  "number": "3.6.2",
-  "title": "",
-  "body": " Suppose that , i.e., we have and that is simple. This shows that can not have a nonzero proper submodule. Hence, . Now we assume that . Consider the following chain of submodules of . For we have the following exact sequence of -modules (see ). As is simple either or Furthermore, is simple implies that there exists exactly one such that and . Therefore, and is a composition series for . By the induction hypothesis, and there is a permutation such that for all . We define as for and . This gives a required result.  "
-},
-{
-  "id": "thm-composition-series-iff-artinian-noetherian",
-  "level": "2",
-  "url": "sec-chain-conditions.html#thm-composition-series-iff-artinian-noetherian",
-  "type": "Theorem",
-  "number": "3.6.12",
-  "title": "",
-  "body": "  A nonzero -module is both Artinian and Noetherian if and only if has a composition series.   "
 },
 {
   "id": "sec-chain-conditions-18",
@@ -1564,6 +1564,24 @@ var ptx_lunr_docs = [
   "type": "Proof",
   "number": "3.6.3",
   "title": "",
+  "body": " Suppose that , i.e., we have and that is simple. This shows that can not have a nonzero proper submodule. Hence, . Now we assume that . Consider the following chain of submodules of . For we have the following exact sequence of -modules (see ). As is simple either or Furthermore, is simple implies that there exists exactly one such that and . Therefore, and is a composition series for . By the induction hypothesis, and there is a permutation such that for all . We define as for and . This gives a required result.  "
+},
+{
+  "id": "thm-composition-series-iff-artinian-noetherian",
+  "level": "2",
+  "url": "sec-chain-conditions.html#thm-composition-series-iff-artinian-noetherian",
+  "type": "Theorem",
+  "number": "3.6.13",
+  "title": "",
+  "body": "  A nonzero -module is both Artinian and Noetherian if and only if has a composition series.   "
+},
+{
+  "id": "sec-chain-conditions-20",
+  "level": "2",
+  "url": "sec-chain-conditions.html#sec-chain-conditions-20",
+  "type": "Proof",
+  "number": "3.6.4",
+  "title": "",
   "body": " We have proved in that if is both Artinian and Noetherian then, has a composition series. Converse follows from .  "
 },
 {
@@ -1571,7 +1589,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-chain-conditions.html#def-length-of-composition-series",
   "type": "Definition",
-  "number": "3.6.13",
+  "number": "3.6.14",
   "title": "",
   "body": "  We keep notations of . By , the number is unique for any composition series of . This number is called the composition length of and it is denoted by .   "
 },
@@ -1580,43 +1598,43 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-chain-conditions.html#cor-additivity-of-length",
   "type": "Corollary",
-  "number": "3.6.14",
+  "number": "3.6.15",
   "title": "",
   "body": "  Suppose that and are both Artinian and Noetherian -modules. If is a short exact sequence of modules then,    "
 },
 {
-  "id": "sec-chain-conditions-21",
+  "id": "sec-chain-conditions-23",
   "level": "2",
-  "url": "sec-chain-conditions.html#sec-chain-conditions-21",
+  "url": "sec-chain-conditions.html#sec-chain-conditions-23",
   "type": "Proof",
-  "number": "3.6.4",
+  "number": "3.6.5",
   "title": "",
-  "body": " As is both Artinian and Noetherian, modules and are Artinian and Noetherian as well (see ). Hence, and have composition series. Let and be composition series of and respectively. As is a simple module and it is isomorphic to for , we have the following composition series of . By , we get .  "
+  "body": " As is both Artinian and Noetherian, modules and are Artinian and Noetherian as well (see ). Hence, and have composition series. We consider as a submodule of using the injection . Let and be composition series of and respectively. As is a simple module and it is isomorphic to for , we have the following composition series of . By , we get .  "
 },
 {
   "id": "thm-semisimple-artinian-noetherian-modules",
   "level": "2",
   "url": "sec-chain-conditions.html#thm-semisimple-artinian-noetherian-modules",
   "type": "Theorem",
-  "number": "3.6.15",
+  "number": "3.6.16",
   "title": "",
   "body": "  Following conditions are equivalent for a nonzero semisimple  -module .   The module is finitely generated as an -module    The module is direct sum of finitely many simple modules.    The module is Artinian.    The module is Noetherian.    There exists such that if is finite then, .      "
 },
 {
-  "id": "sec-chain-conditions-24",
+  "id": "sec-chain-conditions-26",
   "level": "2",
-  "url": "sec-chain-conditions.html#sec-chain-conditions-24",
+  "url": "sec-chain-conditions.html#sec-chain-conditions-26",
   "type": "Proof",
-  "number": "3.6.5",
+  "number": "3.6.6",
   "title": "",
-  "body": " We first show that (1) and (2) are equivalent. Suppose that is a finitely generated semisimpe module. Let with infinite. If are finite generators of then, there exists such that . For any , an element is not -linear combination of because is a direct sum of 's. Therefore, can not be infinite. Conversely, assume that is a direct sum of finitely many simple -modules, say . By , there exists such that for each . As , elements are finite number of generators of .  Now we show that (2) and (3) (resp., (2) and (4)) are equivalent. Assume that is a direct sum of finitely many simple modules. Every simple module is both Artinian and Noetherian. Therefore, by applying finitely many times, we get that is Artinian and Noetherian.  Assume condition (5). This implies that is Noetherian. Hence, also Artinian due to equivalence of (1) to (4). Now assume that is Artinian, hence also Noetherian. By , strictly increasing sequence of submodules of can have at most terms.  "
+  "body": " We first show that (1) and (2) are equivalent. Suppose that is a finitely generated semisimpe module. Let with infinite. If are finite generators of then, we may assume that, there exists such that . Indeed, if is a generator then, for . Then, we may consider instead of . For any , an element is not -linear combination of because is a direct sum of 's. Therefore, can not be infinite. Conversely, assume that is a direct sum of finitely many simple -modules, say . By , there exists such that for each . As , elements are finite number of generators of .  Now we show that (2) and (3) (resp., (2) and (4)) are equivalent. Assume that is a direct sum of finitely many simple modules. Every simple module is both Artinian and Noetherian. Therefore, by applying finitely many times, we get that is Artinian and Noetherian.  Assume condition (5). This implies that is Noetherian. Hence, also Artinian due to equivalence of (1) to (4). Now assume that is Artinian, hence also Noetherian. By , strictly increasing sequence of submodules of can have at most terms.  "
 },
 {
   "id": "ex-fininitely-generated-but-not-artinian",
   "level": "2",
   "url": "sec-chain-conditions.html#ex-fininitely-generated-but-not-artinian",
   "type": "Example",
-  "number": "3.6.16",
+  "number": "3.6.17",
   "title": "Finitely generated non-Artinian (non-Noetherian) module.",
   "body": " Finitely generated non-Artinian (non-Noetherian) module   The hypothesis that is semisimple in is necessary. For instance, we may consider as a -module. The module is finitely generated, say by . However, is not Artinian.  For non-Noetherian module we may consider the polynomial ring in infinitely many variables, say as a module over itself. Then generates the module and the module is not Noetherian.   "
 },
@@ -1708,7 +1726,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.8",
   "title": "Radical of a module",
-  "body": " Radical of a module   We assume that is a commutative ring with unity, and that is a right -algebra. Consider as a right -module.     The radical of a right -module is If has no -submodule such that is simple then, we write .     Radical of as a -module is   Consider as a -module. Suppose there is a proper submodule of such that is simple. By , there exists a prime number such that as -modules. Thus, for any , . Choose . Then there is such that . Note that , a contradiction.    We collect a few observations related to radical in the following lemma.    Let be a right -module.   The radical of is an -submodule of .    If and then, .    The radical of is zero.         If a right -module is semisimple then, .     Let , where is a simple -module. For every consider . Then, is simple for each . Thus, .     A right -module is finitely generated and semisimple if and only if is Artinian and .     Suppose that is a finitely generated and semisimple -module. By and , the module is Artinian and its radical is trivial.  Conversely, assume that is Artinian and that . Suppose that is the inversection of ( ) such that is simple. Note that as , the set is not empty. Consider the following collection of -submodules of  This is a nonempty collection of submodules of an Artinian module, hence, by , the collection has a minimal element, say . We first observe that this minimal element is zero. Indeed, if then for some , is not a subset of and hence, , a contradiction to minimality. Therefore, . We define an -module homomorphism by This is a surjective map with the kernel . Hence, This shows that is semisimple. It is also finitely generated because given to be Artinian (see ).   "
+  "body": " Radical of a module   We assume that is a commutative ring with unity, and that is a right -algebra. Consider as a right -module.     The radical of a right -module is If has no -submodule such that is simple then, we write .     Radical of as a -module is   Consider as a -module. Suppose there is a proper submodule of such that is simple. By , there exists a prime number such that as -modules. Thus, for any , . Choose . Then there is such that . Note that , a contradiction.    We collect a few observations related to radical in the following lemma.    Let be a right -module.   The radical of is an -submodule of .    If and then, .    The radical of is zero.         If a right -module is semisimple then, .     Let , where is a simple -module. For every consider . Then, is simple for each . Thus, .     A right -module is finitely generated and semisimple if and only if is Artinian and .     Suppose that is a finitely generated and semisimple -module. By and , the module is Artinian and its radical is trivial.  Conversely, assume that is Artinian and that . Suppose that is the inversection of ( ) such that is simple. Note that as , the set is not empty. Consider the following collection of -submodules of  This is a nonempty collection of submodules of an Artinian module, hence, by , the collection has a minimal element, say . We first observe that this minimal element is zero. Indeed, if then for some , is not a subset of and hence, , a contradiction to minimality. Therefore, . We define an -module homomorphism by This is a surjective map with the kernel . Hence, This shows that is semisimple. It is also finitely generated because given to be Artinian (see ).    Socle of a module   Let be a right -module. The socle of , denoted by , is defined as If has no simple -submodule then, we write .     Socle is semisimple   By , it follows that is a semisimple -module. Furthermore, is semisimple if and only if .     Essential submodule   An -submodule of a right -module is said to be essential if for every nonzero -submodule of , .      An essential submodule is always nonzero.      The socle of a right -module is the intersection of all essential -submodules of .      For a simple submodule and a nonzero , we have . Thus, if is an essential submodule then, and hence, . This shows that is contained in every essential submodule of .  Conversely, let be the intersection of all essential -submodules of . We show that is semisimple by showing that any submodule of has a complement in . Let . Consider the following collection of submodules of . As , the collection . Suppose that is a chain in . We show that . Indeed, if then, for some . Thus, as . By Zorn's lemma, there exists a maximal element in . We claim that is an essential submodule of . Suppose not, then there exists a nonzero submodule such that . If there exists then, for and . Thus, . This shows that and hence, , contradicting the maximality of . Thus, is an essential submodule of and hence, it contains . This shows that . As we have . Therefore, every submodule of has a complement in and hence, is semisimple (see ). This shows that .     If is an Artinian right -module then, is an essential -submodule of . In particular, .     Let be a nonzero -submodule. As is Artinian, so is . Therefore, has a simple submodule, say (see ). By definition of socle, and hence, .     Let be a nonzero Artinian right -module. If is an -module homomorphism such that the restriction is injective then, is injective.     By , is an essential submodule of . So, if then, , a contradiction to the injectivity of .   "
 },
 {
   "id": "def-radical-of-a-module",
@@ -1772,6 +1790,96 @@ var ptx_lunr_docs = [
   "number": "3.8.2",
   "title": "",
   "body": " Suppose that is a finitely generated and semisimple -module. By and , the module is Artinian and its radical is trivial.  Conversely, assume that is Artinian and that . Suppose that is the inversection of ( ) such that is simple. Note that as , the set is not empty. Consider the following collection of -submodules of  This is a nonempty collection of submodules of an Artinian module, hence, by , the collection has a minimal element, say . We first observe that this minimal element is zero. Indeed, if then for some , is not a subset of and hence, , a contradiction to minimality. Therefore, . We define an -module homomorphism by This is a surjective map with the kernel . Hence, This shows that is semisimple. It is also finitely generated because given to be Artinian (see ).  "
+},
+{
+  "id": "def-socle-of-module",
+  "level": "2",
+  "url": "sec-radical.html#def-socle-of-module",
+  "type": "Definition",
+  "number": "3.8.6",
+  "title": "Socle of a module.",
+  "body": " Socle of a module   Let be a right -module. The socle of , denoted by , is defined as If has no simple -submodule then, we write .   "
+},
+{
+  "id": "note-socle-is-semisimple",
+  "level": "2",
+  "url": "sec-radical.html#note-socle-is-semisimple",
+  "type": "Note",
+  "number": "3.8.7",
+  "title": "Socle is semisimple.",
+  "body": " Socle is semisimple   By , it follows that is a semisimple -module. Furthermore, is semisimple if and only if .   "
+},
+{
+  "id": "def-essential-submodule",
+  "level": "2",
+  "url": "sec-radical.html#def-essential-submodule",
+  "type": "Definition",
+  "number": "3.8.8",
+  "title": "Essential submodule.",
+  "body": " Essential submodule   An -submodule of a right -module is said to be essential if for every nonzero -submodule of , .   "
+},
+{
+  "id": "note-essential-submodule-is-nonzero",
+  "level": "2",
+  "url": "sec-radical.html#note-essential-submodule-is-nonzero",
+  "type": "Note",
+  "number": "3.8.9",
+  "title": "",
+  "body": "  An essential submodule is always nonzero.   "
+},
+{
+  "id": "lem-socle-as-intersection-of-essential-submodules",
+  "level": "2",
+  "url": "sec-radical.html#lem-socle-as-intersection-of-essential-submodules",
+  "type": "Lemma",
+  "number": "3.8.10",
+  "title": "",
+  "body": "  The socle of a right -module is the intersection of all essential -submodules of .    "
+},
+{
+  "id": "sec-radical-16",
+  "level": "2",
+  "url": "sec-radical.html#sec-radical-16",
+  "type": "Proof",
+  "number": "3.8.3",
+  "title": "",
+  "body": " For a simple submodule and a nonzero , we have . Thus, if is an essential submodule then, and hence, . This shows that is contained in every essential submodule of .  Conversely, let be the intersection of all essential -submodules of . We show that is semisimple by showing that any submodule of has a complement in . Let . Consider the following collection of submodules of . As , the collection . Suppose that is a chain in . We show that . Indeed, if then, for some . Thus, as . By Zorn's lemma, there exists a maximal element in . We claim that is an essential submodule of . Suppose not, then there exists a nonzero submodule such that . If there exists then, for and . Thus, . This shows that and hence, , contradicting the maximality of . Thus, is an essential submodule of and hence, it contains . This shows that . As we have . Therefore, every submodule of has a complement in and hence, is semisimple (see ). This shows that .  "
+},
+{
+  "id": "lem-socle-of-artinian-module-is-essential",
+  "level": "2",
+  "url": "sec-radical.html#lem-socle-of-artinian-module-is-essential",
+  "type": "Lemma",
+  "number": "3.8.11",
+  "title": "",
+  "body": "  If is an Artinian right -module then, is an essential -submodule of . In particular, .   "
+},
+{
+  "id": "sec-radical-18",
+  "level": "2",
+  "url": "sec-radical.html#sec-radical-18",
+  "type": "Proof",
+  "number": "3.8.4",
+  "title": "",
+  "body": " Let be a nonzero -submodule. As is Artinian, so is . Therefore, has a simple submodule, say (see ). By definition of socle, and hence, .  "
+},
+{
+  "id": "cor-injectivity-for-socle-of-artinian-module",
+  "level": "2",
+  "url": "sec-radical.html#cor-injectivity-for-socle-of-artinian-module",
+  "type": "Corollary",
+  "number": "3.8.12",
+  "title": "",
+  "body": "  Let be a nonzero Artinian right -module. If is an -module homomorphism such that the restriction is injective then, is injective.   "
+},
+{
+  "id": "sec-radical-20",
+  "level": "2",
+  "url": "sec-radical.html#sec-radical-20",
+  "type": "Proof",
+  "number": "3.8.5",
+  "title": "",
+  "body": " By , is an essential submodule of . So, if then, , a contradiction to the injectivity of .  "
 },
 {
   "id": "sec-semisimple-algebras",

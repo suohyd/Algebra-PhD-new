@@ -96,4 +96,91 @@
             This shows that <m>M</m> is semisimple. It is also finitely generated because <m>M</m> given to be Artinian (see <xref ref="thm-semisimple-artinian-noetherian-modules"/>).
         </p>
     </proof>
+    <definition xml:id="def-socle-of-module">
+        <title>Socle of a module</title>
+        
+        
+        <statement>
+            <p>
+                Let <m>M</m> be a right <m>A</m>-module. The <term>socle</term> of <m>M</m>, denoted by <m>\soc{M}</m>, is defined as 
+                <me>
+                    \soc{M}=\sum\left\{N\leq M:N\text{ is simple}\right\}.
+                </me>
+                 If <m>M</m> has no simple <m>A</m>-submodule then, we write <m>\soc{M}=0</m>.
+            </p>
+        </statement>
+    </definition>
+    <note xml:id="note-socle-is-semisimple">
+        <title>Socle is semisimple</title>
+        
+        <statement>
+            <p>
+                By <xref ref="cor-sum-of-simple-modules-is-direct-sum"/>, it follows that <m>\soc{M}</m> is a semisimple <m>A</m>-module. Furthermore, <m>M</m> is semisimple if and only if <m>\soc{M}=M</m>.
+            </p>
+        </statement>
+    </note>
+    <definition xml:id="def-essential-submodule">
+        <title>Essential submodule</title>
+        
+        
+        <statement>
+            <p>
+                An <m>A</m>-submodule <m>N</m> of a right <m>A</m>-module <m>M</m> is said to be <term>essential</term> if for every nonzero <m>A</m>-submodule <m>L</m> of <m>M</m>, <m>N\cap L\neq 0</m>.
+            </p>
+        </statement>
+    </definition>
+    <note xml:id="note-essential-submodule-is-nonzero">
+        <statement>
+            <p>
+                An essential submodule is always nonzero.
+            </p>
+        </statement>
+    </note>
+    <lemma xml:id="lem-socle-as-intersection-of-essential-submodules">
+        <statement>
+            <p>
+                The socle of a right <m>A</m>-module <m>M</m> is the intersection of all essential <m>A</m>-submodules of <m>M</m>.
+                <me>
+                    \soc{M}=\bigcap_{\substack{E\leq M\\E\text{ is essential}}}E
+                </me>
+                
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            For a simple submodule <m>N\leq M</m> and a nonzero <m>u\in N</m>, we have <m>N=uA</m>. Thus, if <m>E\leq M</m> is an essential submodule then, <m>N\cap E\neq 0</m> and hence, <m>N\subseteq E</m>. This shows that <m>\soc{M}</m> is contained in every essential submodule of <m>M</m>.
+        </p>
+        <p>
+            Conversely, let <m>S</m> be the intersection of all essential <m>A</m>-submodules of <m>M</m>. We show that <m>S</m> is semisimple by showing that any submodule of <m>S</m> has a complement in <m>S</m>. Let <m>N\leq S</m>. Consider the following collection of submodules of <m>M</m>.
+            <me>
+                \Sigma=\{N'\leq M:N'\cap N=0\}
+            </me>
+            As <m>0\in\Sigma</m>, the collection <m>\Sigma\neq\emptyset</m>. Suppose that <m>\{N_i'\}</m> is a chain in <m>\Sigma</m>. We show that <m>\cup N_i'\in\Sigma</m>. Indeed, if <m>x\in(\cup N_i')\cap N</m> then, <m>x\in N_j'</m> for some <m>j</m>. Thus, <m>x=0</m> as <m>N_j'\in\Sigma</m>. By Zorn's lemma, there exists a maximal element <m>N'</m> in <m>\Sigma</m>. We claim that <m>N+N'</m> is an essential submodule of <m>M</m>. Suppose not, then there exists a nonzero submodule <m>L\leq M</m> such that <m>(N+N')\cap L=0</m>. If there exists <m>x\in N\cap (L+N')</m> then, <m>x=\ell+n'</m> for <m>\ell\in L</m> and <m>n'\in N'</m>. Thus, <m>\ell=x-n'\in L\cap (N+N')</m>. This shows that <m>N\cap(L+N')=0</m> and hence, <m>N'+L\in\Sigma</m>, contradicting the maximality of <m>N'</m>. Thus, <m>N+N'</m> is an essential submodule of <m>M</m> and hence, it contains <m>S</m>. This shows that <m>S=N+(N'\cap S)</m>. As <m>N+N'=N\oplus N'</m> we have <m>S=N\oplus(N'\cap S)</m>. Therefore, every submodule of <m>S</m> has a complement in <m>S</m> and hence, <m>S</m> is semisimple (see <xref ref="cor-semisimple-implies-existence-of-complement"/>). This shows that <m>S\subseteq\soc{M}</m>.
+        </p>
+    </proof>
+    <lemma xml:id="lem-socle-of-artinian-module-is-essential">
+        <statement>
+            <p>
+                If <m>M</m> is an Artinian right <m>A</m>-module then, <m>\soc{M}</m> is an essential <m>A</m>-submodule of <m>M</m>. In particular, <m>\soc{M}\neq 0</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            Let <m>N\leq M</m> be a nonzero <m>A</m>-submodule. As <m>M</m> is Artinian, so is <m>N</m>. Therefore, <m>N</m> has a simple submodule, say <m>S</m> (see <xref ref="cor-artinian-module-has-simple-submodule"/>). By definition of socle, <m>S\leq\soc{M}</m> and hence, <m>N\cap\soc{M}\neq 0</m>.
+        </p>
+    </proof>
+    <corollary xml:id="cor-injectivity-for-socle-of-artinian-module">
+        <statement>
+            <p>
+                Let <m>M</m> be a nonzero Artinian right <m>A</m>-module. If <m>f\colon M\to N</m> is an <m>A</m>-module homomorphism such that the restriction <m>f|_{\soc{M}}\colon\soc{M}\to N</m> is injective then, <m>f</m> is injective.
+            </p>
+        </statement>
+    </corollary>
+    <proof>
+        <p>
+            By <xref ref="lem-socle-of-artinian-module-is-essential"/>, <m>\soc{M}\neq 0</m> is an essential submodule of <m>M</m>. So, if <m>\ker f\neq 0</m> then, <m>\soc{M}\cap\ker f\neq 0</m>, a contradiction to the injectivity of <m>f|_{\soc{M}}</m>.
+        </p>
+    </proof>
 </section>
