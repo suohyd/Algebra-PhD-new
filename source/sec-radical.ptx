@@ -224,4 +224,38 @@
             By <xref ref="lem-socle-of-artinian-module-is-essential"/>, <m>\soc{M}\neq 0</m> is an essential submodule of <m>M</m>. So, if <m>\ker f\neq 0</m> then, <m>\soc{M}\cap\ker f\neq 0</m>, a contradiction to the injectivity of <m>f|_{\soc{M}}</m>.
         </p>
     </proof>
+<!--    <definition xml:id="def-dual-module">
+        <title>Dual module</title>
+        
+        
+        <statement>
+            <p>
+                Let <m>A</m> be a finite-dimensional algebra over a field <m>F</m>. Let <m>M</m> be a right <m>A</m>-module. We denote by <m>M^*</m> the dual space of <m>M</m> over <m>F</m>, i.e., <m>M^*=\Hom{F}{M}{F}</m>. We make <m>M^*</m> a left <m>A</m>-module by defining for <m>a\in A</m>, <m>f\in M^*</m>, and <m>m\in M</m>,
+                <me>
+                    (a\cdot f)(m) = f(m\cdot a).
+                </me>
+                
+            </p>
+        </statement>
+    </definition>
+    <lemma xml:id="lem-socle-and-radical-relation-between-module-and-its-dual">
+        <statement>
+            <p>
+                Keep notations of <xref ref="def-dual-module"/>. Further, assume that <m>M</m> is finitely generated right <m>A</m>-module. Then, we have the following relations between the socle and radical of <m>M</m> and its dual <m>M^*</m>:
+                <me>
+                    \rad{M^*}=\left\{f\in M^*:f(\soc{M})=0\right\}
+                </me>
+                and
+                <me>
+                    \soc{M^*}=\left\{f\in M^*:f(\rad{M})=0\right\}.
+                </me>
+                
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            
+        </p>
+    </proof>-->
 </section>
