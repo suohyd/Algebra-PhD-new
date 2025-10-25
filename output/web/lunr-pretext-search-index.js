@@ -1726,7 +1726,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.8",
   "title": "Radical of a module",
-  "body": " Radical of a module   We assume that is a commutative ring with unity, and that is a right -algebra. Consider as a right -module.     The radical of a right -module is If has no -submodule such that is simple then, we write .     Radical of as a -module is   Consider as a -module. Suppose there is a proper submodule of such that is simple. By , there exists a prime number such that as -modules. Thus, for any , . Choose . Then there is such that . Note that , a contradiction.    We collect a few observations related to radical in the following lemma.    Let be a right -module.   The radical of is an -submodule of .    If and then, .    The radical of is zero.         If a right -module is semisimple then, .     Let , where is a simple -module. For every consider . Then, is simple for each . Thus, .     A right -module is finitely generated and semisimple if and only if is Artinian and .     Suppose that is a finitely generated and semisimple -module. By and , the module is Artinian and its radical is trivial.  Conversely, assume that is Artinian and that . Suppose that is the inversection of ( ) such that is simple. Note that as , the set is not empty. Consider the following collection of -submodules of  This is a nonempty collection of submodules of an Artinian module, hence, by , the collection has a minimal element, say . We first observe that this minimal element is zero. Indeed, if then for some , is not a subset of and hence, , a contradiction to minimality. Therefore, . We define an -module homomorphism by This is a surjective map with the kernel . Hence, This shows that is semisimple. It is also finitely generated because given to be Artinian (see ).    Socle of a module   Let be a right -module. The socle of , denoted by , is defined as If has no simple -submodule then, we write .     Socle is semisimple   By , it follows that is a semisimple -module. Furthermore, is semisimple if and only if .      The socle of is a two-sided ideal of .     As is an -submodule of , it is a right ideal. Now suppose that . We show that for any . Suppose that with and is a simple -submodules of . If then we are done. So, we assume that . So there exists such that . As is simple, . Thus, there exists such that . Therefore, .    Essential submodule   An -submodule of a right -module is said to be essential if for every nonzero -submodule of , .      An essential submodule is always nonzero.      The socle of a right -module is the intersection of all essential -submodules of .      For a simple submodule and a nonzero , we have . Thus, if is an essential submodule then, and hence, . This shows that is contained in every essential submodule of .  Conversely, let be the intersection of all essential -submodules of . We show that is semisimple by showing that any submodule of has a complement in . Let . Consider the following collection of submodules of . As , the collection . Suppose that is a chain in . We show that . Indeed, if then, for some . Thus, as . By Zorn's lemma, there exists a maximal element in . We claim that is an essential submodule of . Suppose not, then there exists a nonzero submodule such that . If there exists then, for and . Thus, . This shows that and hence, , contradicting the maximality of . Thus, is an essential submodule of and hence, it contains . This shows that . As we have . Therefore, every submodule of has a complement in and hence, is semisimple (see ). This shows that .     If is an Artinian right -module then, is an essential -submodule of . In particular, .     Let be a nonzero -submodule. As is Artinian, so is . Therefore, has a simple submodule, say (see ). By definition of socle, and hence, .     Let be a nonzero Artinian right -module. If is an -module homomorphism such that the restriction is injective then, is injective.     By , is an essential submodule of . So, if then, , a contradiction to the injectivity of .   "
+  "body": " Radical of a module   We assume that is a commutative ring with unity, and that is a right -algebra. Consider as a right -module.     The radical of a right -module is If has no -submodule such that is simple then, we write .     Radical of as a -module is   Consider as a -module. Suppose there is a proper submodule of such that is simple. By , there exists a prime number such that as -modules. Thus, for any , . Choose . Then there is such that . Note that , a contradiction.    We collect a few observations related to radical in the following lemma.    Let be a right -module.   The radical of is an -submodule of .    If and then, .    The radical of is zero.         If a right -module is semisimple then, .     Let , where is a simple -module. For every consider . Then, is simple for each . Thus, .     A right -module is finitely generated and semisimple if and only if is Artinian and .     Suppose that is a finitely generated and semisimple -module. By and , the module is Artinian and its radical is trivial.  Conversely, assume that is Artinian and that . Suppose that is the inversection of ( ) such that is simple. Note that as , the set is not empty. Consider the following collection of -submodules of  This is a nonempty collection of submodules of an Artinian module, hence, by , the collection has a minimal element, say . We first observe that this minimal element is zero. Indeed, if then for some , is not a subset of and hence, , a contradiction to minimality. Therefore, . We define an -module homomorphism by This is a surjective map with the kernel . Hence, This shows that is semisimple. It is also finitely generated because given to be Artinian (see ).    Socle of a module   Let be a right -module. The socle of , denoted by , is defined as If has no simple -submodule then, we write .     Socle is maximal semisimple submodule   By , it follows that is a semisimple -module, and by the definition of socle, it can be considered as a maximal semisimple submodule. In particular, is semisimple if and only if .     Annihilator of the socle is the radical of   By the definition of annihilator,       The socle of is a two-sided ideal of .     As is an -submodule of , it is a right ideal. Now suppose that . We show that for any . Suppose that with and is a simple -submodules of . If then we are done. So, we assume that . So there exists such that . As is simple, . Thus, there exists such that . Therefore, . This shows that is a nonzero right ideal of . Consider a map given by . This is a surjective map. For any we have and that . Therefore, is an -module homomorphism. Furthermore, , and hence is injective because is simple. Thus, is simple and hence . As was arbitrarry, is a two-sided ideal of .    Essential submodule   An -submodule of a right -module is said to be essential if for every nonzero -submodule of , .      An essential submodule is always nonzero.      The socle of a right -module is the intersection of all essential -submodules of .      For a simple submodule and a nonzero , we have . Thus, if is an essential submodule then, and hence, . This shows that is contained in every essential submodule of .  Conversely, let be the intersection of all essential -submodules of . We show that is semisimple by showing that any submodule of has a complement in . Let . Consider the following collection of submodules of . As , the collection . Suppose that is a chain in . We show that . Indeed, if then, for some . Thus, as . By Zorn's lemma, there exists a maximal element in . We claim that is an essential submodule of . Suppose not, then there exists a nonzero submodule such that . If there exists then, for and . Thus, . This shows that and hence, , contradicting the maximality of . Thus, is an essential submodule of and hence, it contains . This shows that . As we have . Therefore, every submodule of has a complement in and hence, is semisimple (see ). This shows that .     If is an Artinian right -module then, is an essential -submodule of . In particular, .     Let be a nonzero -submodule. As is Artinian, so is . Therefore, has a simple submodule, say (see ). By definition of socle, and hence, .     Let be a nonzero Artinian right -module. If is an -module homomorphism such that the restriction is injective then, is injective.     By , is an essential submodule of . So, if then, , a contradiction to the injectivity of .   "
 },
 {
   "id": "def-radical-of-a-module",
@@ -1801,38 +1801,47 @@ var ptx_lunr_docs = [
   "body": " Socle of a module   Let be a right -module. The socle of , denoted by , is defined as If has no simple -submodule then, we write .   "
 },
 {
-  "id": "note-socle-is-semisimple",
+  "id": "note-socle-is-maximal-semisimple",
   "level": "2",
-  "url": "sec-radical.html#note-socle-is-semisimple",
+  "url": "sec-radical.html#note-socle-is-maximal-semisimple",
   "type": "Note",
   "number": "3.8.7",
-  "title": "Socle is semisimple.",
-  "body": " Socle is semisimple   By , it follows that is a semisimple -module. Furthermore, is semisimple if and only if .   "
+  "title": "Socle is maximal semisimple submodule.",
+  "body": " Socle is maximal semisimple submodule   By , it follows that is a semisimple -module, and by the definition of socle, it can be considered as a maximal semisimple submodule. In particular, is semisimple if and only if .   "
+},
+{
+  "id": "note-annihilator-of-socle-is-radical",
+  "level": "2",
+  "url": "sec-radical.html#note-annihilator-of-socle-is-radical",
+  "type": "Note",
+  "number": "3.8.8",
+  "title": "Annihilator of the socle is the radical of <span class=\"process-math\">\\(A_A\\)<\/span>.",
+  "body": " Annihilator of the socle is the radical of   By the definition of annihilator,    "
 },
 {
   "id": "lem-socle-is-an-ideal",
   "level": "2",
   "url": "sec-radical.html#lem-socle-is-an-ideal",
   "type": "Lemma",
-  "number": "3.8.8",
+  "number": "3.8.9",
   "title": "",
   "body": "  The socle of is a two-sided ideal of .   "
 },
 {
-  "id": "sec-radical-14",
+  "id": "sec-radical-15",
   "level": "2",
-  "url": "sec-radical.html#sec-radical-14",
+  "url": "sec-radical.html#sec-radical-15",
   "type": "Proof",
   "number": "3.8.3",
   "title": "",
-  "body": " As is an -submodule of , it is a right ideal. Now suppose that . We show that for any . Suppose that with and is a simple -submodules of . If then we are done. So, we assume that . So there exists such that . As is simple, . Thus, there exists such that . Therefore, .  "
+  "body": " As is an -submodule of , it is a right ideal. Now suppose that . We show that for any . Suppose that with and is a simple -submodules of . If then we are done. So, we assume that . So there exists such that . As is simple, . Thus, there exists such that . Therefore, . This shows that is a nonzero right ideal of . Consider a map given by . This is a surjective map. For any we have and that . Therefore, is an -module homomorphism. Furthermore, , and hence is injective because is simple. Thus, is simple and hence . As was arbitrarry, is a two-sided ideal of .  "
 },
 {
   "id": "def-essential-submodule",
   "level": "2",
   "url": "sec-radical.html#def-essential-submodule",
   "type": "Definition",
-  "number": "3.8.9",
+  "number": "3.8.10",
   "title": "Essential submodule.",
   "body": " Essential submodule   An -submodule of a right -module is said to be essential if for every nonzero -submodule of , .   "
 },
@@ -1841,7 +1850,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radical.html#note-essential-submodule-is-nonzero",
   "type": "Note",
-  "number": "3.8.10",
+  "number": "3.8.11",
   "title": "",
   "body": "  An essential submodule is always nonzero.   "
 },
@@ -1850,14 +1859,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radical.html#lem-socle-as-intersection-of-essential-submodules",
   "type": "Lemma",
-  "number": "3.8.11",
+  "number": "3.8.12",
   "title": "",
   "body": "  The socle of a right -module is the intersection of all essential -submodules of .    "
 },
 {
-  "id": "sec-radical-18",
+  "id": "sec-radical-19",
   "level": "2",
-  "url": "sec-radical.html#sec-radical-18",
+  "url": "sec-radical.html#sec-radical-19",
   "type": "Proof",
   "number": "3.8.4",
   "title": "",
@@ -1868,14 +1877,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radical.html#lem-socle-of-artinian-module-is-essential",
   "type": "Lemma",
-  "number": "3.8.12",
+  "number": "3.8.13",
   "title": "",
   "body": "  If is an Artinian right -module then, is an essential -submodule of . In particular, .   "
 },
 {
-  "id": "sec-radical-20",
+  "id": "sec-radical-21",
   "level": "2",
-  "url": "sec-radical.html#sec-radical-20",
+  "url": "sec-radical.html#sec-radical-21",
   "type": "Proof",
   "number": "3.8.5",
   "title": "",
@@ -1886,14 +1895,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radical.html#cor-injectivity-for-socle-of-artinian-module",
   "type": "Corollary",
-  "number": "3.8.13",
+  "number": "3.8.14",
   "title": "",
   "body": "  Let be a nonzero Artinian right -module. If is an -module homomorphism such that the restriction is injective then, is injective.   "
 },
 {
-  "id": "sec-radical-22",
+  "id": "sec-radical-23",
   "level": "2",
-  "url": "sec-radical.html#sec-radical-22",
+  "url": "sec-radical.html#sec-radical-23",
   "type": "Proof",
   "number": "3.8.6",
   "title": "",

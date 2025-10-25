@@ -110,12 +110,12 @@
             </p>
         </statement>
     </definition>
-    <note xml:id="note-socle-is-semisimple">
-        <title>Socle is semisimple</title>
+    <note xml:id="note-socle-is-maximal-semisimple">
+        <title>Socle is maximal semisimple submodule</title>
         
         <statement>
             <p>
-                By <xref ref="cor-sum-of-simple-modules-is-direct-sum"/>, it follows that <m>\soc{M}</m> is a semisimple <m>A</m>-module. Furthermore, <m>M</m> is semisimple if and only if <m>\soc{M}=M</m>.
+                By <xref ref="cor-sum-of-simple-modules-is-direct-sum"/>, it follows that <m>\soc{M}</m> is a semisimple <m>A</m>-module, and by the definition of socle, it can be considered as a maximal semisimple submodule. In particular, <m>M</m> is semisimple if and only if <m>\soc{M}=M</m>.
             </p>
         </statement>
     </note>
@@ -128,7 +128,7 @@
     </lemma>
     <proof>
         <p>
-            As <m>\soc{A_A}</m> is an <m>A</m>-submodule of <m>A_A</m>, it is a right ideal. Now suppose that <m>a\in A</m>. We show that <m>ax\in\soc{A_A}</m> for any <m>x\in A</m>. Suppose that <m>x=n_1+n_2+\cdots+n_r</m> with <m>n_i\in N_i</m> and <m>N_i</m> is a simple <m>A</m>-submodules of <m>A_A</m>. If <m>ax=0</m> then we are done. So, we assume that <m>ax\neq 0</m>. So there exists <m>i</m> such that <m>an_i\neq 0</m>. As <m>N_i</m> is simple, <m>N_i=n_iA</m>. Thus, there exists <m>b\in A</m> such that <m>n_i=n_ib</m>. Therefore, <m>an_i=a(n_ib)</m>.
+            As <m>\soc{A_A}</m> is an <m>A</m>-submodule of <m>A_A</m>, it is a right ideal. Now suppose that <m>a\in A</m>. We show that <m>ax\in\soc{A_A}</m> for any <m>x\in A</m>. Suppose that <m>x=n_1+n_2+\cdots+n_r</m> with <m>n_i\in N_i</m> and <m>N_i</m> is a simple <m>A</m>-submodules of <m>A_A</m>. If <m>ax=0</m> then we are done. So, we assume that <m>ax\neq 0</m>. So there exists <m>i</m> such that <m>an_i\neq 0</m>. As <m>N_i</m> is simple, <m>N_i=n_iA</m>. Thus, there exists <m>b\in A</m> such that <m>n_i=n_ib</m>. Therefore, <m>an_i=a(n_ib)</m>. This shows that <m>aN_i</m> is a nonzero right ideal of <m>A</m>. Consider a map <m>f_i\colon N_i=n_iA\to aN_i</m> given by <m>n_iy\mapsto an_iy</m>. This is a surjective map. For any <m>z\in A</m> we have <m>f(n_iz)=a(n_iz)=(an_i)z=f(n_i)z</m> and that <m>f(n_iy+n_iz)=f(n_i(y+z))=an_i(y+z)=f(n_iy)+f(n_iz)</m>. Therefore, <m>f_i</m> is an <m>A</m>-module homomorphism. Furthermore, <m>f(n_i)=an_i\neq 0</m>, and hence <m>f_i</m> is injective because <m>N_i</m> is simple. Thus, <m>aN_i</m> is simple and hence <m>aN_i\subseteq\soc{A_A}</m>. As <m>a\in A</m> was arbitrarry, <m>\soc{A_A}</m> is a two-sided ideal of <m>A</m>.
         </p>
     </proof>
     <definition xml:id="def-essential-submodule">
