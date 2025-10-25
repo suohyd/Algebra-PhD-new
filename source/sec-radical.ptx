@@ -119,6 +119,18 @@
             </p>
         </statement>
     </note>
+    <lemma xml:id="lem-socle-is-an-ideal">
+        <statement>
+            <p>
+                The socle of <m>A_A</m> is a two-sided ideal of <m>A</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            As <m>\soc{A_A}</m> is an <m>A</m>-submodule of <m>A_A</m>, it is a right ideal. Now suppose that <m>a\in A</m>. We show that <m>ax\in\soc{A_A}</m> for any <m>x\in A</m>. Suppose that <m>x=n_1+n_2+\cdots+n_r</m> with <m>n_i\in N_i</m> and <m>N_i</m> is a simple <m>A</m>-submodules of <m>A_A</m>. If <m>ax=0</m> then we are done. So, we assume that <m>ax\neq 0</m>. So there exists <m>i</m> such that <m>an_i\neq 0</m>. As <m>N_i</m> is simple, <m>N_i=n_iA</m>. Thus, there exists <m>b\in A</m> such that <m>n_i=n_ib</m>. Therefore, <m>an_i=a(n_ib)</m>.
+        </p>
+    </proof>
     <definition xml:id="def-essential-submodule">
         <title>Essential submodule</title>
         
