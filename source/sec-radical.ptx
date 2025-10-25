@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-radical" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Radical of a module</title>
+    <title>Radical and Socle of a module</title>
     
     
     <introduction>
@@ -119,6 +119,35 @@
             </p>
         </statement>
     </note>
+    <example xml:id="ex-socle-and-radical-of-polynomial-module">
+        <title>Socle and radical of <m>\R[x]/(x^n)</m> as an <m>\R[x]</m></title>
+        <statement>
+            <p>
+                Let <m>M=\R[x]/(x^2)</m> be an <m>\R[x]</m>-module. We calculate the socle and the radical of <m>M</m>. By the correspondence theorem, submodules of <m>M</m> are submodules of <m>\R[x]</m> containing <m>(x^2)</m>. Note that the only such submodules are <m>(x^2)</m>, <m>(x)</m>, and <m>\R[x]</m>. Thus, the only proper nontrivial submodule of <m>M</m> is <m>(x)/(x^2)</m>. As <m>M/((x)/(x^2))\simeq\R</m> is simple, we have <m>\rad{M}=(x)/(x^2)</m>. Also, <m>(x)/(x^2)</m> is the only simple submodule of <m>M</m> and hence, <m>\soc{M}=(x)/(x^2)</m>.
+            </p>
+            <p>
+                More generally, for <m>n\geq 1</m>, let <m>M_n=\R[x]/(x^n)</m> be an <m>\R[x]</m>-module. Then, by similar arguments as above, we have <m>\rad{M_n}=(x)/(x^n)</m> and <m>\soc{M_n}=(x^{n-1})/(x^n)</m>.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="ex-socle-and-radical-of-integral-domain-module">
+        <title>Socle and radical of an integral domain which is not a field</title>
+        
+        
+        <statement>
+            <p>
+                Let <m>A</m> be an integral domain which is not a field. Consider <m>A</m> as a right <m>A</m>-module. So, the simple <m>A</m>-modules are nonzero minimal ideals of <m>A</m>. As every ideal is contained in a maximal and hence a prime ideal, we need to find nonzero minimal prime ideals of <m>A</m>. However, there are no nonzero minimal prime ideals in an integral domain which is not a field.<aside>
+                <title>Why there are no nonzero minimal prime ideals in an integral domain which is not a field?</title>
+                <p>
+                    Let <m>\mathfrak{p}</m> be a nonzero minimal prime ideal of <m>A</m>. Consider <m>x/1\in A_{\mathfrak{p}}</m>. As <m>\mathfrak{p}A_\mathfrak{p}</m> is the unique prime ideal of <m>A_{\mathfrak{p}}</m>, we have <m>x^n/1=0\in A_{\mathfrak{p}}</m>, i.e., there exists <m>s\in A\setminus\mathfrak{p}</m> such that <m>sx^n=0</m>. As <m>A</m> is an integral domain, <m>x=0</m>.
+                </p>
+                </aside> Hence, <m>\rad{M}=M</m> and <m>\soc{M}=0</m>.
+            </p>
+            <p>
+                If <m>A</m> is a field then, as an <m>A</m>-module, <m>\rad{A}=0</m> and <m>\soc{A}=A</m>. In fact for any vector space <m>V</m> over <m>A</m>, <m>\rad{V}=0</m> and <m>\soc{V}=V</m>.
+            </p>
+        </statement>
+    </example>
     <lemma xml:id="lem-socle-is-an-ideal">
         <statement>
             <p>
