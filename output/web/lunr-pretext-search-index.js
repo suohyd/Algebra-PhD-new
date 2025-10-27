@@ -1990,6 +1990,24 @@ var ptx_lunr_docs = [
   "body": " Using we consider as an -module (see ). By the above , is semisimple as an -module. Suppose that are simple -modules such that . If , then, for any we have , i.e., . Furthermore, for each , i.e., . Thus, by , for every , there exists a simple right -module such that . Therefore, using , we get the following. This shows that is semisimple as a right -module.  "
 },
 {
+  "id": "sec-minimal-right-ideals",
+  "level": "1",
+  "url": "sec-minimal-right-ideals.html",
+  "type": "Section",
+  "number": "4.2",
+  "title": "Minimal right ideals",
+  "body": " Minimal right ideals   We gather some results on minimal right ideals in algebras that will be used in the proof of Artin-Wedderburn's theorem. We will follow .  We assume that is a commutative ring with unity, and is an -algebra.     Let be the product of -algebras, and be a right ideal of . Then we have the following:    is a right ideal of ;     ;     ;     ;     is a minimal right ideal of if and only if it is a minimal right ideal of ;    Every minimal right ideal of is a minimal right ideal of either or .       "
+},
+{
+  "id": "lem-right-ideals-in-product-algebras",
+  "level": "2",
+  "url": "sec-minimal-right-ideals.html#lem-right-ideals-in-product-algebras",
+  "type": "Lemma",
+  "number": "4.2.1",
+  "title": "",
+  "body": "  Let be the product of -algebras, and be a right ideal of . Then we have the following:    is a right ideal of ;     ;     ;     ;     is a minimal right ideal of if and only if it is a minimal right ideal of ;    Every minimal right ideal of is a minimal right ideal of either or .      "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",

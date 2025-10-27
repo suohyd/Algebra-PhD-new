@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-minimal-right-ideals" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Minimal right ideals</title>
+    <introduction>
+        <p>
+            We gather some results on minimal right ideals in algebras that will be used in the proof of Artin-Wedderburn's theorem. We will follow <xref ref="bib-Pierce"/>.
+        </p>
+        <p>
+            We assume that <m>R</m> is a commutative ring with unity, and <m>A</m> is an <m>R</m>-algebra.
+        </p>
+    </introduction>
+    <lemma xml:id="lem-right-ideals-in-product-algebras">
+        <statement>
+            <p>
+                Let <m>A=A_1\times A_2</m> be the product of <m>R</m>-algebras, and <m>M</m> be a right ideal of <m>A_1</m>. Then we have the following:
+                <ol>
+                    <li>
+                        <p>
+                            <m>M</m> is a right ideal of <m>A</m>;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\End{A}{M}=\End{A_1}{M}</m>;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\Hom{A}{M}{A}=\Hom{A}{M}{A_1}=\Hom{A_1}{M}{A_1}</m>;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>S\left(M_{A_1}\right)=S\left(M_A\right)</m>;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>M</m> is a minimal right ideal of <m>A_1</m> if and only if it is a minimal right ideal of <m>A</m>;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Every minimal right ideal of <m>A</m> is a minimal right ideal of either <m>A_1</m> or <m>A_2</m>.  
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </lemma>
+</section>
