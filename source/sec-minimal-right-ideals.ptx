@@ -75,7 +75,7 @@
     <lemma xml:id="lem-minimal-nilpotent-ideal-implies-in-the-radical">
         <statement>
             <p>
-                Suppose that <m>N</m> is a minimal right ideal of <m>A</m> that is nilpotent, i.e., there exists <m>k\in\mathbb{N}</m> such that <m>N^k=0</m>. Then, for any simple <m>A</m>-module <m>P</m> we have <m>PN=0</m> and furthermore, <m>N\subseteq\rad{A}</m>.
+                Suppose that <m>N</m> is a minimal right ideal of <m>A</m> such that <m>N^k=0</m> for some <m>k\in\mathbb{N}</m>. Then, for any simple <m>A</m>-module <m>P</m> we have <m>PN=0</m> and furthermore, <m>N\subseteq\rad{A}</m>.
             </p>
         </statement>
     </lemma>
@@ -110,7 +110,10 @@
     </proposition>
     <proof>
         <p>
-            Let <m>M\simeq N</m> as an <m>A</m>-modules.
+            Let <m>M N\neq 0</m>. Suppose that <m>m\in M</m> is such that <m>mN\neq 0</m>. By <xref ref="lem-technical-lemma"/>, we have that <m>mN\simeq N</m>. Since <m>mN\subseteq mA\subseteq M</m> and <m>M</m> is simple, we have <m>mN=M</m>. Thus, (2) implies (3).
+        </p>
+        <p>
+            Suppose that there is an element <m>a\in A</m> such that <m>aN=M</m>. By <xref ref="lem-technical-lemma"/>, we have <m>aN\simeq N</m>, so <m>M\simeq N</m>. Thus, (3) implies (1).
         </p>
     </proof>
     <lemma xml:id="lem-another-technical-lemma">
@@ -122,7 +125,7 @@
     </lemma>
     <proof>
         <p>
-            By <xref ref="cor-semisimple-implies-existence-of-complement"/>, there exists a right ideal <m>Q</m> of <m>A</m> such that <m>A_A=M\oplus Q</m> because <m>A_A</m> is semisimple. The module <m>Q</m> is semisimple <m>A</m>-module (see <xref ref="cor-quotient-and-submodule-of-semisimple-module-is-semisimple"/>). Result now follows from Jordan-Hölder theorem (see <xref ref="thm-Jordan-Holder-for-modules"/>).
+            By <xref ref="cor-semisimple-implies-existence-of-complement"/>, there exists a right ideal <m>Q</m> of <m>A</m> such that <m>A_A=M\oplus Q</m> because <m>A_A</m> is semisimple. The module <m>Q</m> is semisimple <m>A</m>-module (see <xref ref="cor-quotient-and-submodule-of-semisimple-module-is-semisimple"/>). Result now follows from <xref ref="thm-Jordan-Holder-for-modules">Jordan-Hölder theorem</xref>.
         </p>
     </proof>
     <p>
