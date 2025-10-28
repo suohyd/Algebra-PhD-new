@@ -113,4 +113,16 @@
             Let <m>M\simeq N</m> as an <m>A</m>-modules.
         </p>
     </proof>
+    <lemma xml:id="lem-another-technical-lemma">
+        <statement>
+            <p>
+                Let <m>A</m> be a semisimple algebra, and <m>A_A=N_1\oplus N_2\oplus\cdots\oplus N_m</m> with each <m>N_i</m> a minimal right ideal of <m>A</m>. If <m>M</m> is a minimal right ideal of <m>A</m>, then there exists an index <m>i</m> such that <m>M\simeq N_i</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            By <xref ref="cor-semisimple-implies-existence-of-complement"/>, there exists a right ideal <m>Q</m> of <m>A</m> such that <m>A_A=M\oplus Q</m> because <m>A_A</m> is semisimple. The module <m>Q</m> is semisimple <m>A</m>-module (see <xref ref="cor-quotient-and-submodule-of-semisimple-module-is-semisimple"/>). Result now follows from Jordan-Hölder theorem (see <xref ref="thm-Jordan-Holder-for-modules"/>).
+        </p>
+    </proof>
 </section>

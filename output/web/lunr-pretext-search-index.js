@@ -1996,7 +1996,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Minimal right ideals",
-  "body": " Minimal right ideals   We gather some results on minimal right ideals in algebras that will be used in the proof of Artin-Wedderburn's theorem. We will follow .  We assume that is a commutative ring with unity, and is an -algebra.     Let be a product of -algebras, and be a right ideal of . Then we have the following:    is a right ideal of ;     ;     ;     ;     is a minimal right ideal of if and only if it is a minimal right ideal of ;    Every minimal right ideal of is a minimal right ideal of either or .         If for are semisimple algebras then, is a semisimple algebra.      If is a minimal right ideal of , and then, either or is a minimal right ideal of such that as -modules.     Let be a minimal right ideal of and . If we are done. Otherwise, let us show that is a minimal right ideal of isomorphic to . Consider the surjective morphism of right -modules given by left multiplication by : Since is minimal, the kernel of is either or . The latter cannot happen since we are assuming that . Thus, is an isomorphism of right -modules and so, . In particular, since is simple, so is , and hence it is a minimal right ideal of .     Suppose that is a minimal right ideal of that is nilpotent, i.e., there exists such that . Then, for any simple -module we have and furthermore, .     The module is a submodule of the simple (nonzero) module , so it is either or . If , then , contradiction. Thus, . Since this holds for any simple -module , we have , as for some maximal right ideal.     Let be a semisimple algbera and be minimal right ideals of . The following are equivalent:   As -modules, ;     ;    there is an element such that .       "
+  "body": " Minimal right ideals   We gather some results on minimal right ideals in algebras that will be used in the proof of Artin-Wedderburn's theorem. We will follow .  We assume that is a commutative ring with unity, and is an -algebra.     Let be a product of -algebras, and be a right ideal of . Then we have the following:    is a right ideal of ;     ;     ;     ;     is a minimal right ideal of if and only if it is a minimal right ideal of ;    Every minimal right ideal of is a minimal right ideal of either or .         If for are semisimple algebras then, is a semisimple algebra.      If is a minimal right ideal of , and then, either or is a minimal right ideal of such that as -modules.     Let be a minimal right ideal of and . If we are done. Otherwise, let us show that is a minimal right ideal of isomorphic to . Consider the surjective morphism of right -modules given by left multiplication by : Since is minimal, the kernel of is either or . The latter cannot happen since we are assuming that . Thus, is an isomorphism of right -modules and so, . In particular, since is simple, so is , and hence it is a minimal right ideal of .     Suppose that is a minimal right ideal of that is nilpotent, i.e., there exists such that . Then, for any simple -module we have and furthermore, .     The module is a submodule of the simple (nonzero) module , so it is either or . If , then , contradiction. Thus, . Since this holds for any simple -module , we have , as for some maximal right ideal.     Let be a semisimple algbera and be minimal right ideals of . The following are equivalent:   As -modules, ;     ;    there is an element such that .        Let as an -modules.     Let be a semisimple algebra, and with each a minimal right ideal of . If is a minimal right ideal of , then there exists an index such that .     By , there exists a right ideal of such that because is semisimple. The module is semisimple -module (see ). Result now follows from Jordan-Hölder theorem (see ).   "
 },
 {
   "id": "lem-right-ideals-in-product-algebras",
@@ -2060,6 +2060,33 @@ var ptx_lunr_docs = [
   "number": "4.2.5",
   "title": "",
   "body": "  Let be a semisimple algbera and be minimal right ideals of . The following are equivalent:   As -modules, ;     ;    there is an element such that .      "
+},
+{
+  "id": "sec-minimal-right-ideals-10",
+  "level": "2",
+  "url": "sec-minimal-right-ideals.html#sec-minimal-right-ideals-10",
+  "type": "Proof",
+  "number": "4.2.3",
+  "title": "",
+  "body": " Let as an -modules.  "
+},
+{
+  "id": "lem-another-technical-lemma",
+  "level": "2",
+  "url": "sec-minimal-right-ideals.html#lem-another-technical-lemma",
+  "type": "Lemma",
+  "number": "4.2.6",
+  "title": "",
+  "body": "  Let be a semisimple algebra, and with each a minimal right ideal of . If is a minimal right ideal of , then there exists an index such that .   "
+},
+{
+  "id": "sec-minimal-right-ideals-12",
+  "level": "2",
+  "url": "sec-minimal-right-ideals.html#sec-minimal-right-ideals-12",
+  "type": "Proof",
+  "number": "4.2.4",
+  "title": "",
+  "body": " By , there exists a right ideal of such that because is semisimple. The module is semisimple -module (see ). Result now follows from Jordan-Hölder theorem (see ).  "
 },
 {
   "id": "backmatter-2",
