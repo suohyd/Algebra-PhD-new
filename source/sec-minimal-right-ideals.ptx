@@ -13,7 +13,7 @@
     <lemma xml:id="lem-right-ideals-in-product-algebras">
         <statement>
             <p>
-                Let <m>A=A_1\times A_2</m> be the product of <m>R</m>-algebras, and <m>M</m> be a right ideal of <m>A_1</m>. Then we have the following:
+                Let <m>A=A_1\times A_2</m> be a product of <m>R</m>-algebras, and <m>M</m> be a right ideal of <m>A_1</m>. Then we have the following:
                 <ol>
                     <li>
                         <p>
@@ -49,4 +49,68 @@
             </p>
         </statement>
     </lemma>
+    <corollary xml:id="cor-finite-products-of-semisimple-algebras-is-semisimple">
+        <statement>
+            <p>
+                If <m>A_i</m> for <m>i\in\{1,2,\ldots,n\}</m> are semisimple algebras then, <m>\prod_{i=1}^nA_i</m> is a semisimple algebra.
+            </p>
+        </statement>
+    </corollary>
+    <lemma xml:id="lem-technical-lemma">
+        <statement>
+            <p>
+                If <m>N</m> is a minimal right ideal of <m>A</m>, and <m>a\in A</m> then, either <m>aN=0</m> or <m>aN</m> is a minimal right ideal of <m>A</m> such that <m>aN\simeq N</m> as <m>A</m>-modules.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            Let <m>N</m> be a minimal right ideal of <m>A</m> and <m>a\in A</m>. If <m>aN=0</m> we are done. Otherwise, let us show that <m>aN</m> is a minimal right ideal of <m>A</m> isomorphic to <m>N</m>. Consider the surjective morphism of right <m>A</m>-modules given by left multiplication by <m>a</m>:
+            <me>
+                f_a:N\to aN,\quad x\mapsto ax.
+            </me>
+            Since <m>N</m> is minimal, the kernel of <m>f_a</m> is either <m>0</m> or <m>N</m>. The latter cannot happen since we are assuming that <m>aN\neq 0</m>. Thus, <m>f_a</m> is an isomorphism of right <m>A</m>-modules and so, <m>aN\simeq N</m>. In particular, since <m>N</m> is simple, so is <m>aN</m>, and hence it is a minimal right ideal of <m>A</m>.
+        </p>
+    </proof>
+    <lemma xml:id="lem-minimal-nilpotent-ideal-implies-in-the-radical">
+        <statement>
+            <p>
+                Suppose that <m>N</m> is a minimal right ideal of <m>A</m> that is nilpotent, i.e., there exists <m>k\in\mathbb{N}</m> such that <m>N^k=0</m>. Then, for any simple <m>A</m>-module <m>P</m> we have <m>PN=0</m> and furthermore, <m>N\subseteq\rad{A}</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+           The module <m>PN</m> is a submodule of the simple (nonzero) module <m>P</m>, so it is either <m>0</m> or <m>P</m>. If <m>PN=P</m>, then <m>0=PN^k=P</m>, contradiction. Thus, <m>PN=0</m>. Since this holds for any simple <m>A</m>-module <m>P</m>, we have <m>N\subseteq\rad{A}</m>, as <m>P\simeq A_A/\mathfrak{m}</m> for some maximal right ideal.
+        </p>
+    </proof>
+    <proposition xml:id="prop-equivalent-conditions-on-minimal-ideals-of-semisimple-algebras">
+        <statement>
+            <p>
+                Let <m>A</m> be a semisimple algbera and <m>M,N</m> be minimal right ideals of <m>A</m>. The following are equivalent:
+                <ol>
+                    <li>
+                        <p>
+                            As <m>A</m>-modules, <m>M\simeq N</m>;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>MN\neq 0</m>;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            there is an element <m>a\in A</m> such that <m>aN=M</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </proposition>
+    <proof>
+        <p>
+            Let <m>M\simeq N</m> as an <m>A</m>-modules.
+        </p>
+    </proof>
 </section>

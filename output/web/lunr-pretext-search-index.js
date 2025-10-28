@@ -1996,7 +1996,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Minimal right ideals",
-  "body": " Minimal right ideals   We gather some results on minimal right ideals in algebras that will be used in the proof of Artin-Wedderburn's theorem. We will follow .  We assume that is a commutative ring with unity, and is an -algebra.     Let be the product of -algebras, and be a right ideal of . Then we have the following:    is a right ideal of ;     ;     ;     ;     is a minimal right ideal of if and only if it is a minimal right ideal of ;    Every minimal right ideal of is a minimal right ideal of either or .       "
+  "body": " Minimal right ideals   We gather some results on minimal right ideals in algebras that will be used in the proof of Artin-Wedderburn's theorem. We will follow .  We assume that is a commutative ring with unity, and is an -algebra.     Let be a product of -algebras, and be a right ideal of . Then we have the following:    is a right ideal of ;     ;     ;     ;     is a minimal right ideal of if and only if it is a minimal right ideal of ;    Every minimal right ideal of is a minimal right ideal of either or .         If for are semisimple algebras then, is a semisimple algebra.      If is a minimal right ideal of , and then, either or is a minimal right ideal of such that as -modules.     Let be a minimal right ideal of and . If we are done. Otherwise, let us show that is a minimal right ideal of isomorphic to . Consider the surjective morphism of right -modules given by left multiplication by : Since is minimal, the kernel of is either or . The latter cannot happen since we are assuming that . Thus, is an isomorphism of right -modules and so, . In particular, since is simple, so is , and hence it is a minimal right ideal of .     Suppose that is a minimal right ideal of that is nilpotent, i.e., there exists such that . Then, for any simple -module we have and furthermore, .     The module is a submodule of the simple (nonzero) module , so it is either or . If , then , contradiction. Thus, . Since this holds for any simple -module , we have , as for some maximal right ideal.     Let be a semisimple algbera and be minimal right ideals of . The following are equivalent:   As -modules, ;     ;    there is an element such that .       "
 },
 {
   "id": "lem-right-ideals-in-product-algebras",
@@ -2005,7 +2005,61 @@ var ptx_lunr_docs = [
   "type": "Lemma",
   "number": "4.2.1",
   "title": "",
-  "body": "  Let be the product of -algebras, and be a right ideal of . Then we have the following:    is a right ideal of ;     ;     ;     ;     is a minimal right ideal of if and only if it is a minimal right ideal of ;    Every minimal right ideal of is a minimal right ideal of either or .      "
+  "body": "  Let be a product of -algebras, and be a right ideal of . Then we have the following:    is a right ideal of ;     ;     ;     ;     is a minimal right ideal of if and only if it is a minimal right ideal of ;    Every minimal right ideal of is a minimal right ideal of either or .      "
+},
+{
+  "id": "cor-finite-products-of-semisimple-algebras-is-semisimple",
+  "level": "2",
+  "url": "sec-minimal-right-ideals.html#cor-finite-products-of-semisimple-algebras-is-semisimple",
+  "type": "Corollary",
+  "number": "4.2.2",
+  "title": "",
+  "body": "  If for are semisimple algebras then, is a semisimple algebra.   "
+},
+{
+  "id": "lem-technical-lemma",
+  "level": "2",
+  "url": "sec-minimal-right-ideals.html#lem-technical-lemma",
+  "type": "Lemma",
+  "number": "4.2.3",
+  "title": "",
+  "body": "  If is a minimal right ideal of , and then, either or is a minimal right ideal of such that as -modules.   "
+},
+{
+  "id": "sec-minimal-right-ideals-6",
+  "level": "2",
+  "url": "sec-minimal-right-ideals.html#sec-minimal-right-ideals-6",
+  "type": "Proof",
+  "number": "4.2.1",
+  "title": "",
+  "body": " Let be a minimal right ideal of and . If we are done. Otherwise, let us show that is a minimal right ideal of isomorphic to . Consider the surjective morphism of right -modules given by left multiplication by : Since is minimal, the kernel of is either or . The latter cannot happen since we are assuming that . Thus, is an isomorphism of right -modules and so, . In particular, since is simple, so is , and hence it is a minimal right ideal of .  "
+},
+{
+  "id": "lem-minimal-nilpotent-ideal-implies-in-the-radical",
+  "level": "2",
+  "url": "sec-minimal-right-ideals.html#lem-minimal-nilpotent-ideal-implies-in-the-radical",
+  "type": "Lemma",
+  "number": "4.2.4",
+  "title": "",
+  "body": "  Suppose that is a minimal right ideal of that is nilpotent, i.e., there exists such that . Then, for any simple -module we have and furthermore, .   "
+},
+{
+  "id": "sec-minimal-right-ideals-8",
+  "level": "2",
+  "url": "sec-minimal-right-ideals.html#sec-minimal-right-ideals-8",
+  "type": "Proof",
+  "number": "4.2.2",
+  "title": "",
+  "body": " The module is a submodule of the simple (nonzero) module , so it is either or . If , then , contradiction. Thus, . Since this holds for any simple -module , we have , as for some maximal right ideal.  "
+},
+{
+  "id": "prop-equivalent-conditions-on-minimal-ideals-of-semisimple-algebras",
+  "level": "2",
+  "url": "sec-minimal-right-ideals.html#prop-equivalent-conditions-on-minimal-ideals-of-semisimple-algebras",
+  "type": "Proposition",
+  "number": "4.2.5",
+  "title": "",
+  "body": "  Let be a semisimple algbera and be minimal right ideals of . The following are equivalent:   As -modules, ;     ;    there is an element such that .      "
 },
 {
   "id": "backmatter-2",
