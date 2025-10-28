@@ -125,4 +125,14 @@
             By <xref ref="cor-semisimple-implies-existence-of-complement"/>, there exists a right ideal <m>Q</m> of <m>A</m> such that <m>A_A=M\oplus Q</m> because <m>A_A</m> is semisimple. The module <m>Q</m> is semisimple <m>A</m>-module (see <xref ref="cor-quotient-and-submodule-of-semisimple-module-is-semisimple"/>). Result now follows from Jordan-Hölder theorem (see <xref ref="thm-Jordan-Holder-for-modules"/>).
         </p>
     </proof>
+    <p>
+        The following corollary follows from <xref ref="prop-modules-over-semisimple-algebra"/> and <xref ref="cor-number-of-isomorphism-classes-of-simple-A-modules"/>.
+    </p>
+    <corollary xml:id="cor-number-of-isomorphism-classes-of-simple-A-modules">
+        <statement>
+            <p>
+                If <m>A</m> is a semisimple algebra then, the number of isomorphism classes of simple <m>A</m>-modules is finite.
+            </p>
+        </statement>
+    </corollary>
 </section>
