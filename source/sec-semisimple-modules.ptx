@@ -60,7 +60,7 @@
             <p>
                 Let <m>S=\{M_j\}_{j\in J}</m> be a nonempty collection of right <m>A</m>-modules. There exists a right <m>A</m>-module <m>M</m> with <m>A</m>-module homomorphisms <m>i_j\colon M_j\to M</m> for every <m>j\in J</m>, and with the following universal property: if there exists a right <m>A</m>-module <m>N</m> with <m>f_j\colon M_j\to N</m> for every <m>j\in J</m> then there exists a unique <m>A</m>-module homomorphism <m>f\colon M\to N</m> such that <m>f\circ i_j=f_j</m> for each <m>j\in J</m>. 
             </p>
-<!--                <figure xml:id="fig-universal-property-of-direct-sum">
+ <!--           <figure xml:id="fig-universal-property-of-direct-sum">
                <caption>Universal property of direct sum</caption>
                 <image>
                     <shortdescription></shortdescription>
