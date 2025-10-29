@@ -10,4 +10,5 @@
   <xi:include href="sec-semisimple-algebras.ptx" />
   <xi:include href="ws-semisimple-algebras.ptx" />
   <xi:include href="sec-minimal-right-ideals.ptx" />
+  <xi:include href="sec-simple-algebras.ptx" />
 </chapter>

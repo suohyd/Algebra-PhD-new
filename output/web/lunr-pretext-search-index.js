@@ -412,7 +412,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Quaternion algebra",
-  "body": " Quaternion algebra   Throughout this section we assume that is a field with . The set of nonzero elements of is denoted by .    Quaternion algebra   Let . The quaternion algebra  or is the four-dimensional -vector space with basis and multiplication defined by the following relations and with as unity of . We assume the associativity of multiplication and extend the multiplication to all elements of by distributivity and linearity.  We get the following relations.       Keep notations of . The map defined by is an injective ring homomorphism. Thus, we can identify as a subalgebra of .     Hamiltonian quaternion algebra   The algebra is Hamiltonion quaternion algebra over the field of real numbers . It is usually denoted by .     as a quaternion algebra   Let be a field of characteristic not and a nonzero element. Consider the following matrices. Show that , , and that . Further show that is linearly independent over . Conclude that as an -algebra.     Degree of Quaternion algebra   Let be a quaternion algebra over a field of characteristic different from . The degree of , , i.e., .     Simple algebra   Let be an -algebra of finite dimension as an -vector space. We say that is a simple algebra if the only two-sided ideals of are and .      Let be a quaternion algebra over . Then, is a simple algebra with center .     Let be a nonzero two-sided ideal of . We show that . Let be a nonzero element. Then, we can write for some . For we write . Then, we have the following relations. Now , , and . So, if one of is nonzero then, will contain a unit, and thus, . If , then for some nonzero . Thus, , and hence, .  If then we must have . This implies that . Thus, .    Canonical involution of Quaternion algebra   Let be a field of characteristic not , and a quaternion algebra. The canonical involution on is given by       The canonical involution is an antiautomorphism of order , i.e., for any we have the following.   Furthermore, if and only if .     Pure quaternions   Let be a field of characteristic different from , and be a quaternion algebra over . The vector subspace of pure quaternions  is a vector subspace of spanned by , i.e.,       Let be a field of characteristic different from , and be a quaternion algebra over . Then,    implies that , and     if and only if and .       "
+  "body": " Quaternion algebra   Throughout this section we assume that is a field with . The set of nonzero elements of is denoted by .    Quaternion algebra   Let . The quaternion algebra  or is the four-dimensional -vector space with basis and multiplication defined by the following relations and with as unity of . We assume the associativity of multiplication and extend the multiplication to all elements of by distributivity and linearity.  We get the following relations.       Keep notations of . The map defined by is an injective ring homomorphism. Thus, we can identify as a subalgebra of .     Hamiltonian quaternion algebra   The algebra is Hamiltonion quaternion algebra over the field of real numbers . It is usually denoted by .     as a quaternion algebra   Let be a field of characteristic not and a nonzero element. Consider the following matrices. Show that , , and that . Further show that is linearly independent over . Conclude that as an -algebra.     Degree of Quaternion algebra   Let be a quaternion algebra over a field of characteristic different from . The degree of , , i.e., .     Simple -algebra   Let be an -algebra of finite dimension as an -vector space. We say that is a simple algebra if the only two-sided ideals of are and .      Let be a quaternion algebra over . Then, is a simple algebra with center .     Let be a nonzero two-sided ideal of . We show that . Let be a nonzero element. Then, we can write for some . For we write . Then, we have the following relations. Now , , and . So, if one of is nonzero then, will contain a unit, and thus, . If , then for some nonzero . Thus, , and hence, .  If then we must have . This implies that . Thus, .    Canonical involution of Quaternion algebra   Let be a field of characteristic not , and a quaternion algebra. The canonical involution on is given by       The canonical involution is an antiautomorphism of order , i.e., for any we have the following.   Furthermore, if and only if .     Pure quaternions   Let be a field of characteristic different from , and be a quaternion algebra over . The vector subspace of pure quaternions  is a vector subspace of spanned by , i.e.,       Let be a field of characteristic different from , and be a quaternion algebra over . Then,    implies that , and     if and only if and .       "
 },
 {
   "id": "def-quaternion-algebra",
@@ -460,13 +460,13 @@ var ptx_lunr_docs = [
   "body": " Degree of Quaternion algebra   Let be a quaternion algebra over a field of characteristic different from . The degree of , , i.e., .   "
 },
 {
-  "id": "def-simple-algebra",
+  "id": "def-simple-F-algebra",
   "level": "2",
-  "url": "sec-quaternions.html#def-simple-algebra",
+  "url": "sec-quaternions.html#def-simple-F-algebra",
   "type": "Definition",
   "number": "2.1.6",
-  "title": "Simple algebra.",
-  "body": " Simple algebra   Let be an -algebra of finite dimension as an -vector space. We say that is a simple algebra if the only two-sided ideals of are and .   "
+  "title": "Simple <span class=\"process-math\">\\(F\\)<\/span>-algebra.",
+  "body": " Simple -algebra   Let be an -algebra of finite dimension as an -vector space. We say that is a simple algebra if the only two-sided ideals of are and .   "
 },
 {
   "id": "prop-quaternion-algebra-is-simple",
@@ -2168,6 +2168,51 @@ var ptx_lunr_docs = [
   "number": "4.3.7",
   "title": "",
   "body": "  If is a semisimple algebra then, the number of isomorphism classes of simple -modules is finite.   "
+},
+{
+  "id": "sec-simple-algebras",
+  "level": "1",
+  "url": "sec-simple-algebras.html",
+  "type": "Section",
+  "number": "4.4",
+  "title": "Simple algebras",
+  "body": " Simple algebras   We introduce simple algebras in this section. Although the term semisimple algebra , introduced earlier, suggests that it is a generalization of simple algebra, it is not true without some additionl conditions. We assume that is a commutative ring with unity and is an -algebra.    Simple algebra   An -algebra is said to be simple if its only two-sided ideals are and itself.     Quaternion algebra is simple over a field of characteristic not   We have shown in that the quaternion algebra over a field of characteristic not equal to is a simple algebra.    In the next propostion we characterize simple algebras that are semisimple.    For a simple algebra , following are equivalent:    is semisimple;     is right Artinian;     has a minimal right ideal.        Suppose that is a simple algebra as well as a semisimple algebra. We show that is right Artinian. Note that for any nonzero , the two-sided ideal is nonzero and hence, . Therefore, there are such that . This implies that is generated by , i.e., is finitely generated. In view of , is right Artinian. This shows that (1) implies (2).  If is right Artinian then, by , has a minimal right ideal. This shows that (2) implies (3).  Now assume that is a minimal right ideal of . Hence, and , a two-sided ideal of generated by , is . Thus, Note that each is a right ideal of , i.e., each is an -module. Furthermore, each as an -modules. Hence, is written as a sum of simple -modules, i.e., is a semisimple algebra. This proves that (3) implies (1).   "
+},
+{
+  "id": "def-simple-algebra",
+  "level": "2",
+  "url": "sec-simple-algebras.html#def-simple-algebra",
+  "type": "Definition",
+  "number": "4.4.1",
+  "title": "Simple algebra.",
+  "body": " Simple algebra   An -algebra is said to be simple if its only two-sided ideals are and itself.   "
+},
+{
+  "id": "sec-simple-algebras-4",
+  "level": "2",
+  "url": "sec-simple-algebras.html#sec-simple-algebras-4",
+  "type": "Example",
+  "number": "4.4.2",
+  "title": "Quaternion algebra is simple over a field of characteristic not <span class=\"process-math\">\\(2\\)<\/span>.",
+  "body": " Quaternion algebra is simple over a field of characteristic not   We have shown in that the quaternion algebra over a field of characteristic not equal to is a simple algebra.   "
+},
+{
+  "id": "prop-simple-iff-semisimple-artinian",
+  "level": "2",
+  "url": "sec-simple-algebras.html#prop-simple-iff-semisimple-artinian",
+  "type": "Proposition",
+  "number": "4.4.3",
+  "title": "",
+  "body": "  For a simple algebra , following are equivalent:    is semisimple;     is right Artinian;     has a minimal right ideal.      "
+},
+{
+  "id": "sec-simple-algebras-7",
+  "level": "2",
+  "url": "sec-simple-algebras.html#sec-simple-algebras-7",
+  "type": "Proof",
+  "number": "4.4.1",
+  "title": "",
+  "body": " Suppose that is a simple algebra as well as a semisimple algebra. We show that is right Artinian. Note that for any nonzero , the two-sided ideal is nonzero and hence, . Therefore, there are such that . This implies that is generated by , i.e., is finitely generated. In view of , is right Artinian. This shows that (1) implies (2).  If is right Artinian then, by , has a minimal right ideal. This shows that (2) implies (3).  Now assume that is a minimal right ideal of . Hence, and , a two-sided ideal of generated by , is . Thus, Note that each is a right ideal of , i.e., each is an -module. Furthermore, each as an -modules. Hence, is written as a sum of simple -modules, i.e., is a semisimple algebra. This proves that (3) implies (1).  "
 },
 {
   "id": "backmatter-2",

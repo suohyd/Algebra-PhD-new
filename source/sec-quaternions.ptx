@@ -64,8 +64,8 @@
             </p>
         </statement>
     </definition>
-    <definition xml:id="def-simple-algebra">
-        <title>Simple algebra</title>
+    <definition xml:id="def-simple-F-algebra">
+        <title>Simple <m>F</m>-algebra</title>
         
         
         <statement>
