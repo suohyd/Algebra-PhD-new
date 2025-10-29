@@ -115,6 +115,9 @@
         <p>
             Suppose that there is an element <m>a\in A</m> such that <m>aN=M</m>. By <xref ref="lem-technical-lemma"/>, we have <m>aN\simeq N</m>, so <m>M\simeq N</m>. Thus, (3) implies (1).
         </p>
+        <p>
+            Suppose that <m>M\simeq N</m> and that <m>\phi\colon M\to N</m> is an <m>A</m>-module isomorphism. As <m>M</m> is a right <m>A</m>-module, we have that <m>MN\leq M</m>. Thus, <m>\phi\left(MN\right)=\phi(M)N=N^2</m>. If <m>N^2=0</m> then, using <xref ref="lem-minimal-nilpotent-ideal-implies-in-the-radical"/> we get that <m>N\subseteq\rad{A_A}</m>. However, <m>\rad{A_A}=0</m> as <m>A</m> is semisimple. Since, <m>N</m> is a minimal right ideal, it is nonzero. It follows that <m>N^2\neq 0</m>. This shows that (1) implies (2).
+        </p>
     </proof>
     <lemma xml:id="lem-another-technical-lemma">
         <statement>
