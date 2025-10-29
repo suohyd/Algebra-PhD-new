@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-radical-socle">
+    <title>Exercises related to radical and socle of modules</title>
+    <introduction>
+        <p>
+            Most of the exercises are taken from <xref ref="bib-Pierce"/>. We assume that <m>R</m> is a commutative ring with unity, and <m>A</m> is an <m>R</m>-algebra.
+        </p>
+    </introduction>
+    <exercise>
+        <statement>
+            <p>
+                For a right <m>A</m>-module <m>M</m> show the following.
+                <ol>
+                    <li>
+                        <p>
+                            <m>\soc{\left(\soc{M}\right)}=\soc{M}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>\soc{M}=M</m> then, <m>\rad{M}=0</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Prove the following for <m>\Z</m>-modules.
+                <ol>
+                    <li>
+                        <p>
+                            If <m>M=\Z</m> then, <m>\rad{M}=\soc{M}=0</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>M=\Q</m> then, <m>\rad{M}=M</m> and <m>\soc{M}=0</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>M=\Q/\Z</m> then, <m>\rad{M}=M</m> and <m>\soc{M}</m> is a proper nontrivial submodule of <m>M</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>M=\left\{a/n:a\in\Z,n\in\N,2\nmid n\right\}</m> then, <m>\rad{M}=2M</m> and <m>\soc{M}=0</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+</worksheet>

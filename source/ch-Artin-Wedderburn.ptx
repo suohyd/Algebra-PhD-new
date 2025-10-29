@@ -8,5 +8,6 @@
     </p>
   </introduction>
   <xi:include href="sec-semisimple-algebras.ptx" />
+  <xi:include href="ws-semisimple-algebras.ptx" />
   <xi:include href="sec-minimal-right-ideals.ptx" />
 </chapter>

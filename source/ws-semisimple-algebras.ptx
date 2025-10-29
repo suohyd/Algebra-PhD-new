@@ -1,0 +1,52 @@
+<worksheet xml:id="ws-semisimple-algebras">
+    <title>Exercises related to semisimple algebras</title>
+    <introduction>
+        <p>
+            Most of the exercises are taken from <xref ref="bib-Pierce"/>. We assume that <m>R</m> is a commutative ring with unity, and <m>A</m> is an <m>R</m>-algebra.
+        </p>
+    </introduction>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>A</m> be commutative <m>R</m>-algebra. Show that <m>A</m> is semisimple if and only if <m>A</m> is a finite direct produt of fields.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Show that <m>M_n(A)</m> is right Artinian (resp., Noetherian) if and only if <m>A</m> is right Artinian (resp., Noetherian). Deduce that <m>M_n(R)</m> is not semisimple if <m>R</m> is an integral domain which is not a field.
+            </p>
+        </statement>
+        <hint>
+            <p>
+                Show the following bijection:
+                <md>
+                    <mrow> \left\{\text{right ideals of }M_n(A)\right\}\amp \longleftrightarrow\left\{\text{submodules of }E_{11}M_n(A)\right\}</mrow>
+                    <mrow>\mathcal{I} \amp\mapsto E_{11}\mathcal{I} </mrow>
+                    <mrow>\sum_{i=1}^nE_{i1}N \amp\leftarrow N </mrow>
+                </md>
+                
+            </p>
+        </hint>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>D</m> be a finite-dimensional division algebra over a field <m>F</m>. Show that <m>M_n(D)</m> is semisimple algebra.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Show that the group algebra <m>\R C_2</m> is semisimple, where <m>C_2</m> is the cyclic group of order 2.
+            </p>
+        </statement>
+        <hint>
+            <p>
+                See <xref ref="eg-group-algebra-cyclic-2"/>.
+            </p>
+        </hint>
+    </exercise>
+</worksheet>
