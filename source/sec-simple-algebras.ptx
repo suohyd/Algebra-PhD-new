@@ -4,7 +4,10 @@
   <title>Simple algebras</title>
   <introduction>
     <p>
-        We introduce <sq>simple algebras</sq> in this section. Although the term <sq>semisimple algebra</sq>, introduced earlier, suggests that it is a generalization of simple algebra, it is not true without some additionl conditions. We assume that <m>R</m> is a commutative ring with unity and <m>A</m> is an <m>R</m>-algebra.
+        We introduce <sq>simple algebras</sq> in this section. Although the term <sq>semisimple algebra</sq>, introduced earlier, suggests that it is a generalization of simple algebra, it is not true without some additional conditions.
+    </p>
+    <p>
+        We assume that <m>R</m> is a commutative ring with unity and <m>A</m> is an <m>R</m>-algebra.
     </p>
   </introduction>
   <definition xml:id="def-simple-algebra">

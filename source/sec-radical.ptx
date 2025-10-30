@@ -120,7 +120,7 @@
         </statement>
     </note>
     <example xml:id="ex-socle-and-radical-of-polynomial-module">
-        <title>Socle and radical of <m>\R[x]/(x^n)</m> as an <m>\R[x]</m></title>
+        <title>Socle and radical of <m>\R[x]/(x^n)</m> as an <m>\R[x]</m>-module</title>
         <statement>
             <p>
                 Let <m>M=\R[x]/(x^2)</m> be an <m>\R[x]</m>-module. We calculate the socle and the radical of <m>M</m>. By the correspondence theorem, submodules of <m>M</m> are submodules of <m>\R[x]</m> containing <m>(x^2)</m>. Note that the only such submodules are <m>(x^2)</m>, <m>(x)</m>, and <m>\R[x]</m>. Thus, the only proper nontrivial submodule of <m>M</m> is <m>(x)/(x^2)</m>. As <m>M/((x)/(x^2))\simeq\R</m> is simple, we have <m>\rad{M}=(x)/(x^2)</m>. Also, <m>(x)/(x^2)</m> is the only simple submodule of <m>M</m> and hence, <m>\soc{M}=(x)/(x^2)</m>.
