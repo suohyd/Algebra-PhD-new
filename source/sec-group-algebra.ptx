@@ -126,7 +126,7 @@
         </p>
         <p>
             In other words, the following diagram commutes.
-                <figure xml:id="fig-universal-property-group-algebra">
+ <!--               <figure xml:id="fig-universal-property-group-algebra">
                     <caption>Universal property of group algebra</caption>
                     <image width="40%">
                         <latex-image>
@@ -140,7 +140,7 @@
                                 \end{tikzcd}
                         </latex-image>
                     </image>
-                    </figure>
+                    </figure>-->
                 </p>
     </statement>
   </theorem>

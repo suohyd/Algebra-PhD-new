@@ -71,7 +71,7 @@
         <p>
             Let <m>R</m> be a commutative ring with unity. Let <m>\phi\colon A\to B</m> and <m>\psi\colon A\to C</m> be homomorphisms of <m>R</m>-algebras with <m>\phi</m> surjective. Show that <m>\psi</m> factors through <m>\phi</m> i.e., there exists a homomorphism of <m>R</m>-algebras <m>\theta\colon B\to C</m> such that <m>\psi=\theta\circ\phi</m> if and only if <m>\ker(\phi)\subseteq\ker(\psi)</m>. 
         </p>
-        <figure xml:id="fig-factorization-criterion">
+<!--        <figure xml:id="fig-factorization-criterion">
             <caption>Factorization criterion</caption>
             <image width="40%">
                 <shortdescription>Factorization criterion diagram</shortdescription>
@@ -85,7 +85,7 @@
                     \end{tikzcd}
                 </latex-image>
             </image>
-        </figure>
+        </figure>-->
         <p>
             In other words, there exists a dotted arrow (<m>R</m>-algebra homomorphism <m>\theta</m>) making the above diagram commutative if and only if <m>\ker(\phi)\subseteq\ker(\psi)</m>.
         </p>
