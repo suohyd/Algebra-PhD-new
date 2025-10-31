@@ -45,7 +45,7 @@
     <proposition xml:id="prop-modules-over-semisimple-algebra">
         <statement>
             <p>
-                If <m>A</m> is a semisimple algebra, then every right <m>A</m>-module is semisimple. Furthermore, simple right <m>A</m>-modules are precisely the minimal right ideals of <m>A</m>.
+                If <m>A</m> is a semisimple algebra, then every right <m>A</m>-module is semisimple. Furthermore, simple right <m>A</m>-modules are, up to isomorphism, precisely the minimal right ideals of <m>A</m>. 
             </p>
         </statement>
     </proposition>

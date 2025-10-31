@@ -103,7 +103,7 @@
         In view of <xref ref="prop-modules-over-semisimple-algebra"/>, (2) and (3) are equivalent.
     </p>
     <p>
-        Assume now that any two minimal right ideals of <m>A</m> are isomorphic. We show that <m>A</m> is simple. Let <m>I</m> be a nonzero proper two-sided ideal of <m>A</m>.
+        Assume now that any two minimal right ideals of <m>A</m> are isomorphic. We show that <m>A</m> is simple. Let <m>I</m> be a nonzero proper two-sided ideal of <m>A</m>. As <m>A</m> is semisimple, so is <m>I</m> as an <m>A</m>-module. Hence, there is a simple <m>A</m>-submodule <m>N\subseteq I</m>. Note that by <xref ref="prop-modules-over-semisimple-algebra"/>, <m>N</m> is a minimal right ideal of <m>A</m>. By the assumption, any two minimal right ideals are isomorphic. Hence, for a minimal right ideal <m>J</m> there exists <m>x\in A</m> with <m>J=xN</m> (see <xref ref="prop-equivalent-conditions-on-minimal-ideals-of-semisimple-algebras"/>). Therefore, <m>A=\sum_{x\in A} xN\subseteq I</m>. This proves (2) implies (1).
     </p>
   </proof>
 </section>
