@@ -67,4 +67,43 @@
         Note that each <m>aN</m> is a right ideal of <m>A</m>, i.e., each <m>aN</m> is an <m>A</m>-module. Furthermore, each <m>aN\simeq N</m> as an <m>A</m>-modules. Hence, <m>A</m> is written as a sum of simple <m>A</m>-modules, i.e., <m>A</m> is a semisimple algebra. This proves that (3) implies (1).
     </p>
   </proof>
+  <proposition xml:id="prop-semisimple-simple-iff-minimal-right-ideals-are-isomorphic">
+    <statement>
+        <p>
+            Following statements are equivalent for a semisimple algebra <m>A</m>:
+            <ol>
+                <li>
+                    <p>
+                        <m>A</m> is simple;
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        any two minimal right ideals of <m>A</m> are isomorphic;
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        any two simple <m>A</m>-modules are isomorphic.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+  </proposition>
+  <proof>
+    <p>
+        Suppose that <m>A</m> is simple. Let <m>M</m> and <m>N</m> are minimal right ideals of <m>A</m>. Thus, <m>AM</m> and <m>AN</m> are nonzero ideals of <m>A</m>. As <m>A</m> is simple, we have <m>AM=A=AN</m>. Therefore,
+        <me>
+            A(MN)=(AM)N=AN=A.
+        </me>
+        In particular, <m>MN\neq 0</m>. By <xref ref="prop-equivalent-conditions-on-minimal-ideals-of-semisimple-algebras"/>, <m>M\simeq N</m>. This shows that (1) implies (2).
+    </p>
+    <p>
+        In view of <xref ref="prop-modules-over-semisimple-algebra"/>, (2) and (3) are equivalent.
+    </p>
+    <p>
+        Assume now that any two minimal right ideals of <m>A</m> are isomorphic. We show that <m>A</m> is simple. Let <m>I</m> be a nonzero proper two-sided ideal of <m>A</m>.
+    </p>
+  </proof>
 </section>

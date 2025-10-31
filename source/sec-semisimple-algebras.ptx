@@ -60,7 +60,7 @@
     <corollary xml:id="cor-homomorphic-image-of-semisimple-algebra-is-semisimple">
         <statement>
             <p>
-                Let <m>A</m> and <m>B</m> be <m>R</m>-algebras with <m>A</m> semisimple. If <m>f\colon A\to B</m> is a surjective <m>R</m>-algebra homomorphism, then <m>B</m> is semisimple.
+                Let <m>A</m> and <m>B</m> be <m>R</m>-algebras with <m>A</m> semisimple. If <m>f\colon A\to B</m> is a surjective <m>R</m>-algebra homomorphism, then <m>B</m> is semisimple algebra.
             </p>
         </statement>
     </corollary>
