@@ -143,4 +143,14 @@
         As <m>A</m> is an <m>F</m>-algebra and <m>M_i</m> are <m>A</m>-modules, we can consider <m>M_i</m> as an <m>F</m>-modules (see <xref ref="def-change-of-scalars"/>), i.e., <m>M_i</m> are <m>F</m>-vector spaces. As <m>A</m> is finite-dimensional vector space over <m>F</m>, it is both Artinian and Noetherian, and thus <m>A</m> is semisimple (see <xref ref="prop-simple-iff-semisimple-artinian"/>). By <xref ref="prop-modules-over-semisimple-algebra"/>, <m>M_i</m> are semisimple <m>A</m>-modules. By <xref ref="cor-module-decomposition-over-simple-algebra"/>, <m>M_i\simeq\oplus{\alpha_i}N</m> for unique cardinal numbers <m>\alpha_i</m> and a minimal right ideal <m>N</m> of <m>A</m>. By <xref ref="prop-uniqueness-of-direct-sum-in-semisimple-module"/>, <m>M_1\simeq M_2</m> if and only if <m>\alpha_1=\alpha_2</m>. As <m>\dim_FN&lt;\infty</m>, <m>\alpha_1=\alpha_2</m> if and only <m>\dim_FM_1=\dim_FM_2</m>.
     </p>
   </proof>
+  <p>
+    One may revisit the <xref ref="ex-minimal-right-ideal-of-matrix-algebra"/>.
+  </p>
+  <exercise>
+    <statement>
+        <p>
+            We keep notation of <xref ref="ex-minimal-right-ideal-of-matrix-algebra"/>. We let <m>A=M_n(D)</m>. Show that <m>\End{A}{M_1}\simeq D</m>.
+        </p>
+    </statement>
+  </exercise>
 </section>
