@@ -2287,6 +2287,69 @@ var ptx_lunr_docs = [
   "body": "  We keep notation of . We let . Show that .   "
 },
 {
+  "id": "sec-matrices-of-homomorphisms",
+  "level": "1",
+  "url": "sec-matrices-of-homomorphisms.html",
+  "type": "Section",
+  "number": "4.5",
+  "title": "Matrices of homomorphisms",
+  "body": " Matrices of homomorphisms   We introduce a generalized matrix notation. Let be a commutative ring with unity and be a right -algebra. Suppose that is a sequence of right -modules. Note that is a right -module.    Matrices of homomorphism   Consider the following collection: For we define addition as where is obtained using -module structure on . Similarly, the scalar multiplication is obtained by using -module structure on : Define the matrix multiplication as follows: Note that as This makes as an -algebra.      We have the following isomorphism of -algebras.      Put . Consider canonical projection homomorphisms and canonical inclusion homomorphisms , i.e., Hence we have the following. We define -algebra homomorphisms and Note that and We leave it to the reader to check that are indeed -algebra homomorphisms and they are mutual inverses.   As a direct consequence of the above we obtain the following corollary.    If is a right -module then, As a particular case       Let be right -modules such that for , . Then,      This follows from the universal property of direct sum, see .   "
+},
+{
+  "id": "def-matrices-of-homomorphism",
+  "level": "2",
+  "url": "sec-matrices-of-homomorphisms.html#def-matrices-of-homomorphism",
+  "type": "Definition",
+  "number": "4.5.1",
+  "title": "Matrices of homomorphism.",
+  "body": " Matrices of homomorphism   Consider the following collection: For we define addition as where is obtained using -module structure on . Similarly, the scalar multiplication is obtained by using -module structure on : Define the matrix multiplication as follows: Note that as This makes as an -algebra.   "
+},
+{
+  "id": "prop-matrices-of-homomorphism-as-endomorphism-of-direct-sum-of-modules",
+  "level": "2",
+  "url": "sec-matrices-of-homomorphisms.html#prop-matrices-of-homomorphism-as-endomorphism-of-direct-sum-of-modules",
+  "type": "Proposition",
+  "number": "4.5.2",
+  "title": "",
+  "body": "  We have the following isomorphism of -algebras.    "
+},
+{
+  "id": "sec-matrices-of-homomorphisms-5",
+  "level": "2",
+  "url": "sec-matrices-of-homomorphisms.html#sec-matrices-of-homomorphisms-5",
+  "type": "Proof",
+  "number": "4.5.1",
+  "title": "",
+  "body": " Put . Consider canonical projection homomorphisms and canonical inclusion homomorphisms , i.e., Hence we have the following. We define -algebra homomorphisms and Note that and We leave it to the reader to check that are indeed -algebra homomorphisms and they are mutual inverses.  "
+},
+{
+  "id": "cor-endomorphism-as-matrices",
+  "level": "2",
+  "url": "sec-matrices-of-homomorphisms.html#cor-endomorphism-as-matrices",
+  "type": "Corollary",
+  "number": "4.5.3",
+  "title": "",
+  "body": "  If is a right -module then, As a particular case    "
+},
+{
+  "id": "cor-endomorphism-algebra-as-diagonal-matrices",
+  "level": "2",
+  "url": "sec-matrices-of-homomorphisms.html#cor-endomorphism-algebra-as-diagonal-matrices",
+  "type": "Corollary",
+  "number": "4.5.4",
+  "title": "",
+  "body": "  Let be right -modules such that for , . Then,    "
+},
+{
+  "id": "sec-matrices-of-homomorphisms-9",
+  "level": "2",
+  "url": "sec-matrices-of-homomorphisms.html#sec-matrices-of-homomorphisms-9",
+  "type": "Proof",
+  "number": "4.5.2",
+  "title": "",
+  "body": " This follows from the universal property of direct sum, see .  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
