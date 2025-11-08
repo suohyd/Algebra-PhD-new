@@ -106,4 +106,41 @@
         Assume now that any two minimal right ideals of <m>A</m> are isomorphic. We show that <m>A</m> is simple. Let <m>I</m> be a nonzero proper two-sided ideal of <m>A</m>. As <m>A</m> is semisimple, so is <m>I</m> as an <m>A</m>-module. Hence, there is a simple <m>A</m>-submodule <m>N\subseteq I</m>. Note that by <xref ref="prop-modules-over-semisimple-algebra"/>, <m>N</m> is a minimal right ideal of <m>A</m>. By the assumption, any two minimal right ideals are isomorphic. Hence, for a minimal right ideal <m>J</m> there exists <m>x\in A</m> with <m>J=xN</m> (see <xref ref="prop-equivalent-conditions-on-minimal-ideals-of-semisimple-algebras"/>). Therefore, <m>A=\sum_{x\in A} xN\subseteq I</m>. This proves (2) implies (1).
     </p>
   </proof>
+  <p>
+    We require the following propostion regarding uniqueness of direct sum representation of semisimple modules.
+  </p>
+  <p>
+    Suppose that <m>\left\{N_i:i\in I\right\}</m> be a set of representatives of the isomorphism classes of simple <m>A</m>-modules. We denote by <m>M(i)=\sum\left\{N&lt;M:N\simeq N_i\right\}</m> the submodule of a right <m>A</m>-module <m>M</m>.
+  </p>
+  <proposition xml:id="prop-uniqueness-of-direct-sum-in-semisimple-module">
+    <statement>
+        <p>
+            Let <m>M</m> and <m>M'</m> are semisimple right <m>A</m>-modules. Suppose that <m>M=\oplus_{i\in I}M(i)</m> with <m>M(i)=\oplus_{\alpha_i}N_i</m> and that <m>M'=\oplus_{i\in I}M'(i)</m> with <m>M'(i)=\oplus_{\beta_i}N_i</m>. Then, <m>M\simeq M'</m> if and only if the cardinal numbers <m>\alpha_i</m> and <m>\beta_i</m> are equal for all <m>i\in I</m>.
+        </p>
+    </statement>
+  </proposition>
+  <corollary xml:id="cor-module-decomposition-over-simple-algebra">
+    <statement>
+        <p>
+            Let <m>A</m> be a simple algebra and let <m>N</m> be a minimal right ideal of <m>A</m>. If <m>M</m> is a right <m>A</m>-module then there exists a unique cardinal number <m>\alpha</m> such that <m>M\simeq\oplus_{\alpha}N</m>.
+        </p>
+    </statement>
+  </corollary>
+  <proof>
+    <p>
+        As simple algebra <m>A</m> has a minimal right ideal, <m>A</m> is semisimple by <xref ref="prop-simple-iff-semisimple-artinian"/>. So, as a right module over a semisimple algebra, <m>M</m> is semisimple module (see <xref ref="prop-modules-over-semisimple-algebra"/>). Therefore, <m>M</m> is a direct sum of simple <m>A</m>-modules. However, <xref ref="prop-semisimple-simple-iff-minimal-right-ideals-are-isomorphic"/> implies that any two simple <m>A</m>-modules are isomorphic, i.e., <m>M\simeq\oplus_{\alpha}N</m>. The uniqueness of <m>\alpha</m> follows from <xref ref="prop-uniqueness-of-direct-sum-in-semisimple-module"/>.
+    </p>
+  </proof>
+  <corollary xml:id="cor-modules-over-finite-dim-simple-algebra">
+    <statement>
+        <p>
+            Let <m>F</m> be a field and <m>A</m> be a finite-dimensional simple <m>F</m>-algbera. Suppose that <m>M_1</m> and <m>M_2</m> are right <m>A</m>-modules. Then, <m>M_1\simeq M_2</m> if and only if <m>\dim_FM_1=\dim_FM_2</m>.
+        </p>
+    </statement>
+  </corollary>
+  <proof>
+    <p>
+        As <m>A</m> is an <m>F</m>-algebra and <m>M_i</m> are <m>A</m>-modules, we can consider <m>M_i</m> as an <m>F</m>-modules (see <xref ref="def-change-of-scalars"/>), i.e., <m>M_i</m> are <m>F</m>-vector spaces. As <m>A</m> is finite-dimensional vector space over <m>F</m>, it is both Artinian and Noetherian, and thus <m>A</m> is semisimple. By <xref ref="prop-modules-over-semisimple-algebra"/>, <m>M_i</m> are semisimple <m>A</m>-modules. By <xref ref="cor-module-decomposition-over-simple-algebra"/>, <m>M_i\simeq\oplus{\alpha_i}N</m> for unique cardinal numbers <m>\alpha_i</m> and a minimal right ideal <m>N</m> of <m>A</m>. By <xref ref="prop-uniqueness-of-direct-sum-in-semisimple-module"/>, <m>M_1\simeq M_2</m> if and only if <m>\alpha_1=\alpha_2</m>. As <m>\dim_FN&lt;\infty</m>, <m>\alpha_1=\alpha_2</m> if and only <m>\dim_FM_1=\dim_FM_2</m>.
+    </p>
+  </proof>
 </section>
