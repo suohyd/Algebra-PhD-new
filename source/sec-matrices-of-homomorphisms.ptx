@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-matrices-of-homomorphisms" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Matrices of homomorphisms</title>
+<introduction>
+    <p>
+        We introduce a generalized matrix notation. Let <m>R</m> be a commutative ring with unity and <m>A</m> be a right <m>R</m>-algebra. Suppose that <m>\left(M_1,M_2,\ldots,M_n\right)</m> is a sequence of right <m>A</m>-modules. Note that <m>\Hom{A}{M_1}{M_2}</m> is a right <m>A</m>-module.
+    </p>
+</introduction>
+<definition xml:id="def-matrices-of-homomorphism">
+    <title>Matrices of homomorphism</title>
+    
+    
+    <statement>
+        <p>
+            Consider the following collection:
+            <me>
+                \left[\Hom{A}{M_i}{M_i}\right]=\left\{\begin{bmatrix}\phi_{11}\amp\phi_{12}\amp\cdots\amp\phi_{1n}\\\phi_{21}\amp\phi_{22}\amp\cdots\amp\phi_{2n}\\\vdots\amp\vdots\amp\ddots\amp\vdots\\\phi_{1n}\amp\phi_{n2}\amp\cdots\amp\phi_{nn}\end{bmatrix}:\phi_{ij}\in\Hom{A}{M_j}{M_i}\right\}
+            </me>
+            For <m>[\phi_{ij}],[\psi_{ij}]\in\left[\Hom{A}{M_j}{M_i}\right]</m> we define addition as 
+            <me>
+                [\phi_{ij}]+[\psi_{ij}]=[\phi_{ij}+\psi_{ij}],
+            </me>
+            where <m>\phi_{ij}+\psi_{ij}\in\Hom{A}{M_j}{M_i}</m> is obtained using <m>A</m>-module structure on <m>\Hom{A}{M_j}{M_i}</m>.
+            Similarly, the scalar multiplication is obtained by using <m>A</m>-module structure on <m>\Hom{A}{M_j}{M_i}</m>:
+            <me>
+                [\phi_{ij}]\cdot a=[\phi_{ij}\cdot a].
+            </me>
+            Define the matrix multiplication as follows:
+            <me>
+                [\phi_{ij}][\psi_{ij}]=\left[\sum_{k=1}^n\phi_{ik}\circ\psi_{kj}\right].
+            </me>
+            Note that <m>\phi_{ik}\circ\psi_{kj}\in\Hom{A}{M_j}{M_i}</m> as 
+            <me>
+                M_j\xrightarrow{\psi_{kj}}M_k\xrightarrow{\phi_{ik}}M_i.
+            </me>
+            This makes <m>\left[\Hom{A}{M_j}{M_i}\right]</m> as an <m>R</m>-algebra.
+        </p>
+    </statement>
+</definition>
+<proposition xml:id="prop-matrices-of-homomorphism-as-endomorphism-of-direct-sum-of-modules">
+    <statement>
+        <p>
+            We have the following isomorphism of <m>R</m>-algebras.
+            <me>
+                \left[\Hom{A}{M_j}{M_i}\right]\simeq\End{A}{M_1\oplus M_2\oplus\cdots\oplus M_n}
+            </me>
+            
+        </p>
+    </statement>
+</proposition>
+<proof>
+    <p>
+        Put <m>M=M_1\oplus M_2\oplus\cdots\oplus M_n</m>. Consider canonical projection homomorphisms <m>\pi_i\colon M\to M_i</m> and canonical inclusion homomorphisms <m>\kappa_j\colon M_j\to M</m>, i.e.,
+        <me>
+            M_j\xrightarrow{\kappa_j}\to M\xrightarrow{\pi_i}M_i.
+        </me>
+        Hence we have the following.
+        <me>
+            \sum_{j=1}^n\kappa_j\circ\phi_i=\unit_{M}\quad\text{and}\quad\pi_i\circ\kappa_j=0\text{ if }i\neq j\quad\text{and}\quad\pi_i\circ\kappa_i=\unit_{M_i}
+        </me>
+        We define <m>R</m>-algebra homomorphisms
+        <me>
+            f\colon\left[\Hom{A}{M_j}{M_i}\right]\to\End{A}{M}\quad\text{by}\quad[\phi_{ij}]\mapsto\sum_{i,j}\kappa_i\circ\phi_{ij}\circ\pi_j
+        </me>
+        and 
+        <me>
+            g\colon\End{A}{M}\to\left[\Hom{A}{M_j}{M_i}\right]\quad\text{by}\quad \phi\mapsto\left[\pi_i\circ\phi\circ\kappa_j\right].
+        </me>
+        Note that 
+        <me>
+            M\xrightarrow{\pi_j}M_j\xrightarrow{\phi_{ij}}M_i\xrightarrow{\kappa_i}M
+        </me>
+        and
+        <me>
+            M_j\xrightarrow{\kappa_j}M\xrightarrow{\phi}M\xrightarrow{\pi_i}M_i.
+        </me>   
+        
+        We leave it to the reader to check that <m>f,g</m> are indeed <m>R</m>-algebra homomorphisms and they are mutual inverses.
+        
+    </p>
+</proof>
+<p>
+    As a direct consequence of the above <xref ref="prop-matrices-of-homomorphism-as-endomorphism-of-direct-sum-of-modules"/> we obtain the following corollary.
+</p>
+<corollary xml:id="cor-endomorphism-as-matrices">
+    <statement>
+        <p>
+            If <m>M</m> is a right <m>A</m>-module then,
+            <me>
+                \End{A}{\oplus_n\,M}\simeq M_n\left(\End{A}{M}\right).
+            </me>
+            As a particular case
+            <me>
+                \End{A}{\oplus_n\,A_A}\simeq M_n(A).
+            </me>
+            
+        </p>
+    </statement>
+</corollary>
+<corollary xml:id="cor-endomorphism-algebra-as-diagonal-matrices">
+    <statement>
+        <p>
+            Let <m>M_1,M_2,\cdots,M_n</m> be right <m>A</m>-modules such that for <m>i\neq j</m>, <m>\Hom{A}{M_j}{M_i}=0</m>. Then,
+            <me>
+                \End{A}{M_1\oplus M_2\oplus\cdots\oplus M_n}\simeq\End{A}{M_1}\oplus\End{A}{M_2}\oplus\cdots\oplus\End{A}{M_n}.
+            </me>
+            
+        </p>
+    </statement>
+</corollary>
+<proof>
+    <p>
+        This follows from the universal property of direct sum, see <xref ref="prop-universal-property-of-direct-sum"/>.
+    </p>
+</proof>
+</section>
