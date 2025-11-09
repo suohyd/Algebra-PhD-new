@@ -4,7 +4,7 @@
   <title>Matrices of homomorphisms</title>
 <introduction>
     <p>
-        We introduce a generalized matrix notation. Let <m>R</m> be a commutative ring with unity and <m>A</m> be a right <m>R</m>-algebra. Suppose that <m>\left(M_1,M_2,\ldots,M_n\right)</m> is a sequence of right <m>A</m>-modules. Note that <m>\Hom{A}{M_1}{M_2}</m> is a right <m>A</m>-module.
+        We introduce a generalized matrix notation. Let <m>R</m> be a commutative ring with unity and <m>A</m> be a right <m>R</m>-algebra. Suppose that <m>\left(M_1,M_2,\ldots,M_n\right)</m> is a sequence of right <m>A</m>-modules. Note that <m>\Hom{A}{M_j}{M_i}</m> is a right <m>A</m>-module.
     </p>
 </introduction>
 <definition xml:id="def-matrices-of-homomorphism">
@@ -34,7 +34,7 @@
             <me>
                 M_j\xrightarrow{\psi_{kj}}M_k\xrightarrow{\phi_{ik}}M_i.
             </me>
-            This makes <m>\left[\Hom{A}{M_j}{M_i}\right]</m> as an <m>R</m>-algebra.
+            This makes <m>\left[\Hom{A}{M_j}{M_i}\right]</m> an <m>R</m>-algebra.
         </p>
     </statement>
 </definition>
@@ -53,11 +53,11 @@
     <p>
         Put <m>M=M_1\oplus M_2\oplus\cdots\oplus M_n</m>. Consider canonical projection homomorphisms <m>\pi_i\colon M\to M_i</m> and canonical inclusion homomorphisms <m>\kappa_j\colon M_j\to M</m>, i.e.,
         <me>
-            M_j\xrightarrow{\kappa_j}\to M\xrightarrow{\pi_i}M_i.
+            M_j\xrightarrow{\kappa_j} M\xrightarrow{\pi_i}M_i.
         </me>
         Hence we have the following.
         <me>
-            \sum_{j=1}^n\kappa_j\circ\phi_i=\unit_{M}\quad\text{and}\quad\pi_i\circ\kappa_j=0\text{ if }i\neq j\quad\text{and}\quad\pi_i\circ\kappa_i=\unit_{M_i}
+            \sum_{j=1}^n\kappa_j\circ\pi_i=\unit_{M}\quad\text{and}\quad\pi_i\circ\kappa_j=0\text{ if }i\neq j\quad\text{and}\quad\pi_i\circ\kappa_i=\unit_{M_i}
         </me>
         We define <m>R</m>-algebra homomorphisms
         <me>
@@ -102,16 +102,34 @@
     <statement>
         <p>
             Let <m>M_1,M_2,\cdots,M_n</m> be right <m>A</m>-modules such that for <m>i\neq j</m>, <m>\Hom{A}{M_j}{M_i}=0</m>. Then,
-            <me>
-                \End{A}{M_1\oplus M_2\oplus\cdots\oplus M_n}\simeq\End{A}{M_1}\oplus\End{A}{M_2}\oplus\cdots\oplus\End{A}{M_n}.
-            </me>
+            <md>
+                <mrow> \End{A}{M_1\oplus M_2\oplus\cdots\oplus M_n}\amp\simeq\End{A}{M_1}\oplus\End{A}{M_2}\oplus\cdots\oplus\End{A}{M_n} </mrow>
+                <mrow> \amp \simeq\End{A}{M_1}\times\End{A}{M_2}\times\cdots\times\End{A}{M_n}</mrow>.
+            </md>
             
         </p>
     </statement>
 </corollary>
 <proof>
     <p>
-        This follows from the universal property of direct sum, see <xref ref="prop-universal-property-of-direct-sum"/>.
+        This follows from the universal property of direct sum, see <xref ref="prop-universal-property-of-direct-sum"/> and from the fact that finite direct sum and direct product are equivalent.
     </p>
 </proof>
+<exercise>
+    <statement>
+        <p>
+            Let <m>A_1,A_2,\ldots,A_n</m> be <m>R</m>-algebras (resp., <m>R</m>-modules). Show that direct sum of <m>A_i</m> and direct product of <m>A_i</m> are isomorphic as <m>R</m>-algebras (resp., as an <m>R</m>-modules).
+        </p>
+        <p>
+            Recall that if <m>A_i</m> with <m>i\in I</m> is a nonempty collection of <m>R</m>-algebras (resp., <m>R</m>-modules) with <m>I</m> not necessarily finite then, direct product of <m>A_i</m> 
+            <me>
+                \prod A_i=\left\{(x_i)_{i\in I}:x_i\in A_i\right\}
+            </me>
+            is an <m>R</m>-algebra (resp., <m>R</m>-modules) with componentwise addition and multiplication. It has the following universal property.        
+        </p>
+        <p>
+            If <m>B</m> is an <m>R</m>-algebra (resp., <m>R</m>-module) with <m>f_i\colon B\to A_i</m> homomorphisms of <m>R</m>-algebras (resp., <m>R</m>-modules) for every <m>i</m>. Then, there exists a unique homomorphism <m>\phi\colon B\to A</m> such that <m>f_i=\pi_i\circ\phi</m>, where <m>\pi_i\colon A\to A_i</m> are canonical projections.
+        </p>
+    </statement>
+</exercise>
 </section>

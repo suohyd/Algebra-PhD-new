@@ -2293,7 +2293,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.5",
   "title": "Matrices of homomorphisms",
-  "body": " Matrices of homomorphisms   We introduce a generalized matrix notation. Let be a commutative ring with unity and be a right -algebra. Suppose that is a sequence of right -modules. Note that is a right -module.    Matrices of homomorphism   Consider the following collection: For we define addition as where is obtained using -module structure on . Similarly, the scalar multiplication is obtained by using -module structure on : Define the matrix multiplication as follows: Note that as This makes as an -algebra.      We have the following isomorphism of -algebras.      Put . Consider canonical projection homomorphisms and canonical inclusion homomorphisms , i.e., Hence we have the following. We define -algebra homomorphisms and Note that and We leave it to the reader to check that are indeed -algebra homomorphisms and they are mutual inverses.   As a direct consequence of the above we obtain the following corollary.    If is a right -module then, As a particular case       Let be right -modules such that for , . Then,      This follows from the universal property of direct sum, see .   "
+  "body": " Matrices of homomorphisms   We introduce a generalized matrix notation. Let be a commutative ring with unity and be a right -algebra. Suppose that is a sequence of right -modules. Note that is a right -module.    Matrices of homomorphism   Consider the following collection: For we define addition as where is obtained using -module structure on . Similarly, the scalar multiplication is obtained by using -module structure on : Define the matrix multiplication as follows: Note that as This makes an -algebra.      We have the following isomorphism of -algebras.      Put . Consider canonical projection homomorphisms and canonical inclusion homomorphisms , i.e., Hence we have the following. We define -algebra homomorphisms and Note that and We leave it to the reader to check that are indeed -algebra homomorphisms and they are mutual inverses.   As a direct consequence of the above we obtain the following corollary.    If is a right -module then, As a particular case       Let be right -modules such that for , . Then,      This follows from the universal property of direct sum, see and from the fact that finite direct sum and direct product are equivalent.     Let be -algebras (resp., -modules). Show that direct sum of and direct product of are isomorphic as -algebras (resp., as an -modules).  Recall that if with is a nonempty collection of -algebras (resp., -modules) with not necessarily finite then, direct product of  is an -algebra (resp., -modules) with componentwise addition and multiplication. It has the following universal property.  If is an -algebra (resp., -module) with homomorphisms of -algebras (resp., -modules) for every . Then, there exists a unique homomorphism such that , where are canonical projections.    "
 },
 {
   "id": "def-matrices-of-homomorphism",
@@ -2302,7 +2302,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "4.5.1",
   "title": "Matrices of homomorphism.",
-  "body": " Matrices of homomorphism   Consider the following collection: For we define addition as where is obtained using -module structure on . Similarly, the scalar multiplication is obtained by using -module structure on : Define the matrix multiplication as follows: Note that as This makes as an -algebra.   "
+  "body": " Matrices of homomorphism   Consider the following collection: For we define addition as where is obtained using -module structure on . Similarly, the scalar multiplication is obtained by using -module structure on : Define the matrix multiplication as follows: Note that as This makes an -algebra.   "
 },
 {
   "id": "prop-matrices-of-homomorphism-as-endomorphism-of-direct-sum-of-modules",
@@ -2347,7 +2347,34 @@ var ptx_lunr_docs = [
   "type": "Proof",
   "number": "4.5.2",
   "title": "",
-  "body": " This follows from the universal property of direct sum, see .  "
+  "body": " This follows from the universal property of direct sum, see and from the fact that finite direct sum and direct product are equivalent.  "
+},
+{
+  "id": "sec-matrices-of-homomorphisms-10",
+  "level": "2",
+  "url": "sec-matrices-of-homomorphisms.html#sec-matrices-of-homomorphisms-10",
+  "type": "Checkpoint",
+  "number": "4.5.5",
+  "title": "",
+  "body": "  Let be -algebras (resp., -modules). Show that direct sum of and direct product of are isomorphic as -algebras (resp., as an -modules).  Recall that if with is a nonempty collection of -algebras (resp., -modules) with not necessarily finite then, direct product of  is an -algebra (resp., -modules) with componentwise addition and multiplication. It has the following universal property.  If is an -algebra (resp., -module) with homomorphisms of -algebras (resp., -modules) for every . Then, there exists a unique homomorphism such that , where are canonical projections.   "
+},
+{
+  "id": "sec-Artin-Wedderburn-thm",
+  "level": "1",
+  "url": "sec-Artin-Wedderburn-thm.html",
+  "type": "Section",
+  "number": "4.6",
+  "title": "Artin-Wedderburn Theorem",
+  "body": " Artin-Wedderburn Theorem   We are now in a position to state and proof Artin-Wedderburn's theorem. As usual we assume that is a commutative ring with unity and that is an -algebra.    Artin-Wedderburn theorem   Let be a right or a left -algebra.   There exists natural numbers and -division algebras such that     The pairs in are unique, up to an isomorphism.    Conversely, if and are division algebras over then, is a right and a left semisimple -algebra.       "
+},
+{
+  "id": "thm-Artin-Wedderburn",
+  "level": "2",
+  "url": "sec-Artin-Wedderburn-thm.html#thm-Artin-Wedderburn",
+  "type": "Theorem",
+  "number": "4.6.1",
+  "title": "Artin-Wedderburn theorem.",
+  "body": " Artin-Wedderburn theorem   Let be a right or a left -algebra.   There exists natural numbers and -division algebras such that     The pairs in are unique, up to an isomorphism.    Conversely, if and are division algebras over then, is a right and a left semisimple -algebra.      "
 },
 {
   "id": "backmatter-2",

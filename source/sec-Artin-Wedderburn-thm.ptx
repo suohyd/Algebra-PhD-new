@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-Artin-Wedderburn-thm" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Artin-Wedderburn Theorem</title>
+  <introduction>
+    <p>
+        We are now in a position to state and proof Artin-Wedderburn theorem. As usual we assume that <m>R</m> is a commutative ring with unity and that <m>A</m> is an <m>R</m>-algebra.
+    </p>
+  </introduction>
+  <theorem xml:id="thm-Artin-Wedderburn">
+    <title>Artin-Wedderburn</title>
+    
+    
+    <statement>
+        <p>
+            Let <m>A</m> be a right or a left <m>R</m>-algebra.
+            <ol>
+                <li>
+                    <p>
+                        There exists natural numbers <m>n_1,n_2,\ldots,n_r</m> and <m>R</m>-division algebras <m>D_1,D_2,\ldots,D_r</m> such that
+                        <men xml:id="eq-Artin-Wedderburn">
+                            A\simeq M_{n_1}(D_1)\times M_{n_2}(D_2)\times\cdots\times M_{n_r}(D_r).
+                        </men>
+                        
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The pairs <m>(n_1,D_1),(n_2,D_2),\ldots,(n_r,D_r)</m> in <xref ref="eq-Artin-Wedderburn"/> are unique, up to an isomorphism.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Conversely, if <m>n_1,n_2,\ldots,n_r\in\N</m> and <m>D_1,D_2,\ldots,D_r</m> are division algebras over <m>R</m> then,
+                        <me>
+                            M_{n_1}(D_1)\times M_{n_2}(D_2)\times\cdots\times M_{n_r}(D_r)
+                        </me>
+                        is a right and a left semisimple <m>R</m>-algebra.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+  </theorem>
+  
+</section>
