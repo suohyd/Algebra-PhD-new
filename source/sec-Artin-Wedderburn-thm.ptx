@@ -53,13 +53,13 @@
             M_i\big/\left(\oplus_{\ell\in J}N_{i\ell}\right)\simeq\bigoplus_{\ell\in\{1,2,\ldots,n_i\}\setminus J}N_{i\ell}\simeq f\left(N_{jk}\right).
         </me>
         Hence, <m>|\{1,2,\ldots,n_i\}\setminus J|=1</m> and thus, <m>N_j\simeq f\left(N_{jk}\right)\simeq N_i</m>, a contradiction. This shows that <m>f|_{N_{jk}}=0</m> for every <m>j</m>, and hence our claim is proved.
-        Therefore,
+        Therefore, we obtain the following <m>R</m>-algebra isomorphisms.
         <md>
             <mrow> A\amp\simeq\End{A}{A_A}\amp </mrow>
             <mrow> \amp\simeq\End{A}{M_1\oplus M_2\oplus\cdots\oplus M_r}\amp</mrow>
             <mrow> \amp\simeq \End{A}{M_1}\times\End{A}{M_2}\times\cdots\times\End{A}{M_r}\amp\text{by }<xref ref="cor-endomorphism-algebra-as-diagonal-matrices"/></mrow>
             <mrow> \amp\simeq M_{n_1}\left(\End{A}{N_1}\right)\times M_{n_2}\left(\End{A}{N_2}\right)\times\cdots\times M_{n_r}\left(\End{A}{N_r}\right)\amp \text{by }<xref ref="cor-endomorphism-as-matrices"/> </mrow>
-            <mrow> \amp\simeq M_{n_1}(D_1)\times M_{n_2}(D_2)\times\cdots\times M_{n_r}(D_r)\amp \text{by }<xref ref="lem-schur-lemma"/>,\, \End{A}{N_i}=D_i\text{ is division}.</mrow>
+            <mrow> \amp\simeq M_{n_1}(D_1)\times M_{n_2}(D_2)\times\cdots\times M_{n_r}(D_r)\amp \text{by }<xref ref="lem-schur-lemma"/>,\, \End{A}{N_i}=D_i\text{ is division}</mrow>
         </md>
         
     </p>
