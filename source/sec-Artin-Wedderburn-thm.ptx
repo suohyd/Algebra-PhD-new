@@ -75,4 +75,18 @@
         The above <xref ref="thm-Artin-Wedderburn" /> asserts that the classes of semisimple left <m>A</m>-modules and semisimple right <m>A</m>-modules coincide.
     </statement>
   </note>
+  <corollary xml:id="cor-simple-algebra-as-matrix-over-division-algebra">
+    <statement>
+        <p>
+            A left or right Artinian algebra <m>A</m> is simple if and only if <m>A\simeq M_n(D)</m> for a natural number <m>n</m> and a division algebra <m>D</m>. In this case, <m>A</m> determines <m>n</m> uniquely and <m>D</m> is unique up to an isomorphism.
+        </p>
+    </statement>
+  </corollary>
+  <corollary xml:id="cor-finite-dim-semisimple-algebra-over-algebraically-closed-field">
+    <statement>
+        <p>
+            Let <m>F</m> be an algebraically closed field and let <m>A</m> be a finite-dimensional algebra over <m>F</m>. The algebra <m>A</m> is semisimple if and only if <m>A\simeq M_{n_1}(F)\times M_{n_2}(F)\times\cdots\times M_{n_r}(F)</m>, where <m>1\leq n_1\leq n_2\leq\cdots\leq n_r</m> are uniquely determined by the isomorphism type of <m>A</m>. Moreover, <m>A\simeq M_n(F)</m> if and only if <m>A</m> is simple. In this case <m>\dim_FA=n^2</m>.
+        </p>
+    </statement>
+  </corollary>
 </section>
