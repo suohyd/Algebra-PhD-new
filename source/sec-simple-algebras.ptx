@@ -146,7 +146,7 @@
   <p>
     One may revisit the <xref ref="ex-minimal-right-ideal-of-matrix-algebra"/>.
   </p>
-  <exercise>
+  <exercise xml:id="endomorphisms-of-minimal-right-ideal-as-division-algebra">
     <statement>
         <p>
             We keep notation of <xref ref="ex-minimal-right-ideal-of-matrix-algebra"/>. We let <m>A=M_n(D)</m>. Show that <m>\End{A}{M_1}\simeq D</m>.
