@@ -72,7 +72,7 @@
   </proof>
   <note>
     <statement>
-        The above <xref ref="thm-Artin-Wedderburn"> asserts that the classes of semisimple left <m>A</m>-modules and semisimple right <m>A</m>-modules coincide.
+        The above <xref ref="thm-Artin-Wedderburn" /> asserts that the classes of semisimple left <m>A</m>-modules and semisimple right <m>A</m>-modules coincide.
     </statement>
   </note>
 </section>
