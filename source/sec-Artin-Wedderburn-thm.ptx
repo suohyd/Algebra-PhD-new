@@ -82,6 +82,9 @@
         </p>
     </statement>
   </corollary>
+  <p>
+    The following result require an observation that only finite-dimensional division algebra over an algebraically closed field <m>F</m> is <m>F</m>. This can be proved by replacing <m>\C</m> by <m>F</m> in <xref ref="lem-division-algebras-over-C"/>.
+  </p>
   <corollary xml:id="cor-finite-dim-semisimple-algebra-over-algebraically-closed-field">
     <statement>
         <p>
