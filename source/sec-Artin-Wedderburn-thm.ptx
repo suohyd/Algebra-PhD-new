@@ -61,7 +61,7 @@
         
     </p>
     <p>
-        Suppose that <m>A\simeq M_{k_1}(\Delta_1)\times M_{k_2}(\Delta_2)\times\cdots\times M_{k_s}(\Delta_s)</m>. For each <m>i</m>
+        Suppose that <m>A\simeq M_{k_1}(\Delta_1)\times M_{k_2}(\Delta_2)\times\cdots\times M_{k_s}(\Delta_s)</m>. For each <m>i</m>, 
     </p>
   </proof>
 </section>
