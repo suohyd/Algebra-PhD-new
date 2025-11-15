@@ -9,7 +9,7 @@
     <exercise>
         <statement>
             <p>
-                Let <m>A</m> be a semisimple algebra such that <m>A=A_1\times A_2\times\cdots\times A_r</m> with <m>A_i</m> simple algebras. Show that if <m>N_i</m> (resp., <m>N_j</m>) is a minimal right ideal of <m>A_i</m> (resp., <m>A_j</m>) for <m>i\neq j</m> then, <m>\Hom_A(N_j,N_i)=0</m>. In particular, <m>N_i\not\simeq N_j</m>.
+                Let <m>A</m> be a semisimple algebra such that <m>A=A_1\times A_2\times\cdots\times A_r</m> with <m>A_i</m> simple algebras. Show that if <m>N_i</m> (resp., <m>N_j</m>) is a minimal right ideal of <m>A_i</m> (resp., <m>A_j</m>) for <m>i\neq j</m> then, <m>\Hom{A}{N_j}{N_i}=0</m>. In particular, <m>N_i\not\simeq N_j</m>.
             </p>
         </statement>
     </exercise>
