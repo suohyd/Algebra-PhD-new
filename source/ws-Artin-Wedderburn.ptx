@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-Artin-Wedderburn">
+    <title>Exercises related to Artin-Wedderburn theorem</title>
+    <introduction>
+        <p>
+            Most of the exercises are taken from <xref ref="bib-Pierce"/>. We assume that <m>R</m> is a commutative ring with unity, and <m>A</m> is an <m>R</m>-algebra.
+        </p>
+    </introduction>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>A=A_1\times A_2\times\cdots\times A_r</m> be a semisimple algebras with <m>A_i</m> simple algebras. Show that ideals of <m>A</m> are of the form <m>\sum_{j\in J}A_j</m> for <m>J\subseteq\{1,2,\ldots,r\}</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>A=A_1\times A_2\times\cdots\times A_r</m> be a semisimple algebras with <m>A_i</m> simple algebras. For each <m>i\in \{1,2,\ldots,r\}</m> let <m>e_i</m> be a central idempotent of <m>A</m> such that <m>A_i=e_iA</m> (see <xref ref="ws-minimal-right-ideals"/>). For a right <m>A</m>-module <m>M</m>, denote <m>M_i=Me_i</m>. Show that
+                <ol>
+                    <li>
+                        <p>
+                            <m>e_ie_j=0</m> for <m>i\neq j</m>;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>M_i\leq M</m> and <m>M=M_1\oplus M_2\oplus\cdots\oplus M_r</m>;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            For <m>j\neq i</m>, <m>A_j\subseteq\ann{M_i}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>M</m> is faithful <m>A</m>-module if and only if <m>M_i\neq 0</m> for <m>i\in\{1,2,\ldots,r\}</m>;
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>M</m> is faithful <m>A</m>-module if and only if every minimal right ideal of <m>A</m> is isomorphic to a direct summand of <m>M</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+</worksheet>

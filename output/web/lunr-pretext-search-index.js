@@ -2476,6 +2476,33 @@ var ptx_lunr_docs = [
   "body": "  Let be an algebraically closed field and let be a finite-dimensional algebra over . The algebra is semisimple if and only if , where are uniquely determined by the isomorphism type of . Moreover, if and only if is simple. In this case .   "
 },
 {
+  "id": "ws-Artin-Wedderburn",
+  "level": "1",
+  "url": "ws-Artin-Wedderburn.html",
+  "type": "Worksheet",
+  "number": "4.9",
+  "title": "Exercises related to Artin-Wedderburn theorem",
+  "body": " Exercises related to Artin-Wedderburn theorem   Most of the exercises are taken from . We assume that is a commutative ring with unity, and is an -algebra.     Let be a semisimple algebras with simple algebras. Show that ideals of are of the form for .      Let be a semisimple algebras with simple algebras. For each let be a central idempotent of such that (see ). For a right -module , denote . Show that    for ;     and ;    For ,      is faithful -module if and only if for ;     is faithful -module if and only if every minimal right ideal of is isomorphic to a direct summand of .       "
+},
+{
+  "id": "ws-Artin-Wedderburn-3",
+  "level": "2",
+  "url": "ws-Artin-Wedderburn.html#ws-Artin-Wedderburn-3",
+  "type": "Worksheet Exercise",
+  "number": "4.9.1",
+  "title": "",
+  "body": "  Let be a semisimple algebras with simple algebras. Show that ideals of are of the form for .   "
+},
+{
+  "id": "ws-Artin-Wedderburn-4",
+  "level": "2",
+  "url": "ws-Artin-Wedderburn.html#ws-Artin-Wedderburn-4",
+  "type": "Worksheet Exercise",
+  "number": "4.9.2",
+  "title": "",
+  "body": "  Let be a semisimple algebras with simple algebras. For each let be a central idempotent of such that (see ). For a right -module , denote . Show that    for ;     and ;    For ,      is faithful -module if and only if for ;     is faithful -module if and only if every minimal right ideal of is isomorphic to a direct summand of .      "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",

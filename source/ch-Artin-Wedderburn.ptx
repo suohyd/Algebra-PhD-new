@@ -15,4 +15,5 @@
   <xi:include href="ws-simple-algebras.ptx" />
   <xi:include href="sec-matrices-of-homomorphisms.ptx" />
   <xi:include href="sec-Artin-Wedderburn-thm.ptx" />
+  <xi:include href="ws-Artin-Wedderburn.ptx" />
 </chapter>
