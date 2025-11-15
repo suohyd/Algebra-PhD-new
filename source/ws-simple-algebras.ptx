@@ -34,7 +34,60 @@
 <exercise>
     <statement>
         <p>
-            a
+            A nonzero idempotent <m>e\in A</m> is said to be <term>primitive</term> if <m>e</m> can not be written as <m>e=e_1+e_2</m> with <m>0\neq e_i</m>, <m>e_i^2=e_i</m>, and <m>e_ie_j=0=e_je_i</m>. For a semisimple algebra show that following statements are equivalent of an idempotent <m>e\in A</m>:
+            <ol>
+                <li>
+                    <p>
+                        <m>e</m> is primitive;
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>eA</m> is a minimal right ideal of <m>A</m>;
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>eAe</m> is a division algebra.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</exercise>
+<exercise>
+    <statement>
+        <p>
+            The converse of Schur's lemma is not true in general as illustrated below.
+        </p>
+        <p>
+            Let <m>F</m> be a field and consider <m>A=F\oplus F\oplus F</m>. Define a bilinear multiplication <m>A\times A\to A</m> by
+            <me>
+                (a_1,a_2,a_3)(b_1,b_2,b_3)\mapsto(a_1b_1,a_2b_2,a_1b_3+a_3b_2).
+            </me>
+            Show that
+            <ol>
+                            <li>
+                <p>
+                    <m>A</m> is an <m>F</m>-algebra;
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>e=(1,0,0)</m> is an idempotent;
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>eA</m> is not simple;
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>End{A}{eA}\simeq F</m>.
+                </p>
+            </li>
+            </ol>
         </p>
     </statement>
 </exercise>
