@@ -2314,11 +2314,38 @@ var ptx_lunr_docs = [
   "body": "  We keep notation of . We let . Show that .   "
 },
 {
+  "id": "ws-simple-algebras",
+  "level": "1",
+  "url": "ws-simple-algebras.html",
+  "type": "Worksheet",
+  "number": "4.6",
+  "title": "Exercises related to simple algebras",
+  "body": " Exercises related to simple algebras   Most of the exercises are taken from . We assume that is a commutative ring with unity, and is an -algebra.     For an -algebra and an -submodule show the following.   If then, is an -subalgebra such that is a two-sided ideal of . Furthermore, .    If for an idempotent then, .    Suppose that for a division algebra and that . Using the above part, show that .         a    "
+},
+{
+  "id": "ws-simple-algebras-3",
+  "level": "2",
+  "url": "ws-simple-algebras.html#ws-simple-algebras-3",
+  "type": "Worksheet Exercise",
+  "number": "4.6.1",
+  "title": "",
+  "body": "  For an -algebra and an -submodule show the following.   If then, is an -subalgebra such that is a two-sided ideal of . Furthermore, .    If for an idempotent then, .    Suppose that for a division algebra and that . Using the above part, show that .      "
+},
+{
+  "id": "ws-simple-algebras-4",
+  "level": "2",
+  "url": "ws-simple-algebras.html#ws-simple-algebras-4",
+  "type": "Worksheet Exercise",
+  "number": "4.6.2",
+  "title": "",
+  "body": "  a   "
+},
+{
   "id": "sec-matrices-of-homomorphisms",
   "level": "1",
   "url": "sec-matrices-of-homomorphisms.html",
   "type": "Section",
-  "number": "4.6",
+  "number": "4.7",
   "title": "Matrices of homomorphisms",
   "body": " Matrices of homomorphisms   We introduce a generalized matrix notation. Let be a commutative ring with unity and be a right -algebra. Suppose that is a sequence of right -modules. Note that is a right -module.    Matrices of homomorphism   Consider the following collection: For we define addition as where is obtained using -module structure on . Similarly, the scalar multiplication is obtained by using -module structure on : Define the matrix multiplication as follows: Note that as This makes an -algebra.      We have the following isomorphism of -algebras.      Put . Consider canonical projection homomorphisms and canonical inclusion homomorphisms , i.e., Hence we have the following. We define -algebra homomorphisms and Note that and We leave it to the reader to check that are indeed -algebra homomorphisms and they are mutual inverses.   As a direct consequence of the above we obtain the following corollary.    If is a right -module then, As a particular case       Let be right -modules such that for , . Then,      This follows from the universal property of direct sum, see and from the fact that finite direct sum and direct product are equivalent.     Let be -algebras (resp., -modules). Show that direct sum of and direct product of are isomorphic as -algebras (resp., as an -modules).  Recall that if with is a nonempty collection of -algebras (resp., -modules) with not necessarily finite then, direct product of  is an -algebra (resp., -modules) with componentwise addition and multiplication. It has the following universal property.  If is an -algebra (resp., -module) with homomorphisms of -algebras (resp., -modules) for every . Then, there exists a unique homomorphism such that , where are canonical projections.    "
 },
@@ -2327,7 +2354,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-matrices-of-homomorphisms.html#def-matrices-of-homomorphism",
   "type": "Definition",
-  "number": "4.6.1",
+  "number": "4.7.1",
   "title": "Matrices of homomorphism.",
   "body": " Matrices of homomorphism   Consider the following collection: For we define addition as where is obtained using -module structure on . Similarly, the scalar multiplication is obtained by using -module structure on : Define the matrix multiplication as follows: Note that as This makes an -algebra.   "
 },
@@ -2336,7 +2363,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-matrices-of-homomorphisms.html#prop-matrices-of-homomorphism-as-endomorphism-of-direct-sum-of-modules",
   "type": "Proposition",
-  "number": "4.6.2",
+  "number": "4.7.2",
   "title": "",
   "body": "  We have the following isomorphism of -algebras.    "
 },
@@ -2345,7 +2372,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-matrices-of-homomorphisms.html#sec-matrices-of-homomorphisms-5",
   "type": "Proof",
-  "number": "4.6.1",
+  "number": "4.7.1",
   "title": "",
   "body": " Put . Consider canonical projection homomorphisms and canonical inclusion homomorphisms , i.e., Hence we have the following. We define -algebra homomorphisms and Note that and We leave it to the reader to check that are indeed -algebra homomorphisms and they are mutual inverses.  "
 },
@@ -2354,7 +2381,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-matrices-of-homomorphisms.html#cor-endomorphism-as-matrices",
   "type": "Corollary",
-  "number": "4.6.3",
+  "number": "4.7.3",
   "title": "",
   "body": "  If is a right -module then, As a particular case    "
 },
@@ -2363,7 +2390,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-matrices-of-homomorphisms.html#cor-endomorphism-algebra-as-diagonal-matrices",
   "type": "Corollary",
-  "number": "4.6.4",
+  "number": "4.7.4",
   "title": "",
   "body": "  Let be right -modules such that for , . Then,    "
 },
@@ -2372,7 +2399,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-matrices-of-homomorphisms.html#sec-matrices-of-homomorphisms-9",
   "type": "Proof",
-  "number": "4.6.2",
+  "number": "4.7.2",
   "title": "",
   "body": " This follows from the universal property of direct sum, see and from the fact that finite direct sum and direct product are equivalent.  "
 },
@@ -2381,7 +2408,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-matrices-of-homomorphisms.html#sec-matrices-of-homomorphisms-10",
   "type": "Checkpoint",
-  "number": "4.6.5",
+  "number": "4.7.5",
   "title": "",
   "body": "  Let be -algebras (resp., -modules). Show that direct sum of and direct product of are isomorphic as -algebras (resp., as an -modules).  Recall that if with is a nonempty collection of -algebras (resp., -modules) with not necessarily finite then, direct product of  is an -algebra (resp., -modules) with componentwise addition and multiplication. It has the following universal property.  If is an -algebra (resp., -module) with homomorphisms of -algebras (resp., -modules) for every . Then, there exists a unique homomorphism such that , where are canonical projections.   "
 },
@@ -2390,7 +2417,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-Artin-Wedderburn-thm.html",
   "type": "Section",
-  "number": "4.7",
+  "number": "4.8",
   "title": "Artin-Wedderburn Theorem",
   "body": " Artin-Wedderburn Theorem   We are now in a position to state and proof Artin-Wedderburn theorem. As usual we assume that is a commutative ring with unity and that is an -algebra.    Artin-Wedderburn   Let be a right or a left semisimple -algebra.   There exists natural numbers and -division algebras such that     The pairs in are unique, up to an isomorphism.    Conversely, if and are division algebras over then, is a right and a left semisimple -algebra.        We prove the theorem for right -modules. The left -module analogue is left to the reader.  Suppose that is semisimple. As is generated by we have that , where are simple -modules, i.e., are minimal right ideals of , and (see ). Thus, with each is a direct sum of copies of a minimal right ideals , and for . We claim that for . Indeed, let . We have with and with . As is simple -module, either or . Suppose that By , there exists such that . This implies that Hence, and thus, , a contradiction. This shows that for every , and hence our claim is proved. Therefore, we obtain the following -algebra isomorphisms.   Suppose that . For each , as an -module, is a direct sum of minimal right ideal of with (refer to and ). We put . Furthermore, using and  . As are ideals and hence submodules containing , using , for . By , we must have and, after a possible reordering, and . Hence, .  The last part of the theorem is left to the reader.    The above asserts that the classes of semisimple left -modules and semisimple right -modules coincide.     A left or right Artinian algebra is simple if and only if for a natural number and a division algebra . In this case, determines uniquely and is unique up to an isomorphism.    The following result require an observation that only finite-dimensional division algebra over an algebraically closed field is . This can be proved by replacing by in .    Let be an algebraically closed field and let be a finite-dimensional algebra over . The algebra is semisimple if and only if , where are uniquely determined by the isomorphism type of . Moreover, if and only if is simple. In this case .    "
 },
@@ -2399,7 +2426,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-Artin-Wedderburn-thm.html#thm-Artin-Wedderburn",
   "type": "Theorem",
-  "number": "4.7.1",
+  "number": "4.8.1",
   "title": "Artin-Wedderburn.",
   "body": " Artin-Wedderburn   Let be a right or a left semisimple -algebra.   There exists natural numbers and -division algebras such that     The pairs in are unique, up to an isomorphism.    Conversely, if and are division algebras over then, is a right and a left semisimple -algebra.      "
 },
@@ -2408,7 +2435,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-Artin-Wedderburn-thm.html#sec-Artin-Wedderburn-thm-4",
   "type": "Proof",
-  "number": "4.7.1",
+  "number": "4.8.1",
   "title": "",
   "body": " We prove the theorem for right -modules. The left -module analogue is left to the reader.  Suppose that is semisimple. As is generated by we have that , where are simple -modules, i.e., are minimal right ideals of , and (see ). Thus, with each is a direct sum of copies of a minimal right ideals , and for . We claim that for . Indeed, let . We have with and with . As is simple -module, either or . Suppose that By , there exists such that . This implies that Hence, and thus, , a contradiction. This shows that for every , and hence our claim is proved. Therefore, we obtain the following -algebra isomorphisms.   Suppose that . For each , as an -module, is a direct sum of minimal right ideal of with (refer to and ). We put . Furthermore, using and  . As are ideals and hence submodules containing , using , for . By , we must have and, after a possible reordering, and . Hence, .  The last part of the theorem is left to the reader.  "
 },
@@ -2417,7 +2444,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-Artin-Wedderburn-thm.html#sec-Artin-Wedderburn-thm-5",
   "type": "Note",
-  "number": "4.7.2",
+  "number": "4.8.2",
   "title": "",
   "body": " The above asserts that the classes of semisimple left -modules and semisimple right -modules coincide.  "
 },
@@ -2426,7 +2453,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-Artin-Wedderburn-thm.html#cor-simple-algebra-as-matrix-over-division-algebra",
   "type": "Corollary",
-  "number": "4.7.3",
+  "number": "4.8.3",
   "title": "",
   "body": "  A left or right Artinian algebra is simple if and only if for a natural number and a division algebra . In this case, determines uniquely and is unique up to an isomorphism.   "
 },
@@ -2435,7 +2462,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-Artin-Wedderburn-thm.html#cor-finite-dim-semisimple-algebra-over-algebraically-closed-field",
   "type": "Corollary",
-  "number": "4.7.4",
+  "number": "4.8.4",
   "title": "",
   "body": "  Let be an algebraically closed field and let be a finite-dimensional algebra over . The algebra is semisimple if and only if , where are uniquely determined by the isomorphism type of . Moreover, if and only if is simple. In this case .   "
 },
