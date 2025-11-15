@@ -2320,7 +2320,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "4.6",
   "title": "Exercises related to simple algebras",
-  "body": " Exercises related to simple algebras   Most of the exercises are taken from . We assume that is a commutative ring with unity, and is an -algebra.     For an -algebra and an -submodule show the following.   If then, is an -subalgebra such that is a two-sided ideal of . Furthermore, .    If for an idempotent then, .    Suppose that for a division algebra and that . Using the above part, show that .         a    "
+  "body": " Exercises related to simple algebras   Most of the exercises are taken from . We assume that is a commutative ring with unity, and is an -algebra.     For an -algebra and an -submodule show the following.   If then, is an -subalgebra such that is a two-sided ideal of . Furthermore, .    If for an idempotent then, .    Suppose that for a division algebra and that . Using the above part, show that .         A nonzero idempotent is said to be primitive if can not be written as with , , and . For a semisimple algebra show that following statements are equivalent of an idempotent :    is primitive;     is a minimal right ideal of ;     is a division algebra.         The converse of Schur's lemma is not true in general as illustrated below.  Let be a field and consider . Define a bilinear multiplication by Show that    is an -algebra;     is an idempotent;     is not simple;     .       "
 },
 {
   "id": "ws-simple-algebras-3",
@@ -2338,7 +2338,16 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4.6.2",
   "title": "",
-  "body": "  a   "
+  "body": "  A nonzero idempotent is said to be primitive if can not be written as with , , and . For a semisimple algebra show that following statements are equivalent of an idempotent :    is primitive;     is a minimal right ideal of ;     is a division algebra.      "
+},
+{
+  "id": "ws-simple-algebras-5",
+  "level": "2",
+  "url": "ws-simple-algebras.html#ws-simple-algebras-5",
+  "type": "Worksheet Exercise",
+  "number": "4.6.3",
+  "title": "",
+  "body": "  The converse of Schur's lemma is not true in general as illustrated below.  Let be a field and consider . Define a bilinear multiplication by Show that    is an -algebra;     is an idempotent;     is not simple;     .      "
 },
 {
   "id": "sec-matrices-of-homomorphisms",
