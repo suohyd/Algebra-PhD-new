@@ -30,7 +30,7 @@
                     </li>
                     <li>
                         <p>
-                            For <m>j\neq i</m>, <m>A_j\subseteq\ann{M_i}</m>
+                            For <m>j\neq i</m>, <m>A_j\subseteq\Ann{M_i}</m>
                         </p>
                     </li>
                     <li>
