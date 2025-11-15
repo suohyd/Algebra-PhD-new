@@ -34,7 +34,7 @@
 <exercise>
     <statement>
         <p>
-            A nonzero idempotent <m>e\in A</m> is said to be <term>primitive</term> if <m>e</m> can not be written as <m>e=e_1+e_2</m> with <m>0\neq e_i</m>, <m>e_i^2=e_i</m>, and <m>e_ie_j=0=e_je_i</m>. For a semisimple algebra show that following statements are equivalent of an idempotent <m>e\in A</m>:
+            A nonzero idempotent <m>e\in A</m> is said to be <term>primitive</term> if <m>e</m> can not be written as <m>e=e_1+e_2</m> with <m>0\neq e_i</m>, <m>e_i^2=e_i</m>, and <m>e_ie_j=0=e_je_i</m>. For a semisimple algebra <m>A</m> show that following statements are equivalent of an idempotent <m>e\in A</m>:
             <ol>
                 <li>
                     <p>
