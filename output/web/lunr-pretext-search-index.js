@@ -2482,7 +2482,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "4.9",
   "title": "Exercises related to Artin-Wedderburn theorem",
-  "body": " Exercises related to Artin-Wedderburn theorem   Most of the exercises are taken from . We assume that is a commutative ring with unity, and is an -algebra.     Let be a semisimple algebras with simple algebras. Show that ideals of are of the form for .      Let be a semisimple algebras with simple algebras. For each let be a central idempotent of such that (see ). For a right -module , denote . Show that    for ;     and ;    For ,      is faithful -module if and only if for ;     is faithful -module if and only if every minimal right ideal of is isomorphic to a direct summand of .       "
+  "body": " Exercises related to Artin-Wedderburn theorem   Most of the exercises are taken from . We assume that is a commutative ring with unity, and is an -algebra.     Let be a semisimple algebras with simple algebras. Show that ideals of are of the form for .      Let be a semisimple algebras with simple algebras. For each let be a central idempotent of such that (see ). For a right -module , denote . Show that    for ;     and ;    For ,      is faithful -module if and only if for ;     is faithful -module if and only if every minimal right ideal of is isomorphic to a direct summand of .         Let be a semisimple algbera. Show that if is a finite generated -module then, is semisimple.    "
 },
 {
   "id": "ws-Artin-Wedderburn-3",
@@ -2501,6 +2501,15 @@ var ptx_lunr_docs = [
   "number": "4.9.2",
   "title": "",
   "body": "  Let be a semisimple algebras with simple algebras. For each let be a central idempotent of such that (see ). For a right -module , denote . Show that    for ;     and ;    For ,      is faithful -module if and only if for ;     is faithful -module if and only if every minimal right ideal of is isomorphic to a direct summand of .      "
+},
+{
+  "id": "ws-Artin-Wedderburn-5",
+  "level": "2",
+  "url": "ws-Artin-Wedderburn.html#ws-Artin-Wedderburn-5",
+  "type": "Worksheet Exercise",
+  "number": "4.9.3",
+  "title": "",
+  "body": "  Let be a semisimple algbera. Show that if is a finite generated -module then, is semisimple.   "
 },
 {
   "id": "backmatter-2",

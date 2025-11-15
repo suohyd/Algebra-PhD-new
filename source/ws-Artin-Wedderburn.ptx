@@ -47,4 +47,11 @@
             </p>
         </statement>
     </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>A</m> be a semisimple algbera. Show that if <m>M</m> is a finite generated <m>A</m>-module then, <m>\End{A}{M}</m> is semisimple.
+            </p>
+        </statement>
+    </exercise>
 </worksheet>
