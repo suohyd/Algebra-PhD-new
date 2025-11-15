@@ -12,6 +12,7 @@
   <xi:include href="sec-minimal-right-ideals.ptx" />
   <xi:include href="ws-minimal-right-ideals.ptx" />
   <xi:include href="sec-simple-algebras.ptx" />
+  <xi:include href="ws-simple-algebras.ptx" />
   <xi:include href="sec-matrices-of-homomorphisms.ptx" />
   <xi:include href="sec-Artin-Wedderburn-thm.ptx" />
 </chapter>
