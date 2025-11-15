@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-simple-algebras">
+    <title>Exercises related to simple algebras</title>
+    <introduction>
+        <p>
+            Most of the exercises are taken from <xref ref="bib-Pierce"/>. We assume that <m>R</m> is a commutative ring with unity, and <m>A</m> is an <m>R</m>-algebra.
+        </p>
+    </introduction>
+</worksheet>
+<exercise>
+    <statement>
+        <p>
+            For an <m>R</m>-algebra <m>A</m> and an <m>A</m>-submodule <m>M\leq A_A</m> show the following.
+            <ol>
+                <li>
+                    <p>
+                        If <m>B=\{a\in A:aM\subseteq M\}</m> then, <m>B</m> is an <m>A</m>-subalgebra such that <m>M</m> is a two-sided ideal of <m>B</m>. Furthermore, <m>\End{A}{A_A/M}\simeq B/M</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>M=eA</m> for an idempotent <m>e\in A</m> then, <m>\End{A}{M}\simeq eAe</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Suppose that <m>A=M_n(D)</m> for a division algebra <m>D</m> and that <m>N_i=E_{ii}A</m>. Using the above part, show that <m>\End{A}{N_i}\simeq D</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</exercise>
