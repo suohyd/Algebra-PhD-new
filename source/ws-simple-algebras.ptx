@@ -6,7 +6,7 @@
             Most of the exercises are taken from <xref ref="bib-Pierce"/>. We assume that <m>R</m> is a commutative ring with unity, and <m>A</m> is an <m>R</m>-algebra.
         </p>
     </introduction>
-</worksheet>
+
 <exercise>
     <statement>
         <p>
@@ -34,7 +34,7 @@
 <exercise>
     <statement>
         <p>
-            
+            a
         </p>
     </statement>
 </exercise>
