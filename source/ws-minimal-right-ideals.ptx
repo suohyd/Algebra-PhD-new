@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-minimal-right-ideals">
+    <title>Exercises related to minimal right ideals</title>
+    <introduction>
+        <p>
+            Most of the exercises are taken from <xref ref="bib-Pierce"/>. We assume that <m>R</m> is a commutative ring with unity, and <m>A</m> is an <m>R</m>-algebra.
+        </p>
+    </introduction>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>A</m> be a semisimple algebra such that <m>A=A_1\times A_2\times\cdots\times A_r</m> with <m>A_i</m> simple algebras. Show that if <m>N_i</m> (resp., <m>N_j</m>) is a minimal right ideal of <m>A_i</m> (resp., <m>A_j</m>) for <m>i\neq j</m> then, <m>\Hom_A(N_j,N_i)=0</m>. In particular, <m>N_i\not\simeq N_j</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                An element <m>e</m> of an <m>R</m>-algebra <m>A</m> is said to be <term>idempotent</term> if <m>e^2=e</m>. Prove the following statements.
+                <ol>
+                    <li>
+                        <p>
+                            The algebra <m>A</m> is semisimple if and only if every right ideal of <m>A</m> is of the form <m>eA</m> for some idempotent <m>e\in A</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>A</m> is semisimple and <m>M\leq A_A</m> then, <m>M^2=M</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>A</m> is semisimple and <m>I</m> is a two-sided ideal of <m>A</m> then, there is a unique central idempotent <m>e\in Z(A)</m> such that <m>I=eA</m>. Conversely, show that if <m>e\in Z(A)</m> is an idempotent then, <m>eA</m> is a two-sided ideal of <m>A</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Let <m>e_1,e_2,\ldots,e_n\in Z(A)</m> be central idempotents such that <m>1=e_1+e_2+\cdots+e_n</m> and <m>e_ie_j=0</m> for <m>i\neq j</m>. Then, show that <m>A=e_1A\times e_2A\times\cdots\times e_nA</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+</worksheet>
